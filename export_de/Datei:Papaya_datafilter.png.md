@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya datafilter.png
-permalink: /Datei:Papaya_datafilter.png/
+permalink: /images/File:Papaya_datafilter.png/
 ---
 
 Importing image file

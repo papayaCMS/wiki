@@ -18,7 +18,7 @@ $this->debug($this, $var, 'blah');
 
 Der folgende Screenshot stellt die Ausgabe der Debugaufrufe aus dem obigen Listing dar:
 
-[miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_object::debug()](/Datei:base_object_debug_beispielausgabe.png "wikilink")
+[miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_object::debug()](/images/File:base_object_debug_beispielausgabe.png "wikilink")
 
 Das Backtrace enthält auch die Zeilenangaben. Das macht es leicht den Programmablauf nachzuvollziehen. Die Angaben„Memory Diff“ und „Time Diff“ beziehen sich auf den jeweils vorhergegangenen `debug()` -Aufruf. Werden mehrere Parameter übergeben, werden Sie direkt nacheinander ausgegeben und das Backtrace wird nur einmal ausgegeben.
 

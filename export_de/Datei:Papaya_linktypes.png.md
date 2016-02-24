@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya linktypes.png
-permalink: /Datei:Papaya_linktypes.png/
+permalink: /images/File:Papaya_linktypes.png/
 ---
 
 Importing image file

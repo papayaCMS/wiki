@@ -56,7 +56,7 @@ FileETag none
 <IfModule mod_headers.c>
   <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
     Header set Cache-Control "public, max-age=2592000, pre-check=2592000"
-  </FilesMatch>
+  </images/FilesMatch>
 </IfModule>
 ~~~~
 

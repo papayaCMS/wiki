@@ -10,7 +10,7 @@ Titelseite definieren
 
 Auf der Titelseite sollten Sie einen Bereich festlegen, in den der Titel und Untertitel des Artikels gesetzt werden kann. Optional können Sie auch Bereiche für den Teaser-Text und für Bilder vorsehen. Für die Inhaltsseite können Sie einen Bereich festlegen, in den der Artikeltext gesetzt werden soll. Die folgende Abbildung zeigt die Titelseite der PDF-Musterdatei aus dem Demotemplate:
 
-[miniatur|zentriert|1000px|Titelseite aus der PDF-Musterdatei](/Datei:PDFMusterdateiTitelseite.png "wikilink")
+[miniatur|zentriert|1000px|Titelseite aus der PDF-Musterdatei](/images/File:PDFMusterdateiTitelseite.png "wikilink")
 
 In der PDF-Musterdatei aus dem Demotemplate ist vorgesehen, dass die hellgrün hinterlegte Fläche mit dem Titel des Artikels gefüllt wird. Dazu müssen Sie sich beim Erstellen der PDF-Musterdatei die genaue Position dieses Feldes als Pixelangabe notieren.
 
@@ -19,7 +19,7 @@ Standardseite definieren
 
 Die Standardseite ist für die Inhalte des Artikels gedacht und dient als laufende Seite. Der Bereich für die Inhalte sollte groß genug gewählt sein, Damit die Texte inklusive Bilder ausreichend Platz haben. Gegebenenfalls können Sie am unteren Seitenrand ausreichend Platz für die Fußzeile lassen. Die folgende Abbildung zeigt die Standardseite aus der PDF-Musterdatei:
 
-[miniatur|zentriert|1000px|Standardseite aus der PDF-Musterdatei](/Datei:PDFMusterdateiStandardseite.png "wikilink")
+[miniatur|zentriert|1000px|Standardseite aus der PDF-Musterdatei](/images/File:PDFMusterdateiStandardseite.png "wikilink")
 
 Zu beachten ist, dass Sie nur eine Standardseite anlegen müssen. Wenn der Inhalt sehr umfangreich ist, wird einfach ein Seitenumbruch eingefügt, sodass in der PDF-Datei eine neue Seite eingefügt wird, die das selbe Layout verwendet.
 

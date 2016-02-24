@@ -1,6 +1,6 @@
 ---
 title: Datei:ModulverwaltungActionDispatcherAktivieren.png
-permalink: /Datei:ModulverwaltungActionDispatcherAktivieren.png/
+permalink: /images/File:ModulverwaltungActionDispatcherAktivieren.png/
 ---
 
 Importing image file

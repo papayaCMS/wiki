@@ -1,6 +1,6 @@
 ---
 title: Datei:PapayaPluginsBaseSystem.png
-permalink: /Datei:PapayaPluginsBaseSystem.png/
+permalink: /images/File:PapayaPluginsBaseSystem.png/
 ---
 
 Importing image file

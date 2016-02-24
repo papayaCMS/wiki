@@ -1,6 +1,6 @@
 ---
 title: Datei:GruppeAnlegen.png
-permalink: /Datei:GruppeAnlegen.png/
+permalink: /images/File:GruppeAnlegen.png/
 ---
 
 Importing image file

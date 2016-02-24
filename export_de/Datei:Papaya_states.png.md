@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya states.png
-permalink: /Datei:Papaya_states.png/
+permalink: /images/File:Papaya_states.png/
 ---
 
 Importing image file

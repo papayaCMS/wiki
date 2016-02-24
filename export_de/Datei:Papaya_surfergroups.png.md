@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya surfergroups.png
-permalink: /Datei:Papaya_surfergroups.png/
+permalink: /images/File:Papaya_surfergroups.png/
 ---
 
 Importing image file

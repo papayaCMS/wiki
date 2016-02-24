@@ -55,7 +55,7 @@ $editFields = array(
 
 Jedes einzelne Feld im `$editFields` -Array besteht aus einem Schlüssel, das auf ein eingebettetes Array zeigt. Das eingebettete Array enthält die eigentliche Felddefinition. Neben diesen Schlüssel-Array-Paaren kann das Array auch einfache Strings enthalten. Die Strings werden in der Eingabemaske als Zwischenüberschriften dargestellt. Im obigen Listing stellt `Image` eine solche Zwischenüberschrift dar. Das Array aus dem obigen Listing würde ein Eingabeformular erzeugen, das folgendermaßen aussieht:
 
-[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „Category with image“](/Datei:editFieldsExample.png "wikilink")
+[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „Category with image“](/images/File:editFieldsExample.png "wikilink")
 
 Feldtypen
 ---------

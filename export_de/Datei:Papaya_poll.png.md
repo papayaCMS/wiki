@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya poll.png
-permalink: /Datei:Papaya_poll.png/
+permalink: /images/File:Papaya_poll.png/
 ---
 
 Importing image file

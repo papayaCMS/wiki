@@ -7,6 +7,6 @@ In diesem Kapitel erfahren Sie, wie Sie Print-Templates erstellen können. Diese
 
 Die folgende Abbildung stellt eine beispielhafte Druckansicht vor:
 
-[miniatur|zentriert|1000px|Druckfreundliche Ansicht einer papaya-Seite](/Datei:DruckfreundlicheAusgabe.png "wikilink")
+[miniatur|zentriert|1000px|Druckfreundliche Ansicht einer papaya-Seite](/images/File:DruckfreundlicheAusgabe.png "wikilink")
 
 [Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln "wikilink")

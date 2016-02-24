@@ -21,7 +21,7 @@ var $pluginOptionFields = array(
 
 Wenn Sie in der Modulverwaltung das entsprechende Modul auswählen, stehen Ihnen die Moduloptionen unter dem Reiter Optionen zur Verfügung:
 
-[miniatur|zentriert|1000px|Konfiguration von Moduloptionen im Backend](/Datei:moduloptionen-konfigurieren.png "wikilink")
+[miniatur|zentriert|1000px|Konfiguration von Moduloptionen im Backend](/images/File:moduloptionen-konfigurieren.png "wikilink")
 
 Und so greifen Sie auf den konfigurierten Wert im Modul zu:
 

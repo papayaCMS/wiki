@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya domain fields.png
-permalink: /Datei:Papaya_domain_fields.png/
+permalink: /images/File:Papaya_domain_fields.png/
 ---
 
 Importing image file

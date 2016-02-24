@@ -1,6 +1,6 @@
 ---
 title: Datei:Papaya viewlinks.png
-permalink: /Datei:Papaya_viewlinks.png/
+permalink: /images/File:Papaya_viewlinks.png/
 ---
 
 Importing image file

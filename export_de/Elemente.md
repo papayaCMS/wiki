@@ -15,7 +15,7 @@ dialogs.xsl
 
 Dieses Template erstellt ein Formular, das z.B. mit `base_dialog` generiert wurde.
 
-[miniatur|zentriert|1000px|Beispiel für ein Formular](/Datei:formular-example.png "wikilink")
+[miniatur|zentriert|1000px|Beispiel für ein Formular](/images/File:formular-example.png "wikilink")
 
 generics.xsl
 ------------
@@ -32,43 +32,43 @@ iconpanel.xsl
 
 Dieses Template erstellt eine vertikale Liste von Icons. Benutzt wird dieses Template in der Online-Hilfe sowie im Nachrichtensystem von papaya CMS.
 
-[miniatur|zentriert|1000px|Beispielausgabe für iconpanel](/Datei:backend-komponenten-iconpanel-example.png "wikilink")
+[miniatur|zentriert|1000px|Beispielausgabe für iconpanel](/images/File:backend-komponenten-iconpanel-example.png "wikilink")
 
 listview.xsl
 ------------
 
 Dieses Template erstellt eine tabellarische Liste. Diese sehr flexible Komponente wird zusammen mit „Dialog“ wohl am häufigsten verwendet. Im Modus "tile" wird dieses Template auch für die Ausgabe der Iconübersicht verwendet.
 
-[miniatur|zentriert|1000px|einfache Listview](/Datei:listview-simple.png "wikilink")
+[miniatur|zentriert|1000px|einfache Listview](/images/File:listview-simple.png "wikilink")
 
-[miniatur|zentriert|1000px|aufklappbare Listview mit Nodes](/Datei:listview-node.png "wikilink")
+[miniatur|zentriert|1000px|aufklappbare Listview mit Nodes](/images/File:listview-node.png "wikilink")
 
-[miniatur|zentriert|1000px|komplexe Listview mit Paging, Spaltenüberschriften, Sortierung, Formular und Footer](/Datei:listview-complex.png "wikilink")
+[miniatur|zentriert|1000px|komplexe Listview mit Paging, Spaltenüberschriften, Sortierung, Formular und Footer](/images/File:listview-complex.png "wikilink")
 
-[miniatur|zentriert|1000px|Listview im "tiled" Modus](/Datei:listview-tiled-example.png "wikilink")
+[miniatur|zentriert|1000px|Listview im "tiled" Modus](/images/File:listview-tiled-example.png "wikilink")
 
 login.xsl
 ---------
 
 Dieses Template wird ausschließlich für das Loginformular für das Backend verwendet.
 
-[miniatur|zentriert|1000px|Das Loginformular](/Datei:login-example.png "wikilink")
+[miniatur|zentriert|1000px|Das Loginformular](/images/File:login-example.png "wikilink")
 
 menus.xsl
 ---------
 
 Dieses Template generiert eine Menü- oder Werkzeugleiste mit Icon/Text-Buttons.
 
-[miniatur|zentriert|1000px|Menü- oder Toolbar](/Datei:toolbar-example.png "wikilink")
+[miniatur|zentriert|1000px|Menü- oder Toolbar](/images/File:toolbar-example.png "wikilink")
 
 messages.xsl
 ------------
 
 Dieses Template generiert Nachrichtenboxen und Bestätigungsdialoge.
 
-[miniatur|zentriert|1000px|Nachrichtenbox mit einer Nachricht](/Datei:message-example-single.png "wikilink")
+[miniatur|zentriert|1000px|Nachrichtenbox mit einer Nachricht](/images/File:message-example-single.png "wikilink")
 
-[miniatur|zentriert|1000px|Nachrichtenbox mit mehreren Nachrichten](/Datei:message-example-multiple.png "wikilink")
+[miniatur|zentriert|1000px|Nachrichtenbox mit mehreren Nachrichten](/images/File:message-example-multiple.png "wikilink")
 
 panel.xsl
 ---------
@@ -80,17 +80,17 @@ sheet.xsl
 
 Dieses Template generiert einen größeren Informationsblock.
 
-[miniatur|zentriert|1000px|Beispielausgabe für "sheet"](/Datei:sheet-example.png "wikilink")
+[miniatur|zentriert|1000px|Beispielausgabe für "sheet"](/images/File:sheet-example.png "wikilink")
 
-[miniatur|zentriert|1000px|Umfangreiches Beispiel für "sheet"](/Datei:sheet-full-example.png "wikilink")
+[miniatur|zentriert|1000px|Umfangreiches Beispiel für "sheet"](/images/File:sheet-full-example.png "wikilink")
 
-[miniatur|zentriert|1000px|Teletype-Beispiel für "sheet"](/Datei:sheet-teletype-example.png "wikilink")
+[miniatur|zentriert|1000px|Teletype-Beispiel für "sheet"](/images/File:sheet-teletype-example.png "wikilink")
 
 thumbnails.xsl
 --------------
 
 Dieses Template generiert eine Thumbnail-Liste. Das wird für den Datei-Browser verwendet.
 
-[miniatur|zentriert|1000px|Beispielausgabe für Thumbnail-Liste](/Datei:thumbnail-browser-example.png "wikilink")
+[miniatur|zentriert|1000px|Beispielausgabe für Thumbnail-Liste](/images/File:thumbnail-browser-example.png "wikilink")
 
 [Kategorie:Übersicht über die verfügbaren Komponenten](/Kategorie:Übersicht_über_die_verfügbaren_Komponenten "wikilink")

@@ -11,7 +11,7 @@ Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XS
 
 Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
 
-[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/Datei:Ausgabekonzept.png "wikilink")
+[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png "wikilink")
 
 Eine Seite kann in der Regel mit beliebig vielen Boxen verknüpft sein. Bei Seiten und Boxen handelt es sich um Module, die Ihre Inhalte als XML ausgeben. Wenn eine HTML-Ausgabe der Seite erzeugt werden soll, muss dieses XML in das Zielformat HTML umgewandelt werden. Dazu ruft die Template-Engine von papaya CMS für jedes Modul das passende XSLT-Stylesheet mit den Transformationsregeln auf.
 
@@ -28,7 +28,7 @@ Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die S
 
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
 
-[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/Datei:papayaSystem.png "wikilink")
+[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png "wikilink")
 
 Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In diesem Bereich wird die Ausgabe der Module – egal ob es sich um Boxen oder Seiten handelt – an den XSLT-Ausgabefilter übergeben und umgewandelt. Dabei kann sowohl die XML-Ausgabe der Module als auch die Ausgabe des Ausgabefilters in einem Cache-Speicher vorgehalten werden, um die Performanz bei der Seitenauslieferung zu erhöhen.
 

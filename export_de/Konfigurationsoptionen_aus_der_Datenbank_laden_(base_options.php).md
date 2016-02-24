@@ -10,7 +10,7 @@ Die Klasse base_options schrittweise erklärt
 
 Die Klasse `base_options` erweitert `base_db`. Da viele Optionen im Backend von papaya CMS bequem über eine Benutzeroberfläche bearbeitet werden können, wird eine Datenbankkonnektivität benötigt:
 
-[miniatur|zentriert|1000px|UML-Diagramm der Klasse base_options](/Datei:baseOptionsClassDiagram.png "wikilink")
+[miniatur|zentriert|1000px|UML-Diagramm der Klasse base_options](/images/File:baseOptionsClassDiagram.png "wikilink")
 
 Zu Beginn der Klasse werden einige Klassenattribute gesetzt. So wird in `$tableOptions` der Name der Optionstabelle gespeichert. Dieser wird in der `conf.inc.php` in der Konstanten PAPAYA_DB_TBL_OPTIONS definiert und in dieser Klasse lediglich als Attribut zugewiesen. Die folgenden Attribute `$options`, `$optionGroups` sowie `$optLinks` werden in der von `base_options` abgeleiteten Klasse `papaya_options` verwendet.
 
