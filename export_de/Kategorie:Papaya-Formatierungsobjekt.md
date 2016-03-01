@@ -17,7 +17,7 @@ Im Inhaltsbereich können Sie zudem HTML-Elemente benutzen, um die Inhalte zu fo
 
 Die Struktur des papaya-Formatierungsobjektes ist in der folgenden Illustration dargestellt:
 
-[File:papaya-fo-schema.png](images/papaya-fo-schema.png)
+![File:papaya-fo-schema.png](images/papaya-fo-schema.png)
 
 Das Wurzelelement `<article>` enthält den Layoutbereich im Element `<layout>`, während der Inhaltsbereich auf die Elemente `<cover>`, `<content>`, `<footer>` und `<final>` aufgeteilt ist. In den folgenden Unterabschnitten werden diese Elemente näher beschrieben.
 
