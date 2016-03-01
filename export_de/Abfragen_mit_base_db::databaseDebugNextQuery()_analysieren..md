@@ -7,7 +7,7 @@ Nahezu alle Abfragen sind dynamisch und verwenden Platzhalter um kontextabhängi
 
 Im folgenden Screenshot wird die Ausgabe einer Debugmeldung mit databaseDebugNextQuery() dargestellt:
 
-[miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_db::databaseDebugNextQuery()](/images/File:base_db_databasedebugnextquery.png "wikilink")
+![File:base_db_databasedebugnextquery.png](images/base_db_databasedebugnextquery.png)
 
 In der linken oberen Seite der Ausgabe wird der Name der Klasse dargestellt, die den Aufruf ausgelöst hat. Ferner enthält dieses Feld noch die Nummer der Query und gibt den Verbindungstyp aus. Im obigen Beispiel handelt es sich um eine Leseverbindung („read connection“) In der oberen rechten Seite der Ausgabe steht der Zeitbedarf der Abfrage und in Klammern die Gesamtdauer aller ausgegebenen Abfragen. Anschließend wird die komplette SQL-Abfrage angezeigt. Direkt unterhalb der SQL-Codeausgabe wird ausgegeben, wieviele Datensätze von wievielen möglichen geholt wurden. Es folgt die Ausgabe der `EXPLAIN` -Query und ganz unten das Backtrace.
 
