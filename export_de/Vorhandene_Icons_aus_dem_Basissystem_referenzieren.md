@@ -8,7 +8,7 @@ permalink: /Vorhandene_Icons_aus_dem_Basissystem_referenzieren/
 
 papaya CMS bietet im Backend eine Übersichtsseite mit den Icons des Basissystems. Sie finden die Übersichtsseite im Bereich „Einstellungen“, wenn Sie auf den Menüpunkt Icons ansehen klicken:
 
-[miniatur|zentriert|1000px|Beispiel für eine Icon-Gruppe](/images/File:papaya-iconoverview-places.png "wikilink")
+![Files:papaya-iconoverview-places.png](images/papaya-iconoverview-places.png)
 
 Die Tabellenüberschrift bezeichnet die Gruppe. In den Tabellenzellen wird jeweils ein Icon angezeigt und sein Name sowie die verfügbaren Größen angegeben.
 

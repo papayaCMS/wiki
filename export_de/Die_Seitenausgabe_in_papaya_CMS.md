@@ -35,7 +35,7 @@ Die Technik der Wahl ist XSLT . Sie ermöglicht es, XML-Dokumente in andere Text
 
 Ansichten sind Darstellungsinstanzen von Modulen. Sie verknüpfen das Modul selbst mit einem Ausgabemodus, beispielsweise HTML , RSS oder PDF . Ein Ausgabemodus entspricht dabei einem Ausgabefilter , der für ein bestimmtes Ausgabeformat wie HTML konfiguriert ist. Für den verknüpften Ausgabemodus müssen Sie anschließend eine Templatedatei auswählen, die kompatibel mit der XML-Ausgabe des Moduls ist. Der ganze Zusammenhang wird in der folgenden Grafik deutlich:
 
-[miniatur|zentriert|1000px|Zusammenhang zwischen Ansichten, Ausgabemodi und Templates](/images/File:ansichten.png "wikilink")
+![File:ansichten.png](images/ansichten.png)
 
 Im obigen Beispiel in Abbildung "Zusammenhang zwischen Ansichten, Ausgabemodi und Templates" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS "wikilink") ist die Ansicht „Standardseite“ mit den Ausgabemodi *html* und *rss* verknüpft. Für den Ausgabemodus *html* ist die Templatedatei `page_general.xsl`, für den Ausgabemodus *rss* die Datei `page_rss.xsl` ausgewählt.
 
@@ -57,7 +57,7 @@ HTML-Ausgabe mit CSS-Definitionen und Schmuckgrafiken formatieren
 
 Nun ist schlichtes HTML nicht sonderlich ansprechend. Da Sie sicherlich darauf bedacht sind, Inhalt und Darstellung voneinander zu trennen, und es guter moderner Entwicklungsstil ist, werden CSS-Definitionen nicht direkt in die HTML-Ausgabe geschrieben, sondern CSS-Dateien (Stylesheets) verwendet. Im Zusammenhang mit papaya CMS wird eine Sammlung von CSS-Dateien und Layout-Bildern, die einer Webseite Stil geben, meistens als Theme bezeichnet. Im Unterschied zu diesen Theme-Bildern, die der Dekoration dienen, werden Inhaltsbilder vom System verwaltet, näheres dazu finden Sie im Handbuch „papaya CMS 5: Handbuch für Administratoren“, Kapitel 5.
 
-[miniatur|zentriert|1000px|HTML + CSS = schöne Webseite](/images/File:html-css-ausgabe.png "wikilink")
+![File:html-css-ausgabe.png](images/html-css-ausgabe.png)
 
 Sie haben gesehen: Seitenmodule von papaya CMS geben XML aus. Ein Seitenmodul ist zudem über eine Ansicht mit einem Ausgabefilter und einem XSLT-Template verknüpft. Der Ausgabefilter wandelt die XML-Ausgabe des Moduls in ein Zielformat wie HTML um und nutzt dabei die Transformationsregeln aus dem XSLT-Template. Eine Ansicht kann dabei beliebig viele Zielformate über Ausgabemodi zugewiesen bekommen.
 
