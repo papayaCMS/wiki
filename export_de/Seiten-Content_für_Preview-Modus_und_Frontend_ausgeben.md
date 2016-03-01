@@ -7,7 +7,7 @@ In der Methode `papaya_page::createTopic()` wird die Instanz einer Topic-Klasse 
 
 Die Hierarchie der Topic-Klassen ist im folgenden UML-Diagramm dargestellt:
 
-[miniatur|zentriert|1000px|Vererbungshierarchie von papaya_topic und papaya_topic_public](/images/File:KlassenBeimAufrufUMLDiagramm.png "wikilink")
+![File:KlassenBeimAufrufUMLDiagramm.png](images/KlassenBeimAufrufUMLDiagramm.png)
 
 Das Topic-Objekt als Hüllenklasse für Content-Module
 ----------------------------------------------------
