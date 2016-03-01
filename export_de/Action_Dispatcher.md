@@ -28,7 +28,7 @@ Administration
 
 Die Administrationsoberfläche des Action Dispatchers ist recht einfach gehalten (siehe Screenshot).
 
-![File:Dispatcher.png](http://git.dim/papayacms/wiki/blob/master/images/File:Dispatcher.png)
+![File:Dispatcher.png](images/File:Dispatcher.png)
 
 In der Hauptsymbolleiste können Sie Gruppen, Aktionen und Observer hinzufügen oder entfernen (Aktionen sind erst verfügbar, sobald eine Gruppe ausgewählt wurde, und Observer erst dann, wenn eine Aktion ausgewählt wurde). Zwei zusätzliche Schaltflächen ermöglichen es Ihnen, die aktuelle Konfiguration als XML zu exportieren beziehungsweise aus einer XML-Datei zu importieren. Das ist praktisch, wenn Sie mehr als einen Server betreiben (zum Beispiel einen Entwicklungs- und einen Produktiv-Server), weil Sie nicht auf jedem einzelnen Server eine manuelle Konfiguration durchzuführen brauchen. Beim Import können Sie wählen, ob die aktuelle Konfiguration vollständig durch die importierten Daten ersetzt werden soll oder ob diese zur bestehenden Konfiguration hinzugefügt werden sollen. Der Versuch, eine formal gültige, aber leere Konfigurationsdatei (d.h. <action-observers/> und nichts weiter) zu importieren, löscht Ihre Konfiguration jedoch auch im Ersetzungsmodus nicht, sondern führt zu einer Fehlermeldung.
 
