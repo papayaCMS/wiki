@@ -5,7 +5,7 @@ permalink: /Struktur_der_XML-Seitenausgabe/
 
 Die folgende Illustration stellt den grundlegenden Aufbau der XML-Seitenstruktur dar. Abgebildet sind die ersten zwei Ebenen des XML-Baumes:
 
-![File:XMLOutputXMLRoot.png](images/File:XMLOutputXMLRoot.png)
+![File:XMLOutputXMLRoot.png](http://git.dim/papayacms/wiki/raw/master/images/XMLOutputXMLRoot.png)
 
 Das Root-Element der Seite ist `<page>`. Dieses Wurzelelement enthält genau fünf unmittelbare Kindelemente:
 
