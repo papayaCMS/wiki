@@ -6,7 +6,7 @@ permalink: /Seitenlayout_bestimmen/
 Das Seitenlayout wird innerhalb des `<pages>` -Elements bestimmt. Über das Attribut `margin` geben Sie dabei die Außenränder im Uhrzeigersinn an, wobei der erste Wert den Abstand des bedruckbaren Bereiches nach oben bestimmt. Im Attribut `font` geben Sie die Familie und die Größe der Grundschrift an, während Sie im Attribut `align` die standardmäßige Textausrichtung festlegen.
 
 Mit den einzelnen `<page>` -Elementen innerhalb `<pages>` bestimmen Sie das Layout der Titelseite, der Schlussseite und der Standardseite. Die Standardseite ( `name =
-      "default"` ) muss dabei unbedingt definiert werden, während sowohl die Titel- als auch die Schluss-Seite optional sind. Im Attribut „template“ wählen Sie dabei ein Seiten-Template aus dem `<template>` -Element aus.
+      "default"`.md) muss dabei unbedingt definiert werden, während sowohl die Titel- als auch die Schluss-Seite optional sind. Im Attribut „template“ wählen Sie dabei ein Seiten-Template aus dem `<template>` -Element aus.
 
 Sie geben dabei `<page>` -Elemente ein, in der Sie den „beschreibbaren“ Bereich angeben. In diesem Bereich kann also der Inhalt der papaya-Artikel eingebunden werden:
 
@@ -44,17 +44,17 @@ Sie geben dabei `<page>` -Elemente ein, in der Sie den „beschreibbaren“ Bere
 Element-Modus
 -------------
 
-Das `<page>` -Element für die Titelseite ( `name = "cover"` ) enthält zwei `<element>` -Tags, mit denen der Titel und der Untertitel von Artikeln eingebunden werden. Um `<element>` -Tags benutzen zu können, müssen Sie jedoch im `<page>` -Tag den Modus aktivieren ( `mode =
-      "element"` ).
+Das `<page>` -Element für die Titelseite ( `name = "cover"`.md) enthält zwei `<element>` -Tags, mit denen der Titel und der Untertitel von Artikeln eingebunden werden. Um `<element>` -Tags benutzen zu können, müssen Sie jedoch im `<page>` -Tag den Modus aktivieren ( `mode =
+      "element"`.md).
 
 Standardmodus
 -------------
 
-Das `<page>` -Element ist standardmäßig im Modus für Fließtext ( `mode = "default"` ) eingestellt. Das bedeutet, dass der Inhalt in Form von Spalten (Kolumnen) in die Seite gesetzt wird. Die Anzahl und Breite der Spalten bestimmen Sie dabei mit `<column>` -Elementen. Die Größe einer Spalten bestimmen Sie mit dem `margin` -Attribut, das die druckbare Fläche in Form von Seitenabständen festlegt. Die Angaben erfolgen im Uhrzeigersinn (oben, rechts, unten, links).
+Das `<page>` -Element ist standardmäßig im Modus für Fließtext ( `mode = "default"`.md) eingestellt. Das bedeutet, dass der Inhalt in Form von Spalten (Kolumnen) in die Seite gesetzt wird. Die Anzahl und Breite der Spalten bestimmen Sie dabei mit `<column>` -Elementen. Die Größe einer Spalten bestimmen Sie mit dem `margin` -Attribut, das die druckbare Fläche in Form von Seitenabständen festlegt. Die Angaben erfolgen im Uhrzeigersinn (oben, rechts, unten, links).
 
 Fußzeile
 --------
 
 Im Standardmodus können Sie auch mit dem `<footer>` -Element eine Fußzeile bestimmen. Dazu fügen Sie einfach ein `<footer>` -Element in das `<page>` -Tag ein. Das `<footer>` -Element enthält ebenso wie das `<column>` -Element die Attribute `margin` und `align`. Zusätzlich jedoch können Sie mit dem `font` -Attribut die Schrift bestimmen.
 
-[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )
+[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md)

@@ -8,7 +8,7 @@ In der Methode `papaya_page::createTopic()` wird die Instanz einer Topic-Klasse 
 Die Hierarchie der Topic-Klassen ist im folgenden UML-Diagramm dargestellt:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Vererbungshierarchie von papaya_topic und papaya_topic_public](/images/File:KlassenBeimAufrufUMLDiagramm.png )
+[miniatur|zentriert|1000px|Vererbungshierarchie von papaya_topic und papaya_topic_public](/images/File:KlassenBeimAufrufUMLDiagramm.png)
 =======
 ![File:KlassenBeimAufrufUMLDiagramm.png](images/KlassenBeimAufrufUMLDiagramm.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -18,7 +18,7 @@ Das Topic-Objekt als Hüllenklasse für Content-Module
 
 Das Topic-Objekt ist eine Hüllenklasse für bestimmte Content-Klassen, die von `base_plugin` abgeleitet sind. Im Topic-Objekt wird die Content-Klasse instanziiert, die mit der Ansicht der aktuellen Seite verknüpft ist. Anschließend werden die Schnittstellen für die Datenein- und ausgabe angesprochen.
 
-Die Schnittstelle für die Dateneingabe ist das Eingabeformular „Inhalt bearbeiten“, das in der Seitenansicht im papaya-Backend dargestellt wird. Dieses Formular wird in den Content-Klassen im Array `$editFields` definiert, siehe [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ). Um das Formular darzustellen, wird in der Klasse `base_topic_edit` die Methode `getEditContent()` aufgerufen. Diese ruft wiederum die Methode `getForm()` des Content-Moduls auf. `getForm()` gibt die Repräsentation des Eingabeformulars als XML aus. Dieses XML wird für das Backend als Eingabeformular transformiert.
+Die Schnittstelle für die Dateneingabe ist das Eingabeformular „Inhalt bearbeiten“, das in der Seitenansicht im papaya-Backend dargestellt wird. Dieses Formular wird in den Content-Klassen im Array `$editFields` definiert, siehe [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md). Um das Formular darzustellen, wird in der Klasse `base_topic_edit` die Methode `getEditContent()` aufgerufen. Diese ruft wiederum die Methode `getForm()` des Content-Moduls auf. `getForm()` gibt die Repräsentation des Eingabeformulars als XML aus. Dieses XML wird für das Backend als Eingabeformular transformiert.
 
 Die Schnittstelle für die Datenausgabe besteht in der Methode `parseContent()` des Topic-Objekts. Diese Methode liest die Daten aus dem Content-Modul aus und gibt den Inhaltsteil des Seiten-XMLs zurück.
 
@@ -34,7 +34,7 @@ Ausgabe des Seiteninhalts im Detail
 Das folgende Sequenzdiagramm stellt vor, wie das Topic-Objekt instanziiert wird. Ferner beschreibt das Diagramm im Detail, welche Objekte bei der Ausgabe des Seiteninhalts beteiligt sind und wie sie miteinander interagieren:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Sequenzdiagramm](/images/File:UMLDiagramPapayaTopic.png )
+[miniatur|zentriert|1000px|Sequenzdiagramm](/images/File:UMLDiagramPapayaTopic.png)
 =======
 ![File:UMLDiagramPapayaTopic.png](/images/UMLDiagramPapayaTopic.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -57,4 +57,4 @@ Das XML wird in der Methode `generatePage()` der Klasse `papaya_page` direkt an 
 
 papaya_output::getFilter erzeugt eine Instanz des Ausgabefilters. Der Ausgabefilter liest den Pfad zum XSLT-Stylesheet aus, die in der Ansicht gespeichert ist. Anschließend wird der Transformationsprozess gestartet. Dazu wird die Methode `parsePage()` ausgeführt. Diese Methode wird in `base_outputfilter` definiert und von den implementierenden Klassen überladen. Die Seite wird im entsprechenden Zielformat ausgegeben. Unabhängig davon wurden die Header bereits in der Methode `getPageOutput()` sowie in `getPage()` in der Klasse `papaya_page` gesetzt.
 
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

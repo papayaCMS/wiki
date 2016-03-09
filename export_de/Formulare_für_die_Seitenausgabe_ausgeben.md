@@ -22,11 +22,11 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
           'input', 200, '', 'Betreff'),
         'message' => array('Nachricht', 'isSomeText', TRUE
           'textarea', 5, '', 'Deine Nachricht')
-      );
+     .md);
     }
     ~~~~
 
-    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ).
+    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).
 
 2.  Definieren Sie ein Array mit Standarddaten. Achten Sie darauf, dass die Schlüssel der jeweiligen Datenfelder mit den entsprechenden Schlüsseln im Dialogfeld-Array identisch sind: **Array mit Standarddaten definieren**
     ~~~~ {.php}
@@ -41,7 +41,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
         'subject'    => 'Betreff',
         //entspricht $field['message']
         'message'    => 'Ihre Nachricht'
-      );
+     .md);
     }
     ~~~~
 
@@ -53,7 +53,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
       $hidden = array(
         'user_id' => $userId,
         'submit'  => 1
-      );
+     .md);
     }
     ~~~~
 
@@ -67,7 +67,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
       $this->dialog = &new base_dialog(
         $this, $this->paramName, $fields,
         $data, $hidden
-      );
+     .md);
     }
     ~~~~
 
@@ -81,7 +81,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
       $this->dialog = &new base_dialog(
         $this, $this->paramName, $fields,
         $data, $hidden
-      );
+     .md);
       $this->dialog->loadParams();
     }
     ~~~~
@@ -96,7 +96,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
       $this->dialog = &new base_dialog(
         $this, $this->paramName, $fields,
         $data, $hidden
-      );
+     .md);
       $this->dialog->loadParams();
       $this->dialog->dialogTitle = 'Kontaktformular';
       $this->dialog->buttonTitle = 'Absenden';
@@ -120,4 +120,4 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)

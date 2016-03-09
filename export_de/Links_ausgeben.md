@@ -7,10 +7,10 @@ papaya CMS stellt einige Methoden zur Verfügung, mit denen Sie Links ausgeben k
 
 |Methode|Verwendung|
 |-------|----------|
-|`getLink()`|Mit dieser Methode erstellen Sie Links im Backend von papaya CMS, siehe [Links ausgeben](/Links_ausgeben ).|
-|`getWebLink()`|Mit dieser Methode erstellen Sie Links für die Frontend-Ausgabe von papaya CMS, siehe [Links ausgeben](/Links_ausgeben ).|
-|`getAbsoluteURL()`|Mit dieser Methode erhalten Sie eine absolute URL inklusive Protokoll und Domainnamen, siehe [Links ausgeben](/Links_ausgeben ).|
-|`getWebMediaLink()`|Mit dieser Methode erzeugen Sie eine absolute URL auf eine Datei aus der MediaDB, siehe [Links ausgeben](/Links_ausgeben ).|
+|`getLink()`|Mit dieser Methode erstellen Sie Links im Backend von papaya CMS, siehe [Links ausgeben](/Links_ausgeben.md).|
+|`getWebLink()`|Mit dieser Methode erstellen Sie Links für die Frontend-Ausgabe von papaya CMS, siehe [Links ausgeben](/Links_ausgeben.md).|
+|`getAbsoluteURL()`|Mit dieser Methode erhalten Sie eine absolute URL inklusive Protokoll und Domainnamen, siehe [Links ausgeben](/Links_ausgeben.md).|
+|`getWebMediaLink()`|Mit dieser Methode erzeugen Sie eine absolute URL auf eine Datei aus der MediaDB, siehe [Links ausgeben](/Links_ausgeben.md).|
 
 In den folgenden Abschnitten werden die Methoden kurz vorgestellt.
 
@@ -45,7 +45,7 @@ Verwenden Sie `base_object::getWebLink()` um einen Link für die Ausgabe im Fron
 Die Methode base_object::getAbsoluteURL()
 ------------------------------------------
 
-Verwenden Sie `base_object::getAbsoluteURL()` um eine absolute URL zu erhalten. Die URL enthält das Protokoll und den Domainnamen. Die Methode sorgt dafür, dass die Session bei Bedarf nicht berücksichtigt wird. Bestandteile wie `/../` werden aufgelöst und Parameter sowie Targets ( `#top` ) berücksichtigt.
+Verwenden Sie `base_object::getAbsoluteURL()` um eine absolute URL zu erhalten. Die URL enthält das Protokoll und den Domainnamen. Die Methode sorgt dafür, dass die Session bei Bedarf nicht berücksichtigt wird. Bestandteile wie `/../` werden aufgelöst und Parameter sowie Targets ( `#top`.md) berücksichtigt.
 
 |Parameter|Beschreibung|
 |---------|------------|
@@ -70,4 +70,4 @@ Verwenden Sie `base_object::getWebMediaLink()` um anhand einer Media-ID einen vo
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Dateiname oder „index“.|
 |\$ext|Endung der Datei, z.B. „png“|
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)

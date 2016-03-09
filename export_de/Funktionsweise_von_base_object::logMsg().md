@@ -3,7 +3,7 @@ title: Funktionsweise von base object::logMsg()
 permalink: /Funktionsweise_von_base_object::logMsg()/
 ---
 
-Die Methode `logMsg()` ist in der Klasse `base_object` implementiert. `logMsg()` verwendet seinerseits eine globale Instanz von `base_log` um die Daten in die Datenbank zu schreiben. Diese Funktion kann von Jeder Klasse genutzt werden, die von `base_object` abgeleitet ist. Klassen, die nicht von `base_object` abstammen, können die Methode `logMsg()` statisch aufrufen ( `base_object::logMsg()` ).
+Die Methode `logMsg()` ist in der Klasse `base_object` implementiert. `logMsg()` verwendet seinerseits eine globale Instanz von `base_log` um die Daten in die Datenbank zu schreiben. Diese Funktion kann von Jeder Klasse genutzt werden, die von `base_object` abgeleitet ist. Klassen, die nicht von `base_object` abstammen, können die Methode `logMsg()` statisch aufrufen ( `base_object::logMsg()`.md).
 
 Das folgende Listing stellt vor, wie Sie `logMsg()` aufrufen können:
 
@@ -23,8 +23,8 @@ Die Methode `logMsg()` verfügt über folgende Parameter:
 
 |Log-Level|Bedeutung|
 |---------|---------|
-|`$msgLevel`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg() ).|
-|`$msgType`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg() ).|
+|`$msgLevel`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
+|`$msgType`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
 |`$overviewMsg`|Kurzversion der Nachricht. Dieser Text erscheint in der Übersichtsliste im Protokoll.|
 |`$detailMsg`|Ausführliche Nachricht. Dieser Text enthält alle Informationen, um den Fehler zu identifizieren oder die Nachricht möglichst informativ zu gestalten.|
 |`$addBacktrace`|„TRUE“, wenn die Log-Nachricht ein Backtrace der Funktionsaufrufe erhalten soll, andernfalls „FALSE“.|
@@ -57,4 +57,4 @@ Die Nachrichtentypen sind in der Datei `sys_base_object.php` definiert. Die folg
 |`PAPAYA_LOGTYPE_SYSTEM`|Fehler in einer Klasse des Basissystems.|
 |`PAPAYA_LOGTYPE_MODULES`|Fehler in eigenen Modulen.|
 
-[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren )
+[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)

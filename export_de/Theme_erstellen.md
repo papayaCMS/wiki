@@ -13,7 +13,7 @@ Um ein eigenes Theme zu erstellen, gehen Sie wie folgt vor:
 2.  Legen Sie einen Unterordner für Layout-Grafiken an.
 3.  Erzeugen Sie eine CSS-Datei, in der Sie zentrale Formate der Seite bestimmen und Hintergrundgrafiken eingebunden werden.
 4.  Erzeugen Sie eine CSS-Datei, in der Sie die zentralen Formate von Boxen bestimmen.
-5.  Erzeugen Sie für jedes Seitenmodul eine separate CSS-Datei, die durch das passende XSLT-Seitentemplate eingebunden wird. Näheres zum Einbinden der CSS-Dateien erfahren Sie in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen ).
+5.  Erzeugen Sie für jedes Seitenmodul eine separate CSS-Datei, die durch das passende XSLT-Seitentemplate eingebunden wird. Näheres zum Einbinden der CSS-Dateien erfahren Sie in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen.md).
 
 Organisation des Demo-Themes
 ----------------------------
@@ -110,7 +110,7 @@ Titelleiste (\#header) und Fußleiste (\#footer)
 Das
 
 <div>
--Element mit dem ID-Selektor `#header` umschließt die Kopfzeile. Es erhält eine Hintergrundgrafik sowie eine Hintergrundfarbe ( `background` ) und entsprechende Abstände ( `padding` und `margin` ). Auch hier wird die Hintergrundgrafik per CSS definiert und nicht in das Seiten-HTML im Template geschrieben. Dies ist im Sinne der Trennung von Form und Inhalt gewünscht. Layout-Grafiken sollen also möglichst im Theme, also per CSS, definiert werden.
+-Element mit dem ID-Selektor `#header` umschließt die Kopfzeile. Es erhält eine Hintergrundgrafik sowie eine Hintergrundfarbe ( `background`.md) und entsprechende Abstände ( `padding` und `margin`.md). Auch hier wird die Hintergrundgrafik per CSS definiert und nicht in das Seiten-HTML im Template geschrieben. Dies ist im Sinne der Trennung von Form und Inhalt gewünscht. Layout-Grafiken sollen also möglichst im Theme, also per CSS, definiert werden.
 
 Der Content-Bereich der Kopfzeile wird über einen speziellen Klassenselektor `.headerContent` formatiert. Der Bereich erhält jedoch lediglich eine fixe Höhe von 100 Pixeln.
 
@@ -138,7 +138,7 @@ Der Header enthält zudem Links, mit denen die vorhandenen Content-Sprachen umge
 ~~~~
 
 Auf ähnliche Weise wird das `<div>` -Element formatiert, dass die CSS-Klasse `#footer` enthält. Dieses Element wird relativ positioniert. Zudem wird die Schriftgröße auf 90 % der Grundschrift gesetzt. Über den Selektor `#footer
-      .footerContent` erhält der Content-Bereich lediglich eine margin-Definition. Das im Footer enthaltene copyright-Element wird über den ID-Selektor `#footer #copyright` noch gesondert formatiert, indem der Rahmen ( `border` ) sowie der Innenabstand ( `padding` ) auf "0" gesetzt werden.
+      .footerContent` erhält der Content-Bereich lediglich eine margin-Definition. Das im Footer enthaltene copyright-Element wird über den ID-Selektor `#footer #copyright` noch gesondert formatiert, indem der Rahmen ( `border`.md) sowie der Innenabstand ( `padding`.md) auf "0" gesetzt werden.
 
 Footer-Navigation für die Umschaltung des Ausgabeformats
 --------------------------------------------------------
@@ -329,7 +329,7 @@ Für die zentrale Spalte im Content-Bereich werden einige wenige CSS-Angaben gem
 ...
 ~~~~
 
-So erhält das äußere `<div>` -Element über den ID-Selektor `#content` noch einen zusätzlichen Außenabstand nach unten um `1 em`. Zudem wird noch die CSS-Klasse `.subTitle` definiert, mit denen Untertitel von Artikel formatiert werden können. Dabei erhält das Element die Darstellung eines Block-Level-Elements ( `display: block;` ) und eine Schriftgröße von `0.8 em`.
+So erhält das äußere `<div>` -Element über den ID-Selektor `#content` noch einen zusätzlichen Außenabstand nach unten um `1 em`. Zudem wird noch die CSS-Klasse `.subTitle` definiert, mit denen Untertitel von Artikel formatiert werden können. Dabei erhält das Element die Darstellung eines Block-Level-Elements ( `display: block;`.md) und eine Schriftgröße von `0.8 em`.
 
 Zudem werden noch zusätzliche Abstände für geordnete und ungeordnete Listen gesetzt. Aufzählungszeichen für Gliederungslisten werden über den Selektor `#content li` deaktiviert, indem der Wert des Attributs `list-style-type` auf `none` gesetzt wird. Über die eingebundene Hintergrundgrafik wird stattdessen eine Grafik als Aufzählungszeichen benutzt, die aus dem Theme kommt.
 
@@ -341,7 +341,7 @@ Theme des Demotemplates an eigene Wünsche anpassen
 Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe wie folgt vorgehen:
 
 1.  Kopieren Sie sich das Theme-Verzeichnis und benennen Sie es um.
-2.  Wählen Sie das neue Theme-Verzeichnis in der Systemsteuerung aus, siehe [Installation der Webseitenvorlage](/Installation_der_Webseitenvorlage ).
+2.  Wählen Sie das neue Theme-Verzeichnis in der Systemsteuerung aus, siehe [Installation der Webseitenvorlage](/Installation_der_Webseitenvorlage.md).
 3.  Erstellen Sie ggf. neue Layoutgrafiken und speichern Sie diese in das `pics` -Unterverzeichnis Ihres Themes..
 4.  Passen Sie die CSS-Dateien Ihrem Layout an:
     1.  Ändern Sie die Farbangaben in der Datei `color.css`.
@@ -351,4 +351,4 @@ Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe w
 
 Im folgenden Abschnitt können Sie erfahren, wie Sie ein HTML-Template erstellen..
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)

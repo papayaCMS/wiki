@@ -5,11 +5,11 @@ permalink: /Article-Element/
 
 Das Wurzelelement ist `<article>`. Es enthält genau fünf unmittelbare Kindelemente:
 
-1.  `<layout>`: Enthält Layoutdefinitionen, siehe [Layoutbereich (Element layout)](/Layoutbereich_(Element_layout) ).
-2.  `<cover>`: Titelseite, siehe [Element cover und final](/Element_cover_und_final ).
-3.  `<content>`: Fließtext mit Bildern und Tabelle, siehe [Element content](/Element_content ).
-4.  `<footer>`: Fußzeile von Seiten, siehe [Element footer](/Element_footer ).
-5.  `<final>`: Letzte Seite des Dokuments, siehe [Element cover und final](/Element_cover_und_final ).
+1.  `<layout>`: Enthält Layoutdefinitionen, siehe [Layoutbereich (Element layout)](/Layoutbereich_(Element_layout).md).
+2.  `<cover>`: Titelseite, siehe [Element cover und final](/Element_cover_und_final.md).
+3.  `<content>`: Fließtext mit Bildern und Tabelle, siehe [Element content](/Element_content.md).
+4.  `<footer>`: Fußzeile von Seiten, siehe [Element footer](/Element_footer.md).
+5.  `<final>`: Letzte Seite des Dokuments, siehe [Element cover und final](/Element_cover_und_final.md).
 
 Die Attribute des `<article>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
@@ -20,4 +20,4 @@ Die Attribute des `<article>` -Elements sind in der folgenden Tabelle aufgeschl�
 
 In den folgenden Abschnitten werden die unmittelbaren Kindelemente des `<article>` -Tags erläutert.
 
-[Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt )
+[Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt.md)

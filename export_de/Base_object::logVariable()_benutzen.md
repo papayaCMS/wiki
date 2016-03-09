@@ -18,9 +18,9 @@ if (!$this->updateRecord($dataSet)) {
     $dataSet,
     TRUE,
     3
-  );
+ .md);
 }
 ...
 ~~~~
 
-[Kategorie:Fehlersuche mit base_object::logVariable()](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable() )
+[Kategorie:Fehlersuche mit base_object::logVariable()](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)

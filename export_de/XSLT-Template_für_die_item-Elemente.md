@@ -31,4 +31,4 @@ Die `<item>` -Elemente stellen die Einträge des RSS-Feeds dar. Sie enthalten de
 ...
 ~~~~
 
-[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen )
+[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen.md)

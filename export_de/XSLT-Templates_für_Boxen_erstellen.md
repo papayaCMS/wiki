@@ -83,7 +83,7 @@ Die Stylesheet-Dateien für Boxmodule im Demo-Template sind wesentlich einfacher
     ...
     ~~~~
 
-    Das Template gibt den Text aus, der vor dem Link steht ( `text-before/node()` ), formatiert anschließend den Link selbst und gibt am Ende den Text aus, der nach dem Link folgt ( `text-after/node()` ).
+    Das Template gibt den Text aus, der vor dem Link steht ( `text-before/node()`.md), formatiert anschließend den Link selbst und gibt am Ende den Text aus, der nach dem Link folgt ( `text-after/node()`.md).
 
 5.  Das vollständige Stylesheet sieht nun wie folgt aus: **Vollständiges Stylesheet für das Boxmodul „Extended Page Link“**
     ~~~~ {.xml}
@@ -129,4 +129,4 @@ Die Stylesheet-Dateien für Boxmodule im Demo-Template sind wesentlich einfacher
     </xsl:stylesheet>
     ~~~~
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)

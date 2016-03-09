@@ -28,7 +28,7 @@ Die in papaya CMS benutzten Übersetzungsdateien liegen im XML-Format vor und ha
 </xs:schema>
 ~~~~
 
-Das Dokumentenelement `<texts>` enthält eine beliebige Menge von `<text>` -Elementen, die die eigentliche Phrasenübersetzung als Textknoten enthalten. Das Phrasensystem greift dabei über das Attribut `ident` (kurz für *identifier* ) auf die Übersetzung zu, wobei im Attribut `ident` die Phrase enthalten ist.
+Das Dokumentenelement `<texts>` enthält eine beliebige Menge von `<text>` -Elementen, die die eigentliche Phrasenübersetzung als Textknoten enthalten. Das Phrasensystem greift dabei über das Attribut `ident` (kurz für *identifier*.md) auf die Übersetzung zu, wobei im Attribut `ident` die Phrase enthalten ist.
 
 Ein konkretes Beispiel für eine Übersetzungsdatei ist im folgenden Listing dargestellt:
 
@@ -48,4 +48,4 @@ Ein konkretes Beispiel für eine Übersetzungsdatei ist im folgenden Listing dar
 </texts>
 ~~~~
 
-[Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten )
+[Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)

@@ -8,7 +8,7 @@ Im Element `<layout>` wird das Layout des Dokuments definiert. Sie können folge
 1.  Die zu verwendende Schriftfamilie bestimmen Sie im Element `<fonts>`.
 2.  Templates für verschiedene Seitentypen wie Titelseite und Standardseiten legen Sie mit dem Element `<templates>` fest.
 3.  Das Layout für die verschiedenen Seiten bestimmen Sie im Element `<pages>`.
-4.  Geben Sie im `<tags>` -Element an, wie HTML-Elemente (bspw. `<h1>` ) gesetzt werden sollen.
+4.  Geben Sie im `<tags>` -Element an, wie HTML-Elemente (bspw. `<h1>`.md) gesetzt werden sollen.
 
 Das <layout>-Tag enthält keine Attribute.
 
@@ -30,7 +30,7 @@ Das `<fonts>` -Element kann beliebig viele `<font>` -Tags enthalten, die eine Sc
 
 Das `<templates>` -Element kann beliebig viele `<template>` -Elemente enthalten, die eine bestimmte Seite der PDF-Musterdatei ansprechen. Ein <template>-Element entspricht damit einer Seitenvorlage. Jedes `<template>` -Element erhält dabei einen eindeutigen Namen, um die Seitenvorlage ansprechen zu können.
 
-Anhand des Wertes im Attribut `name` können Sie im Inhaltsbereich (siehe [Inhaltsbereich](/Inhaltsbereich ) ) das entsprechende Template auswählen. Wenn Sie Inhalte einbinden, ordnen Sie über das `name` -Attribut die Inhalte der entsprechenden Seite in der PDF-Musterdatei zu. Die Attribute des `<template>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
+Anhand des Wertes im Attribut `name` können Sie im Inhaltsbereich (siehe [Inhaltsbereich](/Inhaltsbereich.md).md) das entsprechende Template auswählen. Wenn Sie Inhalte einbinden, ordnen Sie über das `name` -Attribut die Inhalte der entsprechenden Seite in der PDF-Musterdatei zu. Die Attribute des `<template>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
 |--------|---------|
@@ -90,13 +90,13 @@ Das <pages>-Element enthält beliebig viele `<page>` -Elemente. Mit einem `<page
 
 1.  Schriftfamilie
 2.  Schriftgröße
-3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic` )|
+3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic`.md)|
 
 <element>-Tag
 -------------
 
 Für die Titelseite können Sie den Titel sowie den Untertitel des Artikels in fest definierte Bereiche der Seite einfügen. Diese Bereiche bestimmen Sie Dabei mit `<element>` -Tags. Um `<element>` -Tags benutzen zu können, müssen Sie das `<page>` -Element in den Element-Modus ( `mode =
-      "elements"` ) umschalten. Die folgende Tabelle schlüsselt die Bedeutung der einzelnen Attribute auf:
+      "elements"`.md) umschalten. Die folgende Tabelle schlüsselt die Bedeutung der einzelnen Attribute auf:
 
 |Attribut|Bedeutung|
 |--------|---------|
@@ -136,7 +136,7 @@ Die Abstände sowie die Textausrichtung einer Spalte können Sie mit dem `<colum
 3.  right
 4.  justify|
 
-Damit das `<column>` -Element benutzt werden kann, müssen Sie das `<page>` -Element in den Standardmodus ( `mode = "default"` ) umschalten.
+Damit das `<column>` -Element benutzt werden kann, müssen Sie das `<page>` -Element in den Standardmodus ( `mode = "default"`.md) umschalten.
 
 ==
 
@@ -161,6 +161,6 @@ Damit das `<column>` -Element benutzt werden kann, müssen Sie das `<page>` -Ele
 
 1.  Schriftfamilie.
 2.  Schriftgröße in Punkt (pt).
-3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic` ).|
+3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic`.md).|
 
-[Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt )
+[Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt.md)

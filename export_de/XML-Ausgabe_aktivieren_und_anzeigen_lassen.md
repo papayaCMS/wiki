@@ -10,7 +10,7 @@ XML-Ausgabe aktivieren
 
 Um diesen Ausgabemodus zu aktivieren, stellen Sie in der Konfiguration die Option PAPAYA_DBG_XML_OUTPUT in der Optionengruppe „Fehlersuche“ auf „on“:
 
-[miniatur|zentriert|1000px|XML-Ausgabe in der Konfiguration aktivieren](/images/File:XMLOutputAktivierenKonfiguration.png )
+[miniatur|zentriert|1000px|XML-Ausgabe in der Konfiguration aktivieren](/images/File:XMLOutputAktivierenKonfiguration.png)
 
 Weitere Informationen zur Konfiguration erhalten Sie im Handbuch für Administratoren und Benutzer in Kapitel .
 
@@ -25,4 +25,4 @@ Sie können eine Seite auf folgende Weisen in XML ausgeben lassen:
 
 Im folgenden Abschnitt erfahren Sie Näheres über den Aufbau der XML-Ausgabe.
 
-[Kategorie:Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS )
+[Kategorie:Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS.md)

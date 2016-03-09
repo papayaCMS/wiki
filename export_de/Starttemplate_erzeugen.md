@@ -25,6 +25,6 @@ Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster
 ...
 ~~~~
 
-Das Basistemplate `basetemplate` wird nur dann aufgerufen, wenn das Seiten-XML durch das richtige Modul geliefert worden ist. Andernfalls wird eine leere Seite ausgeliefert. Über den Parameter `$PAGE_BASE_URL` wird die Basis-URL in die Variable `$host` eingelesen. Näheres zu diesen Parametern erfahren Sie in [Parameter in XSLT-Stylesheets](/Parameter_in_XSLT-Stylesheets ).
+Das Basistemplate `basetemplate` wird nur dann aufgerufen, wenn das Seiten-XML durch das richtige Modul geliefert worden ist. Andernfalls wird eine leere Seite ausgeliefert. Über den Parameter `$PAGE_BASE_URL` wird die Basis-URL in die Variable `$host` eingelesen. Näheres zu diesen Parametern erfahren Sie in [Parameter in XSLT-Stylesheets](/Parameter_in_XSLT-Stylesheets.md).
 
-[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen )
+[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen.md)

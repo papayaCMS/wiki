@@ -91,7 +91,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/?papaya/module_([a-z\d_]+)\.[a-z]{3,4} /papaya/module.php?p_module=$1 [QSA,L]
 ~~~~
 
-Zunächst wird überprüft, ob die angeforderte Ressource nicht eine existierende Datei ( `!-f` ) oder ein Verzeichnis ( `!-d` ) ist. Physisch vorhandene Dateien und Verzeichnisse werden vorrangig ausgegeben, da sie verfügbar sein sollen. Wenn weder eine Datei noch ein Verzeichnis an dieser Stelle existiert, kann die nachfolgende Regel angewendet werden. Diese besagt, dass alle Aufrufe von `/papaya/module_<modulname>.ext` umgeschrieben werden in `/papaya/module.php?p_module=<modulname>`, wiederum angehängt an den Query-String (QSA). Wenn diese Regel trifft, werden alle weiteren Regeln ignoriert (L = last, letzte).
+Zunächst wird überprüft, ob die angeforderte Ressource nicht eine existierende Datei ( `!-f`.md) oder ein Verzeichnis ( `!-d`.md) ist. Physisch vorhandene Dateien und Verzeichnisse werden vorrangig ausgegeben, da sie verfügbar sein sollen. Wenn weder eine Datei noch ein Verzeichnis an dieser Stelle existiert, kann die nachfolgende Regel angewendet werden. Diese besagt, dass alle Aufrufe von `/papaya/module_<modulname>.ext` umgeschrieben werden in `/papaya/module.php?p_module=<modulname>`, wiederum angehängt an den Query-String (QSA). Wenn diese Regel trifft, werden alle weiteren Regeln ignoriert (L = last, letzte).
 
 Die folgende Bedingung prüft, ob statische Mediadaten vorhanden sind. Ist das der Fall, werden diese ausgeliefert und das Rewriting abgeschlossen:
 
@@ -113,7 +113,7 @@ Wenn ein Aufruf direkt Inhalte der MediadDB anfordert, wird dieser an `index.php
 RewriteRule ^/?([a-fA-F0-9]/)*[a-zA-Z0-9_-]+\.(media|thumb|download|popup|image)(\.(preview))?((\.([a-zA-Z0-9_]+))?(\.[a-zA-Z0-9_]+))  /index.php [QSA,L]
 ~~~~
 
-Bei ganz normalen Seiten kommen diese zwei Regelsätze zum tragen. Es wird jeweils wieder sichergestellt, dass keine Datei oder ein Verzeichnis mit dem angegebenen Namen tatsächlich existiert ( `!-d`, `!-f` ), denn diese werden vorrangig behandelt:
+Bei ganz normalen Seiten kommen diese zwei Regelsätze zum tragen. Es wird jeweils wieder sichergestellt, dass keine Datei oder ein Verzeichnis mit dem angegebenen Namen tatsächlich existiert ( `!-d`, `!-f`.md), denn diese werden vorrangig behandelt:
 
 **URL-Umformung bei Seitenausgabe im Frontend**
 
@@ -205,4 +205,4 @@ Wenn das Apache-Modul `mod_headers` verfügbar ist, wird ein Cache-Control-Heade
 
 Die Cache-Zeit wird dabei jeweils auf 2.592.000 Sekunden (30 Tage) gesetzt (max-age). Mit "public" wird darüber hinaus angegeben, dass die angeforderte Ressource durch alle Zwischenstationen im Cache vorgehalten werden darf. `pre-check` definiert einen Update-Intervall in Sekunden, in dem der Client eine Ressource aktualisieren muss. Eine Ressource wird dabei erst nach dem Update angezeigt, sodass der Nutzer im Client den Updatevorgang ggf. in Form eines Nachladens beobachten kann.
 
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

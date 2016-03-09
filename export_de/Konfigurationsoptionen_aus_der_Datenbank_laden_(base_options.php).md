@@ -10,7 +10,7 @@ Die Klasse base_options schrittweise erklärt
 
 Die Klasse `base_options` erweitert `base_db`. Da viele Optionen im Backend von papaya CMS bequem über eine Benutzeroberfläche bearbeitet werden können, wird eine Datenbankkonnektivität benötigt:
 
-[miniatur|zentriert|1000px|UML-Diagramm der Klasse base_options](/images/File:baseOptionsClassDiagram.png )
+[miniatur|zentriert|1000px|UML-Diagramm der Klasse base_options](/images/File:baseOptionsClassDiagram.png)
 
 Zu Beginn der Klasse werden einige Klassenattribute gesetzt. So wird in `$tableOptions` der Name der Optionstabelle gespeichert. Dieser wird in der `conf.inc.php` in der Konstanten PAPAYA_DB_TBL_OPTIONS definiert und in dieser Klasse lediglich als Attribut zugewiesen. Die folgenden Attribute `$options`, `$optionGroups` sowie `$optLinks` werden in der von `base_options` abgeleiteten Klasse `papaya_options` verwendet.
 
@@ -70,7 +70,7 @@ Die Datenbanktabellen des Basissystems werden alle im Array `$tables` der Klasse
 ~~~~ {.php}
   var $tables = array(
     'PAPAYA_DB_TBL_LNG' => 'lng',
-  );
+ .md);
 ~~~~
 
 Als Schlüssel wird wieder der Konstantenname verwendet. Der Wert ist der Tabellenname ohne das Standardpräfix „ `papaya_` “. In der Methode `papaya_options::defineDatabaseTables()` erhalten die Konstantennamen für die Tabellen den vollständigen Tabellennamen.
@@ -219,4 +219,4 @@ Hinweise zu den Pfadkonstanten in papaya CMS
 |PAPAYA_PATH_TEMPLATES|Absoluter Pfad zu den Templates.|
 |PAPAYA_PATHWEB_ADMIN|Relativer Pfad zum Backend dieser papaya-Installation.|
 
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

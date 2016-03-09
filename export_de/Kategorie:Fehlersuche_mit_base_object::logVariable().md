@@ -11,4 +11,4 @@ Dieser Abschnitt erklärt, wie Sie mit `base_object::logVariable()` die Inhalte 
 
 Da `base_object::logVariable()` in `base_object` implementiert worden ist, steht sie in allen Klassen im papaya-Basissystem zur Verfügung.
 
-[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)

@@ -114,4 +114,4 @@ Im folgenden Listing ist das vollständige XSLT-Stylesheet dargestellt:
 </xsl:stylesheet>
 ~~~~
 
-[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen )
+[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen.md)

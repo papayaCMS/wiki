@@ -7,7 +7,7 @@ Um eigene Module zu entwickeln, müssen Sie zunächst die Paketstruktur erstelle
 
 Die grundlegende Verzeichnisstruktur für eigene Module ist dabei immer die selbe. Neben den PHP-Dateien enthält dieses Verzeichnis auch Metadaten in Form der `modules.xml` sowie Tabellenstrukturbeschreibungen. Diese Informationen werden von papaya CMS benötigt, damit die Module in der Modulverwaltung registriert und anschließend verwendet werden können.
 
-Pakete für papaya CMS müssen in ein Verzeichnis unterhalb von `./papaya-lib/modules` abgelegt werden. Dabei sollten eigene Pakete und Pakete von Drittanbietern von den Basispaketen unterschieden werden, die im papaya-Release enthalten sind (Verzeichnisse `free` und `_base` ). Zu diesem Zweck sollten Sie eigene Pakete innerhalb von `./papaya-lib/modules/external/` installieren.
+Pakete für papaya CMS müssen in ein Verzeichnis unterhalb von `./papaya-lib/modules` abgelegt werden. Dabei sollten eigene Pakete und Pakete von Drittanbietern von den Basispaketen unterschieden werden, die im papaya-Release enthalten sind (Verzeichnisse `free` und `_base`.md). Zu diesem Zweck sollten Sie eigene Pakete innerhalb von `./papaya-lib/modules/external/` installieren.
 
 **Beispiel für ein Verzeichnis mit eigenem Paket**
 
@@ -40,8 +40,8 @@ Die Unterverzeichnisse und Metadateien des Pakets werden in folgender Tabelle au
 |-----------|--------|
 |./modules.xml|Diese XML-Datei enthält alle wesentlichen Informationen zu jedem Modul des Pakets. Dazu gehört der Name der Quellcodedatei, der Name der PHP-Klasse, die GUID des Moduls sowie der Modultyp.|
 |./DATA/|Dieses optionale Verzeichnis enthält für jede Datenbanktabelle, die das Modul benutzt, eine separate XML-Datei. In dieser XML-Datei wird die Struktur der jeweiligen Datenbanktabelle beschrieben.|
-|./pics/|Dieses optionale Unterverzeichnis enthält Icons für Backend-Anwendungen von papaya CMS. Dazu gehört beispielsweise das Icon für das Admin-Modul sowie Icons, die für spezielle Funktionen im Bearbeitungsmenü der Anwendung benutzt werden können. Das `pics` -Unterverzeichnis enthält für die drei Standard-Icongrößen in papaya CMS jeweils Unterverzeichnisse ( `16x16`, `22x22`, `48x48` ).|
+|./pics/|Dieses optionale Unterverzeichnis enthält Icons für Backend-Anwendungen von papaya CMS. Dazu gehört beispielsweise das Icon für das Admin-Modul sowie Icons, die für spezielle Funktionen im Bearbeitungsmenü der Anwendung benutzt werden können. Das `pics` -Unterverzeichnis enthält für die drei Standard-Icongrößen in papaya CMS jeweils Unterverzeichnisse ( `16x16`, `22x22`, `48x48`.md).|
 
 Anschließend können Sie damit beginnen, Module für papaya CMS zu schreiben. Damit diese Module in papaya CMS verwendet werden können, müssen Sie die `modules.xml` -Datei erstellen. Näheres dazu erfahren Sie im folgenden Abschnitt.
 
-[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)

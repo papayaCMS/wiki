@@ -3,9 +3,9 @@ title: Modulprogrammierung 2: Datenbankunterstützung
 permalink: /Modulprogrammierung_2:_Datenbankunterstützung/
 ---
 
-In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules ).
+In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules.md).
 
-Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards ), especially if you plan to contribute your modules for the papaya Community.
+Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
 
 Preparing and writing the database access class
 -----------------------------------------------
@@ -214,16 +214,16 @@ Next, we are going to implement the database access class itself. Database acces
 
 -   *databaseGetTableName(\$name, \$usePrefix)* gets the name of a database table. Usually, the boolean *\$usePrefix* is set to TRUE, which adds the value of the *PAPAYA_DB_TABLEPREFIX* configuration constant to the base name. As the prefix can be modified in papaya's *conf.inc.php* configuration file, this is a safe way to always use the correct table names.
 -   *databaseQueryFmt(\$sql, \$params, \$limit = NULL, \$offset = NULL)* executes the SQL query given in the string *\$sql*. *\$sql* is a printf-style format string, while \$params is an array of values you want to insert insert instead of the format placeholders. You should provide the database table names and all dynamic values using these placeholders. The optional *\$limit* and *\$offset* parameters limit the number of result records, starting at the given offset (which is 0 by default, i.e. the first record in the order defined by the query). This method is read-only, so it's only suitable for SELECT queries.
--   *databaseQueryFmtWrite(\$sql, \$params, \$limit = NULL, \$offset = NULL)* is the read-and-write version of *databaseQueryFmt( )*. You only need to use it for really complex modification queries; in most cases, you can get along with the methods described below.
+-   *databaseQueryFmtWrite(\$sql, \$params, \$limit = NULL, \$offset = NULL)* is the read-and-write version of *databaseQueryFmt(.md)*. You only need to use it for really complex modification queries; in most cases, you can get along with the methods described below.
 -   *databaseInsertRecord(\$table, \$keyField = NULL, \$data)* is used to insert a record into a table. The first argument is the table; the second is the optional name of the primary key field (only use it in case of auto-increment, integer primary keys; it makes the method return the index of the new record in case of success). The third argument is an associative array of data you want to insert into the table; the keys are the field names. The return value is FALSE in case of an error, otherwise it depends on whether you've used a primary key name or not. To test for success, compare the value to FALSE using strict identity (===) instead of simple equality (==).
 -   *databaseInsertRecords(\$table, \$data)* is a multi-record variant of *databaseInsertRecord*. The *\$table* argument is the table name, while *\$data* is an array of associative arrays, each one including a record as described for the previous method. The return value is FALSE on error or the number of affected rows on success.
--   *databaseUpdateRecord(\$table, \$data, \$field, \$value = NULL)* updates records matching a certain condition. You provide the table name, an array of data as described for *databaseInsertRecord( )* above, and then the condition, either as a single field and a single value, or as an associative array of field-value pairs. The return value is FALSE in case of an error or the number of affected rows on success (0 rows may still be success, so remember to check the return value using ===).
--   *databaseDeleteRecord(\$table, \$field, \$value = NULL)* deletes records matching a condition; the *\$field* parameter, the optional *\$value* parameter, and the return value work just like for *databaseUpdateRecord( )*.
--   *databaseGetSQLCondition(\$field, \$value = NULL)* creates a condition to be used in *databaseQueryFmt( )* or *databaseQueryFmtWrite( )*. Like with *databaseUpdateRecord( )*, you can either use a single field and a value (which might as well be an array of values resulting in a condition matching any of the provided values), or an associative array with field-value pairs. Usually, multiple field-value conditions are combined using the AND operator, but you can add the string 'OR' as an array value without a dedicated key between two field-value pairs to use OR instead.
+-   *databaseUpdateRecord(\$table, \$data, \$field, \$value = NULL)* updates records matching a certain condition. You provide the table name, an array of data as described for *databaseInsertRecord(.md)* above, and then the condition, either as a single field and a single value, or as an associative array of field-value pairs. The return value is FALSE in case of an error or the number of affected rows on success (0 rows may still be success, so remember to check the return value using ===).
+-   *databaseDeleteRecord(\$table, \$field, \$value = NULL)* deletes records matching a condition; the *\$field* parameter, the optional *\$value* parameter, and the return value work just like for *databaseUpdateRecord(.md)*.
+-   *databaseGetSQLCondition(\$field, \$value = NULL)* creates a condition to be used in *databaseQueryFmt(.md)* or *databaseQueryFmtWrite(.md)*. Like with *databaseUpdateRecord(.md)*, you can either use a single field and a value (which might as well be an array of values resulting in a condition matching any of the provided values), or an associative array with field-value pairs. Usually, multiple field-value conditions are combined using the AND operator, but you can add the string 'OR' as an array value without a dedicated key between two field-value pairs to use OR instead.
 
 ### Unit-testing the database access class
 
-In order to unit-test a class derived from *PapayaDatabaseObject*, you can use its *setDatabaseAccess( )* method to replace papaya's database implementation by a mock object. We have used this technique in the previous tutorial to mock our own base class. This time, though, we do not require any real class to model the database access mock object after, but we use a generic mock object and add the method names to use. In the *PapayaDatabaseAcess* class from the *papaya-lib/system/Papaya/Database* directory, these methods share the names of the above mentioned methods without the 'database' prefix, starting with a lowercase letter, for example *queryFmt( )* or *deleteRecord( )*.
+In order to unit-test a class derived from *PapayaDatabaseObject*, you can use its *setDatabaseAccess(.md)* method to replace papaya's database implementation by a mock object. We have used this technique in the previous tutorial to mock our own base class. This time, though, we do not require any real class to model the database access mock object after, but we use a generic mock object and add the method names to use. In the *PapayaDatabaseAcess* class from the *papaya-lib/system/Papaya/Database* directory, these methods share the names of the above mentioned methods without the 'database' prefix, starting with a lowercase letter, for example *queryFmt(.md)* or *deleteRecord(.md)*.
 
 Here's the unit test class for our database access class, to be saved in *tutorial/Planet/Database/AccessTest.php* in the unit test directory structure:
 
@@ -259,7 +259,7 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $databaseAccessObject
       ->expects($this->once())
       ->method('getTableName')
@@ -284,7 +284,7 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
   }
 
   /**
@@ -294,10 +294,10 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
     $planetDatabaseAccessObject = $this->getPlanetDatabaseAccessObjectFixture();
     $databaseAccessObject = $this->getPapayaDatabaseAccessObjectFixture(
       array('queryFmt')
-    );
+   .md);
     $databaseResultObject = $this->getDatabaseResultObjectFixture(
       array('fetchRow')
-    );
+   .md);
     $expectedData = array('planet_id' => 1, 'planet_name' => 'Mars');
     $databaseResultObject
       ->expects($this->once())
@@ -318,15 +318,15 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
     $planetDatabaseAccessObject = $this->getPlanetDatabaseAccessObjectFixture();
     $databaseAccessObject = $this->getPapayaDatabaseAccessObjectFixture(
       array('queryFmt')
-    );
+   .md);
     $databaseResultObject = $this->getDatabaseResultObjectFixture(
       array('fetchRow')
-    );
+   .md);
     $expectedData = array(
       array('planet_id' => 1, 'planet_name' => 'Mars'),
       array('planet_id' => 2, 'planet_name' => 'Jupiter'),
       array('planet_id' => 3, 'planet_name' => 'Saturn')
-    );
+   .md);
     $databaseResultObject
       ->expects($this->atLeastOnce())
       ->method('fetchRow')
@@ -336,8 +336,8 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
             $this->returnValue($expectedData[1]),
             $this->returnValue($expectedData[2]),
             FALSE
-          )
-        );
+         .md)
+       .md);
     $databaseAccessObject
       ->expects($this->once())
       ->method('queryFmt')
@@ -357,7 +357,7 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
     $planetDatabaseAccessObject = $this->getPlanetDatabaseAccessObjectFixture();
     $databaseAccessObject = $this->getPapayaDatabaseAccessObjectFixture(
       array('insertRecord')
-    );
+   .md);
     $databaseAccessObject
       ->expects($this->once())
       ->method('insertRecord')
@@ -373,7 +373,7 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
     $planetDatabaseAccessObject = $this->getPlanetDatabaseAccessObjectFixture();
     $databaseAccessObject = $this->getPapayaDatabaseAccessObjectFixture(
       array('updateRecord')
-    );
+   .md);
     $databaseAccessObject
       ->expects($this->once())
       ->method('updateRecord')
@@ -389,7 +389,7 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
     $planetDatabaseAccessObject = $this->getPlanetDatabaseAccessObjectFixture();
     $databaseAccessObject = $this->getPapayaDatabaseAccessObjectFixture(
       array('deleteRecord')
-    );
+   .md);
     $databaseAccessObject
       ->expects($this->once())
       ->method('deleteRecord')
@@ -404,14 +404,14 @@ class PlanetDatabaseAccessTest extends PapayaTestCase {
 
 In this test, a bit more mocking has to be done than before, and it seems more complicated, but with a bit of explanation it's pretty straightforward. We need to mock two classes:
 
--   *PapayaDatabaseAccess* was already explained above. Please note the verbose *getMock( )* call using five arguments: The name of the original class to be mocked, an array of methods to be provided, an array of parameters for the constructor (an empty array in this case), a dynamic name for the mock class -- 'Mock_'.md5(__CLASS__.microtime()) is a good choice as *microtime( )* changes fast enough to provide a unique name for each class --, and a boolean that states whether the constructor of the original class should be called (TRUE) or not (FALSE, which we use here).
--   *dbresult_mysql* is what a successful SELECT query returns if you use the MySQL database interface (theoretically, you could mock any of the papaya database result classes, but this one works just as fine as any). See the *PapayaDatabaseAccess* explanation above for details on the *getMock( )* parameters. Last, we define the DB_FETCHMODE_ASSOC constant with an arbitrary value if it's not already defined. The implementation will use this constant as an argument for the database result object's *fetchRow( )* method that is used to read a record from the result set.
+-   *PapayaDatabaseAccess* was already explained above. Please note the verbose *getMock(.md)* call using five arguments: The name of the original class to be mocked, an array of methods to be provided, an array of parameters for the constructor (an empty array in this case), a dynamic name for the mock class -- 'Mock_'.md5(__CLASS__.microtime()) is a good choice as *microtime(.md)* changes fast enough to provide a unique name for each class --, and a boolean that states whether the constructor of the original class should be called (TRUE) or not (FALSE, which we use here).
+-   *dbresult_mysql* is what a successful SELECT query returns if you use the MySQL database interface (theoretically, you could mock any of the papaya database result classes, but this one works just as fine as any). See the *PapayaDatabaseAccess* explanation above for details on the *getMock(.md)* parameters. Last, we define the DB_FETCHMODE_ASSOC constant with an arbitrary value if it's not already defined. The implementation will use this constant as an argument for the database result object's *fetchRow(.md)* method that is used to read a record from the result set.
 
-After requiring the *PapayaTestCase* class, there's a static call to its *registerPapayaAutoloader( )* method. This makes sure that papaya's autoloader mechanism also works for the unit tests.
+After requiring the *PapayaTestCase* class, there's a static call to its *registerPapayaAutoloader(.md)* method. This makes sure that papaya's autoloader mechanism also works for the unit tests.
 
-The test for *getAll( )* is by far the longest and the most complex one. As we are going to read more than one record from the result set, we need to make sure, that our mock result object returns different values for each call. You can achieve this using the *atLeastOnce( )* expectation for the method call and *onConsecutiveCalls( )* for the return values, as shown above. The last return value is FALSE because we are going to call *fetchRow( )* as the condition of a while loop, thus making sure it stops when there are no more records left to read.
+The test for *getAll(.md)* is by far the longest and the most complex one. As we are going to read more than one record from the result set, we need to make sure, that our mock result object returns different values for each call. You can achieve this using the *atLeastOnce(.md)* expectation for the method call and *onConsecutiveCalls(.md)* for the return values, as shown above. The last return value is FALSE because we are going to call *fetchRow(.md)* as the condition of a while loop, thus making sure it stops when there are no more records left to read.
 
-You should be able to understand the rest of the test class if you have been following along this tutorial series up to this point. In the *getPapayaDatabaseAccessObjectFixture( )* method, we add 'getTableNames' to the array of mocked methods if it's not already present, and we expect this method to return the table name *papaya_tutorial_planets* -- it's easier to do this in the fixture because we need it for each test that uses the *PapayaDatabaseAccess* mock object.
+You should be able to understand the rest of the test class if you have been following along this tutorial series up to this point. In the *getPapayaDatabaseAccessObjectFixture(.md)* method, we add 'getTableNames' to the array of mocked methods if it's not already present, and we expect this method to return the table name *papaya_tutorial_planets* -- it's easier to do this in the fixture because we need it for each test that uses the *PapayaDatabaseAccess* mock object.
 
 Please note the *with* clause in this usage of *expects* which requires the expected method call to use the arguments you ask for (in this case, the string 'tutorial_plantes' and the boolean TRUE). This provides even more exact unit test results as you don't only expect a certain method call to happen, but also expect it to use certain argument values.
 
@@ -500,7 +500,7 @@ class PlanetDatabaseAccess extends PapayaDatabaseObject {
       $this->databaseGetTableName($this->_tablePlanets, TRUE),
       'planet_id',
       $data
-    );
+   .md);
     if ($success !== FALSE) {
       $result = TRUE;
     }
@@ -521,7 +521,7 @@ class PlanetDatabaseAccess extends PapayaDatabaseObject {
       $data,
       'planet_id',
       $planetId
-    );
+   .md);
     if ($success !== FALSE) {
       $result = TRUE;
     }
@@ -540,7 +540,7 @@ class PlanetDatabaseAccess extends PapayaDatabaseObject {
       $this->databaseGetTableName($this->_tablePlanets, TRUE),
       'planet_id',
       $planetId
-    );
+   .md);
     if ($success !== FALSE) {
       $result = TRUE;
     }
@@ -550,7 +550,7 @@ class PlanetDatabaseAccess extends PapayaDatabaseObject {
 ?>
 ~~~~
 
-All methods in this class deals with the database table *papaya_tutorial_planets*: *getById( )* tries to read a record with a given value for the *planet_id* field, *getAll( )* retrieves an array of all planets, *create( )* inserts a new record, *update( )* modifies an existing one, and *delete( )* removes a record, again based on its id. The technique used to set the return value in each method prevents you from writing too many tests: As soon as you add more than one *return* statement to a method, or use *else* for an *if* statement, you need an additional test for that method (naming them something like *testDeleteExpectingSuccess( )* and *testDeleteExpectingFailure( )*, or the like). Or you may use *data providers* as explained [here](http://www.phpunit.de/manual/3.4/en/phpunit-book.html#writing-tests-for-phpunit.data-providers) in the PHPUnit documentation to run the same test with more than one set of values, expecting different results.
+All methods in this class deals with the database table *papaya_tutorial_planets*: *getById(.md)* tries to read a record with a given value for the *planet_id* field, *getAll(.md)* retrieves an array of all planets, *create(.md)* inserts a new record, *update(.md)* modifies an existing one, and *delete(.md)* removes a record, again based on its id. The technique used to set the return value in each method prevents you from writing too many tests: As soon as you add more than one *return* statement to a method, or use *else* for an *if* statement, you need an additional test for that method (naming them something like *testDeleteExpectingSuccess(.md)* and *testDeleteExpectingFailure(.md)*, or the like). Or you may use *data providers* as explained [here](http://www.phpunit.de/manual/3.4/en/phpunit-book.html#writing-tests-for-phpunit.data-providers) in the PHPUnit documentation to run the same test with more than one set of values, expecting different results.
 
 A final word on return values: In this simple example, we just return FALSE if one of the methods does not operate successfully. For larger projects, you should consider throwing, catching, and unit-testing distinct exceptions for invalid arguments, database connection errors, and other problems.
 
@@ -789,7 +789,7 @@ class Planet {
 ?>
 ~~~~
 
-All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject( )* and lazy initialization as in *Planet::getDatabaseAccessObject( )*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules ).
+All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject(.md)* and lazy initialization as in *Planet::getDatabaseAccessObject(.md)*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules.md).
 
 Creating a connector module
 ---------------------------
@@ -798,7 +798,7 @@ To make the methods of the *Planet* class available to the content module, we ar
 
 ### Registering the connector
 
-As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](/Module_Programming_1:_Content_Modules ). Add the following XML block to the *<modules>* section of *modules.xml*:
+As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](/Module_Programming_1:_Content_Modules.md). Add the following XML block to the *<modules>* section of *modules.xml*:
 
 ~~~~ {.xml}
     <module type="connector"
@@ -814,7 +814,7 @@ Add a GUID as value of the guid attribute; the previous tutorial describes how t
 
 ### Testing and implementing the connector
 
-Usually, a connector collects the methods of all base classes in a package to make them accessible for modules. In our package, we have only got one base class, *Planet*, but nevertheless we add *Planet* or *Planets* to the method names, for example, *getPlanetById( )* instead of *getById( )* or *getAllPlanets( )* instead of *getAll( )*. This helps to easily extend the connector with other bases classes' funcionality later.
+Usually, a connector collects the methods of all base classes in a package to make them accessible for modules. In our package, we have only got one base class, *Planet*, but nevertheless we add *Planet* or *Planets* to the method names, for example, *getPlanetById(.md)* instead of *getById(.md)* or *getAllPlanets(.md)* instead of *getAll(.md)*. This helps to easily extend the connector with other bases classes' funcionality later.
 
 It's easy to write the unit test class and the connector class. As usual, let's look at the test first; it will be saved as *ConnectorTest.php* in the *tutorial/Hello* directory in the unit test directory structure:
 
@@ -906,7 +906,7 @@ class HelloConnectorTest extends PapayaTestCase {
     $helloConnectorObject->setPlanetObject($planetObject);
     $this->assertTrue(
       $helloConnectorObject->createPlanet(array('planet_name' => 'Neptune'))
-    );
+   .md);
   }
 
   /**
@@ -922,7 +922,7 @@ class HelloConnectorTest extends PapayaTestCase {
     $helloConnectorObject->setPlanetObject($planetObject);
     $this->assertTrue(
       $helloConnectorObject->updatePlanet(1, array('planet_name' => 'Mars'))
-    );
+   .md);
   }
 
   /**
@@ -1070,7 +1070,7 @@ If you want to use a connector in your module, you can load it using an instance
   $connectorObject = $pluginloader->getPluginInstance($connectorGuid, $owner);
 ~~~~
 
-where *\$owner* is the current content module and *\$connectorGuid* is a string containing the GUID of the connector. As we want to mock the connector class in order to unit-test the module using it, we need getter and setter methods for both the *base_pluginloader* and the connector instance, and additionally a *setOwner( )* method to be called by the content class. This is the modified *HelloPageBaseTest* class (we just left out the *testSetPageData( )* and *testGetPageXml( )* methods because they stay the same for now):
+where *\$owner* is the current content module and *\$connectorGuid* is a string containing the GUID of the connector. As we want to mock the connector class in order to unit-test the module using it, we need getter and setter methods for both the *base_pluginloader* and the connector instance, and additionally a *setOwner(.md)* method to be called by the content class. This is the modified *HelloPageBaseTest* class (we just left out the *testSetPageData(.md)* and *testGetPageXml(.md)* methods because they stay the same for now):
 
 ~~~~ {.php}
 <?php
@@ -1121,7 +1121,7 @@ class HelloPageTest extends PapayaTestCase {
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
   }
 
   /**
@@ -1145,7 +1145,7 @@ class HelloPageTest extends PapayaTestCase {
       $pluginloaderObject,
       '_pluginloaderObject',
       $helloPageBaseObject
-    );
+   .md);
   }
 
   /**
@@ -1168,7 +1168,7 @@ class HelloPageTest extends PapayaTestCase {
       $helloConnectorObject,
       '_helloConnectorObject',
       $helloPageBaseObject
-    );
+   .md);
   }
 
   /**
@@ -1188,14 +1188,14 @@ class HelloPageTest extends PapayaTestCase {
     $this->assertSame(
       $helloConnectorObject,
       $helloPageBaseObject->getHelloConnectorObject()
-    );
+   .md);
   }
 
   // testSetPageData() and testGetPageXml() stay the same
 }
 ~~~~
 
-*defineConstantDefaults( )* is a *PHPUnit_TestCase* method that defines a necessary constant using a default value. The *PAPAYA_DB_TBL_MODULES* is a constant containing the name of the papaya modules database table. This table is used by *base_pluginloader* to read the module by its GUID. You should understand the rest of the new tests without any trouble, so here's the new code for the *HelloPageBase* class (add it at the beginning of the class body, keeping in mind that the declaration of the *\$_data* property was already there before):
+*defineConstantDefaults(.md)* is a *PHPUnit_TestCase* method that defines a necessary constant using a default value. The *PAPAYA_DB_TBL_MODULES* is a constant containing the name of the papaya modules database table. This table is used by *base_pluginloader* to read the module by its GUID. You should understand the rest of the new tests without any trouble, so here's the new code for the *HelloPageBase* class (add it at the beginning of the class body, keeping in mind that the declaration of the *\$_data* property was already there before):
 
 ~~~~ {.php}
   /**
@@ -1271,7 +1271,7 @@ class HelloPageTest extends PapayaTestCase {
       $pluginloaderObject = $this->getPluginloaderObject();
       $this->_helloConnectorObject = $pluginloaderObject->getPluginInstance(
         'eeb42aad2491cd607c7c64bc57eae455', $this->owner
-      );
+     .md);
     }
     return $this->_helloConnectorObject;
   }
@@ -1282,11 +1282,11 @@ If you have used another GUID for your connector module, replace it. As soon as 
 Using the database functionality in the content module
 ------------------------------------------------------
 
-In the base class of our content module, we are going to use two methods from the connector: *getAllPlanets( )* to load the list of planets and *getPlanetById( )* to load a single planet. The list is used to select a planet during page configuration. Its ID is saved in page data, and when the page is displayed, the name will be retrieved by id again.
+In the base class of our content module, we are going to use two methods from the connector: *getAllPlanets(.md)* to load the list of planets and *getPlanetById(.md)* to load a single planet. The list is used to select a planet during page configuration. Its ID is saved in page data, and when the page is displayed, the name will be retrieved by id again.
 
 ### Extending the base class
 
-First, we are going to modify one method and to add another one in the *HelloBase* class. Make the following change to *testGetPageXml( )* in the *HelloPageBaseTest* class:
+First, we are going to modify one method and to add another one in the *HelloBase* class. Make the following change to *testGetPageXml(.md)* in the *HelloPageBaseTest* class:
 
 ~~~~ {.php}
   /**
@@ -1307,7 +1307,7 @@ First, we are going to modify one method and to add another one in the *HelloBas
   }
 ~~~~
 
-Now replace the existing *getPageXml( )* method in *HelloPageBase* by this one:
+Now replace the existing *getPageXml(.md)* method in *HelloPageBase* by this one:
 
 ~~~~ {.php}
   /**
@@ -1354,7 +1354,7 @@ Next up is our method to load the list of planets for the selector in the page c
     $this->assertXmlStringEqualsXmlString(
       $expectedXml,
       $helloPageBaseObject->getPlanetSelector('planet_id', 1)
-    );
+   .md);
   }
 ~~~~
 
@@ -1376,7 +1376,7 @@ Now we can implement the *HelloPageBase* method that will pass this test; again,
         '<select name="%s[%s]" class="dialogSelect dialogScale">'.LF,
         $this->_owner->paramName,
         $name
-      );
+     .md);
       foreach ($planetList as $planetId => $planetName) {
         $selected = ($planetId == $data) ? ' selected="selected"' : '';
         $result .= sprintf(
@@ -1384,7 +1384,7 @@ Now we can implement the *HelloPageBase* method that will pass this test; again,
           $planetId,
           $selected,
           $planetName
-        );
+       .md);
       }
       $result .= '</select>';
     }
@@ -1396,7 +1396,7 @@ There's nothing really new in this method to be discussed. Once again, we save o
 
 ### Adjusting the content class
 
-The last thing we need to do is make our *HelloPage* content class match the changes in the base class. Nothing substantial needs to be changed in the *getParsedData( )* method -- just add the following line behind the *\$baseObject = \$this-\>getBaseObject();* line:
+The last thing we need to do is make our *HelloPage* content class match the changes in the base class. Nothing substantial needs to be changed in the *getParsedData(.md)* method -- just add the following line behind the *\$baseObject = \$this-\>getBaseObject();* line:
 
 ~~~~ {.php}
     $baseObject->setOwner($this);
@@ -1420,15 +1420,15 @@ Now add the *planet_id* field to the definition of *\$editFields*; the complete 
       5,
       '',
       'Greetings from the new module'
-    ),
+   .md),
     'planet_id' => array(
       'Planet',
       'isNum',
       FALSE,
       'function',
       'callbackPlanetSelector'
-    )
-  );
+   .md)
+ .md);
 ~~~~
 
 The *planet_id* field uses the check type *isNum* that only allows numeric values. The field is not mandatory (*FALSE*). The field type is *function* -- this means that a callback method will be called whenever the field is encountered; papaya CMS will pass it the field name, the complete field definition array, and its current value. The next argument must be the name of this method. Before we implement it, take a look at its unit test (to be added to the end of *HelloPageTest*'s class body):
@@ -1448,11 +1448,11 @@ The *planet_id* field uses the check type *isNum* that only allows numeric value
     $this->assertEquals(
       '<select />',
       $helloPageObject->callbackPlanetSelector('planet_id', array(), 1)
-    );
+   .md);
   }
 ~~~~
 
-We're not interested in implementation details of the base class on this level, so it's enough to expect an empty XML node as a return value. And we don't need anything from the field definition array (it's not even a parameter for *HelloPageBase::getPlanetSelector( )*), so we simply use an empty array here. The method's implementation at the end of the *HelloPage* class looks like this:
+We're not interested in implementation details of the base class on this level, so it's enough to expect an empty XML node as a return value. And we don't need anything from the field definition array (it's not even a parameter for *HelloPageBase::getPlanetSelector(.md)*), so we simply use an empty array here. The method's implementation at the end of the *HelloPage* class looks like this:
 
 ~~~~ {.php}
   /**
@@ -1470,4 +1470,4 @@ We're not interested in implementation details of the base class on this level, 
   }
 ~~~~
 
-And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Kategorie:papaya CMS Entwicklung](export_de/Kategorie:papaya_CMS_Entwicklung ) [export_de/Kategorie:Entwickler](export_de/Kategorie:Entwickler )
+And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Kategorie:papaya CMS Entwicklung](export_de/Kategorie:papaya_CMS_Entwicklung.md) [export_de/Kategorie:Entwickler](export_de/Kategorie:Entwickler.md)

@@ -6,12 +6,12 @@ permalink: /Die_Seitenausgabe_in_papaya_CMS/
 Die Daten für die Seitenausgabe werden in papaya CMS durch Module aus der Datenbank ausgelesen und als XML ausgegeben. Ein Seitenmodul fungiert in diesem Fall als Schnittstelle für die Ausgabe. Die folgende Illustration stellt diesen sehr vereinfachten Vorgang vor:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Ein papaya-Modul gibt XML aus](/images/File:php-modul-zu-xml-ausgabe.png )
+[miniatur|zentriert|1000px|Ein papaya-Modul gibt XML aus](/images/File:php-modul-zu-xml-ausgabe.png)
 =======
 ![File:Php-modul-zu-xml-ausgabe.png](images/Php-modul-zu-xml-ausgabe.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
-In [:Kategorie:Wie sieht es unter der Haube aus?](/:export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? ) wird schrittweise und in einer weitaus höheren Detailstufe erklärt, wie eine Seite in papaya CMS aufgerufen und ausgegeben wird. Zunächst genügt es zu wissen, dass das Script vornehmlich Daten aus der Datenbank ausliest, verarbeitet und als XML ausgibt. Das folgende Listing stellt wiederum die auf das Wesentliche gekürzte XML-Ausgabe eines Seitenmoduls vor:
+In [:Kategorie:Wie sieht es unter der Haube aus?](/:export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md) wird schrittweise und in einer weitaus höheren Detailstufe erklärt, wie eine Seite in papaya CMS aufgerufen und ausgegeben wird. Zunächst genügt es zu wissen, dass das Script vornehmlich Daten aus der Datenbank ausliest, verarbeitet und als XML ausgibt. Das folgende Listing stellt wiederum die auf das Wesentliche gekürzte XML-Ausgabe eines Seitenmoduls vor:
 
 **Auszug aus der XML-Ausgabe eines Seitenmoduls**
 
@@ -35,15 +35,15 @@ XML-Ausgabe mit Ausgabefilter formatieren
 
 Die XML-Seitenausgabe ist nicht konzipiert worden, um sie direkt den Besuchern einer Website zu präsentieren. Es gibt Ausgabeformen, die dafür weitaus besser geeignet sind. Sie müssen das XML also in ein geeignetes Ausgabeformat umformen (transformieren). Meistens ist das eine Umformung nach (X)HTML, XML für einen RSS-Feed oder eine PDF-Ausgabe. Eine ausführliche Dokumentation zum Erstellen von Templates und Themes für die Ausgabe von Webseiten, RSS-Feeds und PDFs finden Sie im Handbuch „papaya CMS 5: Templates und Themes erstellen“.
 
-Die Technik der Wahl ist XSLT . Sie ermöglicht es, XML-Dokumente in andere Textformate umzuwandeln. Diese Aufgabe führt der XSLT-Prozessor durch. Damit der XSLT-Prozessor weiß, welche Vorlage (Template) er für eine bestimmte XML-Ausgabe verwenden soll, werden in papaya CMS Module (siehe Abbildung "Ein papaya-Modul gibt XML aus" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS ) ) mit XSLT-Templates verknüpft. Diese Verknüpfung wird in papaya CMS in Form von Ansichten hergestellt.
+Die Technik der Wahl ist XSLT . Sie ermöglicht es, XML-Dokumente in andere Textformate umzuwandeln. Diese Aufgabe führt der XSLT-Prozessor durch. Damit der XSLT-Prozessor weiß, welche Vorlage (Template) er für eine bestimmte XML-Ausgabe verwenden soll, werden in papaya CMS Module (siehe Abbildung "Ein papaya-Modul gibt XML aus" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS.md).md) mit XSLT-Templates verknüpft. Diese Verknüpfung wird in papaya CMS in Form von Ansichten hergestellt.
 
 Ansichten sind Darstellungsinstanzen von Modulen. Sie verknüpfen das Modul selbst mit einem Ausgabemodus, beispielsweise HTML , RSS oder PDF . Ein Ausgabemodus entspricht dabei einem Ausgabefilter , der für ein bestimmtes Ausgabeformat wie HTML konfiguriert ist. Für den verknüpften Ausgabemodus müssen Sie anschließend eine Templatedatei auswählen, die kompatibel mit der XML-Ausgabe des Moduls ist. Der ganze Zusammenhang wird in der folgenden Grafik deutlich:
 
 ![File:Ansichten.png](images/Ansichten.png)
 
-Im obigen Beispiel in Abbildung "Zusammenhang zwischen Ansichten, Ausgabemodi und Templates" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS ) ist die Ansicht „Standardseite“ mit den Ausgabemodi *html* und *rss* verknüpft. Für den Ausgabemodus *html* ist die Templatedatei `page_general.xsl`, für den Ausgabemodus *rss* die Datei `page_rss.xsl` ausgewählt.
+Im obigen Beispiel in Abbildung "Zusammenhang zwischen Ansichten, Ausgabemodi und Templates" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS.md) ist die Ansicht „Standardseite“ mit den Ausgabemodi *html* und *rss* verknüpft. Für den Ausgabemodus *html* ist die Templatedatei `page_general.xsl`, für den Ausgabemodus *rss* die Datei `page_rss.xsl` ausgewählt.
 
-Ein Modul kann beliebig viele benannte Darstellungsinstanzen in Form von Ansichten haben. Das bedeutet, dass Sie beliebig viele Ansichten mit dem selben Modul erzeugen können. Dies bietet sich vor allem dann an, wenn Sie die Ausgabe eines Moduls beispielsweise für Ihre Startseite ein wenig anders gestalten möchten. So ist im obigen Beispiel in Abbildung "Zusammenhang zwischen Ansichten, Ausgabemodi und Templates" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS ) eine zweite Ansicht des Moduls „Topic with image“ mit dem Namen „Spezial“ angelegt, die ebenso wie die Ansicht „Standardausgabe“ mit dem Ausgabemodus *html* verknüpft ist. In diesem Fall jedoch wurde das Template `page_special.xsl` ausgewählt.
+Ein Modul kann beliebig viele benannte Darstellungsinstanzen in Form von Ansichten haben. Das bedeutet, dass Sie beliebig viele Ansichten mit dem selben Modul erzeugen können. Dies bietet sich vor allem dann an, wenn Sie die Ausgabe eines Moduls beispielsweise für Ihre Startseite ein wenig anders gestalten möchten. So ist im obigen Beispiel in Abbildung "Zusammenhang zwischen Ansichten, Ausgabemodi und Templates" in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS.md) eine zweite Ansicht des Moduls „Topic with image“ mit dem Namen „Spezial“ angelegt, die ebenso wie die Ansicht „Standardausgabe“ mit dem Ausgabemodus *html* verknüpft ist. In diesem Fall jedoch wurde das Template `page_special.xsl` ausgewählt.
 
 Um eine Ansicht einzusetzen, verknüpfen Sie diese mit einer Seite. Anschließend konfigurieren Sie die Seite. Das Seitenmodul stellt dazu eine entsprechende Schnittstelle zur Verfügung, über die Sie je nach Modul auch Inhalte eingeben können. Anschließend können Sie sich die Seite in der Seitenvorschau anschauen und die Seite schließlich veröffentlichen. Bei der Seitenausgabe werden die verknüpften Ausgabefilter und Templates anhand des zugewiesenen Modus ausgewählt. Wird beispielsweise die Seite als `index.7.html` aufgerufen, erfolgt die Ausgabe der Seite in folgenden Schritten:
 
@@ -65,4 +65,4 @@ Nun ist schlichtes HTML nicht sonderlich ansprechend. Da Sie sicherlich darauf b
 
 Sie haben gesehen: Seitenmodule von papaya CMS geben XML aus. Ein Seitenmodul ist zudem über eine Ansicht mit einem Ausgabefilter und einem XSLT-Template verknüpft. Der Ausgabefilter wandelt die XML-Ausgabe des Moduls in ein Zielformat wie HTML um und nutzt dabei die Transformationsregeln aus dem XSLT-Template. Eine Ansicht kann dabei beliebig viele Zielformate über Ausgabemodi zugewiesen bekommen.
 
-[Kategorie:Wie funktioniert eigentlich papaya CMS?](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )
+[Kategorie:Wie funktioniert eigentlich papaya CMS?](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)

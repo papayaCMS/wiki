@@ -56,11 +56,11 @@ Wenn weniger als zehn Stück der vorliegenden Ware im Regal vorhanden sind, wird
   $this->logMsg(MSG_INFO, MSG_LOGTYPE_MODULES,
     sprintf($this->_gt('Low amount of products in stock: "%s".'), $product),
     sprintf($this->_gt('You will soon run out of "%s"s. Please order new products.'), $product)
-  );
+ .md);
 ~~~~
 
 In diesem Fall wird MSG_INFO statt MSG_WARNING verwendet. In der Nachrichtenübersicht des Systemprotokolls wird ein anderes Symbol dargestellt.
 
 Durch die unterschiedliche Gewichtung können Sie Nachrichten nach bestimmten Leveln filtern. Näheres dazu erfahren Sie in „papaya CMS 5: Handbuch für Administratoren“, Kapitel 19.
 
-[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren )
+[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)

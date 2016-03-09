@@ -303,8 +303,8 @@ $nestedFunctionsBreak = fooBar(
   bar(
     foo(
       $parameterOne, $parameterTwo, $parameterTree
-    )
-  ),
+   .md)
+ .md),
   $fooBarParameter
 );
 ?>
@@ -620,4 +620,4 @@ XSLT **local** variable and parameters names should be named using the "studly c
 </xsl:template>
 ~~~~
 
-[Kategorie:Papaya CMS Development](export_de/Kategorie:Papaya_CMS_Development ) [en:Papaya CMS Coding Standards](/en:Papaya_CMS_Coding_Standards )
+[Kategorie:Papaya CMS Development](export_de/Kategorie:Papaya_CMS_Development.md) [en:Papaya CMS Coding Standards](/en:Papaya_CMS_Coding_Standards.md)

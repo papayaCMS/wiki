@@ -19,7 +19,7 @@ $this->debug($this, $var, 'blah');
 Der folgende Screenshot stellt die Ausgabe der Debugaufrufe aus dem obigen Listing dar:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_object::debug()](/images/File:base_object_debug_beispielausgabe.png )
+[miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_object::debug()](/images/File:base_object_debug_beispielausgabe.png)
 =======
 ![File:Base_object_debug_beispielausgabe.png](images/Base_object_debug_beispielausgabe.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -28,4 +28,4 @@ Das Backtrace enthält auch die Zeilenangaben. Das macht es leicht den Programma
 
 Die Ausgabe von Objekten ist üblicherweise sehr lang. In dem Beispiel sehen Sie auch, warum es so wichtig ist, die Debugausgabe auf Livesystemen abzuschalten. Datenbank-Zugangsdaten und Informationen über die Pfadstruktur können ausgegeben werden, sodass potentielle Angreifer ohne viel Aufwand wichtige Informationen über das System erhalten würden.
 
-[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)

@@ -6,7 +6,7 @@ permalink: /Tabellenstrukturdatei_mit_papaya_CMS_erstellen/
 Wenn Sie eine Tabellenstrukturdatei erstellen möchten, müssen Sie diese nicht von Hand schreiben. Um eine neue Tabelle zu einem Modulpaket hinzuzufügen, gehen Sie wie folgt vor:
 
 1.  Legen Sie die Tabelle mit allen benötigten Feldern in der Datenbank an. Denken Sie dabei auch an die Indices.
-2.  Fügen Sie den Namen der Tabelle in die `modules.xml` ein, siehe [Tabellen in modules.xml referenzieren](/Tabellen_in_modules.xml_referenzieren ).
+2.  Fügen Sie den Namen der Tabelle in die `modules.xml` ein, siehe [Tabellen in modules.xml referenzieren](/Tabellen_in_modules.xml_referenzieren.md).
 3.  Führen Sie in der Modulverwaltung von papaya CMS den Modulscan aus. Die referenzierten Tabellen werden im Abschnitt "Paketinhalt" unter "Tabellen" aufgeführt.
 
 In der Modulverwaltung von papaya CMS ist die Tabelle im Tabellenbereich des Pakets sichtbar. Zusätzlich wird ein Infodialog angezeigt, der auf die fehlende Strukturdatei hinweist. Sie können die Tabellenstruktur über die papaya-Funktion Tabelle exportieren in der Modulverwaltung als XML-Datei speichern. Gehen Sie dazu wie folgt vor:
@@ -22,4 +22,4 @@ Wenn Sie nun in der Modulverwaltung die Tabelle anklicken, wird der Infodialog m
 
 Näheres zur Modulverwaltung erfahren Sie in „papaya CMS 5: Handbuch für Administratoren“, Kapitel 17.
 
-[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)

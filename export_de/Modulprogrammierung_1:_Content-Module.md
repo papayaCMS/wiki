@@ -3,7 +3,7 @@ title: Modulprogrammierung 1: Content-Module
 permalink: /Modulprogrammierung_1:_Content-Module/
 ---
 
--   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS ) schreibt.
+-   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS.md) schreibt.
 -   **Zielgruppe**: PHP-Entwickler
 -   **Schwierigkeitsgrad**: Fortgeschrittene
 
@@ -199,7 +199,7 @@ private function getHelloPageObjectFixture() {
 }
 ~~~~
 
-Die Methode, die wir testen und anschließend implementieren möchten, heißt *getParsedData( )*. Es handelt sich um die einzige Pflichtmethode in einem papaya-Content-Modul, die verwendet wird, um wohlgeformtes XML zu erzeugen, das mit Hilfe von XSLT-Templates in das endgültige Ausgabeformat umgewandelt wird. Da wir einen Top-down-Ansatz gewählt haben, ist die erste Implementierung dieser Methode statisch (im Sinne von festgelegt; nicht *static* im Sinne einer Klassenmethode): Wir schreiben den Test so, dass er die Rückgabe von festgelegtem XML erwartet, und implementieren die Methode dann so, dass genau dieses XML zurückgegeben wird.
+Die Methode, die wir testen und anschließend implementieren möchten, heißt *getParsedData(.md)*. Es handelt sich um die einzige Pflichtmethode in einem papaya-Content-Modul, die verwendet wird, um wohlgeformtes XML zu erzeugen, das mit Hilfe von XSLT-Templates in das endgültige Ausgabeformat umgewandelt wird. Da wir einen Top-down-Ansatz gewählt haben, ist die erste Implementierung dieser Methode statisch (im Sinne von festgelegt; nicht *static* im Sinne einer Klassenmethode): Wir schreiben den Test so, dass er die Rückgabe von festgelegtem XML erwartet, und implementieren die Methode dann so, dass genau dieses XML zurückgegeben wird.
 
 Fügen Sie die folgende Methode zur Testklasse hinzu:
 
@@ -217,9 +217,9 @@ public function testGetParsedData() {
 
 Die Namen der Testmethoden in Unit Tests müssen stets mit *test* beginnen, damit PHPUnit sie ausführt, und die Methoden müssen public sein. Die PHPDoc-Annotation *@covers* wird verwendet, um die *Code Coverage* Ihrer Unit Tests zu ermitteln -- einfach gesagt den Prozentsatz des Codes, der durch Tests abgedeckt ist. Mit Hilfe dieser Annotationen können Sie unter anderem verhindern, dass Ihre Tests andere Methoden abdecken, die von den getesteten Methoden implizit aufgerufen werden.
 
-Der wichtgiste Bestandteil von Unit Tests sind die diversen *assert...( )*-Methoden, die verwendet werden können, um die Rückgabewerte der getesteten Methoden gegen beinahe beliebige Bedingungen zu prüfen. *assertEquals( )* testet auf Gleichheit und ist eine der am häufigsten verwendeten Methoden aus der Gruppe. Bitte beachten Sie, dass es üblich ist, die oben gezeigte Reihenfolge einzuhalten: der erwartete Wert ist das erste Argument und der eigentliche, zu testende Methodenaufruf das zweite.
+Der wichtgiste Bestandteil von Unit Tests sind die diversen *assert...(.md)*-Methoden, die verwendet werden können, um die Rückgabewerte der getesteten Methoden gegen beinahe beliebige Bedingungen zu prüfen. *assertEquals(.md)* testet auf Gleichheit und ist eine der am häufigsten verwendeten Methoden aus der Gruppe. Bitte beachten Sie, dass es üblich ist, die oben gezeigte Reihenfolge einzuhalten: der erwartete Wert ist das erste Argument und der eigentliche, zu testende Methodenaufruf das zweite.
 
-Als Nächstes können Sie beginnen, Ihre *HelloPage*-Klasse zu schreiben und den Kopf der Methode *getParsedData( )* hinzufügen:
+Als Nächstes können Sie beginnen, Ihre *HelloPage*-Klasse zu schreiben und den Kopf der Methode *getParsedData(.md)* hinzufügen:
 
 ~~~~ {.php}
 <?php
@@ -294,7 +294,7 @@ Hello world!
 `FAILURES!`
 `Tests: 1, Assertions: 1, Failures: 1.`
 
-Wie Sie sehen, unterscheidet sich der erwartete Rückgabewert (der XML-Code) vom tatsächlichen Rückgabewert (gar nichts). Das heißt, dass es definitiv Zeit ist, eine statische Version von *getParsedData( )* zu implementieren, die den Test erfüllt:
+Wie Sie sehen, unterscheidet sich der erwartete Rückgabewert (der XML-Code) vom tatsächlichen Rückgabewert (gar nichts). Das heißt, dass es definitiv Zeit ist, eine statische Version von *getParsedData(.md)* zu implementieren, die den Test erfüllt:
 
 ~~~~ {.php}
   /**
@@ -342,7 +342,7 @@ Our static module is ready, but now we want to make it dynamic: The text underne
 
 Um eine Frontend-Klasse konfigurierbar zu machen, fügen Sie einfach ein öffentliches Attribut namens *\$editFields* vom Typ Array hinzu. Wenn es viel zu editieren gibt, können Sie als Alternativ *\$editGroups* verwenden, ein verschachteltes Array, in dem Sätze von Eingabefeldern auf mehreren Seiten angezeigt werden. Bleiben wir vorerst bei den klassischen *\$editFields*, da unser Modul nur ein einziges Feld erhalten soll.
 
-Fügen Sie folgenden Code zu Ihrer *HelloPage*-Klasse hinzu, direkt über dem Docblock und der Deklaration der Methode *getParsedData( )*:
+Fügen Sie folgenden Code zu Ihrer *HelloPage*-Klasse hinzu, direkt über dem Docblock und der Deklaration der Methode *getParsedData(.md)*:
 
 ~~~~ {.php}
 /**
@@ -358,7 +358,7 @@ public $editFields = array(
     5,
     '',
     'Greetings from the new module'
-  )
+ .md)
 );
 ~~~~
 
@@ -429,7 +429,7 @@ The Base class doesn't have a dedicated constructor, and it doesn't extend any o
   }
 ~~~~
 
-The first method we test and implement is called *setPageData( )*. It is used to pass the configuration data from the page class's edit fields to the Base class, and to pass other data from the unit test. This is the test for the intended method:
+The first method we test and implement is called *setPageData(.md)*. It is used to pass the configuration data from the page class's edit fields to the Base class, and to pass other data from the unit test. This is the test for the intended method:
 
 ~~~~ {.php}
   /**
@@ -443,7 +443,7 @@ The first method we test and implement is called *setPageData( )*. It is used to
   }
 ~~~~
 
-As the configuration data will be stored in a private attribute called *\$_data*, the assertion has to be done using the *assertAttributeEquals( )* method. This method takes in three parameters: The value you want to compare the attribute to, the attribute name as a string without leading \$ sign, and the object whose attribute you want to read.
+As the configuration data will be stored in a private attribute called *\$_data*, the assertion has to be done using the *assertAttributeEquals(.md)* method. This method takes in three parameters: The value you want to compare the attribute to, the attribute name as a string without leading \$ sign, and the object whose attribute you want to read.
 
 Now add the following code to the Base class, right underneath the opening curly brace of the class definition:
 
@@ -463,13 +463,13 @@ Now add the following code to the Base class, right underneath the opening curly
    }
 ~~~~
 
-Run the unit test, watch it fail, and then add the actual implementation of the *setPageData( )* method to a line bewteen its curly braces:
+Run the unit test, watch it fail, and then add the actual implementation of the *setPageData(.md)* method to a line bewteen its curly braces:
 
 ~~~~ {.php}
     $this->_data = $data;
 ~~~~
 
-Now the test should work, so you can commit your code once again. Using the same test-failure-implementation workflow, you can now implement a method called *getPageXML( )* which will be called by the page module's *getParsedData( )* method to create the page's dynamic output. Here's the test:
+Now the test should work, so you can commit your code once again. Using the same test-failure-implementation workflow, you can now implement a method called *getPageXML(.md)* which will be called by the page module's *getParsedData(.md)* method to create the page's dynamic output. Here's the test:
 
 ~~~~ {.php}
   /**
@@ -499,11 +499,11 @@ And this is the method implementation itself (but don't forget to run the test w
   }
 ~~~~
 
-The implementation is pretty straightforward. Please note the static *papaya_strings::escapeHTMLChars( )* method call, though. It makes sure that HTML charactars are escaped in strings that are supposed to be plain text. It should be used whereever plain text user input or configuration data are returned for output in both frontend and backend. *LF* is a system-wide papaya CMS constant that creates a line break.
+The implementation is pretty straightforward. Please note the static *papaya_strings::escapeHTMLChars(.md)* method call, though. It makes sure that HTML charactars are escaped in strings that are supposed to be plain text. It should be used whereever plain text user input or configuration data are returned for output in both frontend and backend. *LF* is a system-wide papaya CMS constant that creates a line break.
 
-Now our Base class is ready, and we can refactor the content class to make use of it. First, we implement a method called *setBaseObject( )* to set the instance of the Base class to be used. This is called *dependency injection*. It can be used both for unit testing (to replace the real object by a so-called mock object that behaves just like we want it to) and to simply change implementation details later by inserting another object.
+Now our Base class is ready, and we can refactor the content class to make use of it. First, we implement a method called *setBaseObject(.md)* to set the instance of the Base class to be used. This is called *dependency injection*. It can be used both for unit testing (to replace the real object by a so-called mock object that behaves just like we want it to) and to simply change implementation details later by inserting another object.
 
-As usual, we write the test first (note that we switch back to the *HelloPageTest* class now). First, add one more *require_once( )* statement underneath the others:
+As usual, we write the test first (note that we switch back to the *HelloPageTest* class now). First, add one more *require_once(.md)* statement underneath the others:
 
 ~~~~ {.php}
 require_once(PAPAYA_INCLUDE_PATH.'modules/beta/tutorial/Hello/Page/Base.php');
@@ -523,7 +523,7 @@ We won't use a real instance of this class, but if the definition is present, th
   }
 ~~~~
 
-Please note that we use *assertAttributeSame( )* instead of *assertAttributeEquals( )* this time. The parameter syntax is the same, but as we're dealing with an object reference rather than a plain value, it's appropriate to test for strict object identity.
+Please note that we use *assertAttributeSame(.md)* instead of *assertAttributeEquals(.md)* this time. The parameter syntax is the same, but as we're dealing with an object reference rather than a plain value, it's appropriate to test for strict object identity.
 
 Before you implement the method, add the following attribute declaration to the start of the class body:
 
@@ -548,9 +548,9 @@ And here's the method's implementation:
   }
 ~~~~
 
-The counterpart of the *setBaseObject( )* method is *getBaseObject( )* which instantiates the *HelloPageBase* class only if necessary, i.e. if the object has not been set using *setBaseObject( )* before. This is another important technique called *lazy initialization*. Along with dependency injection, it's one of the key patterns of test-driven, object-oriented software design.
+The counterpart of the *setBaseObject(.md)* method is *getBaseObject(.md)* which instantiates the *HelloPageBase* class only if necessary, i.e. if the object has not been set using *setBaseObject(.md)* before. This is another important technique called *lazy initialization*. Along with dependency injection, it's one of the key patterns of test-driven, object-oriented software design.
 
-Write the following test for the *getBaseObject( )* method:
+Write the following test for the *getBaseObject(.md)* method:
 
 ~~~~ {.php}
   /**
@@ -580,7 +580,7 @@ The implementation of the method looks as follows:
   }
 ~~~~
 
-As everything is up and running now, we only need to reimplement the *getParsedData( )* method to pass the configuration data to the Base object and return whatever the Base object's *getPageXML( )* method returns. Here's the revised test:
+As everything is up and running now, we only need to reimplement the *getParsedData(.md)* method to pass the configuration data to the Base object and return whatever the Base object's *getPageXML(.md)* method returns. Here's the revised test:
 
 ~~~~ {.php}
   /**
@@ -600,9 +600,9 @@ As everything is up and running now, we only need to reimplement the *getParsedD
   }
 ~~~~
 
-Here's one of the virtues of dependency injection in action: We create our own Base object and model it to behave however we like, and then set it using the *setBaseObject( )* method. To create this custom object, we call PHPUnit's *getMock( )* method with the class name (there are more, optional parameters for *getMock( )* like an array of method names, but we don't need them because we required the original class). The *expects( )* structure defines the intended return value for a given method -- in this case, we expect the method *getPageXML( )* of our Base object to be called exactly once, returning an XML string value. Within the tested method, the mock object will return the expected value, and the test will fail if the method is not called exactly once.
+Here's one of the virtues of dependency injection in action: We create our own Base object and model it to behave however we like, and then set it using the *setBaseObject(.md)* method. To create this custom object, we call PHPUnit's *getMock(.md)* method with the class name (there are more, optional parameters for *getMock(.md)* like an array of method names, but we don't need them because we required the original class). The *expects(.md)* structure defines the intended return value for a given method -- in this case, we expect the method *getPageXML(.md)* of our Base object to be called exactly once, returning an XML string value. Within the tested method, the mock object will return the expected value, and the test will fail if the method is not called exactly once.
 
-After we've written the test, we can reimplement the *getParsedData( )* method using the Base object:
+After we've written the test, we can reimplement the *getParsedData(.md)* method using the Base object:
 
 ~~~~ {.php}
   /**
@@ -618,8 +618,8 @@ After we've written the test, we can reimplement the *getParsedData( )* method u
   }
 ~~~~
 
-One last thing that needs to be explained here is the *setDefaultData( )* method in content modules: If edit fields have got default values (the optional last element in their arrays), this call sets all elements in the *\$this-\>data* attribute to those default values unless a special value has been set in the page configuration.
+One last thing that needs to be explained here is the *setDefaultData(.md)* method in content modules: If edit fields have got default values (the optional last element in their arrays), this call sets all elements in the *\$this-\>data* attribute to those default values unless a special value has been set in the page configuration.
 
 Run the test to see it pass. Aftwards, you can use the page's *Content* tab to enter an arbitrary message. Test the output using the *Preview* section, and your custom content will be displayed. Congratulations -- you have written your first papaya CMS module including dynamic data, and along the way you should have learned two or three things about test-driven development if you're not already familiar with it.
 
-[Kategorie:papaya CMS](export_de/Kategorie:papaya_CMS ) [export_de/Kategorie:papaya CMS Development](export_de/Kategorie:papaya_CMS_Development ) [en:papaya Module Development](/en:papaya_Module_Development )
+[Kategorie:papaya CMS](export_de/Kategorie:papaya_CMS.md) [export_de/Kategorie:papaya CMS Development](export_de/Kategorie:papaya_CMS_Development.md) [en:papaya Module Development](/en:papaya_Module_Development.md)

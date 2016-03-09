@@ -69,4 +69,4 @@ Das Template für die Basisstruktur ruft noch das Hilfstemplate `toc.items` auf,
 ...
 ~~~~
 
-[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen )
+[Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen.md)

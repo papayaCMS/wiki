@@ -31,4 +31,4 @@ Wenn Sie ein eigenes PDF-Template erstellen möchten, müssen Sie in Ihrem Templ
 1.  Im Templateverzeichnis das Unterverzeichnis `/pdf/`
 2.  Innerhalb von `/pdf/` das Verzeichnis `/template/` mit der PDF-Musterdatei
 
-[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md)

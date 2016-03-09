@@ -113,12 +113,12 @@ function addSticker($collectionId, &$data) {
     'sticker_text'  => (string)$data['sticker_text'],
     'sticker_image' => (string)$data['sticker_image'],
     'sticker_authr' => (string)$data['sticker_author'],
-  );
+ .md);
   $stickerId = $this->databaseInsertRecord(
     $this->tableSticker,
     'sticker_id',
     $data
-  );
+ .md);
   if ($stickerId) {
     return $stickerId;
   }
@@ -135,12 +135,12 @@ function addCollection($title, $description) {
   $data = array(
     'collection_title'       => (string)$title,
     'collection_description' => (string)$description,
-  );
+ .md);
   $collectionId = $this->databaseInsertRecord(
     $this->tableCollections,
     'collection_id',
     $data
-  );
+ .md);
   if ($collectionId) {
     return $collectionId;
   }
@@ -163,10 +163,10 @@ function updateSticker($collectionId, $stickerId, &$data) {
       'sticker_text'   => $data['sticker_text'],
       'sticker_image'  => $data['sticker_image'],
       'sticker_author' => $data['sticker_author'],
-    );
+   .md);
     $condition = array(
       'sticker_id' => $stickerId,
-    );
+   .md);
     return (FALSE !== $this->databaseUpdateRecord($this->tableSticker, $data, $condition));
   }
 }
@@ -182,13 +182,13 @@ function updateCollection($collectionId, $title, $description) {
     $data = array(
       'collection_title'       => (string)$title,
       'collection_description' => (string)$description,
-    );
+   .md);
     $condition = array(
       'collection_id' => $this->params['col_id'],
-    );
+   .md);
     return (FALSE !== $this->databaseUpdateRecord(
       $this->tableCollections, $data, $condition)
-    );
+   .md);
   }
 }
 ~~~~
@@ -221,7 +221,7 @@ function deleteCollection($collectionId) {
     if (FALSE !== $this->databaseDeleteRecord($this->tableSticker, $condition)) {
       return (FALSE !== $this->databaseDeleteRecord(
         $this->tableCollections, $condition)
-      );
+     .md);
     }
   }
 }
@@ -255,7 +255,7 @@ function getCollections() {
 }
 ~~~~
 
-Die Rückgabe von `base_db::databaseQueryFmt()` ist eine Instanz von `dbresult_base` (in `system/db/base.php` ), die ein einfaches Arbeiten mit der Ergebnismenge erlaubt. Verwenden Sie `dbresult_base::fetchRow()` um den nächsten Datensatz aus dem Ergebnis zu holen. Der Parameter DB_FETCHMODE_ASSOC bewirkt, dass der Feldname als Schlüssel des Ergebnisarrays verwendet wird. Der Standardwert der Parameters, DB_FETCHMODE_DEFAULT , bewirkt, dass die Schlüssel durchnummeriert werden, in der Reihenfolge der Feldnamen im SQL-Befehl.
+Die Rückgabe von `base_db::databaseQueryFmt()` ist eine Instanz von `dbresult_base` (in `system/db/base.php`.md), die ein einfaches Arbeiten mit der Ergebnismenge erlaubt. Verwenden Sie `dbresult_base::fetchRow()` um den nächsten Datensatz aus dem Ergebnis zu holen. Der Parameter DB_FETCHMODE_ASSOC bewirkt, dass der Feldname als Schlüssel des Ergebnisarrays verwendet wird. Der Standardwert der Parameters, DB_FETCHMODE_DEFAULT , bewirkt, dass die Schlüssel durchnummeriert werden, in der Reihenfolge der Feldnamen im SQL-Befehl.
 
 Beispiel für eine Rückgabe der Methode `getCollections()`:
 
@@ -267,12 +267,12 @@ array(
     'collection_id'          => 1,
     'collection_title'       => 'meine Sammlung',
     'collection_description' => 'einige tolle Zitate',
-  ),
+ .md),
   2 => array(
     'collection_id'          => 2,
     'collection_title'       => 'lustige Bilder',
     'collection_description' => 'witzige Bilder, die ich im Internet gefunden habe',
-  ),
+ .md),
 );
 ~~~~
 
@@ -319,7 +319,7 @@ array(
     'sticker_text'   => 'Exploits of a Mom',
     'sticker_image'  => '263d7b3d1e0fbac620d0c5c634bcb2ed',
     'sticker_author' => 'xkcd',
-  ),
+ .md),
   2 => array(
     'sticker_id'     => 2,
     'collection_id'  => 1,
@@ -327,7 +327,7 @@ array(
 we have three benefits: freedom of speech, freedom of thought, and the wisdom never to use either.',
     'sticker_image'  => '',
     'sticker_author' => 'Mark Twain',
-  ),
+ .md),
 );
 ~~~~
 
@@ -380,8 +380,8 @@ function getRandomSticker($collectionId) {
 }
 ~~~~
 
-Der einzige Parameter `$collectionId` der Methode ist die ID der Sammlung, zu der der Sticker gehört. Mit der Methode `base_db::databaseGetSQLSource()` wird die DBMS-spezifische Variante der Zufallsfunktion ausgelesen. Bei MySQL ist der Rückgabewert `RAND()`. Übergeben Sie der Methode `base_db::databaseQueryFmt()` als dritten Parameter (maximale Anzahl der angeforderten Datensätze) die Zahl 1. Dadurch wird die Rückgabe auf einen Datensatz ( `LIMIT 1` ) beschränkt.
+Der einzige Parameter `$collectionId` der Methode ist die ID der Sammlung, zu der der Sticker gehört. Mit der Methode `base_db::databaseGetSQLSource()` wird die DBMS-spezifische Variante der Zufallsfunktion ausgelesen. Bei MySQL ist der Rückgabewert `RAND()`. Übergeben Sie der Methode `base_db::databaseQueryFmt()` als dritten Parameter (maximale Anzahl der angeforderten Datensätze) die Zahl 1. Dadurch wird die Rückgabe auf einen Datensatz ( `LIMIT 1`.md) beschränkt.
 
 Damit ist die Klasse `base_stickers` vollständig, sodass dem Einsatz im Administrationsmodul nichts mehr im Wege steht.
 
-[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )
+[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)

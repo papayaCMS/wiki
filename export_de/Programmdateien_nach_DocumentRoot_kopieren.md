@@ -28,4 +28,4 @@ Unter Linux oder Unix können Sie folgendes elegante Kommando in die Konsole ein
 
 Der Streameditor sed liest die Templatedatei `htaccess.tpl` ein und führt den angegebenen regulären Ausdruck aus. Der Ausgabestrom wird anschließend in eine Textdatei umgeleitet, die direkt mit dem passenden Namen im DocumentRoot angelegt wird. Näheres zu sed erfahren Sie, wenn Sie „man sed“ in die Konsole eingeben.
 
-[Kategorie:papaya CMS installieren und konfigurieren](export_de/Kategorie:papaya_CMS_installieren_und_konfigurieren )
+[Kategorie:papaya CMS installieren und konfigurieren](export_de/Kategorie:papaya_CMS_installieren_und_konfigurieren.md)

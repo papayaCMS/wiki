@@ -16,6 +16,6 @@ Um die Boxenausgabe im Default-Template zu unterdrücken, müssen Sie die `page_
 ...
 ~~~~
 
-Weitere Elemente lassen sich einfach über CSS ausblenden, siehe [Druckfreundliches CSS schreiben](/Druckfreundliches_CSS_schreiben ).
+Weitere Elemente lassen sich einfach über CSS ausblenden, siehe [Druckfreundliches CSS schreiben](/Druckfreundliches_CSS_schreiben.md).
 
-[Kategorie:Print-Templates schreiben](export_de/Kategorie:Print-Templates_schreiben )
+[Kategorie:Print-Templates schreiben](export_de/Kategorie:Print-Templates_schreiben.md)

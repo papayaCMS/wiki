@@ -11,4 +11,4 @@ Um das Template für die Sitemap-Ausgabe zu installieren, gehen Sie wie folgt vo
 
 Nachdem Sie die Sitemap-Datei beim Betreiber Ihrer Suchmaschine registriert haben, kann die Suchmaschine Ihre Seiten viel effizienter indizieren und auf dem aktuellen Stand bleiben.
 
-[Kategorie:Sitemap-Template installieren und der Suchmaschine bekannt machen](export_de/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen )
+[Kategorie:Sitemap-Template installieren und der Suchmaschine bekannt machen](export_de/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md)

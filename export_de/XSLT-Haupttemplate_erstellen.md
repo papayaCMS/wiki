@@ -17,11 +17,11 @@ Grundlegende Schritte beim Erstellen eines Templates
 
 Um ein XSLT-Template für papaya CMS zu erstellen, sind folgende Schritte notwendig:
 
-1.  Legen Sie einen Ordner mit der notwendigen Verzeichnisstruktur an. Näheres zur Verzeichnisstruktur erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur ). Dazu können Sie wie folgt vorgehen:
+1.  Legen Sie einen Ordner mit der notwendigen Verzeichnisstruktur an. Näheres zur Verzeichnisstruktur erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur.md). Dazu können Sie wie folgt vorgehen:
     1.  Sie legen die notwendigen Verzeichnisse selbst an. Dieser Schritt ist notwendig, wenn Sie alle notwendigen Templates selbst erstellen möchten.
     2.  Sie kopieren das Verzeichnis `default-xhtml/` des papaya-Demo-Templates und benennen es um. Dieser Schritt ist empfohlen, wenn Sie die XSLT-Templates aus dem Demo-Template anpassen wollen.
 
-2.  Erstellen Sie das Hauptstylesheet für die Seite ( `page_main.xsl` ), die von allen anderen Seitenstylesheets importiert wird.
+2.  Erstellen Sie das Hauptstylesheet für die Seite ( `page_main.xsl`.md), die von allen anderen Seitenstylesheets importiert wird.
     1.  Wenn Sie die Templates sebst erstellen: Legen Sie in diesem Stylesheet ein Template an, dass das HTML-Grundgerüst ausgibt. Für Boxbereiche sowie für den Content-Bereich sollten entsprechende Templates aufgerufen werden.
     2.  Wenn Sie das Demo-Template überladen: Überladen Sie in diesem Stylesheet das Template "page" sowie alle weiteren abhängigen Basistemplates, die Sie benutzen möchten.
 
@@ -33,7 +33,7 @@ Verzeichnisstruktur anlegen
 
 Legen Sie im Ordner `papaya-data/templates/` einen Unterordner für Ihr Template an. In dieses Verzeichnis können Sie alle Unterverzeichnisse des Demo-Templates, die innerhalb von default-xhtml/ kopieren
 
-Dieser Ordner, beispielsweise `mein-Templateset/`, muss unbedingt ein Verzeichnis enthalten, in das alle von Ihnen erstellten Website-Templates eingefügt werden. Im Default-Template hat dieses Verzeichnis den Namen `html/` (Näheres zur Verzeichnisstruktur des Default-Templates erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur ).). Aus Gründen der Übersichtlichkeit sollten Sie sich an die vorgegebene Namenskonvention halten und das Verzeichnis für die Webseiten ebenso `html/` nennen. Die Verzeichnisstruktur innerhalb von `papaya-data/template/mein-Templateset/` hat dann folgende Verzeichnisstruktur:
+Dieser Ordner, beispielsweise `mein-Templateset/`, muss unbedingt ein Verzeichnis enthalten, in das alle von Ihnen erstellten Website-Templates eingefügt werden. Im Default-Template hat dieses Verzeichnis den Namen `html/` (Näheres zur Verzeichnisstruktur des Default-Templates erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur.md).). Aus Gründen der Übersichtlichkeit sollten Sie sich an die vorgegebene Namenskonvention halten und das Verzeichnis für die Webseiten ebenso `html/` nennen. Die Verzeichnisstruktur innerhalb von `papaya-data/template/mein-Templateset/` hat dann folgende Verzeichnisstruktur:
 
 _functions
 Standard-Templates zum Formatieren und Verarbeiten von Strings.
@@ -89,7 +89,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     </xsl:stylesheet>
     ~~~~
 
-    Eine Besonderheit des Templates ist der Kommentar direkt unterhalb des `<xsl:stylesheet>` -Elements. Die Kommentarzeile enthält eine kommaseparierte Liste mit den Namen der Seitenmodule, die durch dieses Template unterstützt werden. Näheres dazu erfahren Sie in [Modulunterstützung des XSLT-Templates festlegen](/Modulunterstützung_des_XSLT-Templates_festlegen ).
+    Eine Besonderheit des Templates ist der Kommentar direkt unterhalb des `<xsl:stylesheet>` -Elements. Die Kommentarzeile enthält eine kommaseparierte Liste mit den Namen der Seitenmodule, die durch dieses Template unterstützt werden. Näheres dazu erfahren Sie in [Modulunterstützung des XSLT-Templates festlegen](/Modulunterstützung_des_XSLT-Templates_festlegen.md).
 
 3.  Fügen Sie nun die Import-Deklarationen für externe Stylesheetdateien ein: **Import-Deklarationen in page_main.xsl einfügen**
     ~~~~ {.xml}
@@ -100,7 +100,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
 
     Die einzige zu importierende Stylesheet-Datei ist `base/defaults.xsl`.
 
-4.  Fügen Sie nun die XSLT-Parameter ein, über die die Template-Engine von papaya CMS vielfältige Informationen wie Pfadangaben für Theme und JavaScript einfügt (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl ) ): **XSLT-Parameter (papaya CMS) einfügen**
+4.  Fügen Sie nun die XSLT-Parameter ein, über die die Template-Engine von papaya CMS vielfältige Informationen wie Pfadangaben für Theme und JavaScript einfügt (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (papaya CMS) einfügen**
     ~~~~ {.xml}
     ...
     <!--
@@ -142,7 +142,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     ...
     ~~~~
 
-5.  Fügen Sie nun die XSLT-Parameter ein, die in den Templates des Default-Templates benutzt werden (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl ) ): **XSLT-Parameter (Template) einfügen**
+5.  Fügen Sie nun die XSLT-Parameter ein, die in den Templates des Default-Templates benutzt werden (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (Template) einfügen**
     ~~~~ {.xml}
     ...
     <!--
@@ -208,7 +208,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     ...
     ~~~~
 
-    Wie Sie in Beispiel "HTML-Grundgerüst einfügen (Head-Element)" in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen ) sehen können, wird der Seitentitel über den Wert im Parameter \$PAGE_TITLE in die Seitenausgabe eingefügt. Der gesamte Inhalt des `<head>` -Elements wird über das Template mit dem Namen `html-head` erzeugt, siehe [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl ).
+    Wie Sie in Beispiel "HTML-Grundgerüst einfügen (Head-Element)" in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen.md) sehen können, wird der Seitentitel über den Wert im Parameter \$PAGE_TITLE in die Seitenausgabe eingefügt. Der gesamte Inhalt des `<head>` -Elements wird über das Template mit dem Namen `html-head` erzeugt, siehe [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl.md).
 
 7.  Fahren Sie mit dem Body-Element fort. Sie fügen zunächst die HTML-Elemente für den Content-Bereich ein: '''Template-Aufrufe am Anfang des
     <body>
@@ -227,7 +227,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     ...
     ~~~~
 
-    In der ersten Zeile wird das Template `accessibility-navigation` aufgerufen. Dieses Template erzeugt eine Navigation, die für Screenreader gedacht ist. Die entsprechenden HTML-Elemente sind dabei per CSS „unsichtbar“ gestellt. Näheres zu diesesm Template erfahren Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl ). Mit dem zweiten Template-Aufruf `header` wird das XSLT-Template für den Seitenkopf aufgerufen, siehe [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl ). Mit den zwei folgenden Variablen wird ermittelt, ob die Navigationsspalte sowie die rechte Spalte angezeigt werden sollen. Es wird getestet, ob die Seite Boxen für die Navigation ( `hasNavigation` ) enthält und der XSLT-Parameter `DISABLE_NAVIGATION_COLUMN` auf `false` gestellt ist. Für die Variable `hasAdditional` wird überprüft, ob die Seite Boxen für die rechte Spalte enthält und ob die Variable `DISABLE_ADDITIONAL_COLUMN` auf `false` gestellt ist. Die Variablen erhalten jeweils den Wert `true`, wenn die Spalten dargestellt werden können.
+    In der ersten Zeile wird das Template `accessibility-navigation` aufgerufen. Dieses Template erzeugt eine Navigation, die für Screenreader gedacht ist. Die entsprechenden HTML-Elemente sind dabei per CSS „unsichtbar“ gestellt. Näheres zu diesesm Template erfahren Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl.md). Mit dem zweiten Template-Aufruf `header` wird das XSLT-Template für den Seitenkopf aufgerufen, siehe [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl.md). Mit den zwei folgenden Variablen wird ermittelt, ob die Navigationsspalte sowie die rechte Spalte angezeigt werden sollen. Es wird getestet, ob die Seite Boxen für die Navigation ( `hasNavigation`.md) enthält und der XSLT-Parameter `DISABLE_NAVIGATION_COLUMN` auf `false` gestellt ist. Für die Variable `hasAdditional` wird überprüft, ob die Seite Boxen für die rechte Spalte enthält und ob die Variable `DISABLE_ADDITIONAL_COLUMN` auf `false` gestellt ist. Die Variablen erhalten jeweils den Wert `true`, wenn die Spalten dargestellt werden können.
 
 8.  Anschließend wird das zentrale Seiten-HTML erzeugt. Das `<div>` -Element in Zeile 6 erhält über die `<xsl:attribute>` -Anweisung ein passendes Layout-Attribut, je nachdem, ob die linke und rechte Spalte oder beide aktiviert worden sind: **HTML-Grundgerüst einfügen (Body-Element)**
     ~~~~ {.xml}
@@ -296,7 +296,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     ...
     ~~~~
 
-    `<div class="pageBackground">`: Alle Boxen aus der Boxgruppe `navigation` werden mit dem generischen Template `box-group` in die Seitenausgabe eingefügt, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl ). Dies erfolgt allerdings nur dann, wenn die genannte Boxgruppe entsprechende Boxen enthält. `<div id="pageContent">`: Enthält die Box mit der Brotkrümelnavigation (Boxgruppe `ariadne` ) sowie alle Boxen, die über dem Content-Bereich (Boxgruppe `before-content` ) dargestellt werden sollen. Die Boxen werden über das Templa `box-group` eingebunden, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl ). `<div id="content">`: Dieses Element enthält den zentralen Content-Bereich der Seite. In diesem Element wird das Template content-area aufgerufen, das die Inhalte des Seitenmoduls einfügt, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl ). Unterhalb des `content` -Elements werden Boxen aus der Boxgruppe `after-content` eingefügt. Das `<div>` -Element mit der ID `pageContent` wird anschließend abgeschlossen. Anschließend wird in einem <xsl:if>-Element getestet, ob die Variable `$hasAdditional` den Wahrheitswert `true` besitzt. Ist dies der Fall, werden die Boxen für die rechte Spalte ( `additional` ) ausgegeben.
+    `<div class="pageBackground">`: Alle Boxen aus der Boxgruppe `navigation` werden mit dem generischen Template `box-group` in die Seitenausgabe eingefügt, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl.md). Dies erfolgt allerdings nur dann, wenn die genannte Boxgruppe entsprechende Boxen enthält. `<div id="pageContent">`: Enthält die Box mit der Brotkrümelnavigation (Boxgruppe `ariadne`.md) sowie alle Boxen, die über dem Content-Bereich (Boxgruppe `before-content`.md) dargestellt werden sollen. Die Boxen werden über das Templa `box-group` eingebunden, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl.md). `<div id="content">`: Dieses Element enthält den zentralen Content-Bereich der Seite. In diesem Element wird das Template content-area aufgerufen, das die Inhalte des Seitenmoduls einfügt, siehe [Templates und Parameter in ./html/base/base.xsl](/Templates_und_Parameter_in_./html/base/base.xsl.md). Unterhalb des `content` -Elements werden Boxen aus der Boxgruppe `after-content` eingefügt. Das `<div>` -Element mit der ID `pageContent` wird anschließend abgeschlossen. Anschließend wird in einem <xsl:if>-Element getestet, ob die Variable `$hasAdditional` den Wahrheitswert `true` besitzt. Ist dies der Fall, werden die Boxen für die rechte Spalte ( `additional`.md) ausgegeben.
 
 9.  Im letzten Schritt wird das HTML für die Fußzeile der Seite ausgegeben: **HTML-Grundgerüst einfügen (Fußzeile)**
     ~~~~ {.xml}
@@ -308,7 +308,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     </html>
     ~~~~
 
-    Das restliche HTML wird ausschließlich durch weitere Templates erzeugt: Das Template `footer` gibt die Fußleiste der Seite aus. Näheres zu diesem Template erfahren Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl ). Das Template `float-fix`, das an mehreren Stellen ausgegeben wird, gibt ein speziell formatiertes Element aus, das den Textumfluss auf `none` stellt. Mit dem Template `page-scripts-lazy` werden alle JavaScript-Dateien in die Seite eingebunden, die durch andere Seitenmodule eingebunden worden sind. Näheres zu diesem Template erfahen Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl ).
+    Das restliche HTML wird ausschließlich durch weitere Templates erzeugt: Das Template `footer` gibt die Fußleiste der Seite aus. Näheres zu diesem Template erfahren Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl.md). Das Template `float-fix`, das an mehreren Stellen ausgegeben wird, gibt ein speziell formatiertes Element aus, das den Textumfluss auf `none` stellt. Mit dem Template `page-scripts-lazy` werden alle JavaScript-Dateien in die Seite eingebunden, die durch andere Seitenmodule eingebunden worden sind. Näheres zu diesem Template erfahen Sie in [Templates in ./html/base/defaults.xsl](/Templates_in_./html/base/defaults.xsl.md).
 
 10. Die komplette Stylesheetdatei sieht wie folgt aus: **Die komplette Stylesheetdatei page_main.xsl**
     ~~~~ {.xml}
@@ -509,4 +509,4 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
 
 Sie können nun für jedes andere Boxmodul so vorgehen, wie dies im obigen Beispiel beschrieben worden ist.
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)

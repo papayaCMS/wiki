@@ -7,12 +7,12 @@ Der grundliegende Aufbau der Webseite wird im Demotemplate von einem zentralen X
 
 Im zentralen Content-Bereich der Seite wird der eigentliche Seiteninhalt ausgegeben. Da sich jedoch die XML-Ausgabe der Seiten je nach Seitenmodul unterscheidet, wird im Haupttemplate ein entsprechendes Template für das Seitenmodul aufgerufen. Dieses Template wandelt das XML für den Content-Bereich der Seite in das Zielformat um.
 
-Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XSLT-Datei erstellt werden. Diese XSLT-Datei importiert das zentrale XSLT-Dokument mit dem Template für das HTML-Grundgerüst und überlagert das XSLT-Template für den Content-Bereich der Seite ( `content_area` ). Auf diese Weise muss man nicht für jedes Seitenmodul das komplette HTML-Grundgerüst nachbauen, da man sich lediglich auf den Content-Bereich konzentrieren kann.
+Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XSLT-Datei erstellt werden. Diese XSLT-Datei importiert das zentrale XSLT-Dokument mit dem Template für das HTML-Grundgerüst und überlagert das XSLT-Template für den Content-Bereich der Seite ( `content_area`.md). Auf diese Weise muss man nicht für jedes Seitenmodul das komplette HTML-Grundgerüst nachbauen, da man sich lediglich auf den Content-Bereich konzentrieren kann.
 
 <<<<<<< HEAD
 Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
 
-[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png )
+[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png)
 
 =======
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -32,7 +32,7 @@ Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die S
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png )
+[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png)
 
 =======
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -40,4 +40,4 @@ Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In di
 
 Beim Aufruf des Ausgabefilters werden im XSLT-Prozessor zudem alle notwendigen Parameter mit Angaben für das Theme-Verzeichnis und für weitere Ressourcen gesetzt. Wenn die Seite mit Boxen verknüpft ist, wird vorher das XML von allen verknüpften Boxen durch den Ausgabefilter in das Zielformat umgewandelt und die HTML-Ausgabe der Boxen in CDATA-Abschnitte des Seiten-XML eingebunden. Erst dann kann das Template der Seite aufgerufen werden.
 
-[Kategorie:Das Vorlagenkonzept in papaya CMS](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )
+[Kategorie:Das Vorlagenkonzept in papaya CMS](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md)

@@ -6,7 +6,7 @@ permalink: /Anwendung_als_Paket_ausliefern/
 Um ein papaya-Modul oder eine ganze Anwendung als Paket auszuliefern, gehen Sie wie folgt vor:
 
 1.  Erstellen Sie ein spezielles Exportverzeichnis mit der kompletten Verzeichnisstruktur, in das die Dateien auf dem Zielsystem installiert werden sollen. Der Name des Exportverzeichnisses sollte dem Format <Modulname>-<Version>.<Unterversion> entsprechen, beispielsweise `example-module-0.1`.
-2.  In dieses Exportverzeichnis kopieren Sie die Dateien Ihres Pakets. Sofern Sie ein Versionsverwaltungssystem verwenden, entfernen Sie unbedingt alle von diesem System erstellten Metadaten (z.B. die `.svn` -Verzeichnisse ). Versionsverwaltungssysteme wie Subversion bieten auch Exportfunktionen an, die keine Metadaten erstellen.
+2.  In dieses Exportverzeichnis kopieren Sie die Dateien Ihres Pakets. Sofern Sie ein Versionsverwaltungssystem verwenden, entfernen Sie unbedingt alle von diesem System erstellten Metadaten (z.B. die `.svn` -Verzeichnisse.md). Versionsverwaltungssysteme wie Subversion bieten auch Exportfunktionen an, die keine Metadaten erstellen.
 3.  Fügen Sie dem Paket eine Datei mit den Lizenzangaben bei. Für papaya CMS gilt die GPL 2.
 4.  Wenn Ihr Paket Seiten- oder Boxmodule enthält, sollten Sie Beispieltemplates beifügen. Diese Templates können durch die Nutzer einfach an die eigene Webseitenvorlage angepasst werden.
 5.  Legen Sie Ihrem Programmpaket auch eine `README.txt` bei. Die `README.txt` ist eine Textdatei, in der Sie Installationsanweisungen für den Nutzer angeben.
@@ -37,4 +37,4 @@ Das folgende Listing stellt dar, wie Sie das Paket mit dem Packprogramm `zip` er
 
     <nowiki>$ zip -r example-module-0.1.zip example-module-0.1</nowiki>
 
-[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)

@@ -11,4 +11,4 @@ Das XSLT-Template für die Ausgabe der Sitemap besteht aus folgenden Templates:
 2.  Das Basistemplate, das den Hostnamen in einer Variablen speichert und das Wurzelelement `<urlset>` definiert.
 3.  Ein Template für die `<mapitem>` -Elemente aus dem Quelldokument. Das Template ruft sich solange selbst rekursiv auf, bis alle `<mapitem>` -Elemente in `<url>` -Tags überführt worden sind.
 
-[Kategorie:Sitemap erstellen](export_de/Kategorie:Sitemap_erstellen )
+[Kategorie:Sitemap erstellen](export_de/Kategorie:Sitemap_erstellen.md)

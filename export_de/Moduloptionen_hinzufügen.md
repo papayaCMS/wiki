@@ -21,7 +21,7 @@ var $pluginOptionFields = array(
 
 Wenn Sie in der Modulverwaltung das entsprechende Modul auswählen, stehen Ihnen die Moduloptionen unter dem Reiter Optionen zur Verfügung:
 
-[miniatur|zentriert|1000px|Konfiguration von Moduloptionen im Backend](/images/File:moduloptionen-konfigurieren.png )
+[miniatur|zentriert|1000px|Konfiguration von Moduloptionen im Backend](/images/File:moduloptionen-konfigurieren.png)
 
 Und so greifen Sie auf den konfigurierten Wert im Modul zu:
 
@@ -36,4 +36,4 @@ $value            = $moduleOptions['MY_VALUE'];
 
 Aus dem Schlüsselwort `my_value` ist beim Laden `MY_VALUE` geworden. Dadurch lassen sich Moduloptionen besser von normalen Werten unterscheiden.
 
-[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )
+[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)

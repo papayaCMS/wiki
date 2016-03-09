@@ -3,9 +3,9 @@ title: Modulprogrammierung 3: Administrationsoberfläche
 permalink: /Modulprogrammierung_3:_Administrationsoberfläche/
 ---
 
-In this third part of the basic module development tutorial, we are going to create a custom backend administration interface for our module package. It will provide a convenient way to add, modify, and delete planets using the database access methods we implemented in the [previous part](/Module_Development_2:_Adding_Database_Support ).
+In this third part of the basic module development tutorial, we are going to create a custom backend administration interface for our module package. It will provide a convenient way to add, modify, and delete planets using the database access methods we implemented in the [previous part](/Module_Development_2:_Adding_Database_Support.md).
 
-Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards ), especially if you plan to contribute your modules for the papaya Community.
+Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
 
 This tutorial makes use of unit tests which is a highly recommended way to build software. In order to have a papaya CMS version that includes the PHPUnit framework and the PapayaTestCase class, you need to check out papaya CMS from the SVN repository. Instructions on how to obtain it can be found [here](http://www.papaya-cms.com/download.990.en.html#svn).
 
@@ -24,7 +24,7 @@ Administration modules consist of at least two files: The module file itself tha
   </module>
 ~~~~
 
-As usual, you need to create a GUID and add it to the *guid* attribute as a value (see section [Preparing the modules.xml file](/Module_Development_1:_Content_Modules#Preparing_the_modules.xml_file ) in the first part of this tutorial series for details).
+As usual, you need to create a GUID and add it to the *guid* attribute as a value (see section [Preparing the modules.xml file](/Module_Development_1:_Content_Modules#Preparing_the_modules.xml_file.md) in the first part of this tutorial series for details).
 
 Writing the Module File
 -----------------------
@@ -60,7 +60,7 @@ class edmodule_tutorial_hello extends base_module {
   */
   public $permissions = array(
     1 => 'Manage'
-  );
+ .md);
 
   /**
   * Execute module
@@ -87,11 +87,11 @@ As you can see, the module file extends *base_module*. This class defines the co
 
 The *\$permissions* attribute contains an array of permissions for backend users. Complex administration modules like the papaya Community often have up to ten different permissions, allowing or prohibiting different sets of actions for different user roles. This simple module only contains a single permission. If a specific user has this permission, she has access to the complete administration interface of this module.
 
-The *execModule( )* method is automatically called by *papaya/module.php* when a module editing URL matches papaya's rewrite rules. It checks the basic permission 1 ('Manage') first. Users without this permission will not be able to access the admin module at all. Next, an instance of the *PlanetAdmin* class is created. This class will be described in the next section; it contains the actual module editor GUI and functionality.
+The *execModule(.md)* method is automatically called by *papaya/module.php* when a module editing URL matches papaya's rewrite rules. It checks the basic permission 1 ('Manage') first. Users without this permission will not be able to access the admin module at all. Next, an instance of the *PlanetAdmin* class is created. This class will be described in the next section; it contains the actual module editor GUI and functionality.
 
 Next, you need to set some of the admin class's public attributes: *module* is the current file, i.e. *\$this*. *msgs* is an instance of the *papaya_errors* class; it's used to handle error messages. Simply pass a reference to *\$this-\>msgs* from the module file's context to provide the current error messages to the admin class. *images* is an array of default icons that can be used for menu and list items. You can see all of these icons in the papaya backend: Click on *Settings* in the *Administration* group, and then click *View icons*. *layout* is the environment in which the GUI is rendered using special, predefined XML structures. Using icons and GUI XML will be described later in this tutorial.
 
-Eventually, the main methods of the admin class instance are called: *execute( )* is used to execute the module's commands, invoked by buttons in menu bars or list views; *getXml( )* returns the XML for the current layout; and *getButtons( )* returns the XML for the main toolbar.
+Eventually, the main methods of the admin class instance are called: *execute(.md)* is used to execute the module's commands, invoked by buttons in menu bars or list views; *getXml(.md)* returns the XML for the current layout; and *getButtons(.md)* returns the XML for the main toolbar.
 
 Writing the Admin Class File
 ----------------------------
@@ -368,7 +368,7 @@ Now add the *getPlanetsList()* method to the admin file, above the *setPluginloa
           $link,
           papaya_strings::escapeHTMLChars($name),
           $selected
-        );
+       .md);
       }
       $result .= '</items>'.LF;
       $result .= '</listview>'.LF;
@@ -406,7 +406,7 @@ In the *getPlanetAdminObjectFixture()* method, modify the *defineConstantDefault
 ~~~~ {.PHP}
     $this->defineConstantDefaults(
       array('PAPAYA_DB_TBL_MODULES', 'PAPAYA_XSLT_EXTENSION')
-    );
+   .md);
 ~~~~
 
 This constant is used by the *papaya_xsl* class of which we are going to create a mock object as the module's layout object.
@@ -493,7 +493,7 @@ We are using one more pair of setter/getter methods for the dialog object. Add t
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $adminObject->setDialogObject($dialogObject, TRUE);
     $this->assertAttributeSame($dialogObject, '_dialogObject', $adminObject);
     $this->assertAttributeEquals(TRUE, '_dialogInitialized', $adminObject);
@@ -572,7 +572,7 @@ The contents of the dialog will be set using a method called *initializeDialog()
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $adminObject->setDialogObject($dialogObject);
     $connectorObject = $this->getMock('HelloConnector');
     $connectorObject
@@ -637,7 +637,7 @@ Next up is the method to display the dialog's XML output. Add the following test
       array(),
       'Mock_'.md5(__CLASS__.  microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('getDialogXML')
@@ -695,7 +695,7 @@ Our dialog is ready to be used, so we can add the invocations to *getXml()*. As 
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('getDialogXML')
@@ -716,7 +716,7 @@ The *@dataProvider* annotation determines the name of a data provider method. Th
     return array(
       array('add_planet'),
       array('edit_planet')
-    );
+   .md);
   }
 ~~~~
 
@@ -785,7 +785,7 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('checkDialogInput')
@@ -802,7 +802,7 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
     $this->assertEquals(
       'Input errors.',
       $adminObject->msgs[0]
-    );
+   .md);
   }
 
   /**
@@ -816,7 +816,7 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('checkDialogInput')
@@ -833,7 +833,7 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
     $this->assertEquals(
       'Planet successfully saved.',
       $adminObject->msgs[0]
-    );
+   .md);
   }
 
   /**
@@ -847,7 +847,7 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('checkDialogInput')
@@ -863,13 +863,13 @@ Next, you can add the following three test methods above *testGetPlanetsList()*:
       'cmd' => 'save_planet',
       'id' => 1,
       'planet_name' => 'Earth'
-    );
+   .md);
     $adminObject->savePlanet();
 
     $this->assertEquals(
       'Planet could not be saved: database error.',
       $adminObject->msgs[0]
-    );
+   .md);
   }
 ~~~~
 
@@ -890,12 +890,12 @@ The corresponding implementation of the *savePlanet()* method (to be inserted ab
       if ($new) {
         $success = $connectorObject->createPlanet(
           array('planet_name' => $this->params['planet_name'])
-        );
+       .md);
       } else {
         $success = $connectorObject->updatePlanet(
           $this->params['id'],
           array('planet_name' => $this->params['planet_name'])
-        );
+       .md);
       }
       if ($success) {
         $this->addMsg(MSG_INFO, $this->_gt('Planet successfully saved.'));
@@ -931,7 +931,7 @@ Now that the saving method is implemented, we want *execute()* to invoke it when
       array(),
       'Mock_'.md5(__CLASS__.microtime()),
       FALSE
-    );
+   .md);
     $dialogObject
       ->expects($this->once())
       ->method('checkDialogInput')
@@ -946,7 +946,7 @@ Now that the saving method is implemented, we want *execute()* to invoke it when
     $adminObject->params = array(
       'cmd' => 'save_planet',
       'invalid_field' => 'invalid data'
-    );
+   .md);
     $adminObject->execute();
     $this->assertEquals('Input errors.', $adminObject->msgs[0]);
   }
@@ -1010,7 +1010,7 @@ After adding all necessary buttons and separators, call the *base_btnbuilder* ob
     $adminObject->images = array(
       'actions-generic-add' => 'actions/generic-add.png',
       'actions-generic-delete' => 'actions/generic-delete.png'
-    );
+   .md);
     $adminObject->getButtons();
   }
 ~~~~
@@ -1033,7 +1033,7 @@ And this is the implementation itself:
       'actions-generic-add',
       'Add a new planet',
       $pushed
-    );
+   .md);
     if (isset($this->params['id'])) {
       $toolbar->addSeparator();
       $pushed = ($cmd == 'del_planet') ? TRUE : FALSE;
@@ -1043,7 +1043,7 @@ And this is the implementation itself:
         'actions-generic-delete',
         'Delete current planet',
         $pushed
-      );
+     .md);
     }
     if ($str = $toolbar->getXML()) {
       $this->layout->addMenu(sprintf('<menu ident="%s">%s</menu>'.LF, 'edit', $str));
@@ -1082,7 +1082,7 @@ Here's the *getDeleteDialog()* method; place it above *getPlanetsList()* method:
         array('cmd' => 'del_planet', 'id' => $this->params['id'], 'confirm_delete' => 1),
         'Really delete current planet?',
         'question'
-      );
+     .md);
       $this->layout->add($dialog->getMsgDialog());
     }
   }
@@ -1109,7 +1109,7 @@ The delete method itself uses the connector to delete the current planet. Here a
     $this->assertEquals(
       'Planet successfully deleted.',
       $adminObject->msgs[0]
-    );
+   .md);
   }
 
   /**
@@ -1128,7 +1128,7 @@ The delete method itself uses the connector to delete the current planet. Here a
     $this->assertEquals(
       'Could not delete planet.',
       $adminObject->msgs[0]
-    );
+   .md);
   }
 ~~~~
 

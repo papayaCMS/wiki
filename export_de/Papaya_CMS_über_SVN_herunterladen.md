@@ -23,4 +23,4 @@ Wenn Sie mit Ihrem Browser im Repository navigieren möchten, können Sie auch d
 
 Über WebSVN können Sie sich einzelne Log-Messages ansehen, Versionen einer Datei vergleichen sowie direkt den Quellcode anschauen.
 
-[en:Obtaining papaya CMS via SVN](/en:Obtaining_papaya_CMS_via_SVN )
+[en:Obtaining papaya CMS via SVN](/en:Obtaining_papaya_CMS_via_SVN.md)

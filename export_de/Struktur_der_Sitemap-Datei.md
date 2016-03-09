@@ -62,4 +62,4 @@ Im folgenden Listing ist eine Beispiel-Sitemapdatei dargestellt:
 
 Die oben dargestellte Sitemap-Datei enthält ein `<urlset>` -Element, in dem fünf Seiten der Website in Form von `<url>` -Elementen spezifiziert sind. Laut Dokumentation darf das `<urlset>` -Element bis zu 50.000 `<url>` -Elemente enthalten. Die maximale Größe einer Sitemap-Datei ist auf 10 MB beschränkt.
 
-[Kategorie:Sitemap-Datei für Suchmaschinen](export_de/Kategorie:Sitemap-Datei_für_Suchmaschinen )
+[Kategorie:Sitemap-Datei für Suchmaschinen](export_de/Kategorie:Sitemap-Datei_für_Suchmaschinen.md)
