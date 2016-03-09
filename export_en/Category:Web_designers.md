@@ -1,6 +1,6 @@
 ---
 title: Category:Web designers
-permalink: /Category:Web_designers/
+permalink: export_en/Category:Web_designers/
 ---
 
 This category contains ressources for web designers.

@@ -1,6 +1,6 @@
 ---
 title: Category:Developers
-permalink: /Category:Developers/
+permalink: export_en/Category:Developers/
 ---
 
 This category contains ressources for developers.

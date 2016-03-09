@@ -62,4 +62,4 @@ papaya-lib/Papaya/Object
 
 [600px](/File:PapayaInterfaceDialog.png "wikilink")
 
-[en:Architecture](/en:Architecture "wikilink") [Category:Papaya CMS](/Category:Papaya_CMS "wikilink")
+[en:Architecture](/en:Architecture "wikilink") [Category:Papaya CMS](export_en/Category:Papaya_CMS "wikilink")

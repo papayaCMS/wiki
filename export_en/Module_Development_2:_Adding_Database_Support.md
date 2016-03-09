@@ -7,4 +7,4 @@ This is the second part in a series on papaya module development. If you are new
 
 In this second part of the basic module development tutorial, we want to take a look at how to add database import and how to create an administration interface for our module.
 
-[Category:papaya CMS Development](/Category:papaya_CMS_Development "wikilink") [Category:Developers](/Category:Developers "wikilink")
+[Category:papaya CMS Development](export_en/Category:papaya_CMS_Development "wikilink") [Category:Developers](export_en/Category:Developers "wikilink")

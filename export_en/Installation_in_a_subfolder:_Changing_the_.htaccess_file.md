@@ -14,7 +14,7 @@ Alternativ - was auch der empfohlene Weg ist - können Sie den "**[papaya .htacc
 
 Das Tool ist unter <http://www.papaya-cms.com/htaccess-generator> verfügbar.
 
-[Category:papaya CMS installieren und konfigurieren](/Category:papaya_CMS_installieren_und_konfigurieren "wikilink") [en:Installation in a subfolder: Changing the .htaccess file](/en:Installation_in_a_subfolder:_Changing_the_.htaccess_file "wikilink")
+[Category:papaya CMS installieren und konfigurieren](export_en/Category:papaya_CMS_installieren_und_konfigurieren "wikilink") [en:Installation in a subfolder: Changing the .htaccess file](/en:Installation_in_a_subfolder:_Changing_the_.htaccess_file "wikilink")
 
 papaya CMS contains an installation program that you can use via your browser. The installation program is located in the /papaya subdirectory and is called `install.php`. Enter *<http://www.your-domain.tld/papaya/install.php>* in your browser's address bar. Replace "your-domain" with your domain name and "tld" with the correct top level domain.
 
@@ -31,4 +31,4 @@ In the *Database Setup* section, the different steps are displayed as a numbered
 
 In the next step, you need to check the directories for the media database and for the website cache in the papaya CMS backend.
 
-[Category:Installing and configuring papaya CMS](/Category:Installing_and_configuring_papaya_CMS "wikilink") [de:Installation im Unterverzeichnis: .htaccess anpassen](/de:Installation_im_Unterverzeichnis:_.htaccess_anpassen "wikilink")
+[Category:Installing and configuring papaya CMS](export_en/Category:Installing_and_configuring_papaya_CMS "wikilink") [de:Installation im Unterverzeichnis: .htaccess anpassen](/de:Installation_im_Unterverzeichnis:_.htaccess_anpassen "wikilink")
