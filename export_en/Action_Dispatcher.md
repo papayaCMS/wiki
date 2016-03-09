@@ -59,4 +59,4 @@ Under the toolbar, a list of existing groups is displayed in the left column. As
 
 In *Modules \> Action dispatcher \> Action dispatcher \> Options*, you can set a single module option: whether or not actions are to be automatically registered by the call() method. By default, this feature is turned off (especially because the action dispatcher's database tables do not exist in a new papaya installation). If you turn it on, each invocation of call() will check whether the group/action you are using is already registered, and if not, write them into the database. The event is reported to the papaya log on information level. Please note that auto-registration does NOT actually call any observers because you still have to register these manually or by XML import, but you can learn from the papaya log which new actions are called.
 
-[Category:Papaya CMS Development](export_en/Category:Papaya_CMS_Development.md) [de:Action Dispatcher](/de:Action_Dispatcher.md)
+[Category:Papaya CMS Development](export_en/Category:Papaya_CMS_Development.md) [de:Action Dispatcher](export_de/Action_Dispatcher.md)

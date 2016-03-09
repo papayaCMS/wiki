@@ -31,4 +31,4 @@ In the *Database Setup* section, the different steps are displayed as a numbered
 
 In the next step, you need to check the directories for the media database and for the website cache in the papaya CMS backend.
 
-[Category:Installing and configuring papaya CMS](export_en/Category:Installing_and_configuring_papaya_CMS.md) [de:Installation im Unterverzeichnis: .htaccess anpassen](/de:Installation_im_Unterverzeichnis:_.htaccess_anpassen.md)
+[Category:Installing and configuring papaya CMS](export_en/Category:Installing_and_configuring_papaya_CMS.md) [de:Installation im Unterverzeichnis: .htaccess anpassen](export_de/Installation_im_Unterverzeichnis:_.htaccess_anpassen.md)
