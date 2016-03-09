@@ -41,4 +41,4 @@ Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt v
 
     Das Template gibt für die Phrase schließlich die Übersetzung zurück, wenn die Phrase gefunden worden ist. Andernfalls wird einfach die nicht übersetzte Phrase zurückgegeben.
 
-[Kategorie:Übersetzungstemplate benutzen](/Kategorie:Übersetzungstemplate_benutzen )
+[Kategorie:Übersetzungstemplate benutzen](Kategorie:Übersetzungstemplate_benutzen )

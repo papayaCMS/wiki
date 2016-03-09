@@ -126,4 +126,4 @@ Das komplette Stylesheet sieht wie folgt aus:
 
 Ebenso wie `page_main.xsl` erzeugt `page_main_print.xsl` den HTML-Seitenbaum. Der wesentliche Unterschied ist jedoch der, dass dafür das HTML-Template importiert wird. Bestimmte Parameter werden anschließend überladen, um die rechte und linke Spalte im Content-Bereich zu deaktivieren. Anschließend wird das Template `papaya-styles` überladen, um nur die für die Printausgabe relevanten Templates zu laden. Dazu wird die CSS-Datei print.css geladen, die im media-Attribut noch die Werte `screen`, `projection`, `print` und `amboss` erhält.
 
-[Kategorie:Print-Templates schreiben](/Kategorie:Print-Templates_schreiben )
+[Kategorie:Print-Templates schreiben](Kategorie:Print-Templates_schreiben )

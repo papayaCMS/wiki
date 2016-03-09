@@ -54,4 +54,4 @@ function addMsg($level, $text, $log = FALSE, $type = PAPAYA_LOGTYPE_SYSTEM) {
 |`$log`|"TRUE", wenn die Nachricht auch in das Systemprotokoll geschrieben werden soll, andernfalls "FALSE" (Standardeinstellung).|
 |`$type`|Auswahl eines Nachrichtentyps, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg() ). Standard ist PAPAYA_LOGTYPE_SYSTEM .|
 
-[Kategorie:Fehlersuche in papaya CMS](/Kategorie:Fehlersuche_in_papaya_CMS )
+[Kategorie:Fehlersuche in papaya CMS](Kategorie:Fehlersuche_in_papaya_CMS )

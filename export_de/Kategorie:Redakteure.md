@@ -1,6 +1,6 @@
 ---
 title: Kategorie:Redakteure
-permalink: /Kategorie:Redakteure/
+permalink: Kategorie:Redakteure/
 ---
 
 Dokumentation

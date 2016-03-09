@@ -123,4 +123,4 @@ In der folgenden Tabelle sind alle Parameter der Methode `getPagingButtons()` au
 |`$paramName`|Name des Formularparameters, in dem der Offset-Wert für den aktuellen Abschnitt der Liste (Seite) festgehalten wird. Der Standardwert ist `offset`.|
 |`$buttonAlign`|Ausrichtung des Buttons. Standardwert ist `NULL`. Mögliche Werte sind `left`, `right`, `default`.|
 
-[Kategorie:Widgets für die Benutzeroberfläche einsetzen](/Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen )
+[Kategorie:Widgets für die Benutzeroberfläche einsetzen](Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen )

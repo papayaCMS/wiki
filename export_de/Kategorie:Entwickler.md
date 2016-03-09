@@ -1,6 +1,6 @@
 ---
 title: Kategorie:Entwickler
-permalink: /Kategorie:Entwickler/
+permalink: Kategorie:Entwickler/
 ---
 
-[en:Category:Developers](/en:Category:Developers )
+[en:Kategorie:Developers](/en:Kategorie:Developers )

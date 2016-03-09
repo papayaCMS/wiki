@@ -53,4 +53,4 @@ In diesem Beispiel enthält der zweite Aufruf von `initializeSessionParams()` al
 
 Die ID des Stickers wird entfernt, um die Datenkonsistenz zu gewährleisten. Wenn der Nutzer eine andere Collection auswählt, soll die ID des zuvor ausgewählten Stickers nicht gespeichert bleiben, da der Sticker zu einer anderen Collection gehört.
 
-[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )
+[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )

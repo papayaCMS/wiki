@@ -35,4 +35,4 @@ $this->dialog = &new base_msgdialog($this, $this->paramName, $hidden, $msg,
 
 Mit der Methode `$this->_gtf()` wird der Text eines Fragedialogs übersetzt. Als zweiter Parameter wird ein Array übergeben, das die Werte für den String- und den Dezimalplatzhalter in der Phrase enthält. Anschließend wird eine Instanz der Klasse `base_msgdialog` mit der übersetzten Phrase angelegt, die in der Variablen `$msg` gespeichert worden ist.
 
-[Kategorie:Phrasen übersetzen](/Kategorie:Phrasen_übersetzen )
+[Kategorie:Phrasen übersetzen](Kategorie:Phrasen_übersetzen )

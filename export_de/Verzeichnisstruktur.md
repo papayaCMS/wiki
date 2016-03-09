@@ -92,4 +92,4 @@ Clientseitige Scripte für papaya CMS werden im Verzeichnis `papaya-script/` ges
 
 Sie können natürlich für Ihr eigenes Projekt auch eine eigene Verzeichnisstruktur anlegen, in der Sie bspw. Ihre JavaScript-Bibliothek organisieren.
 
-[Kategorie:Das Vorlagenkonzept in papaya CMS](/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )
+[Kategorie:Das Vorlagenkonzept in papaya CMS](Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )

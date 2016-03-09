@@ -133,8 +133,8 @@ class content_example extends base_content {
 ?>
 ~~~~
 
-Beim Seitenaufruf gibt die Methode `getParsedTeaser()` selbst keine Daten aus. Die Funktion wird immer dann aufgerufen, wenn die Seite von Übersichtsseiten oder -boxen angeteasert wird. Eine Übersichtsseite ist beispielsweise eine Seite mit dem Modul „Category with Image“. Dieses Modul ruft die Methode `getParsedTeaser()` aller unmittelbaren Unterseiten auf und stellt sie in einer verlinkten Übersicht dar.
+Beim Seitenaufruf gibt die Methode `getParsedTeaser()` selbst keine Daten aus. Die Funktion wird immer dann aufgerufen, wenn die Seite von Übersichtsseiten oder -boxen angeteasert wird. Eine Übersichtsseite ist beispielsweise eine Seite mit dem Modul „Kategorie with Image“. Dieses Modul ruft die Methode `getParsedTeaser()` aller unmittelbaren Unterseiten auf und stellt sie in einer verlinkten Übersicht dar.
 
 Als letzten Schritt tragen Sie das Seitenmodul wie in [modules.xml erstellen](/modules.xml_erstellen ) beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
 
-[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren )
+[Kategorie:Box- und Seitenmodule programmieren](Kategorie:Box-_und_Seitenmodule_programmieren )

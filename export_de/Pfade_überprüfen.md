@@ -13,4 +13,4 @@ Falls die Pfade nicht existieren sollten, wird papaya CMS sie anlegen. Eine Fehl
 1.  Die Pfade existieren, sind jedoch nicht schreibbar.
 2.  papaya CMS versucht, die fehlenden Verzeichnisse anzulegen. Dieser Versuch schlägt jedoch fehl, da die notwendigen Dateirechte fehlen.
 
-[Category:papaya CMS installieren und konfigurieren](Category:papaya_CMS_installieren_und_konfigurieren )
+[Kategorie:papaya CMS installieren und konfigurieren](Kategorie:papaya_CMS_installieren_und_konfigurieren )

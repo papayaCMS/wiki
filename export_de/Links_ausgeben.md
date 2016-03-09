@@ -70,4 +70,4 @@ Verwenden Sie `base_object::getWebMediaLink()` um anhand einer Media-ID einen vo
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Dateiname oder „index“.|
 |\$ext|Endung der Datei, z.B. „png“|
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )

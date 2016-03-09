@@ -14,4 +14,4 @@ Phrasen werden mit dem Template `language-text` übersetzt, das im Stylesheet `.
 
 Näheres zu den Parametern erfahren Sie in [Templates und Parameter in ./_lang/language.xsl](/Templates_und_Parameter_in_./_lang/language.xsl ).
 
-[Kategorie:Übersetzungstemplate benutzen](/Kategorie:Übersetzungstemplate_benutzen )
+[Kategorie:Übersetzungstemplate benutzen](Kategorie:Übersetzungstemplate_benutzen )

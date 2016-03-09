@@ -1,6 +1,6 @@
 ---
 title: Kategorie:RSS-Feeds erstellen
-permalink: /Kategorie:RSS-Feeds_erstellen/
+permalink: Kategorie:RSS-Feeds_erstellen/
 ---
 
 In diesem Kapitel erfahren Sie, wie Sie RSS-Feeds erstellen können.
@@ -14,4 +14,4 @@ Um mit papaya CMS ein RSS-Feed zu erstellen, sind zwei Schritte notwendig:
 
 Die RSS-Templates werden einfach in den Ordner für die Webseitentemplates kopiert. Die Installation gestaltet sich daher sehr einfach, da Sie keine spezielle Verzeichnisstruktur anlegen müssen.
 
-[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln )
+[Kategorie:Templates und Themes entwickeln](Kategorie:Templates_und_Themes_entwickeln )

@@ -9,4 +9,4 @@ Das Besondere daran ist, dass die Ausgaben der Boxen getrennt von der Ausgabe de
 
 Sowohl die Kombination verschiedener Modulausgaben als auch die Transformation des XML-Outputs der Module in ein gewünschtes Ausgabeformat wird durch XSLT-Templates realisiert. Templates bestehen dabei aus einem Satz von XSLT-Dateien, wobei für jedes Modul eine separate XSLT-Datei vorliegt.
 
-[Kategorie:Formatvorlagen in papaya CMS](/Kategorie:Formatvorlagen_in_papaya_CMS )
+[Kategorie:Formatvorlagen in papaya CMS](Kategorie:Formatvorlagen_in_papaya_CMS )

@@ -68,4 +68,4 @@ function getUserLoggedIn($userId) {
 
 Die Methode benutzt also nicht `$this->getSessionValue()`, um die Sessiondaten zuerst in ein lokales Array zu lesen, sondern greift auf die Daten im Klassenattribut `$this->sessionParams` zu.
 
-[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )
+[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )

@@ -65,4 +65,4 @@ Nun ist schlichtes HTML nicht sonderlich ansprechend. Da Sie sicherlich darauf b
 
 Sie haben gesehen: Seitenmodule von papaya CMS geben XML aus. Ein Seitenmodul ist zudem über eine Ansicht mit einem Ausgabefilter und einem XSLT-Template verknüpft. Der Ausgabefilter wandelt die XML-Ausgabe des Moduls in ein Zielformat wie HTML um und nutzt dabei die Transformationsregeln aus dem XSLT-Template. Eine Ansicht kann dabei beliebig viele Zielformate über Ausgabemodi zugewiesen bekommen.
 
-[Kategorie:Wie funktioniert eigentlich papaya CMS?](/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )
+[Kategorie:Wie funktioniert eigentlich papaya CMS?](Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )

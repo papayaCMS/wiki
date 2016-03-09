@@ -9,4 +9,4 @@ Nutzerdaten werden in der Regel automatisch durch Methoden wie `initializeParams
 
 Sie können jedoch auch bei der Ausgabe der Daten dafür sorgen, dass fremde Nutzereingaben maskiert ausgegeben werden, siehe [Text bei der Ausgabe maskieren](/Text_bei_der_Ausgabe_maskieren ).
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )

@@ -21,4 +21,4 @@ Für längere Texte sollte nicht die Phrasen-Übersetzung von papaya verwendet w
 |sheet/header/infos/line|Mehrere `line` s werden nicht umbrochen, kann weitere Informationen enthalten.|
 |sheet/text|Kann einfachen Text mit HTML enthalten, sobald ein p enthalten ist, wird es als Fließtext angezeigt, andernfalls als "teletype". Um einen gleichmäßigen Abstand zu erhalten empfiehlt es sich das p mit `style="padding: 0px 10px;"` zu versehen.|
 
-[Kategorie:Die einzelnen Komponenten im Detail](/Kategorie:Die_einzelnen_Komponenten_im_Detail )
+[Kategorie:Die einzelnen Komponenten im Detail](Kategorie:Die_einzelnen_Komponenten_im_Detail )

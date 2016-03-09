@@ -1,6 +1,6 @@
 ---
 title: Kategorie:Der modulare Aufbau von papaya CMS
-permalink: /Kategorie:Der_modulare_Aufbau_von_papaya_CMS/
+permalink: Kategorie:Der_modulare_Aufbau_von_papaya_CMS/
 ---
 
 Das Modulkonzept in papaya CMS
@@ -10,4 +10,4 @@ In papaya CMS sind Funktionen an vielen Stellen als Modul gekapselt. Das hat vie
 
 Module werden in Paketen verwaltet. Ein Paket ist zunächst einmal nichts anderes als ein Verzeichnis, in dem sich die PHP-Dateien befinden. Jedes Paket besitzt zudem eine XML-Datei, `modules.xml`, in der alle Module des Pakets im Detail beschrieben sind. Näheres zur Struktur der `modules.xml` können Sie in [modules.xml erstellen](/modules.xml_erstellen ) erfahren.
 
-[Kategorie:Wie funktioniert eigentlich papaya CMS?](/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )
+[Kategorie:Wie funktioniert eigentlich papaya CMS?](Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )

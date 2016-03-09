@@ -637,4 +637,4 @@ Die folgende Tabelle schlüsselt alle Dialogtypen auf, die Sie für die Klasse `
 |info|Bestätigung, dass der Benutzer die Information gelesen hat.|
 |error|Bestätigung, dass der Benutzer die Fehlermeldung gelesen hat.|
 
-[Kategorie:Eigene Anwendungen schreiben](/Kategorie:Eigene_Anwendungen_schreiben )
+[Kategorie:Eigene Anwendungen schreiben](Kategorie:Eigene_Anwendungen_schreiben )

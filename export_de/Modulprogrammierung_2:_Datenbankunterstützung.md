@@ -1470,4 +1470,4 @@ We're not interested in implementation details of the base class on this level, 
   }
 ~~~~
 
-And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Category:papaya CMS Entwicklung](Category:papaya_CMS_Entwicklung ) [Category:Entwickler](Category:Entwickler )
+And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Kategorie:papaya CMS Entwicklung](Kategorie:papaya_CMS_Entwicklung ) [Kategorie:Entwickler](Kategorie:Entwickler )

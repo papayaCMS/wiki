@@ -29,4 +29,4 @@ $result .= sprintf('<glyph src="%s" />'.LF,
 
 Die Icons selbst werden im Unterverzeichnis `./pics/16x16/`, `./pics/22x22/` sowie `./pics/48x48/` abgelegt. papaya CMS findet das Bild automatisch im Ordner mit der entsprechenden Größenangabe.
 
-[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen )
+[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen )

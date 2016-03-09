@@ -151,4 +151,4 @@ Alle Templates für die Toolbar können Sie in einer einzigen Stylesheetdatei zu
 
 Im folgenden Abschnitt können Sie erfahren, wie Sie die Stylesheet-Datei im Demo-Template einbinden können.
 
-[Kategorie:Ausgaben verlinken](/Kategorie:Ausgaben_verlinken )
+[Kategorie:Ausgaben verlinken](Kategorie:Ausgaben_verlinken )

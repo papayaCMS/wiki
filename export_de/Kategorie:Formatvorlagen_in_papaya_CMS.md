@@ -1,6 +1,6 @@
 ---
 title: Kategorie:Formatvorlagen in papaya CMS
-permalink: /Kategorie:Formatvorlagen_in_papaya_CMS/
+permalink: Kategorie:Formatvorlagen_in_papaya_CMS/
 ---
 
 papaya CMS verfügt über ein sehr flexibles Vorlagensystem, dass durch die Trennung von drei zentralen Ebenen gekennzeichnet ist:
@@ -30,4 +30,4 @@ Trennung der Inhalte von Vorlagenlogik und Layoutdefinition
 
 Inhalte werden medienneutral vorgehalten und im ASCII- oder im XML-Format in der Datenbank gespeichert. Multimediadateien wie Flash, MPEG-Filme, MP3-Dateien oder einfache Bilder liegen zwar im Verzeichnissystem, werden jedoch in der Mediendatenbank registriert und durch Metadaten ergänzt. Wenn Sie die Inhalte in papaya CMS eingeben, müssen Sie jedoch keine layoutspezifischen Informationen speichern. Es sind also keine HTML-Kenntnisse erforderlich.
 
-[Kategorie:Einleitung](/Kategorie:Einleitung )
+[Kategorie:Einleitung](Kategorie:Einleitung )

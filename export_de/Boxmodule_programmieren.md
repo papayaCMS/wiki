@@ -114,4 +114,4 @@ Wenn Sie die Inhalte der Felder ausgeben, müssen diese maskiert werden. Dafür 
 
 Als letzten Schritt tragen Sie das Boxmodul wie in [modules.xml erstellen](/modules.xml_erstellen ) beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
 
-[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren )
+[Kategorie:Box- und Seitenmodule programmieren](Kategorie:Box-_und_Seitenmodule_programmieren )

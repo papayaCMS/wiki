@@ -622,4 +622,4 @@ One last thing that needs to be explained here is the *setDefaultData( )* method
 
 Run the test to see it pass. Aftwards, you can use the page's *Content* tab to enter an arbitrary message. Test the output using the *Preview* section, and your custom content will be displayed. Congratulations -- you have written your first papaya CMS module including dynamic data, and along the way you should have learned two or three things about test-driven development if you're not already familiar with it.
 
-[Category:papaya CMS](Category:papaya_CMS ) [Category:papaya CMS Development](Category:papaya_CMS_Development ) [en:papaya Module Development](/en:papaya_Module_Development )
+[Kategorie:papaya CMS](Kategorie:papaya_CMS ) [Kategorie:papaya CMS Development](Kategorie:papaya_CMS_Development ) [en:papaya Module Development](/en:papaya_Module_Development )

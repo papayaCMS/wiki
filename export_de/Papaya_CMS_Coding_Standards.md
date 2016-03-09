@@ -620,4 +620,4 @@ XSLT **local** variable and parameters names should be named using the "studly c
 </xsl:template>
 ~~~~
 
-[Category:Papaya CMS Development](Category:Papaya_CMS_Development ) [en:Papaya CMS Coding Standards](/en:Papaya_CMS_Coding_Standards )
+[Kategorie:Papaya CMS Development](Kategorie:Papaya_CMS_Development ) [en:Papaya CMS Coding Standards](/en:Papaya_CMS_Coding_Standards )

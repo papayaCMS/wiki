@@ -1,6 +1,6 @@
 ---
 title: Kategorie:Das Übersetzungsframework benutzen
-permalink: /Kategorie:Das_Übersetzungsframework_benutzen/
+permalink: Kategorie:Das_Übersetzungsframework_benutzen/
 ---
 
 In diesem Kapitel erfahren Sie, wie Sie das Übersetzungsframework aus dem Default-Template von papaya CMS nutzen können, um Phrasen zu übersetzen. Das Übersetzungsframework macht es einfach, für die Web- oder PDF-Ausgabe Formatvorlagen zu erstellen, die mehrere Content-Sprachen unterstützen.
@@ -19,4 +19,4 @@ Das Übersetzungsframework besteht aus drei Komponenten:
 2.  Parameter, über die abhängig vom jeweiligen Kontext die XML-Dateien eingebunden werden, siehe [Übersetzungsdateien in XSLT-Parameter laden](/Übersetzungsdateien_in_XSLT-Parameter_laden ).
 3.  Basisstylesheet mit dem Übersetzungstemplate, siehe [:Kategorie:Übersetzungstemplate benutzen](/:Kategorie:Übersetzungstemplate_benutzen ).
 
-[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln )
+[Kategorie:Templates und Themes entwickeln](Kategorie:Templates_und_Themes_entwickeln )
