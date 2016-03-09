@@ -7,6 +7,10 @@ In diesem Kapitel erfahren Sie, wie Sie einfache Content-Module, Boxen und Seite
 
 Das folgende Klassendiagramm stellt alle Basisklassen vor, die Sie für eigene Module erweitern können:
 
+<<<<<<< HEAD
 [miniatur|zentriert|1000px|Klassenstruktur papaya CMS](/images/File:PapayaPluginsBaseSystem.png )
+=======
+![File:PapayaPluginsBaseSystem.png](images/PapayaPluginsBaseSystem.png)
+>>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
 [Kategorie:Entwickeln mit papaya CMS](/Kategorie:Entwickeln_mit_papaya_CMS )

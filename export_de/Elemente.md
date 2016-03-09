@@ -15,7 +15,7 @@ dialogs.xsl
 
 Dieses Template erstellt ein Formular, das z.B. mit `base_dialog` generiert wurde.
 
-[File:formular-example.png](images/formular-example.png)
+![File:Formular-example.png](images/Formular-example.png)
 
 generics.xsl
 ------------
@@ -32,43 +32,43 @@ iconpanel.xsl
 
 Dieses Template erstellt eine vertikale Liste von Icons. Benutzt wird dieses Template in der Online-Hilfe sowie im Nachrichtensystem von papaya CMS.
 
-![File:backend-komponenten-iconpanel-example.png](images/backend-komponenten-iconpanel-example.png)
+![File:Backend-komponenten-iconpanel-example.png](images/Backend-komponenten-iconpanel-example.png)
 
 listview.xsl
 ------------
 
 Dieses Template erstellt eine tabellarische Liste. Diese sehr flexible Komponente wird zusammen mit „Dialog“ wohl am häufigsten verwendet. Im Modus "tile" wird dieses Template auch für die Ausgabe der Iconübersicht verwendet.
 
-![File:listview-simple.png](images/listview-simple.png)
+![File:Listview-simple.png](images/Listview-simple.png)
 
-![File:listview-node.png](images/listview-node.png)
+![File:Listview-node.png](images/Listview-node.png)
 
-![File:listview-complex.png](images/listview-complex.png)
+![File:Listview-complex.png](images/Listview-complex.png)
 
-![File:listview-tiled-example.png](images/listview-tiled-example.png)
+![File:Listview-tiled-example.png](images/Listview-tiled-example.png)
 
 login.xsl
 ---------
 
 Dieses Template wird ausschließlich für das Loginformular für das Backend verwendet.
 
-![File:login-example.png](images/login-example.png)
+![File:Login-example.png](images/Login-example.png)
 
 menus.xsl
 ---------
 
 Dieses Template generiert eine Menü- oder Werkzeugleiste mit Icon/Text-Buttons.
 
-![File:toolbar-example.png](images/toolbar-example.png)
+![File:Toolbar-example.png](images/Toolbar-example.png)
 
 messages.xsl
 ------------
 
 Dieses Template generiert Nachrichtenboxen und Bestätigungsdialoge.
 
-![File:message-example-single.png](images/message-example-single.png)
+![File:Message-example-single.png](images/Message-example-single.png)
 
-![File:message-example-multiple.png](images/message-example-multiple.png)
+![File:Message-example-multiple.png](images/Message-example-multiple.png)
 
 panel.xsl
 ---------
@@ -80,9 +80,9 @@ sheet.xsl
 
 Dieses Template generiert einen größeren Informationsblock.
 
-![File:sheet-example.png](images/sheet-example.png)
+![File:Sheet-example.png](images/Sheet-example.png)
 
-![File:sheet-full-example.png](images/sheet-full-example.png)
+![File:Sheet-full-example.png](images/Sheet-full-example.png)
 
 [miniatur|zentriert|1000px|Teletype-Beispiel für (/images/sheet-teletype-example.pgn
 
@@ -91,6 +91,6 @@ thumbnails.xsl
 
 Dieses Template generiert eine Thumbnail-Liste. Das wird für den Datei-Browser verwendet.
 
-![File:thumbnail-browser-example.png](/images/thumbnail-browser-example.png)
+![File:Thumbnail-browser-example.png](/images/Thumbnail-browser-example.png)
 
 [Kategorie:Übersicht über die verfügbaren Komponenten](/Kategorie:Übersicht_über_die_verfügbaren_Komponenten )
