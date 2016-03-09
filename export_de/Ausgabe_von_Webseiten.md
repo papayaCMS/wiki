@@ -9,10 +9,6 @@ Im zentralen Content-Bereich der Seite wird der eigentliche Seiteninhalt ausgege
 
 Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XSLT-Datei erstellt werden. Diese XSLT-Datei importiert das zentrale XSLT-Dokument mit dem Template für das HTML-Grundgerüst und überlagert das XSLT-Template für den Content-Bereich der Seite ( `content_area` ). Auf diese Weise muss man nicht für jedes Seitenmodul das komplette HTML-Grundgerüst nachbauen, da man sich lediglich auf den Content-Bereich konzentrieren kann.
 
-Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
-
-![File:Seitenausgabe in papaya CMS](images/File:Ausgabekonzept.png)
-
 Eine Seite kann in der Regel mit beliebig vielen Boxen verknüpft sein. Bei Seiten und Boxen handelt es sich um Module, die Ihre Inhalte als XML ausgeben. Wenn eine HTML-Ausgabe der Seite erzeugt werden soll, muss dieses XML in das Zielformat HTML umgewandelt werden. Dazu ruft die Template-Engine von papaya CMS für jedes Modul das passende XSLT-Stylesheet mit den Transformationsregeln auf.
 
 Das XML der Boxen wird durch den Ausgabefilter stets separat in das Zielformat HTML transformiert. Da die HTML-Ausgabe der Boxen stets in CDATA-Abschnitte des Seiten-XML eingebettet wird, müssen die verlinkten Boxen also vorher durch den Ausgabefilter gehen. Wenn das Seiten-XML ausgegeben wird, stößt dies automatisch die Umwandlung des Boxen-XMLs in das Zielformat an. Anschließend kann das XSLT-Template für die Seite durch den Ausgabefilter aufgerufen werden. Dabei werden die Boxen direkt in den HTML-Seitenbaum eingefügt, während das XML des Seitenmoduls in das HTML-Format umgewandelt wird.
@@ -27,8 +23,6 @@ Damit die Template-Engine von papaya CMS für jedes Modul sowohl das richtige XS
 Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die Seite im Webbrowser angefordert wird. Wenn Sie beispielsweise einen Ausgabefilter für die Endung html definiert haben, können Sie diesen Ausgabefilter mit einer Ansicht verknüpfen. Anschließend wählen Sie für den verknüpften Ausgabefilter ein XSLT-Template aus, das mit der Ansicht verknüpft werden soll. Wenn Sie also eine Seite mit dieser Ansicht anlegen, wird bei der Ausgabe der Seite im HTML-Format der verknüpfte Ausgabefilter mit der ausgewählten XSLT-Datei aufgerufen. Der Ausgabefilter wandelt dabei das Seiten-XML in das Zielformat HTML um.
 
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
-
-![File:papayaSystem.png](images/File:papayaSystem.png)
 
 Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In diesem Bereich wird die Ausgabe der Module – egal ob es sich um Boxen oder Seiten handelt – an den XSLT-Ausgabefilter übergeben und umgewandelt. Dabei kann sowohl die XML-Ausgabe der Module als auch die Ausgabe des Ausgabefilters in einem Cache-Speicher vorgehalten werden, um die Performanz bei der Seitenauslieferung zu erhöhen.
 
