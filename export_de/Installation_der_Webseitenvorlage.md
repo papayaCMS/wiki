@@ -25,4 +25,4 @@ Um die neue Webseitenvorlage zu verwenden oder auch nur, um sie zu testen, müss
 
 Näheres zur Optionengruppe „Layout“ aus der Systemkonfiguration erfahren Sie in "papaya CMS: Handbuch für Administratoren", Kapitel 12.2.5.
 
-[export_de/Kategorie.md:Webseitenvorlage erstellen](export_de/Kategorie.md:Webseitenvorlage_erstellen )
+[export_de/Kategorie:Webseitenvorlage erstellen](export_de/Kategorie:Webseitenvorlage_erstellen )

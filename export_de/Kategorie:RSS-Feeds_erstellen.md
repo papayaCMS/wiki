@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:RSS-Feeds erstellen
-permalink: export_de/Kategorie.md:RSS-Feeds_erstellen/
+title: export_de/Kategorie:RSS-Feeds erstellen
+permalink: export_de/Kategorie:RSS-Feeds_erstellen/
 ---
 
 In diesem Kapitel erfahren Sie, wie Sie RSS-Feeds erstellen können.
@@ -9,9 +9,9 @@ Ein RSS-Feed ist ein XML-Dokument, das bestimmte, aktuelle Inhalte einer Website
 
 Um mit papaya CMS ein RSS-Feed zu erstellen, sind zwei Schritte notwendig:
 
-1.  Sie schreiben das XSLT-Stylesheet, siehe [:export_de/Kategorie.md:Template für RSS-Feed erstellen](/:export_de/Kategorie.md:Template_für_RSS-Feed_erstellen ).
+1.  Sie schreiben das XSLT-Stylesheet, siehe [:export_de/Kategorie:Template für RSS-Feed erstellen](/:export_de/Kategorie:Template_für_RSS-Feed_erstellen ).
 2.  Sie installieren das XSLT-Stylesheet, siehe [RSS-Template installieren](/RSS-Template_installieren ).
 
 Die RSS-Templates werden einfach in den Ordner für die Webseitentemplates kopiert. Die Installation gestaltet sich daher sehr einfach, da Sie keine spezielle Verzeichnisstruktur anlegen müssen.
 
-[export_de/Kategorie.md:Templates und Themes entwickeln](export_de/Kategorie.md:Templates_und_Themes_entwickeln )
+[export_de/Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln )

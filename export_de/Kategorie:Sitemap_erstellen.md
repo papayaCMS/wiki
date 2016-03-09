@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:Sitemap erstellen
-permalink: export_de/Kategorie.md:Sitemap_erstellen/
+title: export_de/Kategorie:Sitemap erstellen
+permalink: export_de/Kategorie:Sitemap_erstellen/
 ---
 
 In diesem Kapitel erfahren Sie, wie Sie eine Sitemap-Datei für Suchmaschinen erstellen.
@@ -14,4 +14,4 @@ Damit papaya CMS eine solche Sitemap-Datei ausgeben kann und sie auch von der Su
 3.  Verknüpfen Sie die vorhandene Ansicht des Sitemap-Moduls mit dem XSLT-Template.
 4.  Registrieren Sie die Sitemap-Ausgabe beim Betreiber der Suchmaschine (yahoo!, google).
 
-[export_de/Kategorie.md:Templates und Themes entwickeln](export_de/Kategorie.md:Templates_und_Themes_entwickeln )
+[export_de/Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln )

@@ -138,7 +138,7 @@ Als erstes wird von `edmodule_sticker` die Methode `initialize()` aufgerufen. Di
   }
 ~~~~
 
-`Mehr Informationen zur Verwendung der Session finden Sie in `[`:export_de/Kategorie.md:POST/GET-Parameter` `lesen` `und` `Sessiondaten` `verwalten`](/:export_de/Kategorie.md:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )`. `
+`Mehr Informationen zur Verwendung der Session finden Sie in `[`:export_de/Kategorie:POST/GET-Parameter` `lesen` `und` `Sessiondaten` `verwalten`](/:export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )`. `
 
 Um eine zentrale Stelle für modulspezifische Icons zu haben, werden die anwendungsspezifischen Icons im Attribut `$moduleImages` abgelegt. Mehr Informationen zur Verwendung von modulspezifischen Icons finden Sie in [Eigene Icons aus dem Paket referenzieren](/Eigene_Icons_aus_dem_Paket_referenzieren ).
 
@@ -250,7 +250,7 @@ Die Methode `getCollectionsList()` erzeugt eine Listview der vorhandenen Sammlun
 </listview>
 ~~~~
 
-Näheres zum Aufbau von Listviews erfahren Sie in [:export_de/Kategorie.md:Backend-Komponenten](/:export_de/Kategorie.md:Backend-Komponenten ).
+Näheres zum Aufbau von Listviews erfahren Sie in [:export_de/Kategorie:Backend-Komponenten](/:export_de/Kategorie:Backend-Komponenten ).
 
 Grundsätzlich gehen Sie wie folgt vor, wenn Sie eine Listviewausgabe erstellen:
 
@@ -475,7 +475,7 @@ case 'add_collection':
 
 Zunächst wird die Methode `initializeCollectionDialog()` ausgeführt, um das Eingabeformular für die Sammlung auszugeben. Anschließend wird überprüft, ob das Formular abgesendet worden ist. Dies ist der Fall, wenn im Parameter-Array der Wert „submit“ enthalten ist und dieser Parameter den Wert TRUE besitzt. Wenn dies der Fall ist, können Sie die versendeten Formulardaten auf Validität prüfen. Dazu wird die Methode `checkDialogInput()` der `base_dialog` -Instanz `$this->dialog` ausgeführt. Da das aktuelle Eingabeformular immer über `$this->dialog` erreichbar ist, können Sie die `checkDialogInput()` -Methode einfach über diese Objektinstanz aufrufen.
 
-Wenn `checkDialogInput()` wahr ist, sind die Daten gültig und können in die Datenbank geschrieben werden. Dazu wird im obigen Listing die Methode `addCollection()` benutzt, die in der Basisklasse `base_stickers` implementiert worden ist. Dieser Methode wird der Titel sowie der Beschreibungstext der Sammlung übergeben. Wenn die Daten geschrieben werden konnten, gibt die Methode die ID der neu angelegten Sammlung zurück. Im letzten Schritt wird ein Infodialog dargestellt, der den Titel der Sammlung inklusive der ID in einem Infotext ausgibt. Der Infodialog wird mit der Methode `addMsg()` ausgegeben. Nähere Informationen zur Verwendung von `addMsg()` finden Sie in [:export_de/Kategorie.md:Meldungen mit base_object::logMsg() protokollieren](/:export_de/Kategorie.md:Meldungen_mit_base_object::logMsg()_protokollieren ).
+Wenn `checkDialogInput()` wahr ist, sind die Daten gültig und können in die Datenbank geschrieben werden. Dazu wird im obigen Listing die Methode `addCollection()` benutzt, die in der Basisklasse `base_stickers` implementiert worden ist. Dieser Methode wird der Titel sowie der Beschreibungstext der Sammlung übergeben. Wenn die Daten geschrieben werden konnten, gibt die Methode die ID der neu angelegten Sammlung zurück. Im letzten Schritt wird ein Infodialog dargestellt, der den Titel der Sammlung inklusive der ID in einem Infotext ausgibt. Der Infodialog wird mit der Methode `addMsg()` ausgegeben. Nähere Informationen zur Verwendung von `addMsg()` finden Sie in [:export_de/Kategorie:Meldungen mit base_object::logMsg() protokollieren](/:export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren ).
 
 Alle notwendigen Daten wie der submit-Parameter oder die Formulardaten kommen aus dem Eingabeformular, das in der Methode `initializeCollectionDialog()` erzeugt wird. Im folgenden soll die Implementation dieser Methode vorgestellt werden.
 
@@ -637,4 +637,4 @@ Die folgende Tabelle schlüsselt alle Dialogtypen auf, die Sie für die Klasse `
 |info|Bestätigung, dass der Benutzer die Information gelesen hat.|
 |error|Bestätigung, dass der Benutzer die Fehlermeldung gelesen hat.|
 
-[export_de/Kategorie.md:Eigene Anwendungen schreiben](export_de/Kategorie.md:Eigene_Anwendungen_schreiben )
+[export_de/Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )

@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:Print-Templates schreiben
-permalink: export_de/Kategorie.md:Print-Templates_schreiben/
+title: export_de/Kategorie:Print-Templates schreiben
+permalink: export_de/Kategorie:Print-Templates_schreiben/
 ---
 
 Grundsätzlich ist es möglich, dass Sie im Header Ihrer HTML-Seiten eine CSS-Datei einbinden, die ein angepasstes CSS für die Druckausgabe enthält. Wenn Sie im `medium` -Attribut des `<link>` -Elements den Wert „print“ einfügen, werden die Angaben der eingebundenen CSS-Datei benutzt. Dies ist in der Druckvorschau der Seite erkennbar.
@@ -27,4 +27,4 @@ Um eine druckfreundliche Seitenausgabe zu erzeugen, müssen Sie folgende Punkte 
 1.  Sie binden in der druckfreundlichen Seitenausgabe ein anderes CSS ein, siehe [Druckfreundliches CSS einbinden](/Druckfreundliches_CSS_einbinden ).
 2.  Blenden Sie Boxen in der druckfreundlichen Seitenausgabe aus, siehe [Boxenausgabe unterdrücken](/Boxenausgabe_unterdrücken ).
 
-[export_de/Kategorie.md:Print-Templates erstellen](export_de/Kategorie.md:Print-Templates_erstellen )
+[export_de/Kategorie:Print-Templates erstellen](export_de/Kategorie:Print-Templates_erstellen )

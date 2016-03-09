@@ -63,4 +63,4 @@ $value = my_app_options::getOptionExampleValue();
 ...
 ~~~~
 
-[export_de/Kategorie.md:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie.md:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )
+[export_de/Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )

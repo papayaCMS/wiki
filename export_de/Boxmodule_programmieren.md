@@ -110,8 +110,8 @@ class actbox_example extends base_actionbox {
 
 Die Inhaltsdaten für eine Box werden vom Benutzer im Backend unter "Inhalt bearbeiten" eingegeben. Das Eingabeformular ist über die `$editFields` definiert. papaya CMS liest diese Daten automatisch aus der Datenbank aus und lädt sie in das assoziative Array `$this->data`. Sie können auf die Daten zuzugreifen, indem Sie mit den Schlüsseln der Felder im Array `$editFields` das Array `$this->data` auslesen.
 
-Wenn Sie die Inhalte der Felder ausgeben, müssen diese maskiert werden. Dafür wird im Quellcode-Beispiel die Methode `papaya_strings::escapeHTMLChars()` verwendet. Für den Haupttext wird die Methode `base_object::getXHTMLString()` verwendet. Näheres dazu erfahren Sie in [:export_de/Kategorie.md:Content ausgeben und Nutzereingaben maskieren](/:export_de/Kategorie.md:Content_ausgeben_und_Nutzereingaben_maskieren ).
+Wenn Sie die Inhalte der Felder ausgeben, müssen diese maskiert werden. Dafür wird im Quellcode-Beispiel die Methode `papaya_strings::escapeHTMLChars()` verwendet. Für den Haupttext wird die Methode `base_object::getXHTMLString()` verwendet. Näheres dazu erfahren Sie in [:export_de/Kategorie:Content ausgeben und Nutzereingaben maskieren](/:export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren ).
 
 Als letzten Schritt tragen Sie das Boxmodul wie in [modules.xml erstellen](/modules.xml_erstellen ) beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
 
-[export_de/Kategorie.md:Box- und Seitenmodule programmieren](export_de/Kategorie.md:Box-_und_Seitenmodule_programmieren )
+[export_de/Kategorie:Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren )

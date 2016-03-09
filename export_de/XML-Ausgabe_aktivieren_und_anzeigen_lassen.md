@@ -25,4 +25,4 @@ Sie können eine Seite auf folgende Weisen in XML ausgeben lassen:
 
 Im folgenden Abschnitt erfahren Sie Näheres über den Aufbau der XML-Ausgabe.
 
-[export_de/Kategorie.md:Formatvorlagen in papaya CMS](export_de/Kategorie.md:Formatvorlagen_in_papaya_CMS )
+[export_de/Kategorie:Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS )

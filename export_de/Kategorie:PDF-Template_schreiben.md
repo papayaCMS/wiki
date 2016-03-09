@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:PDF-Template schreiben
-permalink: export_de/Kategorie.md:PDF-Template_schreiben/
+title: export_de/Kategorie:PDF-Template schreiben
+permalink: export_de/Kategorie:PDF-Template_schreiben/
 ---
 
 Das PDF-Template schreiben Sie ebenso wie Webseiten-Templates in XSLT. Die Ausgabe ist jedoch kein HTML, sondern ein papaya-Formatierungsobjekt. Dieses Formatierungsobjekt ist eine XML-Datei, die vom Aufbau her ein wenig an XSL-FO angelehnt ist. Ähnlich wie bei XSL-FO enthält diese Datei also Anweisungen für den PDF-Prozessor, um die Inhalte in ein entsprechendes PDF zu setzen.
@@ -22,4 +22,4 @@ Um das Basisdokument zu erzeugen, müssen Sie zudem folgende Schritte durchführ
 2.  Seitenlayout bestimmen, siehe [Seitenlayout bestimmen](/Seitenlayout_bestimmen ).
 3.  Schriften auswählen, siehe [Schriftfamilien und -schnitte auswählen](/Schriftfamilien_und_-schnitte_auswählen ).
 
-[export_de/Kategorie.md:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie.md:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[export_de/Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )

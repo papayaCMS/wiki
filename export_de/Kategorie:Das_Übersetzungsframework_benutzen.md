@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:Das Übersetzungsframework benutzen
-permalink: export_de/Kategorie.md:Das_Übersetzungsframework_benutzen/
+title: export_de/Kategorie:Das Übersetzungsframework benutzen
+permalink: export_de/Kategorie:Das_Übersetzungsframework_benutzen/
 ---
 
 In diesem Kapitel erfahren Sie, wie Sie das Übersetzungsframework aus dem Default-Template von papaya CMS nutzen können, um Phrasen zu übersetzen. Das Übersetzungsframework macht es einfach, für die Web- oder PDF-Ausgabe Formatvorlagen zu erstellen, die mehrere Content-Sprachen unterstützen.
@@ -15,8 +15,8 @@ Aufbau des Phrasen-Systems
 
 Das Übersetzungsframework besteht aus drei Komponenten:
 
-1.  XML-Dateien mit den Übersetzungen, siehe [:export_de/Kategorie.md:Mit Übersetzungsdateien arbeiten](/:export_de/Kategorie.md:Mit_Übersetzungsdateien_arbeiten ).
+1.  XML-Dateien mit den Übersetzungen, siehe [:export_de/Kategorie:Mit Übersetzungsdateien arbeiten](/:export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten ).
 2.  Parameter, über die abhängig vom jeweiligen Kontext die XML-Dateien eingebunden werden, siehe [Übersetzungsdateien in XSLT-Parameter laden](/Übersetzungsdateien_in_XSLT-Parameter_laden ).
-3.  Basisstylesheet mit dem Übersetzungstemplate, siehe [:export_de/Kategorie.md:Übersetzungstemplate benutzen](/:export_de/Kategorie.md:Übersetzungstemplate_benutzen ).
+3.  Basisstylesheet mit dem Übersetzungstemplate, siehe [:export_de/Kategorie:Übersetzungstemplate benutzen](/:export_de/Kategorie:Übersetzungstemplate_benutzen ).
 
-[export_de/Kategorie.md:Templates und Themes entwickeln](export_de/Kategorie.md:Templates_und_Themes_entwickeln )
+[export_de/Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln )

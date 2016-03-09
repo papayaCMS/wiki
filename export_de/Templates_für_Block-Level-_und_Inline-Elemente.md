@@ -131,4 +131,4 @@ Die Elemente für Überschriften der ersten, zweiten und dritten Ordnung werden 
 ...
 ~~~~
 
-[export_de/Kategorie.md:PDF-Template schreiben](export_de/Kategorie.md:PDF-Template_schreiben )
+[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )

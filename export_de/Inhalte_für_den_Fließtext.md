@@ -130,4 +130,4 @@ Elemente wie `<text>` und `<teaser>` können jedoch selbst weitere Elemente enth
 ...
 ~~~~
 
-[export_de/Kategorie.md:PDF-Template schreiben](export_de/Kategorie.md:PDF-Template_schreiben )
+[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )

@@ -120,4 +120,4 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-[export_de/Kategorie.md:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie.md:Content_ausgeben_und_Nutzereingaben_maskieren )
+[export_de/Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )

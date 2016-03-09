@@ -22,4 +22,4 @@ Wenn Sie nun in der Modulverwaltung die Tabelle anklicken, wird der Infodialog m
 
 Näheres zur Modulverwaltung erfahren Sie in „papaya CMS 5: Handbuch für Administratoren“, Kapitel 17.
 
-[export_de/Kategorie.md:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie.md:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[export_de/Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )

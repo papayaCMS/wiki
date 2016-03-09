@@ -788,4 +788,4 @@ Damit wird verhindert, dass z.B. der X-Generator-Header Aufschluss über das ver
 
 Im folgenden Abschnitt wird beschrieben, wie die Systemoptionen für papaya CMS aus der Datenbank gelesen werden.
 
-[export_de/Kategorie.md:Wie sieht es unter der Haube aus?](export_de/Kategorie.md:Wie_sieht_es_unter_der_Haube_aus? )
+[export_de/Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

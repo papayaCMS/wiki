@@ -36,4 +36,4 @@ $value            = $moduleOptions['MY_VALUE'];
 
 Aus dem Schlüsselwort `my_value` ist beim Laden `MY_VALUE` geworden. Dadurch lassen sich Moduloptionen besser von normalen Werten unterscheiden.
 
-[export_de/Kategorie.md:Eigene Anwendungen schreiben](export_de/Kategorie.md:Eigene_Anwendungen_schreiben )
+[export_de/Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )

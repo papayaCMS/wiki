@@ -57,4 +57,4 @@ Fußzeile
 
 Im Standardmodus können Sie auch mit dem `<footer>` -Element eine Fußzeile bestimmen. Dazu fügen Sie einfach ein `<footer>` -Element in das `<page>` -Tag ein. Das `<footer>` -Element enthält ebenso wie das `<column>` -Element die Attribute `margin` und `align`. Zusätzlich jedoch können Sie mit dem `font` -Attribut die Schrift bestimmen.
 
-[export_de/Kategorie.md:PDF-Template schreiben](export_de/Kategorie.md:PDF-Template_schreiben )
+[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )

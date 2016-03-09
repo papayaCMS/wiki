@@ -3,7 +3,7 @@ title: Starttemplate erzeugen
 permalink: /Starttemplate_erzeugen/
 ---
 
-Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster enthält als Pfadangabe das Wurzelelement „/“. In diesem Template wird überprüft, ob das verwendete Seitenmodul vom Typ „export_de/Kategorie.md with image“ oder „Tag export_de/Kategorie.md“ ist, da nur diese Module ein Seiten-XML mit `<subtopic>` -Elementen ausliefern. Das folgende Listing stellt das XSLT-Template vor:
+Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster enthält als Pfadangabe das Wurzelelement „/“. In diesem Template wird überprüft, ob das verwendete Seitenmodul vom Typ „export_de/Kategorie with image“ oder „Tag export_de/Kategorie“ ist, da nur diese Module ein Seiten-XML mit `<subtopic>` -Elementen ausliefern. Das folgende Listing stellt das XSLT-Template vor:
 
 **Starttemplate mit match auf „/“**
 
@@ -27,4 +27,4 @@ Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster
 
 Das Basistemplate `basetemplate` wird nur dann aufgerufen, wenn das Seiten-XML durch das richtige Modul geliefert worden ist. Andernfalls wird eine leere Seite ausgeliefert. Über den Parameter `$PAGE_BASE_URL` wird die Basis-URL in die Variable `$host` eingelesen. Näheres zu diesen Parametern erfahren Sie in [Parameter in XSLT-Stylesheets](/Parameter_in_XSLT-Stylesheets ).
 
-[export_de/Kategorie.md:Template für RSS-Feed erstellen](export_de/Kategorie.md:Template_für_RSS-Feed_erstellen )
+[export_de/Kategorie:Template für RSS-Feed erstellen](export_de/Kategorie:Template_für_RSS-Feed_erstellen )

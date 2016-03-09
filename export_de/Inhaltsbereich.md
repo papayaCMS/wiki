@@ -10,4 +10,4 @@ Der Inhaltsbereich besteht aus den Elementen `<cover>`, `<content>`, `<footer>` 
 3.  Im optionalen Element `<footer>` können Sie den Inhalt der Fußzeile bestimmen, siehe [Element footer](/Element_footer ).
 4.  Das optionale Element `<final>` schließlich enthält die letzte Seite des PDF-Dokuments, siehe [Element cover und final](/Element_cover_und_final ).
 
-[export_de/Kategorie.md:papaya-Formatierungsobjekt](export_de/Kategorie.md:papaya-Formatierungsobjekt )
+[export_de/Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt )

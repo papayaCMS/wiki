@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie.md:Papaya-Formatierungsobjekt
-permalink: export_de/Kategorie.md:Papaya-Formatierungsobjekt/
+title: export_de/Kategorie:Papaya-Formatierungsobjekt
+permalink: export_de/Kategorie:Papaya-Formatierungsobjekt/
 ---
 
 Mit dem PDF-Template erzeugen Sie ein papaya-Formatierungsobjekt, dass durch den PDF-Prozessor von papaya CMS in ein PDF-Dokument übersetzt wird. Wenn Sie ein eigenes PDF-Template schreiben, müssen Sie also die XML-Struktur der Modulausgabe kennen:
@@ -21,4 +21,4 @@ Die Struktur des papaya-Formatierungsobjektes ist in der folgenden Illustration 
 
 Das Wurzelelement `<article>` enthält den Layoutbereich im Element `<layout>`, während der Inhaltsbereich auf die Elemente `<cover>`, `<content>`, `<footer>` und `<final>` aufgeteilt ist. In den folgenden Unterabschnitten werden diese Elemente näher beschrieben.
 
-[export_de/Kategorie.md:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie.md:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[export_de/Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )
