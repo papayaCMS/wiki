@@ -32,4 +32,4 @@ Seiten- und Boxmodule können nicht direkt benutzt werden, um den Inhalt einer S
 
 Ansichten lassen sich darüber hinaus mit beliebig vielen Ausgabefiltern kombinieren, wobei für jeden verknüpften Ausgabefilter genau ein XSLT-Template ausgewählt werden kann. Eine Ansicht kann also mit Ausgabefiltern für HTML, PDF und RSS verknüpft werden. Wenn Sie eine Seite mit solch einer Ansicht verknüpften, können Sie sich die Seite sowohl als HTML-Dokument öffnen als auch als RSS-Feed oder PDF-Datei herunterladen. Sie müssen lediglich die entsprechende Dateiendung in die Adresszeile Ihres Browsers eingeben. Näheres zu Ansichten erfahren Sie im Handbuch für Benutzer und Administratoren, Kapitel 15.
 
-[Kategorie:Formatvorlagen in papaya CMS](Kategorie:Formatvorlagen_in_papaya_CMS )
+[export_de/Kategorie:Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS )

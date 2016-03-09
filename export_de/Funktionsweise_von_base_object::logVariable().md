@@ -24,4 +24,4 @@ Die Funktion `base_object::logVariable()` verfügt über folgende Parameter:
 |`$addBacktrace`|„TRUE“, wenn die Log-Nachricht ein Backtrace der Funktionsaufrufe erhalten soll, andernfalls „FALSE“ (Standardeinstellung).|
 |`$backtraceOffset`|Integer-Wert, der den Offset im Backtrace angibt. Damit der Aufruf von `base_object::logMsg()` selbst nicht im Backtrace erscheint, kann ein Offset angegeben werden. Standard ist „3“.|
 
-[Kategorie:Fehlersuche mit base_object::logVariable()](Kategorie:Fehlersuche_mit_base_object::logVariable() )
+[export_de/Kategorie:Fehlersuche mit base_object::logVariable()](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable() )

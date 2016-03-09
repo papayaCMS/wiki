@@ -1,6 +1,6 @@
 ---
-title: Kategorie:Phrasen übersetzen
-permalink: Kategorie:Phrasen_übersetzen/
+title: export_de/Kategorie:Phrasen übersetzen
+permalink: export_de/Kategorie:Phrasen_übersetzen/
 ---
 
 Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnitte, Tabellenspalten und Buttons. Während bestimmte Texte automatisch übersetzt werden, müssen Sie in anderen Fällen explizit Übersetzungsmethoden aus der Klasse `base_object` ausführen. Die Klasse `base_object` stellt zu diesem Zweck folgende Methoden zur Verfügung:
@@ -19,7 +19,7 @@ Wenn Sie Phrasen eingeben, sollten Sie einige wesentliche Regeln beachten:
     ~~~~ {.php}
     $this->label = sprintf(
       $this->_gt('%s has been changed.'),
-      $this->_gt('Kategorie')
+      $this->_gt('export_de/Kategorie')
     );
     ~~~~
 
@@ -27,8 +27,8 @@ Wenn Sie Phrasen eingeben, sollten Sie einige wesentliche Regeln beachten:
 
     ~~~~ {.php}
     $this->label = $this->_gt(
-      'Kategorie hs been changed.'
+      'export_de/Kategorie hs been changed.'
     );
     ~~~~
 
-[Kategorie:Module für das Backend programmieren](Kategorie:Module_für_das_Backend_programmieren )
+[export_de/Kategorie:Module für das Backend programmieren](export_de/Kategorie:Module_für_das_Backend_programmieren )

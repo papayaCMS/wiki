@@ -11,6 +11,6 @@ Um die Vorlage zu installieren, gehen Sie wie folgt vor:
 4.  Wenn Sie zusätzliche Fonts erzeugt haben, kopieren Sie diese in das Verzeichnis `/pdf/fonts`. Anstelle von `/fonts` können Sie auch jeden anderen beliebigen Namen benutzen. Dieser muss jedoch der Angabe im Layoutbereich des Formatierungsobjekts entsprechen, siehe [Schriftfamilien und -schnitte auswählen](/Schriftfamilien_und_-schnitte_auswählen ).
 5.  Erstellen Sie einen Ausgabefilter für PDF. Als Dateiendung empfiehlt sich `.pdf`, der Content-Type ist `application/pdf`.
 
-Sie können nun Ansichten mit dem Ausgabefilter für PDF verknüpfen. Das Standardtemplate enthält ein XSLT-Stylesheet für die Seitenmodule „Kategorie with image“ und „Topic with image“.
+Sie können nun Ansichten mit dem Ausgabefilter für PDF verknüpfen. Das Standardtemplate enthält ein XSLT-Stylesheet für die Seitenmodule „export_de/Kategorie with image“ und „Topic with image“.
 
-[Kategorie:Vorlage für die PDF-Ausgabe erstellen](Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[export_de/Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )

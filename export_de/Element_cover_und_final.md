@@ -22,4 +22,4 @@ Das `<element>` -Tag umschließt Inhalte, die auf der Seite genau positioniert w
 |--------|---------|
 |id|Zuordnung zum `<element>` -Tag, das im `<page>` -Element enthalten ist. Das `<page>` -Element wiederum wird im `<layout>` -Element definiert, das die Layoutdefinition enthält. Der Wert des id-Attributs entspricht dem Wert des for-Attributs aus dem Layoutbereich.|
 
-[Kategorie:papaya-Formatierungsobjekt](Kategorie:papaya-Formatierungsobjekt )
+[export_de/Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt )

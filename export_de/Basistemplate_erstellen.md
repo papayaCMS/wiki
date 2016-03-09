@@ -41,4 +41,4 @@ Das Basistemplate speichert den Hostnamen in der XSLT-Variablen `$host` und erze
 
 Der Hostname ist im Quelldokument im Element `/page/content/topic/host` enthalten. Um eine gültige URL zu erzeugen, muss der Hostname um die Protokoll-Angabe `http://` ergänzt werden. Zusätzlich wird ein `/` angehängt. Das erzeugte Wurzelelement `<urlset>` erhält zudem einen Namensraum. Anschließend wird das `mapitem` -Template aufgerufen, das als Parameter noch die Variable mit dem Hostnamen erhält
 
-[Kategorie:Sitemap-Template erstellen](Kategorie:Sitemap-Template_erstellen )
+[export_de/Kategorie:Sitemap-Template erstellen](export_de/Kategorie:Sitemap-Template_erstellen )

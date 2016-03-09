@@ -509,4 +509,4 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
 
 Sie können nun für jedes andere Boxmodul so vorgehen, wie dies im obigen Beispiel beschrieben worden ist.
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[export_de/Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )

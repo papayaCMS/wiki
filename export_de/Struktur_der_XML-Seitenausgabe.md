@@ -125,4 +125,4 @@ Beachten Sie jedoch, dass keine entsprechenden HTTP-Header mit Angaben zum MIME-
 
 Sie müssen also die Funktion Ihres Browsers zur Anzeige des Seitenquellcodes aufrufen, um den XML-Quellcode sehen zu können.
 
-[Kategorie:Formatvorlagen in papaya CMS](Kategorie:Formatvorlagen_in_papaya_CMS )
+[export_de/Kategorie:Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS )

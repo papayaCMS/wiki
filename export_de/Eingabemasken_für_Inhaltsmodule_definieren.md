@@ -56,7 +56,7 @@ $editFields = array(
 Jedes einzelne Feld im `$editFields` -Array besteht aus einem Schlüssel, das auf ein eingebettetes Array zeigt. Das eingebettete Array enthält die eigentliche Felddefinition. Neben diesen Schlüssel-Array-Paaren kann das Array auch einfache Strings enthalten. Die Strings werden in der Eingabemaske als Zwischenüberschriften dargestellt. Im obigen Listing stellt `Image` eine solche Zwischenüberschrift dar. Das Array aus dem obigen Listing würde ein Eingabeformular erzeugen, das folgendermaßen aussieht:
 
 <<<<<<< HEAD
-[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „Kategorie with image“](/images/File:editFieldsExample.png )
+[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „export_de/Kategorie with image“](/images/File:editFieldsExample.png )
 =======
 ![File:EditFieldsExample.png](images/EditFieldsExample.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
@@ -105,4 +105,4 @@ In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 |translatedcombo|Drop-Down-Liste, dessen Einträge durch die Phrasenkomponente übersetzt werden.|Assoziatives Array mit Schlüssel-Wert-Paaren. Der Schlüssel wird als Wert für das `value` -Attribut des `<option>` -Elements benutzt, der Wert als Beschriftungstext. Der Beschriftungstext wird durch das Phrasensystem von papaya CMS übersetzt.|
 |yesno|Zwei Radiobuttons für Ja-Nein-Auswahl.|n/a|
 
-[Kategorie:Box- und Seitenmodule programmieren](Kategorie:Box-_und_Seitenmodule_programmieren )
+[export_de/Kategorie:Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren )

@@ -9,7 +9,7 @@ Wenn eine Seitenanfrage an den Webserver geht, interpretiert der Webserver (vora
 
 Das URL-Rewriting wird aus folgenden Gründen verwendet:
 
-1.  Mit dem Rewriting von URLs lassen sich suchmaschinenfreundliche Links erzeugen, da bestimmte Informationen wie die Seiten-ID, die Sprachversion oder die ID der Kategorie nicht über URL-Parameter an die `index.html` übergeben werden.
+1.  Mit dem Rewriting von URLs lassen sich suchmaschinenfreundliche Links erzeugen, da bestimmte Informationen wie die Seiten-ID, die Sprachversion oder die ID der export_de/Kategorie nicht über URL-Parameter an die `index.html` übergeben werden.
 2.  Statische Dateien und Verzeichnisse haben Vorrang vor virtuellen. Dieser Umstand wird durch entsprechende Rewrite-Regeln durchgesetzt, wobei statische Dateien (mit Ausnahme der Dateien in der MediaDB) direkt durch Apache ausgeliefert werden, ohne dass papaya CMS diese Aufgabe übernehmen müsste. Dies bringt einige Performance-Vorteile mit sich.
 3.  Wenn im Browser des Nutzers Cookies deaktiviert sind, wird die Session-ID in der Regel als GET-Parameter an die URL gehängt. Damit die URLs aber immer noch leserlich bleiben, wird die Session-ID durch Rewriting in den Pfad der URL geschrieben. Dadurch geht die Session-ID nicht so leicht verloren und sie kann nicht so einfach geändert werden.
 
@@ -205,4 +205,4 @@ Wenn das Apache-Modul `mod_headers` verfügbar ist, wird ein Cache-Control-Heade
 
 Die Cache-Zeit wird dabei jeweils auf 2.592.000 Sekunden (30 Tage) gesetzt (max-age). Mit "public" wird darüber hinaus angegeben, dass die angeforderte Ressource durch alle Zwischenstationen im Cache vorgehalten werden darf. `pre-check` definiert einen Update-Intervall in Sekunden, in dem der Client eine Ressource aktualisieren muss. Eine Ressource wird dabei erst nach dem Update angezeigt, sodass der Nutzer im Client den Updatevorgang ggf. in Form eines Nachladens beobachten kann.
 
-[Kategorie:Wie sieht es unter der Haube aus?](Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[export_de/Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

@@ -11,7 +11,7 @@ Die Daten für die Seitenausgabe werden in papaya CMS durch Module aus der Daten
 ![File:Php-modul-zu-xml-ausgabe.png](images/Php-modul-zu-xml-ausgabe.png)
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
-In [:Kategorie:Wie sieht es unter der Haube aus?](/:Kategorie:Wie_sieht_es_unter_der_Haube_aus? ) wird schrittweise und in einer weitaus höheren Detailstufe erklärt, wie eine Seite in papaya CMS aufgerufen und ausgegeben wird. Zunächst genügt es zu wissen, dass das Script vornehmlich Daten aus der Datenbank ausliest, verarbeitet und als XML ausgibt. Das folgende Listing stellt wiederum die auf das Wesentliche gekürzte XML-Ausgabe eines Seitenmoduls vor:
+In [:export_de/Kategorie:Wie sieht es unter der Haube aus?](/:export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? ) wird schrittweise und in einer weitaus höheren Detailstufe erklärt, wie eine Seite in papaya CMS aufgerufen und ausgegeben wird. Zunächst genügt es zu wissen, dass das Script vornehmlich Daten aus der Datenbank ausliest, verarbeitet und als XML ausgibt. Das folgende Listing stellt wiederum die auf das Wesentliche gekürzte XML-Ausgabe eines Seitenmoduls vor:
 
 **Auszug aus der XML-Ausgabe eines Seitenmoduls**
 
@@ -65,4 +65,4 @@ Nun ist schlichtes HTML nicht sonderlich ansprechend. Da Sie sicherlich darauf b
 
 Sie haben gesehen: Seitenmodule von papaya CMS geben XML aus. Ein Seitenmodul ist zudem über eine Ansicht mit einem Ausgabefilter und einem XSLT-Template verknüpft. Der Ausgabefilter wandelt die XML-Ausgabe des Moduls in ein Zielformat wie HTML um und nutzt dabei die Transformationsregeln aus dem XSLT-Template. Eine Ansicht kann dabei beliebig viele Zielformate über Ausgabemodi zugewiesen bekommen.
 
-[Kategorie:Wie funktioniert eigentlich papaya CMS?](Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )
+[export_de/Kategorie:Wie funktioniert eigentlich papaya CMS?](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS? )

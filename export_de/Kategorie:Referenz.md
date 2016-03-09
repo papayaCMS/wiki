@@ -1,6 +1,6 @@
 ---
-title: Kategorie:Referenz
-permalink: Kategorie:Referenz/
+title: export_de/Kategorie:Referenz
+permalink: export_de/Kategorie:Referenz/
 ---
 
-[Kategorie:Handbuch für Entwickler](Kategorie:Handbuch_für_Entwickler )
+[export_de/Kategorie:Handbuch für Entwickler](export_de/Kategorie:Handbuch_für_Entwickler )

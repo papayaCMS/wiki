@@ -16,4 +16,4 @@ GRANT ALL PRIVILEGES ON datenbankname.*
        IDENTIFIED BY 'passwort';
 ~~~~
 
-[Kategorie:Server konfigurieren](Kategorie:Server_konfigurieren )
+[export_de/Kategorie:Server konfigurieren](export_de/Kategorie:Server_konfigurieren )

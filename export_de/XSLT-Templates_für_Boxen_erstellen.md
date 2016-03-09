@@ -129,4 +129,4 @@ Die Stylesheet-Dateien für Boxmodule im Demo-Template sind wesentlich einfacher
     </xsl:stylesheet>
     ~~~~
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[export_de/Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )

@@ -44,4 +44,4 @@ Die Unterverzeichnisse und Metadateien des Pakets werden in folgender Tabelle au
 
 Anschließend können Sie damit beginnen, Module für papaya CMS zu schreiben. Damit diese Module in papaya CMS verwendet werden können, müssen Sie die `modules.xml` -Datei erstellen. Näheres dazu erfahren Sie im folgenden Abschnitt.
 
-[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[export_de/Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )

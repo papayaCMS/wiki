@@ -1,6 +1,6 @@
 ---
-title: Kategorie:Das papaya-Demotemplate
-permalink: Kategorie:Das_papaya-Demotemplate/
+title: export_de/Kategorie:Das papaya-Demotemplate
+permalink: export_de/Kategorie:Das_papaya-Demotemplate/
 ---
 
-[Kategorie:Templates und Themes entwickeln](Kategorie:Templates_und_Themes_entwickeln )
+[export_de/Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln )

@@ -1,6 +1,6 @@
 ---
-title: Kategorie:Eigene Anwendungen schreiben
-permalink: Kategorie:Eigene_Anwendungen_schreiben/
+title: export_de/Kategorie:Eigene Anwendungen schreiben
+permalink: export_de/Kategorie:Eigene_Anwendungen_schreiben/
 ---
 
 Anwendungen sind Programme, die papaya CMS um spezielle Funktionen erweitern. Anwendungen können aus verschiedenen Modulen für die Seiten- oder Boxausgabe bestehen. Sie enthalten jedoch insbesondere spezielle Administrationsmodule, mit denen die Benutzeroberfläche im Backend aufgebaut wird. Diese Administrationsmodule stellen Ein- und Ausgabeschnittstellen zur Verfügung, mit denen der Benutzer Daten eingeben und bearbeiten oder Einstellungen vornehmen kann.
@@ -15,4 +15,4 @@ Folgende Schritte sind notwendig um eine eigene Anwendung zu erstellen:
 
 Das im Folgenden beschriebene Beispielprogramm soll Sammlungen (Collections) einfacher Text- oder Bildbausteine (Stickers), verwalten und diese ausgeben können.
 
-[Kategorie:Module für das Backend programmieren](Kategorie:Module_für_das_Backend_programmieren )
+[export_de/Kategorie:Module für das Backend programmieren](export_de/Kategorie:Module_für_das_Backend_programmieren )

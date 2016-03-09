@@ -32,4 +32,4 @@ Um eine Übersetzungsdatei anzulegen, gehen Sie wie folgt vor:
 
 5.  Speichern Sie die Datei ab. Der Dateiname sollte dem Schema folgen, das in [Namensschema für Übersetzungsdateien](/Namensschema_für_Übersetzungsdateien ) beschrieben ist.
 
-[Kategorie:Mit Übersetzungsdateien arbeiten](Kategorie:Mit_Übersetzungsdateien_arbeiten )
+[export_de/Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten )

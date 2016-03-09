@@ -23,4 +23,4 @@ Die folgende Tabelle enthält eine Übersicht aller Modultypen von papaya CMS:
 
 Im normalen Arbeitsalltag kommen vorwiegend Content-, Box- und Adminmodule zum Einsatz. Bei großen Projekten mit verschiedenen Paketen spielen auch Konnektoren und Cronjobs eine größere Rolle.
 
-[Kategorie:Der modulare Aufbau von papaya CMS](Kategorie:Der_modulare_Aufbau_von_papaya_CMS )
+[export_de/Kategorie:Der modulare Aufbau von papaya CMS](export_de/Kategorie:Der_modulare_Aufbau_von_papaya_CMS )

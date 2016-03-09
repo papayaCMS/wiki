@@ -46,4 +46,4 @@ $this->menubar->images = &$this->images;
 
 Anschließend können Sie über die Methode `addButton()` der `base_btnbuilder` -Klasse die Toolbar mit Buttons bestücken. Der dritte Parameter bezeichnet das Icon, das verwendet werden soll (falls gewünscht). Es ist hier nicht nötig auf `$this->images` zurückzugreifen. Das wird von `base_btnbuilder` selbständig erledigt.
 
-[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen )
+[export_de/Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](export_de/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen )

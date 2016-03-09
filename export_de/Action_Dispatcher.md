@@ -59,4 +59,4 @@ Unter der Symbolleiste wird in der linken Spalte eine Liste der existierenden Gr
 
 Unter *Module \> Action dispatcher \> Action dispatcher \> Optionen* können Sie eine einzige Moduloption einstellen: Ob Aktionen beim Aufruf der Methode call() automatisch registriert werden sollen oder nicht. Standardmäßig ist diese Funktion deaktiviert (vor allem, weil die Datenbanktabellen des Action Dispatchers in einer neuen papaya-Installation noch gar nicht existieren). Wenn Sie sie einschalten, überprüft jeder Aufruf von call(), ob die Gruppe/Aktion, die Sie verwenden, bereits registriert ist, und schreibt sie in die Datenbank, wenn dies nicht der Fall ist. Das Ereignis wird als Information ins papaya-Protokoll eingetragen. Bitte beachten Sie, dass die Autoregistrierung NICHT dafür sorgt, dass tatsächlich Observer aufgerufen werden, weil Sie diese immer noch manuell oder per XML-Import registrieren müssen, aber Sie erfahren aus dem papaya-Protokoll, welche neuen Aktionen aufgerufen werden.
 
-[Kategorie:papaya CMS Entwicklung](Kategorie:papaya_CMS_Entwicklung )
+[export_de/Kategorie:papaya CMS Entwicklung](export_de/Kategorie:papaya_CMS_Entwicklung )

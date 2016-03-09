@@ -1,5 +1,5 @@
 ---
-title: Kategorie:Handbuch für Entwickler
-permalink: Kategorie:Handbuch_für_Entwickler/
+title: export_de/Kategorie:Handbuch für Entwickler
+permalink: export_de/Kategorie:Handbuch_für_Entwickler/
 ---
 

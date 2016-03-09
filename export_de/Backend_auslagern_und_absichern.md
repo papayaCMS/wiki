@@ -8,4 +8,4 @@ Zudem kann eine gesicherte Verbindung (https) für die gesamte (Sub-)Domäne erz
 
 Weitere Details zur Konfiguration eines solchen Backends finden sich in dem Artikel [papaya CMS: Backend auslagern und absichern](http://idxsolutions.de/papaya-cms-backend-auslagern-und-absichern.91.html)
 
-[Kategorie:Papaya CMS installieren und konfigurieren](Kategorie:Papaya_CMS_installieren_und_konfigurieren )
+[export_de/Kategorie:Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren )

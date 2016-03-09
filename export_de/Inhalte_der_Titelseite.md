@@ -50,4 +50,4 @@ Im obigen Beispiel werden der Titel sowie der Untertitel in `<element>` -Tags ei
 
 Die Inhalte werden jedoch nicht direkt eingebunden. Stattdessen werden Hilfstemplates aufgerufen, um den Titel, Untertitel und ggf. auch den Teaser und das Bild einzubinden. Näheres zu diesen Hilfstemplates erfahren Sie in [Inhalte für den Fließtext](/Inhalte_für_den_Fließtext ).
 
-[Kategorie:PDF-Template schreiben](Kategorie:PDF-Template_schreiben )
+[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )
