@@ -145,4 +145,4 @@ Zuletzt erhält noch der Footer eine entsprechende Formatierung:
 
 Im folgenden Abschnitt können Sie erfahren, wie Sie die CSS-Datei in die druckfreundliche Seitenausgabe einbinden können.
 
-[export_de/Kategorie:Print-Templates schreiben](export_de/Kategorie:Print-Templates_schreiben )
+[export_de/Kategorie.md:Print-Templates schreiben](export_de/Kategorie.md:Print-Templates_schreiben )

@@ -127,4 +127,4 @@ Der Aufbau ist dementsprechend etwas anders:
 
 Der einzige Unterschied besteht darin, dass Listview das Attribut mode="tile" hat. Je nachdem, was man anzeigen möchte, kann man gut links mit Icons kombinieren, oder anderes HTML einfügen. Einige Angaben wie Menü, Status und Columns machen bei dieser Listenausgabe natürlich wenig Sinn.
 
-[export_de/Kategorie:Die einzelnen Komponenten im Detail](export_de/Kategorie:Die_einzelnen_Komponenten_im_Detail )
+[export_de/Kategorie.md:Die einzelnen Komponenten im Detail](export_de/Kategorie.md:Die_einzelnen_Komponenten_im_Detail )

@@ -12,4 +12,4 @@ Die folgende Liste stellt eine Reihe von Beispielen für Dateinamen nach dem obe
 1.  `de.xml`, `en.xml`
 2.  `de-DE.xml`, `de-CH.xml`, `en-US.xml`
 
-[export_de/Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten )
+[export_de/Kategorie.md:Mit Übersetzungsdateien arbeiten](export_de/Kategorie.md:Mit_Übersetzungsdateien_arbeiten )

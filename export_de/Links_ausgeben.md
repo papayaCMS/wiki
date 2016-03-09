@@ -40,7 +40,7 @@ Verwenden Sie `base_object::getWebLink()` um einen Link für die Ausgabe im Fron
           ...)`|
 |\$paramName|Der Parametername, falls abweichend von `$this->paramName`|
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Seitentitel oder „index“.|
-|\$categId|export_de/Kategorie-ID. Die numerische ID kann sich auf eine export_de/Kategorie aus dem Katalog beziehen, wenn die Seite der export_de/Kategorie zugeordnet worden ist. Die ID kann sich jedoch auch auf jede andere Ressource beziehen, die mit dem Seitenrequest angefordert wird.|
+|\$categId|export_de/Kategorie.md-ID. Die numerische ID kann sich auf eine export_de/Kategorie.md aus dem Katalog beziehen, wenn die Seite der export_de/Kategorie.md zugeordnet worden ist. Die ID kann sich jedoch auch auf jede andere Ressource beziehen, die mit dem Seitenrequest angefordert wird.|
 
 Die Methode base_object::getAbsoluteURL()
 ------------------------------------------
@@ -70,4 +70,4 @@ Verwenden Sie `base_object::getWebMediaLink()` um anhand einer Media-ID einen vo
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Dateiname oder „index“.|
 |\$ext|Endung der Datei, z.B. „png“|
 
-[export_de/Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )
+[export_de/Kategorie.md:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie.md:Content_ausgeben_und_Nutzereingaben_maskieren )

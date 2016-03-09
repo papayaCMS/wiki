@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Server konfigurieren
-permalink: export_de/Kategorie:Server_konfigurieren/
+title: export_de/Kategorie.md:Server konfigurieren
+permalink: export_de/Kategorie.md:Server_konfigurieren/
 ---
 
 Um den Server für den Betrieb von papaya CMS zu konfigurieren, sind folgende Schritte notwendig:
@@ -24,4 +24,4 @@ Ihr System muss grundsätzlich folgende Bedingungen erfüllen, damit Sie papaya 
 |Grafikprozessor|GDLIB ab Version 2.x, ImageMagick, GraphicsMagick oder Netpbm.|
 |Suchmodul|mnoGoSearch (optional, frei für Unix/Linux, kommerziell für Windows)|
 
-[export_de/Kategorie:Papaya CMS installieren](export_de/Kategorie:Papaya_CMS_installieren )
+[export_de/Kategorie.md:Papaya CMS installieren](export_de/Kategorie.md:Papaya_CMS_installieren )

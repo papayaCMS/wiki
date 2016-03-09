@@ -48,4 +48,4 @@ Ein konkretes Beispiel für eine Übersetzungsdatei ist im folgenden Listing dar
 </texts>
 ~~~~
 
-[export_de/Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten )
+[export_de/Kategorie.md:Mit Übersetzungsdateien arbeiten](export_de/Kategorie.md:Mit_Übersetzungsdateien_arbeiten )

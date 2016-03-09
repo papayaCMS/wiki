@@ -12,4 +12,4 @@ Im Abschnitt "Fehlersuche" der Konfiguration können Sie einstellen, welche Fehl
 |PAPAYA_DBG_PHP_SHOW_FIREBUG|Bestimmt, ob die Ausgabe von Fehlermeldungen und `debug()` -Aufrufen in der Konsole der Firebug-Erweiterung erfolgen soll oder im Browser.|
 |PAPAYA_DBG_PHP_ERROR|Bestimmt, welcher Fehlerlevel zum Einsatz kommen soll. Im Entwicklungsumfeld sollte dieser auf E_ALL stehen, im Produktivbetrieb können z.B. Notices ausgeschaltet werden. In der Regel werden Notices während der Entwicklung beseitigt. Dennoch können auch in Produktivumgebungen sehr viele Notice-Meldungen das Protokoll von papaya CMS überfluten, sodass schwerwiegendere Fehlermeldungen leicht übersehen werden können.|
 
-[export_de/Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[export_de/Kategorie.md:Fehlersuche in papaya CMS](export_de/Kategorie.md:Fehlersuche_in_papaya_CMS )

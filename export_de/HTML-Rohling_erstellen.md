@@ -364,4 +364,4 @@ Wenn Sie sich den Quellcode genauer betrachten, werden Sie einige Elemente erken
 
 Diese Elemente werden durch das CSS augeblendet, bleiben aber in Textbrowsern wie Lynx oder speziellen blindengerechten Browsern sichtbar.
 
-[export_de/Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[export_de/Kategorie.md:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie.md:Implementierungsphase:_Webseitenvorlage_erstellen )

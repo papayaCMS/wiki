@@ -7,7 +7,7 @@ Box- und Seitenmodule liefern die Inhalte im XML-Format aus. Das XSLT-Template h
 
 Für das Setzen der Inhalte nutzt der PDF-Prozessor die PDF-Musterdatei als Vorlage. Die PDF-Datei erfüllt dabei im gewissen Sinne die Funktion eines Themes, da sie zum Beispiel Layoutgrafiken enthalten kann. Anders als bei Themes kann eine PDF-Datei jedoch keine Formatierungen oder Schriftfamilien vorgeben, in denen die Inhalte gesetzt werden sollen. Diese Layoutangaben werden direkt im papaya-Formatierungsobjekt geschrieben.
 
-Die HTML-Vorlage enthält für jedes benutzte Seiten- und Boxmodul eine separate XSLT-Datei. Das selbe Prinzip der Modularisierung können Sie auch bei den PDF-Templates anwenden. Allerdings enthält die Standarddistribution von papaya CMS nur ein zentrales Template für die Standardmodule „export_de/Kategorie with image“ und „Topic with image“. Je nach Bedarf können Sie jedoch auf einfache Weise eigene Erweiterungen schreiben, wobei Sie das bereits vorhandene XSLT-Template nutzen können.
+Die HTML-Vorlage enthält für jedes benutzte Seiten- und Boxmodul eine separate XSLT-Datei. Das selbe Prinzip der Modularisierung können Sie auch bei den PDF-Templates anwenden. Allerdings enthält die Standarddistribution von papaya CMS nur ein zentrales Template für die Standardmodule „export_de/Kategorie.md with image“ und „Topic with image“. Je nach Bedarf können Sie jedoch auf einfache Weise eigene Erweiterungen schreiben, wobei Sie das bereits vorhandene XSLT-Template nutzen können.
 
 Verzeichnisstruktur der PDF-Vorlage
 -----------------------------------
@@ -31,4 +31,4 @@ Wenn Sie ein eigenes PDF-Template erstellen möchten, müssen Sie in Ihrem Templ
 1.  Im Templateverzeichnis das Unterverzeichnis `/pdf/`
 2.  Innerhalb von `/pdf/` das Verzeichnis `/template/` mit der PDF-Musterdatei
 
-[export_de/Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[export_de/Kategorie.md:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie.md:Vorlage_für_die_PDF-Ausgabe_erstellen )

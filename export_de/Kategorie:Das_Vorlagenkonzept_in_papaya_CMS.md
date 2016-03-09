@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Das Vorlagenkonzept in papaya CMS
-permalink: export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS/
+title: export_de/Kategorie.md:Das Vorlagenkonzept in papaya CMS
+permalink: export_de/Kategorie.md:Das_Vorlagenkonzept_in_papaya_CMS/
 ---
 
 Eine Webseitenvorlage in papaya CMS setzt sich aus Theme und Template zusammen. Ein Theme besteht aus CSS-Dateien und Layout-Grafiken, während ein Template aus mehreren XSLT-Dateien besteht. Das Template dient dazu, das von den Modulen generierte XML in das HTML-Format zu transformieren. Mit dem Theme erhält dieses HTML eine ansprechende grafische Gestaltung.
@@ -9,4 +9,4 @@ Template und Theme unterscheiden sich noch in einem anderen Bereich. Während da
 
 Des Weiteren kann die Webseitenvorlage auch noch durch eine clientseitige Scriptbibliothek ergänzt werden. Eine Webseitenvorlage ist also immer ein Template/Theme-Set, in dem ein Template mit einem dazu passenden Theme und einer optionalen Scriptbibliothek zusammengestellt wird.
 
-[export_de/Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln )
+[export_de/Kategorie.md:Templates und Themes entwickeln](export_de/Kategorie.md:Templates_und_Themes_entwickeln )

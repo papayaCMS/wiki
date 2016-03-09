@@ -14,4 +14,4 @@ Die Sitemapindex-Datei ist ähnlich einfach aufgebaut wie die Sitemap-Datei. Das
 |`<loc>`|Enthält die URI zu einer Sitemap-Datei.|
 |`<lastmod>`|Enthält das Datum der letzten Änderung der Sitemap-Datei.|
 
-[export_de/Kategorie:Sitemap-Datei für Suchmaschinen](export_de/Kategorie:Sitemap-Datei_für_Suchmaschinen )
+[export_de/Kategorie.md:Sitemap-Datei für Suchmaschinen](export_de/Kategorie.md:Sitemap-Datei_für_Suchmaschinen )

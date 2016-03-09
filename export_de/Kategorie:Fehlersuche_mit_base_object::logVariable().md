@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Fehlersuche mit base object::logVariable()
-permalink: export_de/Kategorie:Fehlersuche_mit_base_object::logVariable()/
+title: export_de/Kategorie.md:Fehlersuche mit base object::logVariable()
+permalink: export_de/Kategorie.md:Fehlersuche_mit_base_object::logVariable()/
 ---
 
 Dieser Abschnitt erklärt, wie Sie mit `base_object::logVariable()` die Inhalte einer Variablen in das Systemprotokoll schreiben können. In bestimmten Fällen lassen sich dadurch wertvolle Debug-Informationen auf einer live-Webseite sammeln. Die Funktion `base_object::logVariable()` sollte aus folgenden Gründen benutzt werden:
@@ -11,4 +11,4 @@ Dieser Abschnitt erklärt, wie Sie mit `base_object::logVariable()` die Inhalte 
 
 Da `base_object::logVariable()` in `base_object` implementiert worden ist, steht sie in allen Klassen im papaya-Basissystem zur Verfügung.
 
-[export_de/Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[export_de/Kategorie.md:Fehlersuche in papaya CMS](export_de/Kategorie.md:Fehlersuche_in_papaya_CMS )

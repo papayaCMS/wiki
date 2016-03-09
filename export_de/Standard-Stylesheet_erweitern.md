@@ -41,4 +41,4 @@ siehe folgende Abbildung:
 
 Das Template `link.toolbar` wird im obigen Code-Ausschnitt zwei Mal aufgerufen: vor und nach dem Template `content_area`. Da `content_area` in allen Stylesheets für die Seitenmodule überschrieben wird, erscheint die Toolbar dadurch auf allen Seiten unabhängig vom Seitenmodul.
 
-[export_de/Kategorie:Ausgaben verlinken](export_de/Kategorie:Ausgaben_verlinken )
+[export_de/Kategorie.md:Ausgaben verlinken](export_de/Kategorie.md:Ausgaben_verlinken )

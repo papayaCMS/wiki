@@ -13,4 +13,4 @@ Es gibt drei Möglichkeiten die Session zu verwenden:
 2.  Daten in der Session frei speichern, siehe [Daten frei in der Session speichern](/Daten_frei_in_der_Session_speichern ).
 3.  Sesisonspeicherklasse für umfangreiche Daten einsetzen, siehe [Separate Klasse als Session-Speicher verwenden](/Separate_Klasse_als_Session-Speicher_verwenden ).
 
-[export_de/Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )
+[export_de/Kategorie.md:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie.md:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )

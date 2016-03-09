@@ -27,4 +27,4 @@ $this->addMsg(MSG_WARNING, $this->_gt('Please enter search criteria.'));
 
 Im obigen Beispiel wird die Phrase eines Warndialogs übersetzt. Dabei wird die Ausgabe von `$this->_gt()` direkt für den zweiten Parameter der Methode `$this->addMsg()` verwendet.
 
-[export_de/Kategorie:Phrasen übersetzen](export_de/Kategorie:Phrasen_übersetzen )
+[export_de/Kategorie.md:Phrasen übersetzen](export_de/Kategorie.md:Phrasen_übersetzen )
