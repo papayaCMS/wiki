@@ -74,4 +74,4 @@ Die Revisionsdatei gibt Auskunft über den Versionsstand einer papaya-Installati
 
 Im folgenden Abschnitt wird die Konfigurationsdatei `conf.inc.php` besprochen.
 
-[export_de/Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

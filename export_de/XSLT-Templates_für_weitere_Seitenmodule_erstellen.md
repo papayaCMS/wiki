@@ -225,4 +225,4 @@ Sie brauchen für jedes Seitenmodul lediglich die zentrale Stylesheet-Datei `pag
     </xsl:stylesheet>
     ~~~~
 
-[export_de/Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )

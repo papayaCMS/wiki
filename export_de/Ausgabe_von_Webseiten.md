@@ -40,4 +40,4 @@ Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In di
 
 Beim Aufruf des Ausgabefilters werden im XSLT-Prozessor zudem alle notwendigen Parameter mit Angaben für das Theme-Verzeichnis und für weitere Ressourcen gesetzt. Wenn die Seite mit Boxen verknüpft ist, wird vorher das XML von allen verknüpften Boxen durch den Ausgabefilter in das Zielformat umgewandelt und die HTML-Ausgabe der Boxen in CDATA-Abschnitte des Seiten-XML eingebunden. Erst dann kann das Template der Seite aufgerufen werden.
 
-[export_de/Kategorie:Das Vorlagenkonzept in papaya CMS](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )
+[Kategorie:Das Vorlagenkonzept in papaya CMS](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )

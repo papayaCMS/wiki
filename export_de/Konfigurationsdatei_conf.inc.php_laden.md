@@ -7,4 +7,4 @@ Die Datei `conf.inc.php` enthält die grundlegende Konfiguration für eine papay
 
 Die Kommentare erklären die meisten Optionen ausreichend. Näheres zu den Optionen erfahren Sie in „papaya CMS 5: Handbuch für Administratoren“, Abschnitt 15.11.
 
-[export_de/Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

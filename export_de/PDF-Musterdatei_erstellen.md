@@ -33,4 +33,4 @@ Größe und Position aller Inhaltsbereiche notieren
 
 Sie sollten sich die genauen Maße und die Größe der rechteckigen Bereiche notieren, in die die Inhalte gesetzt werden. Wenn Sie später das XSLT-Template schreiben, können Sie dadurch die Texte in die richtige Position setzen. Andernfalls kann es sehr leicht vorkommen, dass Texte über Layoutgrafiken gesetzt werden oder außerhalb des Seitenbereiches rutschen.
 
-[export_de/Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )
+[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen )

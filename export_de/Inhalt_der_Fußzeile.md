@@ -62,4 +62,4 @@ Die Inhalte für die Fußzeile werden über das XSLT-Template `footer` eingefüg
 
 Das Template fügt einfach den Namen des Autors, das Datum der Veröffentlichung sowie das der letzten Änderung in die Fußzeile ein. Diese Inhalte werden dabei nur dann in das papaya-Formatierungsobjekt geschrieben, wenn die entsprechenden Daten im Quelldokument enthalten sind.
 
-[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )
+[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )

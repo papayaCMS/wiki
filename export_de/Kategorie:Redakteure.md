@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Redakteure
-permalink: export_de/Kategorie:Redakteure/
+title: Kategorie:Redakteure
+permalink: Kategorie:Redakteure/
 ---
 
 Dokumentation

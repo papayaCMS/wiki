@@ -10,4 +10,4 @@ Sie müssen folgende Apache-Module aktivieren:
 
 papaya CMS wird darüber hinaus mit `.htaccess` -Dateien ausgeliefert. Sie müssen also entweder die AllowOverride-Direktive anpassen, damit diese Dateien ausgewertet werden können, oder die Inhalte der `.htaccess` -Datei in die zentrale Apache-Konfigurationsdatei inkludieren. Näheres erfahren Sie in Ihrer Apache-Dokumentation.
 
-[export_de/Kategorie:Server konfigurieren](export_de/Kategorie:Server_konfigurieren )
+[Kategorie:Server konfigurieren](export_de/Kategorie:Server_konfigurieren )

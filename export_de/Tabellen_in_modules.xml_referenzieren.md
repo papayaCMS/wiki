@@ -45,4 +45,4 @@ Um die Tabellendokumente in der `modules.xml` zu registrieren, gehen Sie bitte w
 
 Die XML-Dateien mit den Tabellenstrukturen werden im Verzeichnis `./DATA/` gespeichert, wobei der Dateiname das Präfix `table_` erhält.
 
-[export_de/Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )
+[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen )

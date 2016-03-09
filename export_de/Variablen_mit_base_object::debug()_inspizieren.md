@@ -28,4 +28,4 @@ Das Backtrace enthält auch die Zeilenangaben. Das macht es leicht den Programma
 
 Die Ausgabe von Objekten ist üblicherweise sehr lang. In dem Beispiel sehen Sie auch, warum es so wichtig ist, die Debugausgabe auf Livesystemen abzuschalten. Datenbank-Zugangsdaten und Informationen über die Pfadstruktur können ausgegeben werden, sodass potentielle Angreifer ohne viel Aufwand wichtige Informationen über das System erhalten würden.
 
-[export_de/Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )

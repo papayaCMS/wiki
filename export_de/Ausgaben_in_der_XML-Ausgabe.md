@@ -34,4 +34,4 @@ Sie können dieses Problem jedoch auf eine sehr einfache Weise lösen. Jede Seit
 
 Sie müssen die Links der `<viewmode>` -Elemente also lediglich in die Webseitenausgabe durchschleifen, damit sie dem Nutzer zur Verfügung stehen. Auf diese Weise werden auch nur diejenigen Links angezeigt, die für die aktuelle Seite zur Verfügung stehen. Links, die ins Leere führen, können auf diese Weise nicht entstehen.
 
-[export_de/Kategorie:Ausgaben verlinken](export_de/Kategorie:Ausgaben_verlinken )
+[Kategorie:Ausgaben verlinken](export_de/Kategorie:Ausgaben_verlinken )

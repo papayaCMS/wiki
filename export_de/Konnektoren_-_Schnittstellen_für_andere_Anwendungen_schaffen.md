@@ -128,4 +128,4 @@ Manchmal ist es notwendig, die Basisklasse zu erweitern, weil der Konnektor zus√
 
 6.  Speichern Sie Ihre √Ñnderungen ab.
 
-[export_de/Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )
+[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben )

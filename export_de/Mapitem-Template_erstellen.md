@@ -28,4 +28,4 @@ Das `<mapitem>` -Template wandelt alle vorhandenen `<mapitem>` -Elemente aus dem
 </xsl:template>
 ~~~~
 
-[export_de/Kategorie:Sitemap-Template erstellen](export_de/Kategorie:Sitemap-Template_erstellen )
+[Kategorie:Sitemap-Template erstellen](export_de/Kategorie:Sitemap-Template_erstellen )

@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Meldungen mit base object::logMsg() protokollieren
-permalink: export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren/
+title: Kategorie:Meldungen mit base object::logMsg() protokollieren
+permalink: Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren/
 ---
 
 Dieser Abschnitt erklärt, wie Sie mit `base_object::logMsg()` wertvolle Debug-Informationen auf einer live-Webseite sammeln können. Die Protokollfunktion sollte aus folgenden Gründen benutzt werden:
@@ -11,4 +11,4 @@ Dieser Abschnitt erklärt, wie Sie mit `base_object::logMsg()` wertvolle Debug-I
 
 Da `logMsg()` in `base_object` implementiert ist, steht sie in allen Klassen im papaya-Basissystem zur Verfügung.
 
-[export_de/Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )
+[Kategorie:Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS )

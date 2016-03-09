@@ -46,4 +46,4 @@ Das oben dargestellte Basistemplate enthält die Layoutdefinitionen im Element `
 
 Nach dem Layoutbereich wird mit der Anweisung `call-template` das Template „content_area“ aufgerufen, das die Inhalte in das papaya-Formatierungsobjekt einfügt. Näheres dazu erfahren Sie in [Zentrales Template für den Inhaltsbereich](/Zentrales_Template_für_den_Inhaltsbereich ).
 
-[export_de/Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )
+[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben )

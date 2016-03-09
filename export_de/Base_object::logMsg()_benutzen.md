@@ -63,4 +63,4 @@ In diesem Fall wird MSG_INFO statt MSG_WARNING verwendet. In der Nachrichtenübe
 
 Durch die unterschiedliche Gewichtung können Sie Nachrichten nach bestimmten Leveln filtern. Näheres dazu erfahren Sie in „papaya CMS 5: Handbuch für Administratoren“, Kapitel 19.
 
-[export_de/Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren )
+[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren )

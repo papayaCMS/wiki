@@ -219,4 +219,4 @@ Hinweise zu den Pfadkonstanten in papaya CMS
 |PAPAYA_PATH_TEMPLATES|Absoluter Pfad zu den Templates.|
 |PAPAYA_PATHWEB_ADMIN|Relativer Pfad zum Backend dieser papaya-Installation.|
 
-[export_de/Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )
+[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

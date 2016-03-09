@@ -1,6 +1,6 @@
 ---
-title: export_de/Kategorie:Verzeichnisse und Metadaten für Pakete erstellen
-permalink: export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen/
+title: Kategorie:Verzeichnisse und Metadaten für Pakete erstellen
+permalink: Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen/
 ---
 
 Bevor Sie ein Modul für papaya CMS entwickeln können, müssen Sie erst ein Verzeichnis mit allen notwendigen Metadaten anlegen. Zu den Metadaten gehört die `modules.xml`. In dieser XML-Datei werden alle Module des Pakets aufgeführt. Des weiteren enthält das Paketverzeichnis ein Unterverzeichnis mit Tabellenstrukturbeschreibungen sowie ein Verzeichnis, das Grafiken für Admin-Module oder Buttons enthält.
@@ -14,4 +14,4 @@ In diesem Abschnitt erfahren Sie folgendes:
 5.  Wie Sie die Tabellenstrukturdateien in der `modules.xml` referenzieren, siehe [Tabellen in modules.xml referenzieren](/Tabellen_in_modules.xml_referenzieren ).
 6.  Wie Sie die Anwendung als Paket ausliefern, siehe [Anwendung als Paket ausliefern](/Anwendung_als_Paket_ausliefern ).
 
-[export_de/Kategorie:Basismodule für papaya CMS programmieren](export_de/Kategorie:Basismodule_für_papaya_CMS_programmieren )
+[Kategorie:Basismodule für papaya CMS programmieren](export_de/Kategorie:Basismodule_für_papaya_CMS_programmieren )
