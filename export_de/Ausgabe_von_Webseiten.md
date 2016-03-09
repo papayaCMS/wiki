@@ -28,7 +28,7 @@ Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die S
 
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
 
-[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png "wikilink")
+![File:papayaSystem.png](images/File:papayaSystem.png)
 
 Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In diesem Bereich wird die Ausgabe der Module – egal ob es sich um Boxen oder Seiten handelt – an den XSLT-Ausgabefilter übergeben und umgewandelt. Dabei kann sowohl die XML-Ausgabe der Module als auch die Ausgabe des Ausgabefilters in einem Cache-Speicher vorgehalten werden, um die Performanz bei der Seitenauslieferung zu erhöhen.
 
