@@ -11,7 +11,7 @@ Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XS
 
 Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
 
-[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png "wikilink")
+![File:Seitenausgabe in papaya CMS](images/File:Ausgabekonzept.png)
 
 Eine Seite kann in der Regel mit beliebig vielen Boxen verknüpft sein. Bei Seiten und Boxen handelt es sich um Module, die Ihre Inhalte als XML ausgeben. Wenn eine HTML-Ausgabe der Seite erzeugt werden soll, muss dieses XML in das Zielformat HTML umgewandelt werden. Dazu ruft die Template-Engine von papaya CMS für jedes Modul das passende XSLT-Stylesheet mit den Transformationsregeln auf.
 
