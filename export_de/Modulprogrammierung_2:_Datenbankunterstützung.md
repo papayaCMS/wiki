@@ -3,9 +3,9 @@ title: Modulprogrammierung 2: Datenbankunterstützung
 permalink: /Modulprogrammierung_2:_Datenbankunterstützung/
 ---
 
-In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules "wikilink").
+In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules ).
 
-Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards "wikilink"), especially if you plan to contribute your modules for the papaya Community.
+Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards ), especially if you plan to contribute your modules for the papaya Community.
 
 Preparing and writing the database access class
 -----------------------------------------------
@@ -789,7 +789,7 @@ class Planet {
 ?>
 ~~~~
 
-All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject( )* and lazy initialization as in *Planet::getDatabaseAccessObject( )*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules "wikilink").
+All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject( )* and lazy initialization as in *Planet::getDatabaseAccessObject( )*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules ).
 
 Creating a connector module
 ---------------------------
@@ -798,7 +798,7 @@ To make the methods of the *Planet* class available to the content module, we ar
 
 ### Registering the connector
 
-As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](/Module_Programming_1:_Content_Modules "wikilink"). Add the following XML block to the *<modules>* section of *modules.xml*:
+As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](/Module_Programming_1:_Content_Modules ). Add the following XML block to the *<modules>* section of *modules.xml*:
 
 ~~~~ {.xml}
     <module type="connector"
@@ -1470,4 +1470,4 @@ We're not interested in implementation details of the base class on this level, 
   }
 ~~~~
 
-And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Category:papaya CMS Entwicklung](/Category:papaya_CMS_Entwicklung "wikilink") [Category:Entwickler](/Category:Entwickler "wikilink")
+And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Category:papaya CMS Entwicklung](Category:papaya_CMS_Entwicklung ) [Category:Entwickler](Category:Entwickler )

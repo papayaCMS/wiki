@@ -5,7 +5,7 @@ permalink: /Seiten-_und_Dateiausgabe_durch_papaya_page_kontrollieren/
 
 Die Klasse `papaya_page` ist maßgeblich verantwortlich für die Seiten- und Dateienausgabe im Frontend. Außerdem werden in der Klasse `papaya_page` Fehlerkonstanten definiert. Anhand der Fehlernummern der entsprechenden Konstanten lässt sich leichter herausfinden, wodurch ein Problem verursacht wurde. Der Fehlercode erscheint hinter dem HTTP-Fehlercode . Im folgenden Screenshot wird die Ausgabe einer Fehlermeldung (hier die 303) dargestellt:
 
-[miniatur|zentriert|1000px|Beispiel für eine Fehlerausgabe mit papaya-spezifischem Fehlercode](/images/File:Fehlermeldungen-500-303.png "wikilink")
+[miniatur|zentriert|1000px|Beispiel für eine Fehlerausgabe mit papaya-spezifischem Fehlercode](/images/File:Fehlermeldungen-500-303.png )
 
 Im oben dargestellten Fall ist für den Ausgabemodus *html* kein Verzeichnis relativ zum eingestellten PAPAYA_LAYOUT_TEMPLATES angegeben. Dies wird mit dem Fehlercode 303 quittiert.
 
@@ -300,7 +300,7 @@ if (isset($this->requestData['preview']) && $this->requestData['preview']) {
 
 **Hinweis:** In `base_object::parseRequestURI()` wird durch den regulären Ausdruck sichergestellt, dass es keine Versionszeit im öffentlichen Modus gibt.
 
-Anschließend muss der Ausgabemodus bestimmt werden. Wenn die in der URL enthaltene Erweiterung `xml` ist, wird `$_GET['XML']` auf 1 gesetzt. Dieser Eintrag wird später durch das Layoutobjekt (eine Instanz der Klasse `papaya_xsl` ) ausgewertet, siehe [Seiten-Content für Preview-Modus und Frontend ausgeben](/Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben "wikilink"). Der Modus wird schließlich auf `xml` gesetzt. Ist `php` die Erweiterung, wird der konfigurierte Standardmodus verwendet, als Fallback `html`. Andernfalls wird der Modus anhand der Dateiendung gesetzt:
+Anschließend muss der Ausgabemodus bestimmt werden. Wenn die in der URL enthaltene Erweiterung `xml` ist, wird `$_GET['XML']` auf 1 gesetzt. Dieser Eintrag wird später durch das Layoutobjekt (eine Instanz der Klasse `papaya_xsl` ) ausgewertet, siehe [Seiten-Content für Preview-Modus und Frontend ausgeben](/Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben ). Der Modus wird schließlich auf `xml` gesetzt. Ist `php` die Erweiterung, wird der konfigurierte Standardmodus verwendet, als Fallback `html`. Andernfalls wird der Modus anhand der Dateiendung gesetzt:
 
 **Ausgabemodus bestimmen**
 
@@ -788,4 +788,4 @@ Damit wird verhindert, dass z.B. der X-Generator-Header Aufschluss über das ver
 
 Im folgenden Abschnitt wird beschrieben, wie die Systemoptionen für papaya CMS aus der Datenbank gelesen werden.
 
-[Kategorie:Wie sieht es unter der Haube aus?](/Kategorie:Wie_sieht_es_unter_der_Haube_aus? "wikilink")
+[Kategorie:Wie sieht es unter der Haube aus?](/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

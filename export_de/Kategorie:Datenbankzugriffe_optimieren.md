@@ -7,4 +7,4 @@ Optimierte Datenbankabfragen können die Performance spürbar verbessern. Mit pa
 
 Wenn Sie die Konfigurationsoption PAPAYA_DBG_DATABASE_EXPLAIN aktivieren, wird für alle Datenbankabfragen der Explain-Modus aktiviert. Die Ausgabe ist oft sehr lang, doch auch aufschlussreich. Sie sehen beispielsweise, welche Querys bei einer Seitenerstellung lange dauern und können dort ansetzen, die Abfrage mittels Umstellung oder durch Verwendung von Indices zu beschleunigen.
 
-[Kategorie:Fehlersuche in papaya CMS](/Kategorie:Fehlersuche_in_papaya_CMS "wikilink")
+[Kategorie:Fehlersuche in papaya CMS](/Kategorie:Fehlersuche_in_papaya_CMS )

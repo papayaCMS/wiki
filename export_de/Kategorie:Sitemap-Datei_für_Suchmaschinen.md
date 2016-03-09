@@ -7,4 +7,4 @@ Das Sitemaps-Protokoll ist vom Suchmaschinenbetreiber Google entwickelt worden. 
 
 Auf der Homepage des Projektes finden Sie auch eine aktuelle, ausführliche Dokumentation der Sitemap-Datei, siehe <http://www.sitemaps.org/protocol.html> . Im folgenden Abschnitt wird zusätzlich eine kurze Übersicht des Sitemaps-Protokolls vorgestellt.
 
-[Kategorie:Sitemap erstellen](/Kategorie:Sitemap_erstellen "wikilink")
+[Kategorie:Sitemap erstellen](/Kategorie:Sitemap_erstellen )

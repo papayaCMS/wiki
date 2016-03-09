@@ -11,7 +11,7 @@ Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XS
 
 Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
 
-[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png "wikilink")
+[miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png )
 
 Eine Seite kann in der Regel mit beliebig vielen Boxen verknüpft sein. Bei Seiten und Boxen handelt es sich um Module, die Ihre Inhalte als XML ausgeben. Wenn eine HTML-Ausgabe der Seite erzeugt werden soll, muss dieses XML in das Zielformat HTML umgewandelt werden. Dazu ruft die Template-Engine von papaya CMS für jedes Modul das passende XSLT-Stylesheet mit den Transformationsregeln auf.
 
@@ -28,10 +28,10 @@ Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die S
 
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
 
-[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png "wikilink")
+[miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png )
 
 Wichtig ist das Teilsystem, das als Frontend-Schnittstelle bezeichnet ist. In diesem Bereich wird die Ausgabe der Module – egal ob es sich um Boxen oder Seiten handelt – an den XSLT-Ausgabefilter übergeben und umgewandelt. Dabei kann sowohl die XML-Ausgabe der Module als auch die Ausgabe des Ausgabefilters in einem Cache-Speicher vorgehalten werden, um die Performanz bei der Seitenauslieferung zu erhöhen.
 
 Beim Aufruf des Ausgabefilters werden im XSLT-Prozessor zudem alle notwendigen Parameter mit Angaben für das Theme-Verzeichnis und für weitere Ressourcen gesetzt. Wenn die Seite mit Boxen verknüpft ist, wird vorher das XML von allen verknüpften Boxen durch den Ausgabefilter in das Zielformat umgewandelt und die HTML-Ausgabe der Boxen in CDATA-Abschnitte des Seiten-XML eingebunden. Erst dann kann das Template der Seite aufgerufen werden.
 
-[Kategorie:Das Vorlagenkonzept in papaya CMS](/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS "wikilink")
+[Kategorie:Das Vorlagenkonzept in papaya CMS](/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )

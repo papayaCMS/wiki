@@ -12,7 +12,7 @@ Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt v
     ...
     ~~~~
 
-2.  Laden Sie die gewünschte Übersetzungsdatei in den Standard-Parameter (siehe [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl "wikilink").): **Übersetzungsdatei in Standardparameter laden**
+2.  Laden Sie die gewünschte Übersetzungsdatei in den Standard-Parameter (siehe [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl ).): **Übersetzungsdatei in Standardparameter laden**
     ~~~~ {.xml}
     ...
     <!-- Datei mit den Übersetzungen in der aktuellen Content-Sprache -->
@@ -41,4 +41,4 @@ Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt v
 
     Das Template gibt für die Phrase schließlich die Übersetzung zurück, wenn die Phrase gefunden worden ist. Andernfalls wird einfach die nicht übersetzte Phrase zurückgegeben.
 
-[Kategorie:Übersetzungstemplate benutzen](/Kategorie:Übersetzungstemplate_benutzen "wikilink")
+[Kategorie:Übersetzungstemplate benutzen](/Kategorie:Übersetzungstemplate_benutzen )

@@ -29,4 +29,4 @@ Der folgende Ausschnitt stellt die Definition der Seitentemplates vor:
 ...
 ~~~~
 
-[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben "wikilink")
+[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben )

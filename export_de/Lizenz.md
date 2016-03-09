@@ -7,4 +7,4 @@ papaya CMS ist unter der GPL 2.0 lizenziert. Es ist für Sie kostenlos, Sie erha
 
 [Lizenz](http://community.papaya-cms.com/license.993.en.html).
 
-[en:License](/en:License "wikilink") [Category:Papaya CMS](/Category:Papaya_CMS "wikilink")
+[en:License](/en:License ) [Category:Papaya CMS](Category:Papaya_CMS )

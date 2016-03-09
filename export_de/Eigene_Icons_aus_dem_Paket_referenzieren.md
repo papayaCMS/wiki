@@ -3,7 +3,7 @@ title: Eigene Icons aus dem Paket referenzieren
 permalink: /Eigene_Icons_aus_dem_Paket_referenzieren/
 ---
 
-Für eigene Anwendungen ist es manchmal wünschenswert, spezielle Icons zu verwenden, die nicht im Basissystem enthalten sind. Um solche Icons zu verwenden muss lediglich die Quellenangabe des Icons etwas anders aussehen als für Icons im Basissystem (siehe [Vorhandene Icons aus dem Basissystem referenzieren](/Vorhandene_Icons_aus_dem_Basissystem_referenzieren "wikilink") ).
+Für eigene Anwendungen ist es manchmal wünschenswert, spezielle Icons zu verwenden, die nicht im Basissystem enthalten sind. Um solche Icons zu verwenden muss lediglich die Quellenangabe des Icons etwas anders aussehen als für Icons im Basissystem (siehe [Vorhandene Icons aus dem Basissystem referenzieren](/Vorhandene_Icons_aus_dem_Basissystem_referenzieren ) ).
 
 Die Angabe für das Bild setzt sich aus dem Schlüsselwort `module:`, der GUID des Moduls sowie der relativen Pfadangabe zur Icon-Datei ( `./pics/icon.png` ) zusammen:
 
@@ -29,4 +29,4 @@ $result .= sprintf('<glyph src="%s" />'.LF,
 
 Die Icons selbst werden im Unterverzeichnis `./pics/16x16/`, `./pics/22x22/` sowie `./pics/48x48/` abgelegt. papaya CMS findet das Bild automatisch im Ordner mit der entsprechenden Größenangabe.
 
-[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen "wikilink")
+[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen )

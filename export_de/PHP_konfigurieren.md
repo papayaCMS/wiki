@@ -14,4 +14,4 @@ Darüber hinaus müssen Sie in PHP die Session-Funktion aktivieren und ggf. den 
 
 Gegebenenfalls ist es notwendig, dass Sie im Konfigurationsabschnitt [mail function] der php.ini die Mailfunktion konfigurieren. Näheres zur Konfiguration der Mailfunktion erfahren Sie im PHP-Handbuch, siehe <http://www.php.net/manual/de/> .
 
-[Category:Server konfigurieren](/Category:Server_konfigurieren "wikilink")
+[Category:Server konfigurieren](Category:Server_konfigurieren )

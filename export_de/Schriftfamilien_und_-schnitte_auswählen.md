@@ -11,7 +11,7 @@ Wenn Sie eigene Schriften verwenden möchten, müssen Sie folgende Punkte beacht
 
 1.  Sie müssen True-Type-Fonts benutzen. Die Schriftdateien müssen Sie in ein Format transformieren, das durch die FPDF-API lesbar ist. Näheres dazu erfahren Sie auf der Website von FPDF unter <http://www.fpdf.org> .
 2.  Sie müssen entsprechende Fontmetrikdateien erzeugen.
-3.  Die Fontdateien können Sie zusammen mit den Fontmetrikdateien im Template-Verzeichnis unter `/fonts` einfügen. Näheres zur Verzeichnisstruktur der PDF-Vorlage erfahren Sie in [PDF-Vorlagenkonzept](/PDF-Vorlagenkonzept "wikilink").
+3.  Die Fontdateien können Sie zusammen mit den Fontmetrikdateien im Template-Verzeichnis unter `/fonts` einfügen. Näheres zur Verzeichnisstruktur der PDF-Vorlage erfahren Sie in [PDF-Vorlagenkonzept](/PDF-Vorlagenkonzept ).
 4.  Die Schriften werden über `<font>` -Elemente in die Stylesheetdatei eingebunden.
 
 Der PDF-Ausgabefilter benutzt automatisch die Standardfonts, sofern die von Ihnen angegebenen Fonts nicht gefunden werden können.
@@ -73,4 +73,4 @@ Details zum Beispiel
 1.  Mit dem Attribut `name` wählen Sie das Element aus, das formatiert werden soll.
 2.  Mit dem Attribut `font` bestimmen Sie den Schriftschnitt für das Element. Das font-Attribut erwartet die drei Angaben für Schriftfamilie, Schriftgröße in Punkt und Schriftgewicht bzw. Schriftform.
 
-[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben "wikilink")
+[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben )

@@ -93,4 +93,4 @@ Dieses Template generiert eine Thumbnail-Liste. Das wird für den Datei-Browser 
 
 ![File:thumbnail-browser-example.png](/images/thumbnail-browser-example.png)
 
-[Kategorie:Übersicht über die verfügbaren Komponenten](/Kategorie:Übersicht_über_die_verfügbaren_Komponenten "wikilink")
+[Kategorie:Übersicht über die verfügbaren Komponenten](/Kategorie:Übersicht_über_die_verfügbaren_Komponenten )

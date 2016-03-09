@@ -27,4 +27,4 @@ Der Ausgabefilter startet die XSLT-Stylesheetdatei standardmäßig mit einer Rei
 |SYSTEM_TIME|Aktuelle Lokalzeit.|
 |SYSTEM_TIME_OFFSET|Differenz der Lokalzeit zur UTC.|
 
-[Kategorie:Formatvorlagen in papaya CMS](/Kategorie:Formatvorlagen_in_papaya_CMS "wikilink")
+[Kategorie:Formatvorlagen in papaya CMS](/Kategorie:Formatvorlagen_in_papaya_CMS )

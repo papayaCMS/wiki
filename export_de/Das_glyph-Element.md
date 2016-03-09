@@ -17,4 +17,4 @@ Struktur der HTML-Ausgabe
 |onclick|`onClick` -Handler für Javascript Aktionen|
 |size|Größe des Icons, 16, 22 oder 48 sind die Standardgrößen, default ist 16|
 
-[Kategorie:Die einzelnen Komponenten im Detail](/Kategorie:Die_einzelnen_Komponenten_im_Detail "wikilink")
+[Kategorie:Die einzelnen Komponenten im Detail](/Kategorie:Die_einzelnen_Komponenten_im_Detail )

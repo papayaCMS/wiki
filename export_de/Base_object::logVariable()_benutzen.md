@@ -23,4 +23,4 @@ if (!$this->updateRecord($dataSet)) {
 ...
 ~~~~
 
-[Kategorie:Fehlersuche mit base_object::logVariable()](/Kategorie:Fehlersuche_mit_base_object::logVariable() "wikilink")
+[Kategorie:Fehlersuche mit base_object::logVariable()](/Kategorie:Fehlersuche_mit_base_object::logVariable() )

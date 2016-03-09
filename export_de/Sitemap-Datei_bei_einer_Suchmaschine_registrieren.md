@@ -6,8 +6,8 @@ permalink: /Sitemap-Datei_bei_einer_Suchmaschine_registrieren/
 Damit die Sitemap-Datei durch den Crawler der Suchmaschine gefunden werden kann, müssen Sie die Suchmaschine informieren. Es existieren drei verschiedene Wege, die Sitemap-Datei zu registrieren:
 
 1.  Sie registrieren die Sitemap-Datei direkt beim Betreiber einer Suchmaschine. Die Vorgehensweise hängt dabei von den Regeln des jeweiligen Suchmaschinenbetreibers ab.
-2.  Sie tragen die URI der Sitemap-Datei in die robots.txt ein, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren "wikilink").
-3.  Sie senden die URL der Sitemap-Datei über einen HTTP-Request an die Suchmaschine, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren "wikilink").
+2.  Sie tragen die URI der Sitemap-Datei in die robots.txt ein, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren ).
+3.  Sie senden die URL der Sitemap-Datei über einen HTTP-Request an die Suchmaschine, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren ).
 
 URI der Sitemap-Datei in die robots.txt eintragen
 -------------------------------------------------
@@ -43,4 +43,4 @@ Sie müssen jedoch die URL-Angabe mit URL-Encoding maskieren, damit die Sitemap-
 
     <nowiki>http://www.google.de/ping?sitemap=http%3A%2F%2Fwww.meine-domain.tld%2Fsitemapdatei.11.sitemap</nowiki>
 
-[Kategorie:Sitemap-Template installieren und der Suchmaschine bekannt machen](/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen "wikilink")
+[Kategorie:Sitemap-Template installieren und der Suchmaschine bekannt machen](/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen )

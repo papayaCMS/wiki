@@ -96,4 +96,4 @@ ns="http://www.google.com/schemas/sitemap/0.84">
 </xsl:stylesheet>
 ~~~~
 
-[Kategorie:Sitemap-Template erstellen](/Kategorie:Sitemap-Template_erstellen "wikilink")
+[Kategorie:Sitemap-Template erstellen](/Kategorie:Sitemap-Template_erstellen )

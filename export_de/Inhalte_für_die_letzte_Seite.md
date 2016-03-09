@@ -21,4 +21,4 @@ Für die Schluss-Seite können Sie optional ein XSLT-Template schreiben, das mit
 
 Das oben dargestellte Template für die Schluss-Seite können Sie dazu benutzen, um einen Text über Urheber- und Nutzungsrechte einzufügen. Sie können jedoch diesen Text auch direkt in die PDF-Musterdatei einbauen, sodass Sie nicht für jeden Artikel extra eine Seite mit den selben Inhalten einfügen müssen.
 
-[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben "wikilink")
+[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben )

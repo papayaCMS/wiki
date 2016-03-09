@@ -24,7 +24,7 @@ Druckfreundliche Seitenausgabe erzeugen
 
 Um eine druckfreundliche Seitenausgabe zu erzeugen, müssen Sie folgende Punkte beachten:
 
-1.  Sie binden in der druckfreundlichen Seitenausgabe ein anderes CSS ein, siehe [Druckfreundliches CSS einbinden](/Druckfreundliches_CSS_einbinden "wikilink").
-2.  Blenden Sie Boxen in der druckfreundlichen Seitenausgabe aus, siehe [Boxenausgabe unterdrücken](/Boxenausgabe_unterdrücken "wikilink").
+1.  Sie binden in der druckfreundlichen Seitenausgabe ein anderes CSS ein, siehe [Druckfreundliches CSS einbinden](/Druckfreundliches_CSS_einbinden ).
+2.  Blenden Sie Boxen in der druckfreundlichen Seitenausgabe aus, siehe [Boxenausgabe unterdrücken](/Boxenausgabe_unterdrücken ).
 
-[Kategorie:Print-Templates erstellen](/Kategorie:Print-Templates_erstellen "wikilink")
+[Kategorie:Print-Templates erstellen](/Kategorie:Print-Templates_erstellen )

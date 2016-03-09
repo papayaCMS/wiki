@@ -11,4 +11,4 @@ Dieser Abschnitt erklärt, wie Sie mit `base_object::logMsg()` wertvolle Debug-I
 
 Da `logMsg()` in `base_object` implementiert ist, steht sie in allen Klassen im papaya-Basissystem zur Verfügung.
 
-[Kategorie:Fehlersuche in papaya CMS](/Kategorie:Fehlersuche_in_papaya_CMS "wikilink")
+[Kategorie:Fehlersuche in papaya CMS](/Kategorie:Fehlersuche_in_papaya_CMS )

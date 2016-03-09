@@ -8,4 +8,4 @@ Neben den Blockelementen können Sie eine Reihe von Inline-Elementen verwenden, 
 1.  Normale Anker-Tags wie `<a name="Peter">` werden nicht unterstützt.
 2.  Das Element `<strong>` muss in das `<b>` -Tag, das Element `<em>` in das `<i>` -Tag umgewandelt werden.
 
-[Kategorie:papaya-Formatierungsobjekt](/Kategorie:papaya-Formatierungsobjekt "wikilink")
+[Kategorie:papaya-Formatierungsobjekt](/Kategorie:papaya-Formatierungsobjekt )

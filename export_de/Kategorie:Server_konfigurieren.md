@@ -5,9 +5,9 @@ permalink: /Kategorie:Server_konfigurieren/
 
 Um den Server für den Betrieb von papaya CMS zu konfigurieren, sind folgende Schritte notwendig:
 
-1.  Konfigurieren Sie den Webserver, indem Sie notwendige Module aktivieren, siehe [Apache konfigurieren](/Apache_konfigurieren "wikilink").
-2.  Konfigurieren Sie PHP, indem Sie notwendige Erweiterungen aktivieren, siehe [PHP konfigurieren](/PHP_konfigurieren "wikilink").
-3.  Legen Sie eine Datenbank für papaya CMS an, siehe [Datenbank anlegen](/Datenbank_anlegen "wikilink").
+1.  Konfigurieren Sie den Webserver, indem Sie notwendige Module aktivieren, siehe [Apache konfigurieren](/Apache_konfigurieren ).
+2.  Konfigurieren Sie PHP, indem Sie notwendige Erweiterungen aktivieren, siehe [PHP konfigurieren](/PHP_konfigurieren ).
+3.  Legen Sie eine Datenbank für papaya CMS an, siehe [Datenbank anlegen](/Datenbank_anlegen ).
 
 Notwendige Systemvoraussetzungen
 --------------------------------
@@ -24,4 +24,4 @@ Ihr System muss grundsätzlich folgende Bedingungen erfüllen, damit Sie papaya 
 |Grafikprozessor|GDLIB ab Version 2.x, ImageMagick, GraphicsMagick oder Netpbm.|
 |Suchmodul|mnoGoSearch (optional, frei für Unix/Linux, kommerziell für Windows)|
 
-[Category:Papaya CMS installieren](/Category:Papaya_CMS_installieren "wikilink")
+[Category:Papaya CMS installieren](Category:Papaya_CMS_installieren )

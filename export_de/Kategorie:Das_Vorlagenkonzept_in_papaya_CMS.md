@@ -9,4 +9,4 @@ Template und Theme unterscheiden sich noch in einem anderen Bereich. Während da
 
 Des Weiteren kann die Webseitenvorlage auch noch durch eine clientseitige Scriptbibliothek ergänzt werden. Eine Webseitenvorlage ist also immer ein Template/Theme-Set, in dem ein Template mit einem dazu passenden Theme und einer optionalen Scriptbibliothek zusammengestellt wird.
 
-[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln "wikilink")
+[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln )

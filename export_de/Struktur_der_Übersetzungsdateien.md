@@ -48,4 +48,4 @@ Ein konkretes Beispiel für eine Übersetzungsdatei ist im folgenden Listing dar
 </texts>
 ~~~~
 
-[Kategorie:Mit Übersetzungsdateien arbeiten](/Kategorie:Mit_Übersetzungsdateien_arbeiten "wikilink")
+[Kategorie:Mit Übersetzungsdateien arbeiten](/Kategorie:Mit_Übersetzungsdateien_arbeiten )

@@ -9,8 +9,8 @@ Die wichtigste Information ist, dass papaya CMS in der Scriptsprache PHP impleme
 
 Dieses Kapitel ist wie folgt aufgebaut:
 
-1.  Wie die XML -Ausgabe eines papaya-Moduls in ein Zielformat wie HTML umgewandelt wird, erfahren Sie in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS "wikilink").
-2.  Näheres zum Modulkonzept von papaya CMS erfahren Sie in [:Kategorie:Der modulare Aufbau von papaya CMS](/:Kategorie:Der_modulare_Aufbau_von_papaya_CMS "wikilink").
-3.  Was bei einem Seitenaufruf geschieht und welche Klassen und Methoden dabei genutzt werden, erfahren Sie in [:Kategorie:Wie sieht es unter der Haube aus?](/:Kategorie:Wie_sieht_es_unter_der_Haube_aus? "wikilink").
+1.  Wie die XML -Ausgabe eines papaya-Moduls in ein Zielformat wie HTML umgewandelt wird, erfahren Sie in [Die Seitenausgabe in papaya CMS](/Die_Seitenausgabe_in_papaya_CMS ).
+2.  Näheres zum Modulkonzept von papaya CMS erfahren Sie in [:Kategorie:Der modulare Aufbau von papaya CMS](/:Kategorie:Der_modulare_Aufbau_von_papaya_CMS ).
+3.  Was bei einem Seitenaufruf geschieht und welche Klassen und Methoden dabei genutzt werden, erfahren Sie in [:Kategorie:Wie sieht es unter der Haube aus?](/:Kategorie:Wie_sieht_es_unter_der_Haube_aus? ).
 
-[Kategorie:Entwickeln mit papaya CMS](/Kategorie:Entwickeln_mit_papaya_CMS "wikilink")
+[Kategorie:Entwickeln mit papaya CMS](/Kategorie:Entwickeln_mit_papaya_CMS )

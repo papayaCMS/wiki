@@ -205,4 +205,4 @@ Wenn das Apache-Modul `mod_headers` verfügbar ist, wird ein Cache-Control-Heade
 
 Die Cache-Zeit wird dabei jeweils auf 2.592.000 Sekunden (30 Tage) gesetzt (max-age). Mit "public" wird darüber hinaus angegeben, dass die angeforderte Ressource durch alle Zwischenstationen im Cache vorgehalten werden darf. `pre-check` definiert einen Update-Intervall in Sekunden, in dem der Client eine Ressource aktualisieren muss. Eine Ressource wird dabei erst nach dem Update angezeigt, sodass der Nutzer im Client den Updatevorgang ggf. in Form eines Nachladens beobachten kann.
 
-[Kategorie:Wie sieht es unter der Haube aus?](/Kategorie:Wie_sieht_es_unter_der_Haube_aus? "wikilink")
+[Kategorie:Wie sieht es unter der Haube aus?](/Kategorie:Wie_sieht_es_unter_der_Haube_aus? )

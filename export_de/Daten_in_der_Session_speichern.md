@@ -9,8 +9,8 @@ Dieser Abschnitt beschränkt sich auf die Benutzung der Session in papaya CMS. Z
 
 Es gibt drei Möglichkeiten die Session zu verwenden:
 
-1.  Parameter persistent machen und bei Bedarf automatisch zurücksetzen, siehe [Parameterwerte persistent machen und automatisch zurücksetzen](/Parameterwerte_persistent_machen_und_automatisch_zurücksetzen "wikilink").
-2.  Daten in der Session frei speichern, siehe [Daten frei in der Session speichern](/Daten_frei_in_der_Session_speichern "wikilink").
-3.  Sesisonspeicherklasse für umfangreiche Daten einsetzen, siehe [Separate Klasse als Session-Speicher verwenden](/Separate_Klasse_als_Session-Speicher_verwenden "wikilink").
+1.  Parameter persistent machen und bei Bedarf automatisch zurücksetzen, siehe [Parameterwerte persistent machen und automatisch zurücksetzen](/Parameterwerte_persistent_machen_und_automatisch_zurücksetzen ).
+2.  Daten in der Session frei speichern, siehe [Daten frei in der Session speichern](/Daten_frei_in_der_Session_speichern ).
+3.  Sesisonspeicherklasse für umfangreiche Daten einsetzen, siehe [Separate Klasse als Session-Speicher verwenden](/Separate_Klasse_als_Session-Speicher_verwenden ).
 
-[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten "wikilink")
+[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten )

@@ -22,4 +22,4 @@ Die Kommentarzeile mit der Modulliste hat folgendes Format:
 
 Der Kommentar direkt unterhalb des `<xsl:stylesheet>` -Elements beginnt mit den String `@papaya:modules` und enthält eine kommaseparierte Liste mit den Namen der Module, die durch dieses Template unterstützt werden.
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen "wikilink")
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )

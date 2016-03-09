@@ -9,7 +9,7 @@ Ein Boxmodul ist das einfachste Content-Modul in papaya CMS. Es besteht aus eine
 2.  Überladen Sie das Attribut `$preview`, um festzulegen, ob die Box eine Vorschaufunktion unterstützen soll oder nicht.
 3.  Überladen Sie das Klassenattribut `$editFields`, um Eingabefelder für das Backend zu erstellen.
 4.  Überladen Sie die Funktion `getParsedData()`, um die Ausgabe der Boxinhalte zu bestimmen.
-5.  Registrieren Sie die Klasse in der `modules.xml`, siehe [modules.xml erstellen](/modules.xml_erstellen "wikilink").
+5.  Registrieren Sie die Klasse in der `modules.xml`, siehe [modules.xml erstellen](/modules.xml_erstellen ).
 
 In den folgenden Abschnitten werden die einzelnen Schritte im Detail erläutert.
 
@@ -70,7 +70,7 @@ class actbox_example extends base_actionbox {
 ?>
 ~~~~
 
-Die Felder im inneren Array bestimmen die Art des jeweiligen Eingabefeldes. Näheres zum Array `$editFields` erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren "wikilink").
+Die Felder im inneren Array bestimmen die Art des jeweiligen Eingabefeldes. Näheres zum Array `$editFields` erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ).
 
 Die Schlüssel `title` und `text` werden intern dazu benutzt, um auf die entsprechenden Felder zuzugreifen. Wenn der Nutzer über die Eingabemaske Daten eingibt, stehen diese Daten im Array `$this->data` zur Verfügung. In diesem Fall können die Schlüssel der jeweiligen Felder dazu verwendet werden, die eingegebenen Daten aus dem Array `$this->data` auszulesen.
 
@@ -110,8 +110,8 @@ class actbox_example extends base_actionbox {
 
 Die Inhaltsdaten für eine Box werden vom Benutzer im Backend unter "Inhalt bearbeiten" eingegeben. Das Eingabeformular ist über die `$editFields` definiert. papaya CMS liest diese Daten automatisch aus der Datenbank aus und lädt sie in das assoziative Array `$this->data`. Sie können auf die Daten zuzugreifen, indem Sie mit den Schlüsseln der Felder im Array `$editFields` das Array `$this->data` auslesen.
 
-Wenn Sie die Inhalte der Felder ausgeben, müssen diese maskiert werden. Dafür wird im Quellcode-Beispiel die Methode `papaya_strings::escapeHTMLChars()` verwendet. Für den Haupttext wird die Methode `base_object::getXHTMLString()` verwendet. Näheres dazu erfahren Sie in [:Kategorie:Content ausgeben und Nutzereingaben maskieren](/:Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren "wikilink").
+Wenn Sie die Inhalte der Felder ausgeben, müssen diese maskiert werden. Dafür wird im Quellcode-Beispiel die Methode `papaya_strings::escapeHTMLChars()` verwendet. Für den Haupttext wird die Methode `base_object::getXHTMLString()` verwendet. Näheres dazu erfahren Sie in [:Kategorie:Content ausgeben und Nutzereingaben maskieren](/:Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren ).
 
-Als letzten Schritt tragen Sie das Boxmodul wie in [modules.xml erstellen](/modules.xml_erstellen "wikilink") beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
+Als letzten Schritt tragen Sie das Boxmodul wie in [modules.xml erstellen](/modules.xml_erstellen ) beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
 
-[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren "wikilink")
+[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren )

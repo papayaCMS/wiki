@@ -30,7 +30,7 @@ Das `<fonts>` -Element kann beliebig viele `<font>` -Tags enthalten, die eine Sc
 
 Das `<templates>` -Element kann beliebig viele `<template>` -Elemente enthalten, die eine bestimmte Seite der PDF-Musterdatei ansprechen. Ein <template>-Element entspricht damit einer Seitenvorlage. Jedes `<template>` -Element erhält dabei einen eindeutigen Namen, um die Seitenvorlage ansprechen zu können.
 
-Anhand des Wertes im Attribut `name` können Sie im Inhaltsbereich (siehe [Inhaltsbereich](/Inhaltsbereich "wikilink") ) das entsprechende Template auswählen. Wenn Sie Inhalte einbinden, ordnen Sie über das `name` -Attribut die Inhalte der entsprechenden Seite in der PDF-Musterdatei zu. Die Attribute des `<template>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
+Anhand des Wertes im Attribut `name` können Sie im Inhaltsbereich (siehe [Inhaltsbereich](/Inhaltsbereich ) ) das entsprechende Template auswählen. Wenn Sie Inhalte einbinden, ordnen Sie über das `name` -Attribut die Inhalte der entsprechenden Seite in der PDF-Musterdatei zu. Die Attribute des `<template>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
 |--------|---------|
@@ -163,4 +163,4 @@ Damit das `<column>` -Element benutzt werden kann, müssen Sie das `<page>` -Ele
 2.  Schriftgröße in Punkt (pt).
 3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic` ).|
 
-[Kategorie:papaya-Formatierungsobjekt](/Kategorie:papaya-Formatierungsobjekt "wikilink")
+[Kategorie:papaya-Formatierungsobjekt](/Kategorie:papaya-Formatierungsobjekt )

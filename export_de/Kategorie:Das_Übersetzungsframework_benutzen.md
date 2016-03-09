@@ -15,8 +15,8 @@ Aufbau des Phrasen-Systems
 
 Das Übersetzungsframework besteht aus drei Komponenten:
 
-1.  XML-Dateien mit den Übersetzungen, siehe [:Kategorie:Mit Übersetzungsdateien arbeiten](/:Kategorie:Mit_Übersetzungsdateien_arbeiten "wikilink").
-2.  Parameter, über die abhängig vom jeweiligen Kontext die XML-Dateien eingebunden werden, siehe [Übersetzungsdateien in XSLT-Parameter laden](/Übersetzungsdateien_in_XSLT-Parameter_laden "wikilink").
-3.  Basisstylesheet mit dem Übersetzungstemplate, siehe [:Kategorie:Übersetzungstemplate benutzen](/:Kategorie:Übersetzungstemplate_benutzen "wikilink").
+1.  XML-Dateien mit den Übersetzungen, siehe [:Kategorie:Mit Übersetzungsdateien arbeiten](/:Kategorie:Mit_Übersetzungsdateien_arbeiten ).
+2.  Parameter, über die abhängig vom jeweiligen Kontext die XML-Dateien eingebunden werden, siehe [Übersetzungsdateien in XSLT-Parameter laden](/Übersetzungsdateien_in_XSLT-Parameter_laden ).
+3.  Basisstylesheet mit dem Übersetzungstemplate, siehe [:Kategorie:Übersetzungstemplate benutzen](/:Kategorie:Übersetzungstemplate_benutzen ).
 
-[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln "wikilink")
+[Kategorie:Templates und Themes entwickeln](/Kategorie:Templates_und_Themes_entwickeln )

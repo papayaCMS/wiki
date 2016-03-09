@@ -5,9 +5,9 @@ permalink: /Kategorie:Phrasen_übersetzen/
 
 Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnitte, Tabellenspalten und Buttons. Während bestimmte Texte automatisch übersetzt werden, müssen Sie in anderen Fällen explizit Übersetzungsmethoden aus der Klasse `base_object` ausführen. Die Klasse `base_object` stellt zu diesem Zweck folgende Methoden zur Verfügung:
 
-1.  `$this->_gt($phrase, $module)`, um eine Phrasen zu übersetzen, siehe [\$this-_gt() benutzen](/$this-_gt()_benutzen "wikilink").
-2.  `$this->_gtf($phrase, $vals, $module)`, um eine Phrase mit Platzhaltern zu übersetzen, siehe [\$this-_gtf() benutzen](/$this-_gtf()_benutzen "wikilink").
-3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [\$this-_gtfile() benutzen](/$this-_gtfile()_benutzen "wikilink").
+1.  `$this->_gt($phrase, $module)`, um eine Phrasen zu übersetzen, siehe [\$this-_gt() benutzen](/$this-_gt()_benutzen ).
+2.  `$this->_gtf($phrase, $vals, $module)`, um eine Phrase mit Platzhaltern zu übersetzen, siehe [\$this-_gtf() benutzen](/$this-_gtf()_benutzen ).
+3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [\$this-_gtfile() benutzen](/$this-_gtfile()_benutzen ).
 
 Sprachkonventionen bei der Eingabe von Phrasen beachten
 -------------------------------------------------------
@@ -31,4 +31,4 @@ Wenn Sie Phrasen eingeben, sollten Sie einige wesentliche Regeln beachten:
     );
     ~~~~
 
-[Kategorie:Module für das Backend programmieren](/Kategorie:Module_für_das_Backend_programmieren "wikilink")
+[Kategorie:Module für das Backend programmieren](/Kategorie:Module_für_das_Backend_programmieren )

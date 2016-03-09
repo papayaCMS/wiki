@@ -29,8 +29,8 @@ Die folgende Tabelle beschreibt die einzelnen Felder:
 |Feldtitel|Beschriftung des Feldes. Die Beschriftung wird in englischer Sprache eingegeben und durch das Phrasensystem von papaya CMS übersetzt.|
 |Testfunktion|Der Plausibilitätscheck, mit dem die Nutzereingabe überprüft wird.|
 |Pflichtfeld|"TRUE", wenn dieses Feld ausgefüllt werden muss, andernfalls "FALSE".|
-|Feldtyp|Typ des Eingabefeldes, beispielsweise einzeilige oder mehrzeilige Textfelder, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren "wikilink").|
-|Feldparameter|Je nach ausgewähltem Feldtyp können entsprechende Parameter eingefügt werden, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren "wikilink").|
+|Feldtyp|Typ des Eingabefeldes, beispielsweise einzeilige oder mehrzeilige Textfelder, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ).|
+|Feldparameter|Je nach ausgewähltem Feldtyp können entsprechende Parameter eingefügt werden, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ).|
 |Hilfstext|Dieser Hilfstext wird als title-Attribut im Glühbirnen-Icon dargestellt, das hinter die Feldbeschriftung gesetzt wird.|
 |Standardwert|Standardwert für dieses Feld. Die Standardwerte werden über die Methode `$this->setDefaultData()` in das Array `$this->data` geladen und stehen im Content-Modul zur Verfügung.|
 
@@ -55,7 +55,7 @@ $editFields = array(
 
 Jedes einzelne Feld im `$editFields` -Array besteht aus einem Schlüssel, das auf ein eingebettetes Array zeigt. Das eingebettete Array enthält die eigentliche Felddefinition. Neben diesen Schlüssel-Array-Paaren kann das Array auch einfache Strings enthalten. Die Strings werden in der Eingabemaske als Zwischenüberschriften dargestellt. Im obigen Listing stellt `Image` eine solche Zwischenüberschrift dar. Das Array aus dem obigen Listing würde ein Eingabeformular erzeugen, das folgendermaßen aussieht:
 
-[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „Category with image“](/images/File:editFieldsExample.png "wikilink")
+[miniatur|zentriert|1000px|Eingabemaske des Seitenmoduls „Category with image“](/images/File:editFieldsExample.png )
 
 Feldtypen
 ---------
@@ -101,4 +101,4 @@ In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 |translatedcombo|Drop-Down-Liste, dessen Einträge durch die Phrasenkomponente übersetzt werden.|Assoziatives Array mit Schlüssel-Wert-Paaren. Der Schlüssel wird als Wert für das `value` -Attribut des `<option>` -Elements benutzt, der Wert als Beschriftungstext. Der Beschriftungstext wird durch das Phrasensystem von papaya CMS übersetzt.|
 |yesno|Zwei Radiobuttons für Ja-Nein-Auswahl.|n/a|
 
-[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren "wikilink")
+[Kategorie:Box- und Seitenmodule programmieren](/Kategorie:Box-_und_Seitenmodule_programmieren )

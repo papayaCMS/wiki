@@ -3,7 +3,7 @@ title: Modulprogrammierung 1: Content-Module
 permalink: /Modulprogrammierung_1:_Content-Module/
 ---
 
--   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS "wikilink") schreibt.
+-   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS ) schreibt.
 -   **Zielgruppe**: PHP-Entwickler
 -   **Schwierigkeitsgrad**: Fortgeschrittene
 
@@ -622,4 +622,4 @@ One last thing that needs to be explained here is the *setDefaultData( )* method
 
 Run the test to see it pass. Aftwards, you can use the page's *Content* tab to enter an arbitrary message. Test the output using the *Preview* section, and your custom content will be displayed. Congratulations -- you have written your first papaya CMS module including dynamic data, and along the way you should have learned two or three things about test-driven development if you're not already familiar with it.
 
-[Category:papaya CMS](/Category:papaya_CMS "wikilink") [Category:papaya CMS Development](/Category:papaya_CMS_Development "wikilink") [en:papaya Module Development](/en:papaya_Module_Development "wikilink")
+[Category:papaya CMS](Category:papaya_CMS ) [Category:papaya CMS Development](Category:papaya_CMS_Development ) [en:papaya Module Development](/en:papaya_Module_Development )

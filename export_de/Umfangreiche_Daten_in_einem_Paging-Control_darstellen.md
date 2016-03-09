@@ -5,7 +5,7 @@ permalink: /Umfangreiche_Daten_in_einem_Paging-Control_darstellen/
 
 Wenn Sie immer alle Datensätze in einer Listview anzeigen, kann es schnell dazu führen, dass die Listview und damit die Lade- und Renderzeiten sehr lang werden. Sie können mit papaya CMS verhältnismäßig einfach ein Blättern in Listen realisieren.
 
-Das folgende Beispiel stellt vor, wie Sie eine Liste mit einem Paging-Control erweitern können. Dazu wird für die in [:Kategorie:Eigene Anwendungen schreiben](/:Kategorie:Eigene_Anwendungen_schreiben "wikilink") erstellte Liste von Stickern ein Paging-Control implementiert. Dadurch werden immer nur eine bestimmte Anzahl Sticker je Seite angezeigt.
+Das folgende Beispiel stellt vor, wie Sie eine Liste mit einem Paging-Control erweitern können. Dazu wird für die in [:Kategorie:Eigene Anwendungen schreiben](/:Kategorie:Eigene_Anwendungen_schreiben ) erstellte Liste von Stickern ein Paging-Control implementiert. Dadurch werden immer nur eine bestimmte Anzahl Sticker je Seite angezeigt.
 
 Um ein Paging-Control zu erstellen, gehen Sie wie folgt vor:
 
@@ -87,7 +87,7 @@ Um ein Paging-Control zu erstellen, gehen Sie wie folgt vor:
     }
     ~~~~
 
-    Speichern Sie die verwendeten Parameter in der Session, damit sie nicht bei jedem Methodenaufruf mit übergeben werden müssen. Nähere Information zur Verwendung der Session finden Sie in [:Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/:Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten "wikilink").
+    Speichern Sie die verwendeten Parameter in der Session, damit sie nicht bei jedem Methodenaufruf mit übergeben werden müssen. Nähere Information zur Verwendung der Session finden Sie in [:Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/:Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten ).
 
 5.  Speichern Sie die Änderungen in den Dateien ab.
 
@@ -123,4 +123,4 @@ In der folgenden Tabelle sind alle Parameter der Methode `getPagingButtons()` au
 |`$paramName`|Name des Formularparameters, in dem der Offset-Wert für den aktuellen Abschnitt der Liste (Seite) festgehalten wird. Der Standardwert ist `offset`.|
 |`$buttonAlign`|Ausrichtung des Buttons. Standardwert ist `NULL`. Mögliche Werte sind `left`, `right`, `default`.|
 
-[Kategorie:Widgets für die Benutzeroberfläche einsetzen](/Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen "wikilink")
+[Kategorie:Widgets für die Benutzeroberfläche einsetzen](/Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen )

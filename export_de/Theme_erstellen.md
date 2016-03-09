@@ -13,7 +13,7 @@ Um ein eigenes Theme zu erstellen, gehen Sie wie folgt vor:
 2.  Legen Sie einen Unterordner für Layout-Grafiken an.
 3.  Erzeugen Sie eine CSS-Datei, in der Sie zentrale Formate der Seite bestimmen und Hintergrundgrafiken eingebunden werden.
 4.  Erzeugen Sie eine CSS-Datei, in der Sie die zentralen Formate von Boxen bestimmen.
-5.  Erzeugen Sie für jedes Seitenmodul eine separate CSS-Datei, die durch das passende XSLT-Seitentemplate eingebunden wird. Näheres zum Einbinden der CSS-Dateien erfahren Sie in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen "wikilink").
+5.  Erzeugen Sie für jedes Seitenmodul eine separate CSS-Datei, die durch das passende XSLT-Seitentemplate eingebunden wird. Näheres zum Einbinden der CSS-Dateien erfahren Sie in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen ).
 
 Organisation des Demo-Themes
 ----------------------------
@@ -341,7 +341,7 @@ Theme des Demotemplates an eigene Wünsche anpassen
 Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe wie folgt vorgehen:
 
 1.  Kopieren Sie sich das Theme-Verzeichnis und benennen Sie es um.
-2.  Wählen Sie das neue Theme-Verzeichnis in der Systemsteuerung aus, siehe [Installation der Webseitenvorlage](/Installation_der_Webseitenvorlage "wikilink").
+2.  Wählen Sie das neue Theme-Verzeichnis in der Systemsteuerung aus, siehe [Installation der Webseitenvorlage](/Installation_der_Webseitenvorlage ).
 3.  Erstellen Sie ggf. neue Layoutgrafiken und speichern Sie diese in das `pics` -Unterverzeichnis Ihres Themes..
 4.  Passen Sie die CSS-Dateien Ihrem Layout an:
     1.  Ändern Sie die Farbangaben in der Datei `color.css`.
@@ -351,4 +351,4 @@ Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe w
 
 Im folgenden Abschnitt können Sie erfahren, wie Sie ein HTML-Template erstellen..
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen "wikilink")
+[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen )

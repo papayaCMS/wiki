@@ -21,4 +21,4 @@ Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster
 </xsl:template>
 ~~~~
 
-[Kategorie:Sitemap-Template erstellen](/Kategorie:Sitemap-Template_erstellen "wikilink")
+[Kategorie:Sitemap-Template erstellen](/Kategorie:Sitemap-Template_erstellen )

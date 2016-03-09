@@ -26,7 +26,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren "wikilink").
+    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren ).
 
 2.  Definieren Sie ein Array mit Standarddaten. Achten Sie darauf, dass die Schlüssel der jeweiligen Datenfelder mit den entsprechenden Schlüsseln im Dialogfeld-Array identisch sind: **Array mit Standarddaten definieren**
     ~~~~ {.php}
@@ -120,4 +120,4 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren "wikilink")
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren )

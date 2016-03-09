@@ -40,10 +40,10 @@ Das oben dargestellte Basistemplate enthält die Layoutdefinitionen im Element `
 
 |Element|Bedeutung|
 |-------|---------|
-|`<fonts>`|Definiert Schriften, siehe [Schriftfamilien und -schnitte auswählen](/Schriftfamilien_und_-schnitte_auswählen "wikilink").|
-|`<templates>`|Bindet die PDF-Musterdatei über Seitentemplates ein, siehe [Seitentemplates bestimmen](/Seitentemplates_bestimmen "wikilink").|
-|`<pages>`|Bestimmt das Layout für die Titel-, Standard- und Schluss-Seite, siehe [Seitenlayout bestimmen](/Seitenlayout_bestimmen "wikilink").|
+|`<fonts>`|Definiert Schriften, siehe [Schriftfamilien und -schnitte auswählen](/Schriftfamilien_und_-schnitte_auswählen ).|
+|`<templates>`|Bindet die PDF-Musterdatei über Seitentemplates ein, siehe [Seitentemplates bestimmen](/Seitentemplates_bestimmen ).|
+|`<pages>`|Bestimmt das Layout für die Titel-, Standard- und Schluss-Seite, siehe [Seitenlayout bestimmen](/Seitenlayout_bestimmen ).|
 
-Nach dem Layoutbereich wird mit der Anweisung `call-template` das Template „content_area“ aufgerufen, das die Inhalte in das papaya-Formatierungsobjekt einfügt. Näheres dazu erfahren Sie in [Zentrales Template für den Inhaltsbereich](/Zentrales_Template_für_den_Inhaltsbereich "wikilink").
+Nach dem Layoutbereich wird mit der Anweisung `call-template` das Template „content_area“ aufgerufen, das die Inhalte in das papaya-Formatierungsobjekt einfügt. Näheres dazu erfahren Sie in [Zentrales Template für den Inhaltsbereich](/Zentrales_Template_für_den_Inhaltsbereich ).
 
-[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben "wikilink")
+[Kategorie:PDF-Template schreiben](/Kategorie:PDF-Template_schreiben )

@@ -15,4 +15,4 @@ Das Installatonsscript stellt auf der Startseite allgemeine Informationen und Li
 6.  Klicken Sie auf Next . Ein Fragedialog wird angezeigt. Bestätigen Sie den Fragedialog mit Create , um die Optionstabelle für die Basiskonfiguration von papaya CMS anzulegen. Nachdem diese Tabelle erfolgreich angelegt worden ist, wird die Formularseite zum Initialisieren der Datenbank dargestellt.
 7.  Im Abschnitt „Database Setup“ sind die einzelnen Schritte als nummerierte Liste von Links dargestellt. Klicken Sie nacheinander auf die Links, um die jeweils notwendigen Schritte zur Initialisierung der Datenbank durchzuführen. Der letzte Link führt Sie direkt zur Administrationsoberfläche von papaya CMS.
 
-[Category:Papaya CMS installieren und konfigurieren](/Category:Papaya_CMS_installieren_und_konfigurieren "wikilink")
+[Category:Papaya CMS installieren und konfigurieren](Category:Papaya_CMS_installieren_und_konfigurieren )

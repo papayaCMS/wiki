@@ -16,10 +16,10 @@ _functions/
 Enthält zahlreiche Standard-Templates zum Formatieren und Verarbeiten von Strings.
 
 _lang/
-Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [:Kategorie:Das Übersetzungsframework benutzen](/:Kategorie:Das_Übersetzungsframework_benutzen "wikilink").
+Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [:Kategorie:Das Übersetzungsframework benutzen](/:Kategorie:Das_Übersetzungsframework_benutzen ).
 
 feeds/
-Enthält die Seitentemplates für die Ausgabe von Feeds wie Atom oder RSS, siehe [:Kategorie:RSS-Feeds erstellen](/:Kategorie:RSS-Feeds_erstellen "wikilink").
+Enthält die Seitentemplates für die Ausgabe von Feeds wie Atom oder RSS, siehe [:Kategorie:RSS-Feeds erstellen](/:Kategorie:RSS-Feeds_erstellen ).
 
 html/
 Enthält die Seiten- und Boxentemplates für die HTML-Ausgabe, die mit den Ansichten verknüpft werden.
@@ -40,7 +40,7 @@ html/modules/free/
 Enthält Boxen- und Seitentemplates für Module aus freien Paketen wie Forum, FAQ oder Quiz.
 
 pdf/
-Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [:Kategorie:Vorlage für die PDF-Ausgabe erstellen](/:Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen "wikilink").
+Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [:Kategorie:Vorlage für die PDF-Ausgabe erstellen](/:Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen ).
 
 pdf/base/
 Enthält das Standard-Stylesheet `tags.xsl`, das Inzeilige Elemente wie `<strong>` oder `<th>` in Elemente übersetzt, die durch den PDF-Ausgabefilter unterstützt werden.
@@ -49,7 +49,7 @@ pdf/files/
 Enthält die PDF-Datei, die als Vorlage für die PDF-Ausgabe genutzt wird.
 
 print/
-Enthält die Seitentemplates für die Print-Templates. Die mit diesen Templates erzeugten Seitenausgaben sind für den Ausdruck optimiert. Näheres dazu erfahren Sie in [:Kategorie:Print-Templates erstellen](/:Kategorie:Print-Templates_erstellen "wikilink").
+Enthält die Seitentemplates für die Print-Templates. Die mit diesen Templates erzeugten Seitenausgaben sind für den Ausdruck optimiert. Näheres dazu erfahren Sie in [:Kategorie:Print-Templates erstellen](/:Kategorie:Print-Templates_erstellen ).
 
 Wenn Sie ein eigenes Template anlegen, müssen Sie folgende Dinge beachten:
 
@@ -92,4 +92,4 @@ Clientseitige Scripte für papaya CMS werden im Verzeichnis `papaya-script/` ges
 
 Sie können natürlich für Ihr eigenes Projekt auch eine eigene Verzeichnisstruktur anlegen, in der Sie bspw. Ihre JavaScript-Bibliothek organisieren.
 
-[Kategorie:Das Vorlagenkonzept in papaya CMS](/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS "wikilink")
+[Kategorie:Das Vorlagenkonzept in papaya CMS](/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS )

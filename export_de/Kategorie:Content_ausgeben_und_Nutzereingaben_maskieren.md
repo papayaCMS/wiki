@@ -7,4 +7,4 @@ Inhalte werden in papaya CMS entweder als Klartext oder im XML-Format in der Dat
 
 Aber nicht nur bei der Ausgabe von Inhalten muss gegebenenfalls maskiert werden, sondern auch bei Inhalten, die durch Nutzereingaben in das System gelangen. Zu diesen klassischen Nutzereingaben zählen zum Beispiel Daten aus Kontaktformularen, Kommentarboxen, Foreneinträge oder Gästebüchern.
 
-[Kategorie:Basismodule für papaya CMS programmieren](/Kategorie:Basismodule_für_papaya_CMS_programmieren "wikilink")
+[Kategorie:Basismodule für papaya CMS programmieren](/Kategorie:Basismodule_für_papaya_CMS_programmieren )

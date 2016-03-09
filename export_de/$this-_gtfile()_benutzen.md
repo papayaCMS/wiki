@@ -37,4 +37,4 @@ $this->layout->addRight(
 
 Sie müssen lediglich den Namen der Textdatei angeben. Der Pfad bis zur Datei wird durch die Implementation der Methode automatisch ergänzt.
 
-[Kategorie:Phrasen übersetzen](/Kategorie:Phrasen_übersetzen "wikilink")
+[Kategorie:Phrasen übersetzen](/Kategorie:Phrasen_übersetzen )
