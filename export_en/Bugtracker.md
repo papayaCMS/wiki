@@ -35,4 +35,4 @@ Sie können uns einen Verbesserungsvorschlag machen, wenn Sie Ideen zu neuen Fun
 -   **Eine neue Funktion einführen**
     Wenn Sie bestimmte Funktionen aus einem anderen CMS kennen und auch im papaya CMS benutzen möchten, können Sie uns ebenfalls einen Verbesserungsvorschlag machen.
 
-[de:Bugtracker](/de:Bugtracker "wikilink")
+[de:Bugtracker](/de:Bugtracker.md)

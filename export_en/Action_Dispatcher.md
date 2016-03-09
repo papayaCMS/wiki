@@ -28,7 +28,7 @@ Administration
 
 The action dispatcher's administration interface is pretty straightforward (see screenshot).
 
-[250px|right](/File:Dispatcher.png "wikilink")
+[250px|right](/File:Dispatcher.png.md)
 
 In the main toolbar, you can add or remove groups, actions, and observers (actions are only available when a group is selected, and observers only when an action is selected). Two additional buttons allow you to export the existing configuration as XML and to import it from XML. This is practical if you have more than one server (e.g. a development and a live server) because you do not need to do manual configuration on each server. For the import, you can choose whether to completely replace the current configuration by the imported data or whether to add it to the existing configuration. An attempt to import a formally valid, but empty configuration file (i.e. <action-observers/> and no more) will not delete your current configuration even in replace mode, an error message will be displayed instead.
 
@@ -59,4 +59,4 @@ Under the toolbar, a list of existing groups is displayed in the left column. As
 
 In *Modules \> Action dispatcher \> Action dispatcher \> Options*, you can set a single module option: whether or not actions are to be automatically registered by the call() method. By default, this feature is turned off (especially because the action dispatcher's database tables do not exist in a new papaya installation). If you turn it on, each invocation of call() will check whether the group/action you are using is already registered, and if not, write them into the database. The event is reported to the papaya log on information level. Please note that auto-registration does NOT actually call any observers because you still have to register these manually or by XML import, but you can learn from the papaya log which new actions are called.
 
-[Category:papaya CMS Development](export_en/Category:papaya_CMS_Development "wikilink") [de:Action Dispatcher](/de:Action_Dispatcher "wikilink")
+[Category:papaya CMS Development](export_en/Category:papaya_CMS_Development.md) [de:Action Dispatcher](/de:Action_Dispatcher.md)

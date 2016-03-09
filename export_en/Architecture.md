@@ -15,51 +15,51 @@ The diagrams contains the following information:
 papaya-lib/Papaya
 -----------------
 
-[600px](/File:Papaya.png "wikilink")
+[600px](/File:Papaya.png.md)
 
 papaya-lib/PapayaApplication
 ----------------------------
 
-[600px](/File:PapayaApplication.png "wikilink")
+[600px](/File:PapayaApplication.png.md)
 
 papaya-lib/Papaya/Cache
 -----------------------
 
-[600px](/File:PapayaCache.png "wikilink")
+[600px](/File:PapayaCache.png.md)
 
 papaya-lib/Papaya/Content
 -------------------------
 
-[600px](/File:PapayaContent.png "wikilink")
+[600px](/File:PapayaContent.png.md)
 
 papaya-lib/Papaya/Controller
 ----------------------------
 
-[600px](/File:PapayaController.png "wikilink")
+[600px](/File:PapayaController.png.md)
 
 papaya-lib/Papaya/Database
 --------------------------
 
-[600px](/File:PapayaDatabase.png "wikilink")
+[600px](/File:PapayaDatabase.png.md)
 
 papaya-lib/Papaya/Email
 -----------------------
 
-[600px](/File:PapayaEmail.png "wikilink")
+[600px](/File:PapayaEmail.png.md)
 
 papaya-lib/Papaya/Interface
 ---------------------------
 
-[600px](/File:PapayaInterface.png "wikilink")
+[600px](/File:PapayaInterface.png.md)
 
 papaya-lib/Papaya/Interface/Dialog
 ----------------------------------
 
-[600px](/File:PapayaInterfaceDialog.png "wikilink")
+[600px](/File:PapayaInterfaceDialog.png.md)
 
 papaya-lib/Papaya/Object
 ------------------------
 
-[600px](/File:PapayaInterfaceDialog.png "wikilink")
+[600px](/File:PapayaInterfaceDialog.png.md)
 
-[en:Architecture](/en:Architecture "wikilink") [Category:Papaya CMS](export_en/Category:Papaya_CMS "wikilink")
+[en:Architecture](/en:Architecture.md) [Category:Papaya CMS](export_en/Category:Papaya_CMS.md)

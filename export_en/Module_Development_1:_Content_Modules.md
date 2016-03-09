@@ -3,12 +3,12 @@ title: Module Development 1: Content Modules
 permalink: /Module_Development_1:_Content_Modules/
 ---
 
-This tutorial describes how to write a simple module or plugin for [papaya CMS](/papaya_CMS "wikilink").
+This tutorial describes how to write a simple module or plugin for [papaya CMS](/papaya_CMS.md).
 
 Getting started
 ---------------
 
-Before you can start writing modules, you need to install papaya CMS properly, which is described [here](/papaya_CMS_installation "wikilink").
+Before you can start writing modules, you need to install papaya CMS properly, which is described [here](/papaya_CMS_installation.md).
 
 The first module we want to write is a simple page module that outputs the famous "Hello World" message. It does not need database access and only consists of a single file.
 
@@ -147,4 +147,4 @@ The first part to be implemented is the page module itself. Create an empty PHP 
 
 Following the test-first approach, you should prepare the unit test class file and write the first test before writing any implementation code. A PHPUnit test case class extends the *PHPUnit_Framework_TestCase* base class. For the specific needs of papaya CMS unit tests, there's already a *PapayaTestCase* class you can extend, it's located in the *Framework* subdirectory of the *testing/tests-unittests* path.
 
-[Category:papaya CMS](export_en/Category:papaya_CMS "wikilink") [Category:papaya CMS Development](export_en/Category:papaya_CMS_Development "wikilink")
+[Category:papaya CMS](export_en/Category:papaya_CMS.md) [Category:papaya CMS Development](export_en/Category:papaya_CMS_Development.md)

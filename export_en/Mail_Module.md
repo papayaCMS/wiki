@@ -46,6 +46,6 @@ will result in the output
 
 Good Morning Dr. Chandra. I am ready for my first lesson.
 
-This feature allows fairly complex templates to be built up. Simple IF conditions are also allowed, due to the [base_simpletemplate](/base_simpletemplate "wikilink") class.
+This feature allows fairly complex templates to be built up. Simple IF conditions are also allowed, due to the [base_simpletemplate](/base_simpletemplate.md) class.
 
-[Category:papaya Core System](export_en/Category:papaya_Core_System "wikilink")
+[Category:papaya Core System](export_en/Category:papaya_Core_System.md)

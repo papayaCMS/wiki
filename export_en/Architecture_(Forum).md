@@ -16,7 +16,7 @@ The class diagrams contain the following information:
 -   Generalizations (respectively derivations)
 -   Assoziations
 
-[<File:Forum.png>](/File:Forum.png "wikilink")
+[<File:Forum.png>](/File:Forum.png.md)
 
 Acitvity diagrams
 -----------------
@@ -29,4 +29,4 @@ The activity diagrams contain the following information:
 -   Decision nodes
 -   Control flows
 
-[600px](/File:ForumGetOutput.png "wikilink")
+[600px](/File:ForumGetOutput.png.md)

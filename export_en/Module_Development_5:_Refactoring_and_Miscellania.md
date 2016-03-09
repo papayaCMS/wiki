@@ -5,7 +5,7 @@ permalink: /Module_Development_5:_Refactoring_and_Miscellania/
 
 In this final part of the tutorial series, we will do some refactoring to get rid of double implementations. After everything is in its place, we will add test suite files to control execution of all unit tests and to measure code coverage.
 
-Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards "wikilink"), especially if you plan to contribute your modules for the papaya Community.
+Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
 
 This tutorial makes use of unit tests which is a highly recommended way to build software. In order to have a papaya CMS version that includes the PHPUnit framework and the PapayaTestCase class, you need to check out papaya CMS from the SVN repository. Instructions on how to obtain it can be found [here](http://www.papaya-cms.com/download.990.en.html#svn).
 
