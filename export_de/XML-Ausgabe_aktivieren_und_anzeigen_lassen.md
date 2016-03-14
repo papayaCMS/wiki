@@ -10,7 +10,7 @@ XML-Ausgabe aktivieren
 
 Um diesen Ausgabemodus zu aktivieren, stellen Sie in der Konfiguration die Option PAPAYA_DBG_XML_OUTPUT in der Optionengruppe „Fehlersuche“ auf „on“:
 
-[!XML-Ausgabe in der Konfiguration aktivieren](images/XMLOutputAktivierenKonfiguration.png)
+![XML-Ausgabe in der Konfiguration aktivieren](images/XMLOutputAktivierenKonfiguration.png)
 
 Weitere Informationen zur Konfiguration erhalten Sie im Handbuch für Administratoren und Benutzer in Kapitel .
 
