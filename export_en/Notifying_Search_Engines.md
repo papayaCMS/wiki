@@ -14,7 +14,7 @@ Sobald die Einstellungen korrekt vorgenommen wurden, werden bei jeder Seiten-Ver
 Create a sitemap page using the Google Sitemaps output filter
 -------------------------------------------------------------
 
-[thumb|border|right|300px|Die Sitemap-Ansicht im Bereich "Ansichten"](/File:Ansicht_sitemap.png.md) Als Erstes benötigen Sie eine Sitemap-Seite, die mit Hilfe des passenden Templates eine Ausgabe im Format "Google Sitemaps XML" erzeugt. Überprüfen Sie dazu, ob Sie bereits eine Sitemap-Ansicht konfiguriert haben. Dies funktioniert folgendermaßen:
+![thumb|border|right|300px|Die Sitemap-Ansicht im Bereich "Ansichten"](images/Ansicht_sitemap.png) Als Erstes benötigen Sie eine Sitemap-Seite, die mit Hilfe des passenden Templates eine Ausgabe im Format "Google Sitemaps XML" erzeugt. Überprüfen Sie dazu, ob Sie bereits eine Sitemap-Ansicht konfiguriert haben. Dies funktioniert folgendermaßen:
 
 1.  Klicken Sie in der Symbolleiste des papaya-Backends auf "Ansichten" in der Gruppe "Administration". Die Seite "Administration - Ansichten" wird angezeigt.
 2.  Falls in der Toolbar nicht die Schaltfläche "Ansichten" ausgewählt ist, klicken Sie darauf.
@@ -34,7 +34,7 @@ Create a sitemap page using the Google Sitemaps output filter
 Make settings in the Pages Connector
 ------------------------------------
 
-[thumb|border|right|300px|Einstellungen für den Pages Connector in dessen Moduloptionen](/File:Pagesconnector_options.png.md) Das Modul PagesConnector stellt die eigentliche Funktionalität für den Sitemap-Versand bereit. Die Einstellungen dafür werden in den Moduloptionen dieses Moduls vorgenommen. Um die Moduloptionen einzustellen, gehen Sie wie folgt vor:
+![thumb|border|right|300px|Einstellungen für den Pages Connector in dessen Moduloptionen](images/Pagesconnector_options.png) Das Modul PagesConnector stellt die eigentliche Funktionalität für den Sitemap-Versand bereit. Die Einstellungen dafür werden in den Moduloptionen dieses Moduls vorgenommen. Um die Moduloptionen einzustellen, gehen Sie wie folgt vor:
 
 1.  Klicken Sie im Hauptmenü auf "Module" im Bereich "Administration". Die Ansicht "Administration - Module" wird angezeigt.
 2.  Klicken Sie im Bereich "Packages" auf der linken Seite auf die Gruppe "Default/Base". Rechts neben "Packages" wird der Bereich "Package content" angezeigt.
@@ -50,7 +50,7 @@ Make settings in the Pages Connector
 Configure the Action Dispatcher
 -------------------------------
 
-[thumb|border|right|300px|Einstellungen im Action Dispatcher zum Informieren von Suchmaschinen](/File:Actiondispatcher_onpublish_pagesconnector.png.md) Schließlich wird der Action Dispatcher konfiguriert, damit die Sitemap-Versand-Funktion beim Veröffentlichen von Seiten automatisch in Gang gesetzt wird. Gehen Sie dazu folgendermaßen vor:
+![thumb|border|right|300px|Einstellungen im Action Dispatcher zum Informieren von Suchmaschinen](images/Actiondispatcher_onpublish_pagesconnector.png) Schließlich wird der Action Dispatcher konfiguriert, damit die Sitemap-Versand-Funktion beim Veröffentlichen von Seiten automatisch in Gang gesetzt wird. Gehen Sie dazu folgendermaßen vor:
 
 1.  Klicken Sie im Hauptmenü von papaya CMS auf "Anwendungen". Die Ansicht "Anwendungen" wird angezeigt.
 2.  Klicken Sie in der Liste der Anwendungen auf "Action Dispatcher". Die Administration des Moduls Action Dispatcher wird angezeigt.
