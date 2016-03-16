@@ -1,12 +1,7 @@
----
-title: Architecture (Forum)
-permalink: /Architecture_(Forum)/
----
 
 The following UMLs show parts of the current papaya CMS Forum architecture for overview purposes.
 
 Class diagrams
---------------
 
 The class diagrams contain the following information:
 
@@ -19,7 +14,6 @@ The class diagrams contain the following information:
 [<File:Forum.png>](/File:Forum.png.md)
 
 Acitvity diagrams
------------------
 
 The activity diagrams contain the following information:
 
@@ -29,4 +23,4 @@ The activity diagrams contain the following information:
 -   Decision nodes
 -   Control flows
 
-[600px](/File:ForumGetOutput.png.md)
+![File: ForumGetOutput](images/ForumGetOutput.png)

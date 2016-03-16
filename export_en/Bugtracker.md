@@ -1,7 +1,3 @@
----
-title: Bugtracker
-permalink: /Bugtracker/
----
 
 You can report errors in papaya CMS with our mantis bugtracker. You can find the bugtracker here:
 

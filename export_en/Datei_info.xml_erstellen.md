@@ -1,7 +1,3 @@
----
-title: Datei info.xml erstellen
-permalink: /images/File_info.xml_erstellen/
----
 
 Die Datei `info.xml` enthält eine Liste aller Boxgruppen, die vom Template unterstützt werden. Damit die Benutzer Ihres Templates also nicht den Quellcode Ihrer Templates lesen müsen, um die Namen der Boxgruppen zu erfahren, sollten Sie Ihrem Template diese Datei beilegen.
 

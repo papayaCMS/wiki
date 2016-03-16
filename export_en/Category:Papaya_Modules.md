@@ -1,7 +1,3 @@
----
-title: Category:Papaya Modules
-permalink: export_en/Category:Papaya_Modules/
----
 
 In this section, you will find documentation on existing papaya CMS modules.
 

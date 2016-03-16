@@ -1,7 +1,3 @@
----
-title: MediaWiki:Requestaccount-text
-permalink: /MediaWiki:Requestaccount-text/
----
 
 **Complete and submit the following form to request a user account**.
 

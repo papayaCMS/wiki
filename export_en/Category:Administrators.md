@@ -1,7 +1,3 @@
----
-title: Category:Administrators
-permalink: export_en/Category:Administrators/
----
 
 This category contains ressources for administrators. Ressources include short descriptions on how to install papaya CMS, and how to administrate papaya CMS.
 

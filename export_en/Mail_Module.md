@@ -1,24 +1,17 @@
----
-title: Mail Module
-permalink: /Mail_Module/
----
 
 Location
---------
 
 The mail module is a system module, and is found in the system/sys_email.php file. It can be included with the following line :
 
 include_once(PAPAYA_INCLUDE_PATH.'system/sys_email.php');
 
 Creator Method
---------------
 
 An email object is created in the standard way, with the
 
 \$myObject = new email();
 
 Public Methods
---------------
 
 ### setSender(<Email address string>, <name string>)
 

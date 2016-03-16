@@ -1,7 +1,3 @@
----
-title: Module Development 5: Refactoring and Miscellania
-permalink: /Module_Development_5:_Refactoring_and_Miscellania/
----
 
 In this final part of the tutorial series, we will do some refactoring to get rid of double implementations. After everything is in its place, we will add test suite files to control execution of all unit tests and to measure code coverage.
 
@@ -10,7 +6,6 @@ Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_
 This tutorial makes use of unit tests which is a highly recommended way to build software. In order to have a papaya CMS version that includes the PHPUnit framework and the PapayaTestCase class, you need to check out papaya CMS from the SVN repository. Instructions on how to obtain it can be found [here](http://www.papaya-cms.com/download.990.en.html#svn).
 
 Overview of files and directories
----------------------------------
 
 After finishing this tutorial, you will have created the following files and subdirectories in *papaya-lib/modules/special/myproject/tutorial* (new files from the current part are bold):
 
@@ -53,7 +48,6 @@ After finishing this tutorial, you will have created the following files and sub
 `|  + Planet.php`
 `|`
 `+ modules.xml`
-`---------------------------------------`
 `papaya-data/templates/default-xhtml/html/box_planet_rating.xsl`
 ` `***`Note`**`:` `Names` `in` `square` `brackets` `indicate` `directories`*
 

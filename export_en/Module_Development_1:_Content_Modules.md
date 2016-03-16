@@ -1,12 +1,7 @@
----
-title: Module Development 1: Content Modules
-permalink: /Module_Development_1:_Content_Modules/
----
 
 This tutorial describes how to write a simple module or plugin for [papaya CMS](/papaya_CMS.md).
 
 Getting started
----------------
 
 Before you can start writing modules, you need to install papaya CMS properly, which is described [here](/papaya_CMS_installation.md).
 
@@ -129,7 +124,6 @@ echo md5(microtime());
 Now paste your new hash value in between the quotes of the *guid* attribute and save the file.
 
 Writing the PHP code
---------------------
 
 There is a difference in the recommended directory and file name structure for papaya modules between older, PHP-4-compatible parts and new PHP-5-only packages. This is because we want to use *unit testing* for the new modules. If you have never heard about unit testing in general or PHPUnit in particular, never mind -- everything necessary will be explained along the way. One of the best resources for getting started with unit testing, though, is the article [Test Infected: Programmers Love Writing Tests](http://junit.sourceforge.net/doc/testinfected/testing.htm) by *Erich Gamma* and *Kent Beck*. For detailed information about PHPUnit, visit the official [PHPUnit site](http://www.phpunit.de/).
 

@@ -1,7 +1,3 @@
----
-title: Notifying Search Engines
-permalink: /Notifying_Search_Engines/
----
 
 Many search engines provide public services URLs to which web site owners can send data in "Google Sitemaps XML" format to inform these search engines about the changed structure of their web sites. Using the "Action Dispatcher" and "Pages Connector" modules, you can do this automatically while publishing a page. This requires three main steps, detailed below:
 
@@ -12,7 +8,6 @@ Many search engines provide public services URLs to which web site owners can se
 Sobald die Einstellungen korrekt vorgenommen wurden, werden bei jeder Seiten-Veröffentlichung automatisch Sitemaps für die jeweils veröffentlichten Sprachversionen an die gewünschten Suchmaschinen gesandt. Voraussetzung ist, dass das Feld "Veröffentlicht bis" entweder leer bleibt oder eine Zeitangabe enthält, die sowohl in der Zukunft als auch nach der Zeitangabe für "Veröffentlicht von" liegt. Beachten Sie, dass der Veröffentlichungsvorgang etwas langsamer wird, wenn die automatische Benachrichtigung eingeschaltet ist. Das Ergebnis sehen Sie im Protokoll von papaya CMS, wo Einträge in der Form "Sent <Anzahl> sitemap pings out of a total of <Anzahl>" angezeigt werden.
 
 Create a sitemap page using the Google Sitemaps output filter
--------------------------------------------------------------
 
 ![thumb|border|right|300px|Die Sitemap-Ansicht im Bereich "Ansichten"](images/Ansicht_sitemap.png) Als Erstes benötigen Sie eine Sitemap-Seite, die mit Hilfe des passenden Templates eine Ausgabe im Format "Google Sitemaps XML" erzeugt. Überprüfen Sie dazu, ob Sie bereits eine Sitemap-Ansicht konfiguriert haben. Dies funktioniert folgendermaßen:
 
@@ -32,7 +27,6 @@ Create a sitemap page using the Google Sitemaps output filter
 7.  Erstellen Sie hier eine neue Seite mit der neu erzeugten Sitemap-Ansicht. Details dazu finden Sie im papaya CMS Benutzerhandbuch.
 
 Make settings in the Pages Connector
-------------------------------------
 
 ![thumb|border|right|300px|Einstellungen für den Pages Connector in dessen Moduloptionen](images/Pagesconnector_options.png) Das Modul PagesConnector stellt die eigentliche Funktionalität für den Sitemap-Versand bereit. Die Einstellungen dafür werden in den Moduloptionen dieses Moduls vorgenommen. Um die Moduloptionen einzustellen, gehen Sie wie folgt vor:
 
@@ -48,7 +42,6 @@ Make settings in the Pages Connector
 6.  Klicken Sie abschließend auf "Speichern", um Ihre Änderungen zu übernehmen.
 
 Configure the Action Dispatcher
--------------------------------
 
 ![thumb|border|right|300px|Einstellungen im Action Dispatcher zum Informieren von Suchmaschinen](images/Actiondispatcher_onpublish_pagesconnector.png) Schließlich wird der Action Dispatcher konfiguriert, damit die Sitemap-Versand-Funktion beim Veröffentlichen von Seiten automatisch in Gang gesetzt wird. Gehen Sie dazu folgendermaßen vor:
 

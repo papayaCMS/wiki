@@ -1,14 +1,9 @@
----
-title: Upload Module
-permalink: /Upload_Module/
----
 
 The upload module has been extended to allow the use of a dynamically-generated progress bar for uploads.
 
 This feature requires the "Upload Progress" PECL extension to PHP which is available from <http://pecl.php.net/package/uploadprogress>.
 
 Installation and Requirements
------------------------------
 
 The PECL extension should be downloaded and compiled as per the standard PECL package instructions. The resultant shared object should be installed into the PHP shared libraries directories. The PECL extension requires that either PHP 5.2 or a patched version of PHP 4/5 is installed. The module requires browser support for javascript xmlhttp fetch to work.
  You can try a custom version for windows (a compiled dll file is included).
@@ -16,7 +11,6 @@ The PECL extension should be downloaded and compiled as per the standard PECL pa
 -   <http://www.emforge.org/attach/AjaxBasedFileUploadForPHP/uploadprogress-0.3.0-emdev.zip>
 
 Testing : Success, failure and Untested
----------------------------------------
 
 ### Server Config
 
@@ -73,7 +67,6 @@ Netscape \<= 4 (Reason: too old, does not support features required)
 Other browsers : (Reason : Market share too poor)
 
 Method of Operation
--------------------
 
 The upload bar operates by making multiple calls to a php server, during a normal http upload. The php server is able to extract progress data from the upload via the PECL Upload progress extension, which is then coded as an XML document, and sent to the browser.
 
@@ -82,7 +75,6 @@ The browser, on receiving this document, parses the data out of it. This data is
 The browser will continue to do so until the file finally uploads, and a new page is passed to the browser.
 
 Implementation Considerations
------------------------------
 
 Although the javascript/XHTML makes use of core methods also used by AJAX, AJAX libraries were considered to be too large and cumbersome, due to AJAX consisting of a large javascript source library which has to be downloaded.
 
@@ -93,7 +85,6 @@ Timing of the communication between the server and the browser must be carefully
 Some switchable debugging information must be available, which avoids use of clumsy javascript alerts.
 
 Detailed Code Description
--------------------------
 
 ### Javascript
 

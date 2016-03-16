@@ -1,7 +1,3 @@
----
-title: Installation in a subfolder: Changing the .htaccess file
-permalink: /Installation_in_a_subfolder:_Changing_the_.htaccess_file/
----
 
 **Wenn Sie das papaya CMS in einem Unterverzeichnis des Webservers bzw. des Document Roots installieren möchten, so muss die mitgelieferte `.htaccess` Datei entsprechend angepasst werden.**
 

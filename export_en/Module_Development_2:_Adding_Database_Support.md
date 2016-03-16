@@ -1,7 +1,3 @@
----
-title: Module Development 2: Adding Database Support
-permalink: /Module_Development_2:_Adding_Database_Support/
----
 
 This is the second part in a series on papaya module development. If you are new to this topic, read the first part [here](/papaya_Module_Development.md).
 

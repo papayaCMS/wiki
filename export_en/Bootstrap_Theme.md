@@ -1,7 +1,3 @@
----
-title: Bootstrap Theme
-permalink: /Bootstrap_Theme/
----
 
 [right|thumb|200px|bootstrap Theme](/File:Bootstraptheme.png.md) The **bootstrap Theme** is an external papaya CMS theme which uses the design templates of the [bootstrap Framework](http://en.wikipedia.org/wiki/Twitter_Bootstrap) to realize papaya CMS pages.
 

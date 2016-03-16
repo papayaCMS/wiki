@@ -1,7 +1,3 @@
----
-title: Dynamic Themes
-permalink: /Dynamic_Themes/
----
 
 Dynamic Themes
 ==============
@@ -11,7 +7,6 @@ Implemented: papaya CMS \>= 5.5
 The dynamic themes are a feature introduced in papaya CMS 5.5. They allow to change css values using the administration interface.
 
 Value Definition
-----------------
 
 The value definition is done inside the themes.xml inside a theme directory. Here is a new section "dynamic-values" with page, group and value definitions.
 
@@ -39,12 +34,10 @@ Pages can contain several groups with multiple values. Each page will be one edi
 The "type" Attribute is a profile used by PapayaUiDialogFieldFactory. Parameter can be provided as an attribute (if it is only one) or child elements if an array is needed. The "default"-Attribute are optional but highly suggested.
 
 Template Preparation
---------------------
 
 To replace the dynamic values in the delivered css, the css wrapper has to be used. The urls of your css files should look like "<http://www.yourdomain.tld/papaya-themes/themename/css.php?files=foo.css&set=3>" if here is an set active.
 
 Theme Preparation
------------------
 
 After defining the values in the themes.xml, the css files need to be prepared. They will be still valid css. No special tools, scripts or applications are used to edit your css files.
 

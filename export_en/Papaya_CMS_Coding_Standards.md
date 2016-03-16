@@ -1,7 +1,3 @@
----
-title: Papaya CMS Coding Standards
-permalink: /Papaya_CMS_Coding_Standards/
----
 
 <div id="navigation">
 1.  <a href="#commitmessages">Commit Messages</a>

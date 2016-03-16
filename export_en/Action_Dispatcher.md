@@ -1,12 +1,7 @@
----
-title: Action Dispatcher
-permalink: /Action_Dispatcher/
----
 
 The **Action Dispatcher** is a free papaya module package. It is a papaya-specific implementation of an Observer or Event Handler. An action is a method that can be automatically invoked on each connector module registered in the dispatcher's administration interface. This is practical for cleanup or other tasks that involve more than one specific module and should be automatically triggered by certain events.
 
 How to use it
--------------
 
 The action dispatcher defines *groups*, *actions*, and *observers*. An action is identified by a group name (typically a papaya module package) and the action's own name. The observers can be selected from the available connector modules of the current papaya installation including all project-specific extensions. In order to trigger an action, you have to get an instance of the dispatcher's own connector class and invoke its call() method using a group name, an action name, and an optional parameter. The dispatcher will then create instances of all the observers (connector classes) registered for the specific action, and invoke its eponymous method (if available), passing it the parameter (or NULL if not set).
 
@@ -24,7 +19,6 @@ If any observers are registered for the 'onDeleteSurfer' action in the 'communit
 Both direct and cyclic recursion within the call process are prevented by examining the backtrace, exiting immediately if the current class and method have already occurred. The event will be reported to the papaya log as an error. If a registered observer class no longer exists, this is reported to the log as well.
 
 Administration
---------------
 
 The action dispatcher's administration interface is pretty straightforward (see screenshot).
 

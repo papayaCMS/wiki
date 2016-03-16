@@ -1,7 +1,3 @@
----
-title: Wiki (papaya Module Package)
-permalink: /Wiki_(papaya_Module_Package)/
----
 
 The **papaya Wiki** is a papaya module package that provides a Wiki to be used within your papaya CMS installation. Most of the wiki markup is compatible with the widespread [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki) system.
 
@@ -14,7 +10,6 @@ The wiki package provides three page modules:
 Additionally, the wiki provides a backend administration modules in which editors or administrators can read and -- if necessary -- delete articles.
 
 Setting up the database tables
-------------------------------
 
 In order to use the wiki, you need to create its database tables first. For this task, you will need administrator privileges in the papaya backend. Follow these steps to set up the wiki tables:
 

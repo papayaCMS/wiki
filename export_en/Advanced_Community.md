@@ -1,12 +1,7 @@
----
-title: Advanced Community
-permalink: /Advanced_Community/
----
 
 The **Advanced Community** is a extern module package for papaya CMS 5.5.2 or higher. It contains 20 new modules which add to the existing community module package.
 
 Features
---------
 
 -   Comments for pages, surfers and images
 -   Surferpages with contact management
@@ -20,7 +15,6 @@ Features
 -   Dynamic caching of contents
 
 Dependencies
-------------
 
 -   papaya CMS 5.5.2 or higher
     -   the module package needs a [patched papaya CMS](https://github.com/MKelm/papaya-cms)
@@ -31,7 +25,6 @@ Dependencies
 -   Pages connector
 
 Screenshots
------------
 
 -   [Surferpage with details, comments, contacts and gallery teaser](http://idx.shrt.ws/acommunitysurferpage.media.f559e8bee14378de74655bdc3e927a32v5.png)
 -   [Surferpage with new text features for comments and messages](http://idx.shrt.ws/acommunitysurferpage.media.f559e8bee14378de74655bdc3e927a32v6.png)
@@ -40,7 +33,6 @@ Screenshots
 -   [Community homepage with last acitivities and last registrations](http://idx.shrt.ws/acommunityhomepage.media.c5a8df2762f7674c7f2ab382687a35d4v2.png)
 
 Download
---------
 
 -   download the package [here](https://github.com/MKelm/pcms-advanced-community)
 -   [Readme](https://github.com/MKelm/pcms-advanced-community/blob/master/readme.txt)
