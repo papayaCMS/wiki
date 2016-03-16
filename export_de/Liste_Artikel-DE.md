@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-#	Artikel Übersicht 
-
-
-=======
-Artikel Übersicht
-
->>>>>>> 9feb55c13e3d730c37bb257458df54843107e5bd
+#   Artikel Übersicht
 
  * [Abfragen_mit_base_db::databaseDebugNextQuery()_analysieren..md](Abfragen_mit_base_db::databaseDebugNextQuery()_analysieren..md)
 
@@ -416,5 +409,3 @@ Artikel Übersicht
  * [Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md](Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
 
  * [Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md](Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)
-
-
