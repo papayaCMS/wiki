@@ -1,7 +1,3 @@
----
-title: Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen
-permalink: Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen/
----
 
 In diesem Abschnitt erfahren Sie, wie Sie die Standard-Icons für Buttons im Bearbeitungsmenü, Icons oder die Anwendung selbst benutzen können. Sie erfahren auch, wie Sie eigene Icons aus dem Paket in die Benutzeroberfläche einbinden.
 

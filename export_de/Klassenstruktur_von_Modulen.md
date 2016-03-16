@@ -1,7 +1,3 @@
----
-title: Klassenstruktur von Modulen
-permalink: /Klassenstruktur_von_Modulen/
----
 
 Die Klassenhierarchie von Modulen sieht wie folgt aus:
 

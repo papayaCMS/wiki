@@ -1,7 +1,3 @@
----
-title: Kategorie:Wie sieht es unter der Haube aus?
-permalink: Kategorie:Wie_sieht_es_unter_der_Haube_aus?/
----
 
 Dieses Kapitel beschreibt im Detail, wie ein Seitenaufruf durch den Webserver und papaya CMS verarbeitet wird. An einem Seitenrequest wird beispielhaft erklärt, wie die Seitenanfrage erst durch den Webserver verarbeitet und anschließend an papaya CMS weitergereicht wird. Die beteiligten papaya-Klassen und ihre Methoden werden in der Reihenfolge ihrer Aufrufe beschrieben.
 

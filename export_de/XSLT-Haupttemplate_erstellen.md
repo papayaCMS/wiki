@@ -1,7 +1,3 @@
----
-title: XSLT-Haupttemplate erstellen
-permalink: /XSLT-Haupttemplate_erstellen/
----
 
 Grundsätzlich haben Sie zwei Möglichkeiten, für papaya CMS ein Tempate zu erstellen:
 
@@ -13,7 +9,6 @@ Wenn Sie die kompletten XSLT-Templates selber erstellen möchten, müssen Sie si
 Die zweite Vorgehensweise hat den Vorteil, dass Sie nur einige Templates anzupassen brauchen, um das zentrale HTML ausgeben zu können. Dabei können Sie auf zahlreiche Hilfstemplates und Funktionen zurückgreifen, die im Demo-Template enthalten sind. Zu diesen Funktionen gehört beispielsweise das Phrasensystem, mit dem Sie Beschriftungen für Standard-Buttons oder Formularfelder in der aktuell ausgewählten Content-Sprache ausgeben können. Mit den Stylesheets aus dem papaya-Demo-Template steht Ihnen also ein XSLT-Framework für die Template-Entwicklung zur Verfügung.
 
 Grundlegende Schritte beim Erstellen eines Templates
-----------------------------------------------------
 
 Um ein XSLT-Template für papaya CMS zu erstellen, sind folgende Schritte notwendig:
 
@@ -29,7 +24,6 @@ Um ein XSLT-Template für papaya CMS zu erstellen, sind folgende Schritte notwen
 4.  Legen Sie eine `info.xml` an. Diese Datei enthält die Namen aller Boxgruppen, die von Ihrem Template unterstützt werden.
 
 Verzeichnisstruktur anlegen
----------------------------
 
 Legen Sie im Ordner `papaya-data/templates/` einen Unterordner für Ihr Template an. In dieses Verzeichnis können Sie alle Unterverzeichnisse des Demo-Templates, die innerhalb von default-xhtml/ kopieren
 
@@ -53,7 +47,6 @@ Templates für Seitenmodule, nach Paketen geordnet (Default-Template).
 Wenn Sie in papaya CMS den Ausgabefilter für die Webseitenausgabe konfigurieren, können Sie dieses Verzeichnis `html/` auswählen.
 
 Hauptstylesheet erstellen
--------------------------
 
 Das Demo-Template ist so aufgebaut, dass das HTML-Grundgerüst in der zentralen Stylesheetdatei `defaults.xsl` aus dem Verzeichnis `html/base/` definiert wird. Die Stylesheetdatei `defaults.xsl` definiert mehrere Templates. Das zentrale Template mit dem Namen `page` erzeugt dabei das Seiten-HTML, in dem Bereiche für die Boxen und den Content-Bereich definiert sind. Im `<div>` -Element für den Content-Bereich wird das Template mit dem Namen `content-area` aufgerufen. Zudem werden weitere Templates für die Navigationsboxen, den Seiten-Header und den Seiten-Footer aufgerufen.
 

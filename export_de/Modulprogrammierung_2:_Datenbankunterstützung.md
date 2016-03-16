@@ -1,14 +1,9 @@
----
-title: Modulprogrammierung 2: Datenbankunterstützung
-permalink: /Modulprogrammierung_2:_Datenbankunterstützung/
----
 
 In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules.md).
 
 Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
 
 Preparing and writing the database access class
------------------------------------------------
 
 Most web applications use a database to load content from or to store data in. papaya CMS includes its own database access interface that we are going to explore in this section of the tutorial. Our goal is to replace "World" in the "Hello World" headline by a selected planet loaded from a database table.
 
@@ -17,7 +12,6 @@ Most web applications use a database to load content from or to store data in. p
 The first step towards database support in a module package is to define the database table or tables you want to use. The table of planets we are using for our module only consists of two columns:
 
 `Column      | SQL data type | Remarks`
-`------------+---------------+---------------------------------`
 `planet_id   | int           | Primary key to identify a planet`
 `planet_name | varchar(30)   | Name of the planet`
 
@@ -792,7 +786,6 @@ class Planet {
 All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject(.md)* and lazy initialization as in *Planet::getDatabaseAccessObject(.md)*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules.md).
 
 Creating a connector module
----------------------------
 
 To make the methods of the *Planet* class available to the content module, we are going to write a *connector* module. Connectors can be included regardless of directory structures. This makes them the best choice to use functionality from base classes in content or administration modules, both within the same package and in other packages.
 
@@ -1280,7 +1273,6 @@ class HelloPageTest extends PapayaTestCase {
 If you have used another GUID for your connector module, replace it. As soon as the unit tests work, we have successfully added code to initialize the connector object, so we can use its methods in the next step.
 
 Using the database functionality in the content module
-------------------------------------------------------
 
 In the base class of our content module, we are going to use two methods from the connector: *getAllPlanets(.md)* to load the list of planets and *getPlanetById(.md)* to load a single planet. The list is used to select a planet during page configuration. Its ID is saved in page data, and when the page is displayed, the name will be retrieved by id again.
 

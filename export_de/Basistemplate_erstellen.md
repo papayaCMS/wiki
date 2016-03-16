@@ -1,7 +1,3 @@
----
-title: Basistemplate erstellen
-permalink: /Basistemplate_erstellen/
----
 
 Das Basistemplate speichert den Hostnamen in der XSLT-Variablen `$host` und erzeugt das Wurzelelement `<urlset>`. Es ist im folgenden Listing dargestellt:
 

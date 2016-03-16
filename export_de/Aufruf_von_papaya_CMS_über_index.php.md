@@ -1,7 +1,3 @@
----
-title: Aufruf von papaya CMS über index.php
-permalink: /Aufruf_von_papaya_CMS_über_index.php/
----
 
 Wenn Apache keine lokale Datei ausliefert, werden alle Anfragen an die `index.php` von papaya CMS weitergegeben. Die `index.php` ist das Hauptscript, das vom Webserver angesprochen wird, sobald eine Seite oder Datei ausgegeben werden soll. Das Script befindet sich im Installationsverzeichnis von papaya CMS, beispielsweise im `DocumentRoot`.
 

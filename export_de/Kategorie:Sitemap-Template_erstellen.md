@@ -1,7 +1,3 @@
----
-title: Kategorie:Sitemap-Template erstellen
-permalink: Kategorie:Sitemap-Template_erstellen/
----
 
 Es ist sehr einfach, ein Template für die Sitemap-Ausgabe zu schreiben. Die meisten benötigten Angaben werden durch das Sitemap-Modul in die XML-Ausgabe der Seite eingefügt.
 

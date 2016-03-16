@@ -1,7 +1,3 @@
----
-title: Seiten-Content für Preview-Modus und Frontend ausgeben
-permalink: /Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben/
----
 
 In der Methode `papaya_page::createTopic()` wird die Instanz einer Topic-Klasse angelegt und im Attribut `papaya_page::topic` gespeichert. Als Topic-Objekt wird eine Instanz der Klasse `papaya_topic` oder `papaya_publictopic` eingesetzt, die von base_topic_edit abgeleitet ist. Wenn ein Redakteur im Vorschaumodus die Seite aufruft, wird `papaya_topic` instanziiert. Für das Frontend wird die Klasse `papaya_publictopic` eingebunden.
 
@@ -14,7 +10,6 @@ Die Hierarchie der Topic-Klassen ist im folgenden UML-Diagramm dargestellt:
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
 Das Topic-Objekt als Hüllenklasse für Content-Module
-----------------------------------------------------
 
 Das Topic-Objekt ist eine Hüllenklasse für bestimmte Content-Klassen, die von `base_plugin` abgeleitet sind. Im Topic-Objekt wird die Content-Klasse instanziiert, die mit der Ansicht der aktuellen Seite verknüpft ist. Anschließend werden die Schnittstellen für die Datenein- und ausgabe angesprochen.
 
@@ -29,7 +24,6 @@ Ferner ist das Topic-Objekt für die Verwaltung der Metadaten einer Seite verant
 3.  Die ID der Ansicht, die in der aktuellen Sprachversion der Seite benutzt wird.
 
 Ausgabe des Seiteninhalts im Detail
------------------------------------
 
 Das folgende Sequenzdiagramm stellt vor, wie das Topic-Objekt instanziiert wird. Ferner beschreibt das Diagramm im Detail, welche Objekte bei der Ausgabe des Seiteninhalts beteiligt sind und wie sie miteinander interagieren:
 
@@ -46,12 +40,10 @@ Mit der Methode `checkPublishPeriod()` aus der Klasse `papaya_publictopic` bzw. 
 Mit `$topic->getViewId()` wird die ID der Ansicht ausgelesen und dem Ausgabefilter übergeben. Anschließend wird in `papaya_page` eine Instanz des Layoutobjekts angelegt, das als Wrapper für den XSLT-Prozessor fungiert. Diesem Objekt soll nun das Seiten-XML übergeben werden. Zu diesem Zweck wird die Methode `parseContent()` des Topic-Objekts `$topic` aufgerufen.
 
 Content-Modul instanziieren und Seiteninhalte auslesen
-------------------------------------------------------
 
 Im Topic-Objekt wird in der Methode `parseContent()` das Content-Modul instanziiert. Dazu wird die statische Methode `getPluginInstance()` der Klasse `base_pluginloader` benutzt. Die Instanz des Content-Moduls wird im Klassenattribut `$moduleObj` gespeichert. Die Instanz wird benutzt, um den Inhalt der Seite aus der Datenbank zu laden und als XML auszugeben. Zu diesen Zweck werden die Methoden `getParsedData()` und `getParsedTeaser()` des Content-Moduls ausgelesen. `getParsedTeaser()` liest den Teaser der Seite aus, `getParsedData()` den Hauptinhalt. Die XML-Ausgaben dieser Methoden werden in ein XML-Element eingebettet und an die aufrufende Instanz zurückgegeben.
 
 XML der Seitenausgabe an Ausgabefilter übergeben
-------------------------------------------------
 
 Das XML wird in der Methode `generatePage()` der Klasse `papaya_page` direkt an das Layoutobjekt übergeben. Zudem werden weitere Inhalte wie Metadaten, Ansichtenlisten für die aktuelle Seite sowie die unterschiedlichen Sprachversionen im Layoutobjekt gesetzt. Ebenso werden entsprechende Parameter für die XSLT-Transformation gesetzt.
 

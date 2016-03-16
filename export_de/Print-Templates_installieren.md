@@ -1,7 +1,3 @@
----
-title: Print-Templates installieren
-permalink: /Print-Templates_installieren/
----
 
 Um die Print-Templates zu installieren, sind folgende Schritte notwendig:
 

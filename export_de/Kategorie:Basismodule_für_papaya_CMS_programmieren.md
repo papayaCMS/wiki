@@ -1,7 +1,3 @@
----
-title: Kategorie:Basismodule für papaya CMS programmieren
-permalink: Kategorie:Basismodule_für_papaya_CMS_programmieren/
----
 
 In diesem Kapitel erfahren Sie, wie Sie einfache Content-Module, Boxen und Seiten, selber entwickeln können. Zu Beginn wird beschrieben, wie die Verzeichnisstruktur für Pakete aufgebaut ist und welche Dateien Sie benötigen, um Module in papaya CMS registrieren und benutzen zu können. Anschließend lernen Sie schrittweise die Entwicklung von Boxen- und Seitenmodulen.
 

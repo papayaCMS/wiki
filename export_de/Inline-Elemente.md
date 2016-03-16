@@ -1,7 +1,3 @@
----
-title: Inline-Elemente
-permalink: /Inline-Elemente/
----
 
 Neben den Blockelementen können Sie eine Reihe von Inline-Elementen verwenden, um beispielsweise Text fett zu formatieren. Die meisten Inline-Elemente entsprechen dabei denen aus HTML. Folgende Dinge sollten Sie beachten:
 

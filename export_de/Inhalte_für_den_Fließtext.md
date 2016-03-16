@@ -1,7 +1,3 @@
----
-title: Inhalte für den Fließtext
-permalink: /Inhalte_für_den_Fließtext/
----
 
 Um die Inhalte des Artikels in das papaya-Formatierungsobjekt einzufügen, müssen Sie in der Regel ein XSLT-Template erstellen, dass an die Ausgabe des Seitenmoduls angepasst ist. Im Demo-Template für die PDF-Ausgabe ist ein Template für das Seitenmodul „Topic with image“ enthalten:
 
@@ -63,7 +59,6 @@ Um die Inhalte des Artikels in das papaya-Formatierungsobjekt einzufügen, müss
 Das Template fügt die Inhalte in ein `<section>` -Element ein. Das `<section>` -Element wird über das Attribut `page` mit der entsprechenden Layoutdefinition aus dem Layoutbereich verknüpft. Über das Attribut `page-break-before="yes"` legen Sie fest, dass vor diesem Element ein Seitenumbruch durchgeführt wird. Dadurch beginnt der Artikel erst auf der zweiten Seite. Wenn Sie bei bestimmten Seitenmodulen mehr als ein `<section>` -Element in das papaya-Formatierungsobjekt einfügen, wird vor jedem neuen Abschnitt ein Seitenumbruch eingefügt. Dadurch beginnen die neuen Kapitel auf einer neuen Seite.
 
 Hilfstemplates für die Inhalte
-------------------------------
 
 Aus dem XSLT-Template topic_default werden weitere Hilfstemplates aufgerufen, die die entsprechenden Inhalte wie Titel, Untertitel, Bildreferenz, Artikeltext und optional auch den Teasertext einbinden. Alle diese Inhalte sind im Quelldokument in Elemente wie `<title>` oder `<text>` enthalten und können daher durch einfache `value-of` -Anweisungen in das Zieldokument übernommen werden:
 

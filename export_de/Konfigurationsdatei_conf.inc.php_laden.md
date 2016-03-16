@@ -1,7 +1,3 @@
----
-title: Konfigurationsdatei conf.inc.php laden
-permalink: /Konfigurationsdatei_conf.inc.php_laden/
----
 
 Die Datei `conf.inc.php` enthält die grundlegende Konfiguration für eine papaya-Installation. Sie befindet sich im selben Verzeichnis wie die Datei `index.php`. Außer Konstantendefinitionen und Kommentaren sollte diese Datei nichts enthalten. Die `conf.inc.php` enthält alle Optionen, die nicht über das Backend einstellbar sind. Zusätzlich können für Entwicklungs- oder Demoserver Optionen definiert werden, die nicht verändert oder überladen werden sollen. papaya CMS prüft, ob eine Konstante existiert, bevor es diese mit dem Wert aus der Tabelle `papaya_options` oder dem Standardwert füllt.
 

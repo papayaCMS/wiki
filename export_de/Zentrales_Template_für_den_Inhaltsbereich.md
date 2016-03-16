@@ -1,7 +1,3 @@
----
-title: Zentrales Template für den Inhaltsbereich
-permalink: /Zentrales_Template_für_den_Inhaltsbereich/
----
 
 Das zentrale Template für den Inhaltsbereich hat den Namen `content_area` und wird im Template für das Basisdokument aufgerufen, siehe [Basisdokument erzeugen](/Basisdokument_erzeugen.md). Es enthält die Elemente `<cover>`, `<content>` und `<footer>`. Für alle diese Elemente werden weitere Templates aufgerufen, in denen die Inhalte eingefügt werden. Das folgende XSLT-Fragment zeigt das zentrale Template:
 
@@ -53,12 +49,10 @@ Folgende Templates werden im obigen Beispiel aufgerufen:
 4.  `final`: Template für die letzte Seite.
 
 Bereich <cover>
----------------
 
 Im Bereich <cover> wird das XSLT-Template aufgerufen, das die Inhalte für die Titelseite in das papaya-Formatierungsobjekt setzt. Näheres zu diesem Template erfahren Sie in [Inhalte der Titelseite](/Inhalte_der_Titelseite.md).
 
 Bereich <content>
------------------
 
 Im Bereich `<content>` wird ähnlich wie in den Stylesheets für die HTML-Vorlage ein angepasstes XSLT-Template für das Seitenmodul aufgerufen. Im obigen Beispiel handelt es sich um das Template `topic_default`, das die Inhalte des Seitenmoduls „Topic with image“ in das papaya-Formatierungsobjekt einfügen kann. Näheres zu diesem Template erfahren Sie in [Inhalte für den Fließtext](/Inhalte_für_den_Fließtext.md).
 

@@ -1,7 +1,3 @@
----
-title: Kategorie:Wie funktioniert eigentlich papaya CMS?
-permalink: Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?/
----
 
 Um papaya CMS benutzen zu können, müssen Sie keine umfangreichen technischen Kenntnisse besitzen. Jede Sekretärin, die gängige Funktionen aus Word und Excel beherrscht, lernt innerhalb weniger Stunden in einer Schulung, wie sie mit papaya CMS neue Seiten anlegen und bearbeiten kann. Wenn Sie allerdings ein bestehendes Modul erweitern oder ein neues Modul entwickeln möchten, ist es notwendig, dass Sie den Aufbau von papaya CMS verstehen. Sie müssen nachvollziehen können, wie die verwendeten Techniken zusammenwirken um Webseiten zu generieren.
 

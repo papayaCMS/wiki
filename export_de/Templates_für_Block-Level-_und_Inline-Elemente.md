@@ -1,7 +1,3 @@
----
-title: Templates für Block-Level- und Inline-Elemente
-permalink: /Templates_für_Block-Level-_und_Inline-Elemente/
----
 
 Neben den Templates, die die Struktur des papaya-Formatierungsobjektes aufbauen, enthält das Demotemplate einige XSLT-Templates für Inline- und für Blockelemente. Im Folgenden sind die XSLT-Templates für die Inline-Elemente dargestellt:
 
@@ -44,7 +40,6 @@ Das XSLT-Template mit dem Match auf das Ankerelement `<a>` wählt alle Elemente 
 ~~~~
 
 Block-Level-Elemente
---------------------
 
 Die XSLT-Templates für Block-Level-Elemente setzen nur diejenigen HTML-Elemente aus dem Quelldokument in das Zieldokument ein, die durch den PDF-Ausgabefilter von papaya CMS unterstützt werden. Dabei werden `<table>` -Elemente, die sich innerhalb von Tabellen befinden, einfach ignoriert:
 

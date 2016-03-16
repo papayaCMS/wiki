@@ -1,7 +1,3 @@
----
-title: Boxmodule programmieren
-permalink: /Boxmodule_programmieren/
----
 
 Ein Boxmodul ist das einfachste Content-Modul in papaya CMS. Es besteht aus einer Klasse, die von der Basisklasse `base_actionbox` abgeleitet ist. Folgende Schritte sind notwendig, um eine eigene Box zu erstellen:
 
@@ -14,7 +10,6 @@ Ein Boxmodul ist das einfachste Content-Modul in papaya CMS. Es besteht aus eine
 In den folgenden Abschnitten werden die einzelnen Schritte im Detail erläutert.
 
 Klasse base_actionbox einbinden
---------------------------------
 
 Laden Sie mit der PHP-Funktion `require_once()` die Datei, die die notwendige Elternklasse `base_actionbox` enthält. Den Pfad zum Basissystem `papaya-lib/` können Sie aus der Konstanten PAPAYA_INCLUDE_PATH auslesen, die in der `conf.inc.php` definiert ist:
 
@@ -33,7 +28,6 @@ class actbox_example extends base_actionbox {
 Leiten Sie Ihre Klasse von der die Basisklasse `base_actionbox` ab.
 
 Attribute \$preview und \$editFields überladen
-----------------------------------------------
 
 Das Attribut `$preview` nimmt einen booleschen Wert an und hat die Funktion eines Flags. Hat `$preview` den Wert `TRUE`, kann die Box im Preview-Modus angeschaut werden, andernfalls nicht.
 
@@ -75,7 +69,6 @@ Die Felder im inneren Array bestimmen die Art des jeweiligen Eingabefeldes. Näh
 Die Schlüssel `title` und `text` werden intern dazu benutzt, um auf die entsprechenden Felder zuzugreifen. Wenn der Nutzer über die Eingabemaske Daten eingibt, stehen diese Daten im Array `$this->data` zur Verfügung. In diesem Fall können die Schlüssel der jeweiligen Felder dazu verwendet werden, die eingegebenen Daten aus dem Array `$this->data` auszulesen.
 
 Die Methode getParsedData() überladen
--------------------------------------
 
 Die Methode `getParsedData()` wird aufgerufen, um den Inhalt des Moduls auszugeben. Durch Überladen der Methode bestimmen Sie den auszugebenden Inhalt:
 

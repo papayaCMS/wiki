@@ -1,7 +1,3 @@
----
-title: Tabellenstrukturdatei mit papaya CMS erstellen
-permalink: /Tabellenstrukturdatei_mit_papaya_CMS_erstellen/
----
 
 Wenn Sie eine Tabellenstrukturdatei erstellen möchten, müssen Sie diese nicht von Hand schreiben. Um eine neue Tabelle zu einem Modulpaket hinzuzufügen, gehen Sie wie folgt vor:
 

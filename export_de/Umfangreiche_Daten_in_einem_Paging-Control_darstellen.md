@@ -1,7 +1,3 @@
----
-title: Umfangreiche Daten in einem Paging-Control darstellen
-permalink: /Umfangreiche_Daten_in_einem_Paging-Control_darstellen/
----
 
 Wenn Sie immer alle Datensätze in einer Listview anzeigen, kann es schnell dazu führen, dass die Listview und damit die Lade- und Renderzeiten sehr lang werden. Sie können mit papaya CMS verhältnismäßig einfach ein Blättern in Listen realisieren.
 
@@ -92,7 +88,6 @@ Um ein Paging-Control zu erstellen, gehen Sie wie folgt vor:
 5.  Speichern Sie die Änderungen in den Dateien ab.
 
 Details zur Methode papaya_paging_buttons::getPagingButtons()
----------------------------------------------------------------
 
 Die Methode `papaya_paging_buttons::getPagingButtons()` hat folgende Methodensignatur:
 
@@ -113,7 +108,6 @@ function getPagingButtons(
 In der folgenden Tabelle sind alle Parameter der Methode `getPagingButtons()` aus der Klasse `papaya_paging_buttons` aufgeschlüsselt:
 
 |Parameter|Bedeutung|
-|---------|---------|
 |`&$aOwner`|Basisobjekt|
 |`$baseParams`|Linkparameter|
 |`$offset`|Aktueller Offset für die Paginierung|

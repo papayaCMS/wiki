@@ -1,7 +1,3 @@
----
-title: XSLT-Templates für weitere Seitenmodule erstellen
-permalink: /XSLT-Templates_für_weitere_Seitenmodule_erstellen/
----
 
 Sie brauchen für jedes Seitenmodul lediglich die zentrale Stylesheet-Datei `page_main.xsl` zu importieren und das Template `content-area` zu überschreiben. Dies soll anhand der Stylesheetdatei `page_sitemap.xsl` für das Seitenmodul „Sitemap“ aus dem Demo-Template demonstriert werden:
 

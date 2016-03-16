@@ -1,7 +1,3 @@
----
-title: Kategorie:Mit Übersetzungsdateien arbeiten
-permalink: Kategorie:Mit_Übersetzungsdateien_arbeiten/
----
 
 Sowohl der Name als auch die Struktur von Übersetzungsdateien folgen einem festen vorgegebenem Schema.
 

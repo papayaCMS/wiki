@@ -1,7 +1,3 @@
----
-title: Article-Element
-permalink: /Article-Element/
----
 
 Das Wurzelelement ist `<article>`. Es enthält genau fünf unmittelbare Kindelemente:
 
@@ -14,7 +10,6 @@ Das Wurzelelement ist `<article>`. Es enthält genau fünf unmittelbare Kindelem
 Die Attribute des `<article>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |lang|Sprachkürzel, beispielsweise de-DE für Deutsch (Deutschland) oder de-AUT für Deutsch (Österreich).|
 |charset|Angabe zur Zeichensatzkodierung, bspw. UTF-8 oder ASCII.|
 

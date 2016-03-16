@@ -1,12 +1,7 @@
----
-title: Konfigurationsoptionen aus der Datenbank laden (base options.php)
-permalink: /Konfigurationsoptionen_aus_der_Datenbank_laden_(base_options.php)/
----
 
 Die Klasse `base_options` enthält die von papaya CMS verwendeten Konstanten und initalisiert sie. Dazu gehören auch die Konstanten für die Basistabellen. Diese Konstanten werden verwendet, um Konfigurationsoptionen im ganzen System einheitlich auslesen zu können und um die Namen der Basistabellen zentral zu definieren.
 
 Die Klasse base_options schrittweise erklärt
----------------------------------------------
 
 Die Klasse `base_options` erweitert `base_db`. Da viele Optionen im Backend von papaya CMS bequem über eine Benutzeroberfläche bearbeitet werden können, wird eine Datenbankkonnektivität benötigt:
 
@@ -15,7 +10,6 @@ Die Klasse `base_options` erweitert `base_db`. Da viele Optionen im Backend von 
 Zu Beginn der Klasse werden einige Klassenattribute gesetzt. So wird in `$tableOptions` der Name der Optionstabelle gespeichert. Dieser wird in der `conf.inc.php` in der Konstanten PAPAYA_DB_TBL_OPTIONS definiert und in dieser Klasse lediglich als Attribut zugewiesen. Die folgenden Attribute `$options`, `$optionGroups` sowie `$optLinks` werden in der von `base_options` abgeleiteten Klasse `papaya_options` verwendet.
 
 Systemoptionen in der Klasse base_options
-------------------------------------------
 
 Die wichtigsten Attribute dieser Klasse sind `$optFields` und `$tables`. Diese enthalten Struktur und Standardwerte der Konfigurationsoptionen von papaya CMS. Eine Liste aller Konfigurationsoptionen ist im Administratorhandbuch zu finden. Dort werden sie auch ausführlich erklärt. Das folgende Beispiel stellt vor, wie Konfigurationsoptionen im Array `$optFields` definiert sind:
 
@@ -31,7 +25,6 @@ var $optFields = array(
 Der Array-Schlüssel ist der spätere Konstantenname. Der Wert des Arrays ist wieder ein Array. Es funktioniert ähnlich wie das `$editFields` -Array für Module, enthält statt des Titels jedoch eine Gruppen-ID, über die die Option einer Optionsgruppe zugeordnet wird.
 
 |Attributschlüssel|Standardwert|
-|-----------------|------------|
 |0|Gruppen-ID|
 |1|Funktion für Validitätsprüfungen (checkIt)|
 |2|Eingabetyp|
@@ -41,7 +34,6 @@ Der Array-Schlüssel ist der spätere Konstantenname. Der Wert des Arrays ist wi
 Die Gruppen sind in der Methode `base_statictables::getTableOptGroups()` festgelegt. In der folgenden Tabelle sind alle Optionsgruppen definiert, die Sie auch in der Systemkonfiguration im papaya-Backend finden können:
 
 |Gruppen-ID|Gruppenname|
-|----------|-----------|
 |0|Unbekannt|
 |1|Tabellen (ungenutzt)|
 |2|Dateien und Verzeichnisse|
@@ -61,7 +53,6 @@ Die Gruppen sind in der Methode `base_statictables::getTableOptGroups()` festgel
 |16|Protokoll|
 
 Tabellendefinitionen in der Klasse base_options
-------------------------------------------------
 
 Die Datenbanktabellen des Basissystems werden alle im Array `$tables` der Klasse `base_options` gespeichert. Im folgenden Code-Beispiel ist dargestellt, wie eine Datenbanktabelle aufgeführt wird:
 
@@ -78,7 +69,6 @@ Als Schlüssel wird wieder der Konstantenname verwendet. Der Wert ist der Tabell
 Die folgende Tabelle listet alle Datenbanktabellen auf, die in der Klasse base_options definiert werden:
 
 |Feldbeschriftung|Bedeutung|
-|----------------|---------|
 |PAPAYA_DB_TBL_AUTHGROUPS|auth_groups|
 |PAPAYA_DB_TBL_AUTHIP|auth_ip|
 |PAPAYA_DB_TBL_AUTHLINK|auth_link|
@@ -206,10 +196,8 @@ Die Pfadkonstanten ersparen es Ihnen als Entwickler, alle Pfade manuell zusammen
 
 </source>
 Hinweise zu den Pfadkonstanten in papaya CMS
---------------------------------------------
 
 |Konstantenname|Erläuterung|
-|--------------|-----------|
 |PAPAYA_MODULES_PATH|Absoluter Pfad zum Modul-Verzeichnis.|
 |PAPAYA_PATH_CACHE|Absoluter Pfad zum Cache-Verzeichnis.|
 |PAPAYA_PATH_MEDIAFILES_OLD|Alter Pfad zur MediaDB, wird bei der Konvertierung benötigt.|

@@ -1,7 +1,3 @@
----
-title: Mapitem-Template erstellen
-permalink: /Mapitem-Template_erstellen/
----
 
 Das `<mapitem>` -Template wandelt alle vorhandenen `<mapitem>` -Elemente aus dem Quelldokument in `<url>` -Elemente für das Sitemap-Dokument um. Da `<mapitem>` -Elemente ineinander verschachtelt sein können, ruft sich das mapitem-Template so lange selbst auf, bis alle `<mapitem>` -Tags in `<url>` -Tags transformiert worden sind. Bei diesem Vorgang wird nur ein Teil der Informationen aus den `<mapitem>` -Element genutzt.
 

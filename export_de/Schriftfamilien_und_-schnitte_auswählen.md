@@ -1,7 +1,3 @@
----
-title: Schriftfamilien und -schnitte auswählen
-permalink: /Schriftfamilien_und_-schnitte_auswählen/
----
 
 Der PDF-Ausgabefilter von papaya CMS wird mit einer Reihe von Standardfonts ausgeliefert. Die Fonts liegen zusammen mit ihren Fontmetrikdateien im folgenden Verzeichnis:
 
@@ -17,7 +13,6 @@ Wenn Sie eigene Schriften verwenden möchten, müssen Sie folgende Punkte beacht
 Der PDF-Ausgabefilter benutzt automatisch die Standardfonts, sofern die von Ihnen angegebenen Fonts nicht gefunden werden können.
 
 Einbinden der Schriften in die Stylesheetdatei
-----------------------------------------------
 
 Die Schriftfamilien und die entsprechenden fetten, kursiven und fettkursiven Schriftschnitte werden im `<fonts>` -Element definiert. Das `<fonts>` -Element enthält dazu eine Reihe von `<font>` -Elementen. Ein `<font>` -Element definiert genau eine Schriftfamilie. Mit `<font>` wählen Sie über das Attribut `name` eine Schriftfamilie aus. Über die Attribute `default`, `bold`, `italic` und `bolditalic` werden dabei die Fontmetrikdateien für die jeweiligen Schriftschnitte der Familie ausgewählt. Der folgende Ausschnitt zeigt ein Beispiel für die Fontdefinition aus der Stylesheetdatei des Demotemplates:
 
@@ -51,7 +46,6 @@ Die Schriftfamilien und die entsprechenden fetten, kursiven und fettkursiven Sch
 ~~~~
 
 Ausgewählten Tags eine Schrift zuordnen
----------------------------------------
 
 Sie können bestimmten Elementen wie `<p>` oder `<h1>` eine eigene Schrift zuordnen. Sie können dabei die Schriftfamilie, Größe, Form und das Schriftgewicht bestimmen. Das folgende Beispiel stellt die Schriftdefinition mittels der <tag>-Elemente vor:
 
@@ -68,7 +62,6 @@ Sie können bestimmten Elementen wie `<p>` oder `<h1>` eine eigene Schrift zuord
 ~~~~
 
 Details zum Beispiel
---------------------
 
 1.  Mit dem Attribut `name` wählen Sie das Element aus, das formatiert werden soll.
 2.  Mit dem Attribut `font` bestimmen Sie den Schriftschnitt für das Element. Das font-Attribut erwartet die drei Angaben für Schriftfamilie, Schriftgröße in Punkt und Schriftgewicht bzw. Schriftform.

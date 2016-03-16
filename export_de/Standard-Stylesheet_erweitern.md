@@ -1,7 +1,3 @@
----
-title: Standard-Stylesheet erweitern
-permalink: /Standard-Stylesheet_erweitern/
----
 
 Die XSLT-Templates für die Toolbar können Sie am einfachsten im Standard-Stylesheet `page_general.xsl` einbinden, damit die Toolbar auf möglichst allen Seiten erscheint. Dazu müssen Sie die Stylesheet-Datei mit den Toolbar-Templates importieren:
 

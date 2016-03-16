@@ -1,7 +1,3 @@
----
-title: Modulprogrammierung 3: Administrationsoberfläche
-permalink: /Modulprogrammierung_3:_Administrationsoberfläche/
----
 
 In this third part of the basic module development tutorial, we are going to create a custom backend administration interface for our module package. It will provide a convenient way to add, modify, and delete planets using the database access methods we implemented in the [previous part](/Module_Development_2:_Adding_Database_Support.md).
 
@@ -10,7 +6,6 @@ Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_
 This tutorial makes use of unit tests which is a highly recommended way to build software. In order to have a papaya CMS version that includes the PHPUnit framework and the PapayaTestCase class, you need to check out papaya CMS from the SVN repository. Instructions on how to obtain it can be found [here](http://www.papaya-cms.com/download.990.en.html#svn).
 
 Setting up the Module
----------------------
 
 Administration modules consist of at least two files: The module file itself that initializes the environment and a class file that delivers the actual contents. We are going to create the module file first. To match papaya CMS's rewrite rules, you have to name an administration module file using the prefix *edmodule_*, followed by an all-lowercase name similar to the package name. In this case, we are going to use *edmodule_tutorial_hello.php*, so add the following block to the *modules.xml* file:
 
@@ -27,7 +22,6 @@ Administration modules consist of at least two files: The module file itself tha
 As usual, you need to create a GUID and add it to the *guid* attribute as a value (see section [Preparing the modules.xml file](/Module_Development_1:_Content_Modules#Preparing_the_modules.xml_file.md) in the first part of this tutorial series for details).
 
 Writing the Module File
------------------------
 
 Module files are pretty straightforward and short, and they are the only part of the current module implementation that is not covered by unit tests. Here is the full code of *edmodule_tutorial_hello.php*:
 
@@ -94,7 +88,6 @@ Next, you need to set some of the admin class's public attributes: *module* is t
 Eventually, the main methods of the admin class instance are called: *execute(.md)* is used to execute the module's commands, invoked by buttons in menu bars or list views; *getXml(.md)* returns the XML for the current layout; and *getButtons(.md)* returns the XML for the main toolbar.
 
 Writing the Admin Class File
-----------------------------
 
 The admin class file will be unit-tested again, so let's start with the stub for the unit test class. Create a file called tutorial/Planet/AdminTest.php in your package's unit test directory. Add the following content:
 

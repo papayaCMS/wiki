@@ -1,7 +1,3 @@
----
-title: Webserver verarbeitet .htaccess-Regeln
-permalink: /Webserver_verarbeitet_.htaccess-Regeln/
----
 
 papaya CMS wird mit einer standardisierten `.htaccess` -Datei ausgeliefert.
 
@@ -61,7 +57,6 @@ FileETag none
 ~~~~
 
 Die Apache-Direktiven in der .htaccess-Datei
---------------------------------------------
 
 Mit der ersten Anweisung wird das Apachemodul `mod_rewrite` aktiviert. Andernfalls können keine Regeln definiert werden:
 
@@ -149,7 +144,6 @@ In beiden Fällen wird der Querystring angehängt (QSA) und der Redirect beendet
 Die Bedeutung der einzelnen Felder ist in der folgenden Tabelle aufgeschlüsselt:
 
 |Feldname|Bedeutung|
-|--------|---------|
 |filename|Entspricht dem Dateinamensteil der angeforderten Ressource.|
 |categoryId|Optional: Eine numerische ID, die beispielsweise in der Kataloganwendung einer Katalog-ID entspricht.|
 |topicId|Numerische ID, die der Seiten-ID entspricht. Wenn diese ID weggelassen wird, stellt papaya CMS automatisch die Standardseite dar.|

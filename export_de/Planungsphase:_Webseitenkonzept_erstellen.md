@@ -1,7 +1,3 @@
----
-title: Planungsphase: Webseitenkonzept erstellen
-permalink: /Planungsphase:_Webseitenkonzept_erstellen/
----
 
 Im Folgenden soll dargestellt werden, wie Sie von einem Layout-Konzept zur konkreten Implementierung einer papaya-Webseitenvorlage gelangen können. Dabei sollten Sie beachten, dass in papaya CMS eine Seite aus drei verschiedenen Elementen zusammengesetzt ist:
 

@@ -1,10 +1,5 @@
----
-title: Vorhandene Icons aus dem Basissystem referenzieren
-permalink: /Vorhandene_Icons_aus_dem_Basissystem_referenzieren/
----
 
 Übersicht der Standard-Icons
-----------------------------
 
 papaya CMS bietet im Backend eine Übersichtsseite mit den Icons des Basissystems. Sie finden die Übersichtsseite im Bereich „Einstellungen“, wenn Sie auf den Menüpunkt Icons ansehen klicken:
 
@@ -13,7 +8,6 @@ papaya CMS bietet im Backend eine Übersichtsseite mit den Icons des Basissystem
 Die Tabellenüberschrift bezeichnet die Gruppe. In den Tabellenzellen wird jeweils ein Icon angezeigt und sein Name sowie die verfügbaren Größen angegeben.
 
 Icons in Anwendungen benutzen
------------------------------
 
 Sie binden Icons in die Anwendung ein, indem Sie einen Bezeichner aus dem Gruppennamen und dem Iconnamen zusammenstellen. Den Bezeichner setzen Sie als Index für das Array `$this->images` ein. Das Array `$this->images` enthält alle Icons des Systems als absolute URLs und ist standardmäßig in allen Modulen enthalten, die Backendausgaben besitzen.
 
@@ -33,7 +27,6 @@ $result .= sprintf(
 ~~~~
 
 Icons in base_btnbuilder benutzen
-----------------------------------
 
 Wenn Sie eine Toolbar mit einer Instanz der Klasse `base_btnbuilder` erstellen, müssen Sie der Klasse eine Referenz auf das `$images` -Array übergeben:
 

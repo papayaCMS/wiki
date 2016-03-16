@@ -1,22 +1,15 @@
----
-title: Ausgabefilter und Ansichten
-permalink: /Ausgabefilter_und_Ansichten/
----
 
 Der Ausgabefilter in papaya CMS wandelt die Inhalte durch den Ausgabefilter in das gewünschte Zielformat um. Anhand der Regeln im XSLT-Stylesheet weiß der Ausgabefilter, wie die jeweiligen XML-Elemente der Box- und Seitenmodule transformiert werden müssen.
 
 Modularität
------------
 
 Da papaya CMS über beliebig viele Module verfügen kann, die ihre Inhalte in unterschiedlichem XML ausliefern, ermöglicht die Kombination von Ausgabefilter und XSLT-Template eine große Flexibilität. Sie müssen also nicht für jedes Modul einen neuen Ausgabefilter programmieren, sondern müssen lediglich ein XSLT-Stylesheet schreiben. XSLT-Stylesheets sind deutlich einfacher zu programmieren als PHP-Programme, was den Erstellungsprozess für Templates vereinfacht.
 
 Eigenschaften des Ausgabefilters
---------------------------------
 
 Während XSLT-Templates Transformationsregeln definieren, bestimmt der Ausgabefilter folgende Eigenschaften der Ausgabe:
 
 |Eigenschaft|Bedeutung|
-|-----------|---------|
 |Content-Type|Eigenschaft im HTTP-Header, in der der Inhaltstyp festgelegt wird. Für HTML-Webseiten sollte er auf „text/html“ eingestellt sein, bei RSS-Feeds auf „text/xml“. Für die PDF-Ausgabe lautet der Content-Type „application/x-pdf“.|
 |Encoding|Zeichensatz der Ausgabe. Sie können festlegen, welcher Zeichensatz bei der Ausgabe einer Webseite benutzt werden soll.|
 |Dateiendung|Wenn Sie einen Ausgabefilter anlegen, können Sie auch bestimmen, mit welcher Endung der Ausgabefilter assoziiert werden soll. Für HTML sollten Sie beispielsweise die Endung `.html` wählen, während für RSS-Feeds die Endung `.rss` ausgewählt werden sollte. Wenn Sie einen Ausgabefilter für PDF anlegen, geben Sie als Endung entsprechend `.pdf` an.|
@@ -26,7 +19,6 @@ Durch die Dateiendung kann papaya CMS beim Aufruf einer Seite entscheiden, welch
 Näheres dazu, wie Sie Ausgabefilter anlegen, erfahren Sie im Handbuch für Benutzer und Administratoren, Kapitel 15.3.
 
 Ansichten
----------
 
 Seiten- und Boxmodule können nicht direkt benutzt werden, um den Inhalt einer Seite oder einer Box zu speichern. Stattdessen legen Sie für jedes benötigte Modul eine Ansicht an. Ansichten verknüpften ein Seiten- oder Boxmodul mit einem Ausgabefilter. Die Ansicht speichert zudem auch, welche XSLT-Stylesheetdatei für den Ausgabefilter benutzt werden soll.
 

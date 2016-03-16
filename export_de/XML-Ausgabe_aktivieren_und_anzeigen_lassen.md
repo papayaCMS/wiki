@@ -1,12 +1,7 @@
----
-title: XML-Ausgabe aktivieren und anzeigen lassen
-permalink: /XML-Ausgabe_aktivieren_und_anzeigen_lassen/
----
 
 Es ist sehr schwierig, XSLT zu schreiben, ohne das dazugehörige XML zu kennen. Zu diesem Zweck bietet Ihnen papaya CMS die Möglichkeit, die Seite in XML ausgeben zu lassen.
 
 XML-Ausgabe aktivieren
-----------------------
 
 Um diesen Ausgabemodus zu aktivieren, stellen Sie in der Konfiguration die Option PAPAYA_DBG_XML_OUTPUT in der Optionengruppe „Fehlersuche“ auf „on“:
 
@@ -15,7 +10,6 @@ Um diesen Ausgabemodus zu aktivieren, stellen Sie in der Konfiguration die Optio
 Weitere Informationen zur Konfiguration erhalten Sie im Handbuch für Administratoren und Benutzer in Kapitel .
 
 XML-Ausgabe der Seite erzeugen
-------------------------------
 
 Sie können eine Seite auf folgende Weisen in XML ausgeben lassen:
 

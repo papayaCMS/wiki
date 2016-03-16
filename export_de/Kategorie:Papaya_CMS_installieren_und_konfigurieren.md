@@ -1,7 +1,3 @@
----
-title: Kategorie:Papaya CMS installieren und konfigurieren
-permalink: Kategorie:Papaya_CMS_installieren_und_konfigurieren/
----
 
 Um papaya CMS zu installieren, gehen Sie wie folgt vor:
 

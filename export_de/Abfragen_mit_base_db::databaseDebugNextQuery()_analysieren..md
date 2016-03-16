@@ -1,7 +1,3 @@
----
-title: Abfragen mit base db::databaseDebugNextQuery() analysieren.
-permalink: /Abfragen_mit_base_db::databaseDebugNextQuery()_analysieren./
----
 
 Nahezu alle Abfragen sind dynamisch und verwenden Platzhalter um kontextabhängige Parameter in die Abfrage einzubringen. Es ist daher nicht möglich eine Abfrage einfach aus dem Quelltext herauszukopieren. Um SQL-Abfragen auszugeben, können Sie die Methode `base_db::databaseDebugNextQuery()` benutzen. Führen Sie diese Methode aus, bevor Sie beispielsweise mit `base_db::databaseQueryFmt()` eine Abfrage ausführen. Wenn Sie mehrere aufeinanderfolgende Abfragen analysieren möchten, können Sie als Parameter die Zahl der auszugebenden Abfragen angeben. Beispielsweise gibt der Aufruf von `databaseQueryFmt(3)` die drei nächsten ausgeführten Abfragen aus, unabhängig von ihrem Klassen-Kontext. Wenn Sie keinen Parameter übergeben, wird nur die nächste Abfrage ausgegeben.
 

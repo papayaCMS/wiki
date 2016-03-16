@@ -1,7 +1,3 @@
----
-title: Übersetzungsdateien in XSLT-Parameter laden
-permalink: /Übersetzungsdateien_in_XSLT-Parameter_laden/
----
 
 Damit die von Ihen angelegten Übersetzungsdateien auch benutzt werden, müssen Sie die folgenden Parameter in Ihrem Stylesheet definieren und die Dokumente darin laden:
 

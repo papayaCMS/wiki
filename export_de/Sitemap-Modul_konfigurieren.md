@@ -1,7 +1,3 @@
----
-title: Sitemap-Modul konfigurieren
-permalink: /Sitemap-Modul_konfigurieren/
----
 
 Um Sitemap-Dateien erzeugen zu können, müssen Sie zuerst Seiten mit dem Modul Sitemap anlegen. Sie müssen dabei die Seiten mit einer Ansicht verknüpfen, die für die Sitemap-Ausgabe konfiguriert ist.
 

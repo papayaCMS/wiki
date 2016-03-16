@@ -1,7 +1,3 @@
----
-title: Eigene Icons aus dem Paket referenzieren
-permalink: /Eigene_Icons_aus_dem_Paket_referenzieren/
----
 
 Für eigene Anwendungen ist es manchmal wünschenswert, spezielle Icons zu verwenden, die nicht im Basissystem enthalten sind. Um solche Icons zu verwenden muss lediglich die Quellenangabe des Icons etwas anders aussehen als für Icons im Basissystem (siehe [Vorhandene Icons aus dem Basissystem referenzieren](/Vorhandene_Icons_aus_dem_Basissystem_referenzieren.md).md).
 

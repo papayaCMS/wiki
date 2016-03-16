@@ -1,7 +1,3 @@
----
-title: Übersetzungsdatei anlegen
-permalink: /Übersetzungsdatei_anlegen/
----
 
 Um eine Übersetzungsdatei anzulegen, gehen Sie wie folgt vor:
 

@@ -1,7 +1,3 @@
----
-title: Kategorie:Print-Templates schreiben
-permalink: Kategorie:Print-Templates_schreiben/
----
 
 Grundsätzlich ist es möglich, dass Sie im Header Ihrer HTML-Seiten eine CSS-Datei einbinden, die ein angepasstes CSS für die Druckausgabe enthält. Wenn Sie im `medium` -Attribut des `<link>` -Elements den Wert „print“ einfügen, werden die Angaben der eingebundenen CSS-Datei benutzt. Dies ist in der Druckvorschau der Seite erkennbar.
 
@@ -20,7 +16,6 @@ Wenn Sie Print-Templates erstellen, gehen Sie im Prinzip exakt so vor wie bei no
 Sowohl die Implementierungs- als auch die Installationsphase unterscheidet sich bei den Print-Templates von denen der Webseitenvorlage. Im Unterschied zu normalen Webseitenvorlagen müssen Sie Print-Templates so schreiben, dass eine druckfreundliche Ausgabe erzeugt wird. Wenn Sie Print-Templates installieren, müssen Sie auch einen anderen Ausgabefilter anlegen, damit die alternative, druckfreundliche Ausgabe dargestellt werden kann.
 
 Druckfreundliche Seitenausgabe erzeugen
----------------------------------------
 
 Um eine druckfreundliche Seitenausgabe zu erzeugen, müssen Sie folgende Punkte beachten:
 

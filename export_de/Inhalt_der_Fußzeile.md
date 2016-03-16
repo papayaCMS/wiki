@@ -1,7 +1,3 @@
----
-title: Inhalt der Fußzeile
-permalink: /Inhalt_der_Fußzeile/
----
 
 Die Inhalte für die Fußzeile werden über das XSLT-Template `footer` eingefügt. Das folgende XSLT-Fragment stellt dieses Template kurz vor:
 

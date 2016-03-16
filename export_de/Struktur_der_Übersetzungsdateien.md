@@ -1,7 +1,3 @@
----
-title: Struktur der Übersetzungsdateien
-permalink: /Struktur_der_Übersetzungsdateien/
----
 
 Die in papaya CMS benutzten Übersetzungsdateien liegen im XML-Format vor und haben folgende Struktur:
 

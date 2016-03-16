@@ -1,7 +1,3 @@
----
-title: Backend auslagern und absichern
-permalink: /Backend_auslagern_und_absichern/
----
 
 Das papaya CMS Backend lässt sich auch auf eine eigene (Sub-)Domäne ausgelagern.
 Zudem kann eine gesicherte Verbindung (https) für die gesamte (Sub-)Domäne erzwungen werden.

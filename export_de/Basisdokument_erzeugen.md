@@ -1,7 +1,3 @@
----
-title: Basisdokument erzeugen
-permalink: /Basisdokument_erzeugen/
----
 
 Das Basisdokument wird im Template erzeugt, das ein *match* auf den Wurzelknoten enthält. Sie definieren in diesem Template sowohl das Layout als auch den Bereich, in dem der Inhalt gesetzt wird. Per *call-template* werden weitere Templates aufgerufen, die den Artikelinhalt in das Ausgabedokument einsetzen.
 
@@ -39,7 +35,6 @@ Das folgende Beispiel zeigt das Haupttemplate mit dem *match* auf das Wurzelelem
 Das oben dargestellte Basistemplate enthält die Layoutdefinitionen im Element `<layout>`. Dieses enthält folgende Unterelemente:
 
 |Element|Bedeutung|
-|-------|---------|
 |`<fonts>`|Definiert Schriften, siehe [Schriftfamilien und -schnitte auswählen](/Schriftfamilien_und_-schnitte_auswählen.md).|
 |`<templates>`|Bindet die PDF-Musterdatei über Seitentemplates ein, siehe [Seitentemplates bestimmen](/Seitentemplates_bestimmen.md).|
 |`<pages>`|Bestimmt das Layout für die Titel-, Standard- und Schluss-Seite, siehe [Seitenlayout bestimmen](/Seitenlayout_bestimmen.md).|

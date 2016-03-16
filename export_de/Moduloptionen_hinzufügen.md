@@ -1,7 +1,3 @@
----
-title: Moduloptionen hinzufügen
-permalink: /Moduloptionen_hinzufügen/
----
 
 Alle von `base_plugin` abgeleiteten Module können ihre eigenen Konfigurationsoptionen mitbringen. Diese sind in einem Array im Klassenattribut `$pluginOptionFields` enthalten. Im Grunde ist dieses Array ähnlich strukturiert wie die `$editFields` bei Content-Modulen. Der Unterschied besteht darin, dass diese Optionen in der Modulverwaltung bearbeitet werden und innerhalb einer Installation nur einen Wert haben, also unabhängig von einzelnen Seiten immer gleich sind.
 

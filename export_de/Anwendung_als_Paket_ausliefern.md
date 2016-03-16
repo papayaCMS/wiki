@@ -1,7 +1,3 @@
----
-title: Anwendung als Paket ausliefern
-permalink: /Anwendung_als_Paket_ausliefern/
----
 
 Um ein papaya-Modul oder eine ganze Anwendung als Paket auszuliefern, gehen Sie wie folgt vor:
 
@@ -12,14 +8,12 @@ Um ein papaya-Modul oder eine ganze Anwendung als Paket auszuliefern, gehen Sie 
 5.  Legen Sie Ihrem Programmpaket auch eine `README.txt` bei. Die `README.txt` ist eine Textdatei, in der Sie Installationsanweisungen für den Nutzer angeben.
 
 Lizenzangaben beachten
-----------------------
 
 papaya CMS unterliegt der GPL (GNU General Public License). Diese verpflichtet Sie als Nutzer und Entwickler von Erweiterungen, bei der Weitergabe des Programmcodes bestimmte Regeln einzuhalten. Dazu gehört, dass Sie alle Ableitungen des papaya-Basissystems ebenso unter die GPL stellen und den Quellcode frei zur Verfügung stellen. Mit Ableitungen sind entweder direkte Änderungen am Basissystem von papaya CMS gemeint oder eigene Module und Anwendungen, die Sie von den Basisklassen ableiten.
 
 Wenn Sie also Ihre Anwendung zum Download anbieten möchten, sollten Sie ihrem Programmcode auch eine Kopie der GPL beilegen.
 
 Dateien und Verzeichnisse in ein TGZ- oder ZIP-Archiv packen
-------------------------------------------------------------
 
 Um das Paket weiterzugeben, sollten Sie es in ein TGZ- oder ZIP-Archiv packen. Sie können dazu Ihr Lieblingspackprogramm verwenden, beispielsweise WinZip, 7zip, file-roller, ark oder die Kommandozeilenbefehle tar oder zip.
 

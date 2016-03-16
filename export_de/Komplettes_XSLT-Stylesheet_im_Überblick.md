@@ -1,7 +1,3 @@
----
-title: Komplettes XSLT-Stylesheet im Überblick
-permalink: /Komplettes_XSLT-Stylesheet_im_Überblick/
----
 
 Im folgenden Listing ist das vollständige XSLT-Stylesheet dargestellt:
 

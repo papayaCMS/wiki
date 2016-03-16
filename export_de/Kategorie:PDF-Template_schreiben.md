@@ -1,7 +1,3 @@
----
-title: Kategorie:PDF-Template schreiben
-permalink: Kategorie:PDF-Template_schreiben/
----
 
 Das PDF-Template schreiben Sie ebenso wie Webseiten-Templates in XSLT. Die Ausgabe ist jedoch kein HTML, sondern ein papaya-Formatierungsobjekt. Dieses Formatierungsobjekt ist eine XML-Datei, die vom Aufbau her ein wenig an XSL-FO angelehnt ist. Ähnlich wie bei XSL-FO enthält diese Datei also Anweisungen für den PDF-Prozessor, um die Inhalte in ein entsprechendes PDF zu setzen.
 

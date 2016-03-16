@@ -1,7 +1,3 @@
----
-title: Kategorie:Webseitenvorlage erstellen
-permalink: Kategorie:Webseitenvorlage_erstellen/
----
 
 In diesem Kapitel erfahren Sie, wie Sie Webseitenvorlagen für papaya CMS schreiben können. Allgemein setzt sich die Erstellung einer Webseitenvorlage aus drei Phasen zusammen:
 

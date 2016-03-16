@@ -1,7 +1,3 @@
----
-title: Papaya CMS herunterladen
-permalink: /Papaya_CMS_herunterladen/
----
 
 Sie können sich die neueste Version von papaya CMS unter folgender URL herunterladen: [1](http://www.papaya-cms.com/Download)
 
@@ -12,7 +8,6 @@ Die Gzip-Datei enthält folgende Dateien und Verzeichnisse:
 3.  `readme/`: Das Verzeichnis mit Hilfsscripten und Hilfetexten.
 
 Das Verzeichnis files/
-----------------------
 
 Das Verzeichnis `files/` enthält folgende Verzeichnisse und Dateien:
 
@@ -44,7 +39,6 @@ papaya-themes/
 Enthält die Themes (CSS, Schmuckgrafiken) für das Frontend von papaya CMS
 
 Das Verzeichnis readme/
------------------------
 
 Das Verzeichnis `readme/` enthält folgende Dateien:
 

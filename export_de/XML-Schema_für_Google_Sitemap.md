@@ -1,7 +1,3 @@
----
-title: XML-Schema für Google Sitemap
-permalink: /XML-Schema_für_Google_Sitemap/
----
 
 Im Folgenden ist die XML-Schemadatei in der Version 0.84 für die Google Sitemap dargestellt, die von Google herausgegeben worden ist:
 

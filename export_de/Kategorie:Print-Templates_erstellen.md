@@ -1,7 +1,3 @@
----
-title: Kategorie:Print-Templates erstellen
-permalink: Kategorie:Print-Templates_erstellen/
----
 
 In diesem Kapitel erfahren Sie, wie Sie Print-Templates erstellen können. Diese Templates erzeugen Webseiten, die für den Ausdruck besonders geeignet sind. Dabei werden alle Boxen ausgeblendet. Layoutgrafiken werden ebenso entfernt wie farbige Hintergründe.
 

@@ -1,7 +1,3 @@
----
-title: Text bei der Ausgabe maskieren
-permalink: /Text_bei_der_Ausgabe_maskieren/
----
 
 In der Klasse `base_object` ist die Methode `getXHTMLString()` implementiert, mit der Sie ein gültiges XHTML-Dokument ausgeben können. Diese Methode sorgt dafür, dass auf jeden Fall ein gültiges XML-Dokument ausgegeben wird, indem bestimmte Sonderzeichen wie `&` oder `ä` in entsprechende HTML-Entitys umgewandelt werden. Tags bleiben jedoch erhalten, ebenso wie bereits definierte Entities.
 
@@ -26,7 +22,6 @@ function getParsedData() {
 Im obigen Beispiel wird `getXHTMLString()` in der Funktion `getParsedData()` benutzt, um einen String zu maskieren, der in ein XML-Element eingefügt werden soll. Die Methode `getXHTMLString()` garantiert, dass der einzufügende String auf jeden Fall gültiges XHTML ist. Zu diesem Zweck führt `getXHTMLString()` intern eine Überprüfung durch, indem der String mit der Klasse `simple_xmltree` getestet wird. Falls dieser Test fehlschlägt, wird der komplette String maskiert, indem die Methode `escapeHTMLChars()` aus der Klasse `papaya_strings` auf den String angewendet wird.
 
 Wann Sie getXHTMLString() und wann escapeHTMLChars() benutzen sollten
----------------------------------------------------------------------
 
 Wenn eine Benutzereingabe HTML-Zeichen enthalten darf, müssen Sie die Methode `base_object::getXHTMLString()` anwenden. Diese Methode erstellt gültiges XML und erhält gleichzeitig die enthaltenen HTML-Tags.
 

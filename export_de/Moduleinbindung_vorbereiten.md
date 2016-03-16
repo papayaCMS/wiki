@@ -1,7 +1,3 @@
----
-title: Moduleinbindung vorbereiten
-permalink: /Moduleinbindung_vorbereiten/
----
 
 Damit Sie während der Entwicklung Ihr Modul testen können, müssen Sie es in papaya CMS registrieren. Dazu gehen Sie wie folgt vor:
 

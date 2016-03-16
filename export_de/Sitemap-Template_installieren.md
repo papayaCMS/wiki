@@ -1,7 +1,3 @@
----
-title: Sitemap-Template installieren
-permalink: /Sitemap-Template_installieren/
----
 
 Um das Template für die Sitemap-Ausgabe zu installieren, gehen Sie wie folgt vor:
 

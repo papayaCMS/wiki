@@ -1,7 +1,3 @@
----
-title: PHP konfigurieren
-permalink: /PHP_konfigurieren/
----
 
 Sie müssen folgende PHP-Erweiterungen aktivieren:
 

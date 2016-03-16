@@ -1,7 +1,3 @@
----
-title: Die Seitenausgabe in papaya CMS
-permalink: /Die_Seitenausgabe_in_papaya_CMS/
----
 
 Die Daten für die Seitenausgabe werden in papaya CMS durch Module aus der Datenbank ausgelesen und als XML ausgegeben. Ein Seitenmodul fungiert in diesem Fall als Schnittstelle für die Ausgabe. Die folgende Illustration stellt diesen sehr vereinfachten Vorgang vor:
 
@@ -31,7 +27,6 @@ In [:Kategorie:Wie sieht es unter der Haube aus?](/:export_de/Kategorie:Wie_sieh
 ~~~~
 
 XML-Ausgabe mit Ausgabefilter formatieren
------------------------------------------
 
 Die XML-Seitenausgabe ist nicht konzipiert worden, um sie direkt den Besuchern einer Website zu präsentieren. Es gibt Ausgabeformen, die dafür weitaus besser geeignet sind. Sie müssen das XML also in ein geeignetes Ausgabeformat umformen (transformieren). Meistens ist das eine Umformung nach (X)HTML, XML für einen RSS-Feed oder eine PDF-Ausgabe. Eine ausführliche Dokumentation zum Erstellen von Templates und Themes für die Ausgabe von Webseiten, RSS-Feeds und PDFs finden Sie im Handbuch „papaya CMS 5: Templates und Themes erstellen“.
 
@@ -57,7 +52,6 @@ Wird stattdessen `index.7.rss` aufgerufen, kommt `page_rss.xsl` zum Einsatz. In 
 Die Ausgabemodi (pdf, html, rss, print und weitere) müssen zuvor erstellt werden. Näheres dazu finden Sie im Handbuch „papaya CMS 5: Handbuch für Administratoren“, Kapitel 18.
 
 HTML-Ausgabe mit CSS-Definitionen und Schmuckgrafiken formatieren
------------------------------------------------------------------
 
 Nun ist schlichtes HTML nicht sonderlich ansprechend. Da Sie sicherlich darauf bedacht sind, Inhalt und Darstellung voneinander zu trennen, und es guter moderner Entwicklungsstil ist, werden CSS-Definitionen nicht direkt in die HTML-Ausgabe geschrieben, sondern CSS-Dateien (Stylesheets) verwendet. Im Zusammenhang mit papaya CMS wird eine Sammlung von CSS-Dateien und Layout-Bildern, die einer Webseite Stil geben, meistens als Theme bezeichnet. Im Unterschied zu diesen Theme-Bildern, die der Dekoration dienen, werden Inhaltsbilder vom System verwaltet, näheres dazu finden Sie im Handbuch „papaya CMS 5: Handbuch für Administratoren“, Kapitel 5.
 

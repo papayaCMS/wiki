@@ -1,7 +1,3 @@
----
-title: Starttemplate erzeugen
-permalink: /Starttemplate_erzeugen/
----
 
 Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster enthält als Pfadangabe das Wurzelelement „/“. In diesem Template wird überprüft, ob das verwendete Seitenmodul vom Typ „Kategorie with image“ oder „Tag export_de/Kategorie“ ist, da nur diese Module ein Seiten-XML mit `<subtopic>` -Elementen ausliefern. Das folgende Listing stellt das XSLT-Template vor:
 

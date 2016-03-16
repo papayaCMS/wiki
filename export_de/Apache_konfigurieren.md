@@ -1,7 +1,3 @@
----
-title: Apache konfigurieren
-permalink: /Apache_konfigurieren/
----
 
 Sie müssen folgende Apache-Module aktivieren:
 

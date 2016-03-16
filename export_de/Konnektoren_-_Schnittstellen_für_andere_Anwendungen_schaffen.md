@@ -1,7 +1,3 @@
----
-title: Konnektoren - Schnittstellen für andere Anwendungen schaffen
-permalink: /Konnektoren_-_Schnittstellen_für_andere_Anwendungen_schaffen/
----
 
 Wenn Ihre Anwendung Schnittstellen für andere Applikationen in papaya CMS anbieten soll, können Sie dazu eigene Konnektoren benutzen. Für die Beispielanwendung "Stickers" wird im folgenden vorgestellt, wie eine solche Schnittstelle aussehen kann, über die andere Anwendungen eine Übersicht der Sammlungen oder eine Anzahl Sticker abfragen können, ohne die interne Struktur der Stickers-Anwendung zu kennen.
 
@@ -44,7 +40,6 @@ Um eine Konnektorklasse zu erstellen, gehen Sie wie folgt vor:
 5.  Registrieren Sie die Klasse als Konnektor in der `modules.xml`. Näheres dazu erfahren Sie in [modules.xml erstellen](/modules.xml_erstellen.md).
 
 Basisklasse anpassen
---------------------
 
 Manchmal ist es notwendig, die Basisklasse zu erweitern, weil der Konnektor zusätzliche Funktionen zur Verfügung stellen soll. Um die Anzahl der Sticker in einer Sammlung beispielsweise für eine seitenweise Darstellung zu ermitteln, können Sie die Basisklasse um entsprechende Funktionen erweitern. Dazu gehen Sie wie folgt vor:
 

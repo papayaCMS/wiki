@@ -1,7 +1,3 @@
----
-title: Vorlage:Tutorial Infobox
-permalink: /Vorlage:Tutorial_Infobox/
----
 
 Verwenden Sie das Template **Tutorial Infobox** für alle papaya-CMS-Tutorials. Beispiel:
 

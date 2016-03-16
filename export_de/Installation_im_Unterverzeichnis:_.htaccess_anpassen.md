@@ -1,14 +1,10 @@
----
-title: Installation im Unterverzeichnis: .htaccess anpassen
-permalink: /Installation_im_Unterverzeichnis:_.htaccess_anpassen/
----
 
 **Wenn Sie das papaya CMS in einem Unterverzeichnis des Webservers bzw. des Document Roots installieren möchten, so muss die mitgelieferte `.htaccess` Datei entsprechend angepasst werden.**
 
 Hierzu können Sie die im papaya Release mitgelieferte .htaccess verwenden, die in 2 Varianten enthalten ist:
 
-1.  [htaccess.tpl](http://websvn.papaya-cms.com/wsvn/papayaCMS/trunk/papayaCMS/readme/htaccess.tpl) - eine Mustervorlage, bei der alle anzupassenden Pfadangaben mittels `%webpath_pages%` gekennzeichnet sind
-2.  [.htaccess](http://websvn.papaya-cms.com/wsvn/papayaCMS/trunk/papayaCMS/.htaccess) - die im Hauptverzeichnis des entpackten papaya CMS befindliche Datei (diese ist standardmäßig so konfiguriert wie es bei einer Installation im Hauptverzeichnis/Document Root des Webservers notwendig wäre).
+1.  [htaccess.tpl](https://github.com/papayaCMS/papayacms-core/blob/master/readme/htaccess.tpl) - eine Mustervorlage, bei der alle anzupassenden Pfadangaben mittels `%webpath_pages%` gekennzeichnet sind
+2.  [.htaccess](https://github.com/papayaCMS/papayacms-core/blob/master/htdocs/.htaccess) - die im Hauptverzeichnis des entpackten papaya CMS befindliche Datei (diese ist standardmäßig so konfiguriert wie es bei einer Installation im Hauptverzeichnis/Document Root des Webservers notwendig wäre).
 
 Alternativ - was auch der empfohlene Weg ist - können Sie den "**papaya .htaccess Generator**" verwenden. Hier muss nur der gewünschte Pfadname eingegeben werden, der Server erzeugt dann für Sie die passende `.htaccess` Datei.
 

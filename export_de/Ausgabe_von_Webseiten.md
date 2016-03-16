@@ -1,7 +1,3 @@
----
-title: Ausgabe von Webseiten
-permalink: /Ausgabe_von_Webseiten/
----
 
 Der grundliegende Aufbau der Webseite wird im Demotemplate von einem zentralen XSLT-Dokument bestimmt. Dieses Dokument besteht aus dem XSLT-Template für das HTML-Grundgerüst. Dieses Haupttemplate bestimmt also den grundlegenden Aufbau der Seite und enthält entsprechend Bereiche, in die Boxen nach bestimmten Boxgruppen geordnet in das HTML-Grundgerüst eingefügt werden. Da die Boxen bereits als generiertes HTML in CDATA-Abschnitte der XML-Seitenausgabe eingefügt werden, können Sie einfach durch das Webseitentemplate in die Seitenausgabe eingefügt werden, ohne dass explizit ein spezielles Template aufgerufen werden müsste.
 
@@ -23,7 +19,6 @@ Das XML der Boxen wird durch den Ausgabefilter stets separat in das Zielformat H
 Das Template, das das HTML-Grundgerüst erstellt, bindet auch die CSS-Ressourcen aus dem Theme ein. Durch die Verknüpfung mit dem Theme wird das HTML formatiert, farblich gestaltet und gegebenenfalls mit Layoutgrafiken ausgestattet, die per CSS eingebunden werden.
 
 Ansichten verbinden Module mit Ausgabefiltern und XSLT-Templates
-----------------------------------------------------------------
 
 Damit die Template-Engine von papaya CMS für jedes Modul sowohl das richtige XSLT-Template als auch den passenden Ausgabefilter benutzen kann, müssen alle Module mit Ansichten verknüpft werden. Ansichten sind abstrakte Objekte, die jedes Modul mit einem Ausgabefilter und einem XSLT-Template verknüpfen. Das Besondere an dieser Verknüpfung ist, dass eine Ansicht mit beliebig vielen Ausgabefiltern verknüpft werden kann.
 

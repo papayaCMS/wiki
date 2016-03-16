@@ -1,7 +1,3 @@
----
-title: Druckfreundliches CSS einbinden
-permalink: /Druckfreundliches_CSS_einbinden/
----
 
 Sie erzeugen zuerst eine XSLT-Datei im Unterverzeichnis `./print` Ihres Template-Verzeichnisses. Sie können diese Datei beispielswiese `page_main_print.xsl` nennen:
 

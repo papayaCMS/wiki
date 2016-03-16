@@ -1,22 +1,15 @@
----
-title: Das listview-Element
-permalink: /Das_listview-Element/
----
 
 Für fast alle Arten tabellarischer Darstellung wird die Listview verwendet.
 
 XML-Struktur
-------------
 
 Die Grundstruktur führt alle zur Verfügung stehenden Elemente und Attribute zur schnellen Übersicht auf.
 
 Content-Modell des <listitem>-Elements
---------------------------------------
 
 Die folgende Tabelle listet alle Attribute des `<listview>` -Elements auf:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |hint|Wenn vorhanden, wird ein Info-Icon oben rechts ausgegeben. Mouseover darüber blendet diesen Hinweis ein.|
 |icon|Icon, das vorne in der Titelzeile angezeigt wird|
 |maximize|Link, der aufgerufen wird, wenn auf maximize (+) geklickt wird (das Icon wird automatisch erzeugt)|
@@ -27,7 +20,6 @@ Die folgende Tabelle listet alle Attribute des `<listview>` -Elements auf:
 Das Element <listview> enthält unmittelbar die folgenden Elemente:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |buttons|Dieses Element enthält Buttons für Paging oder weitere Funktionen. Die Buttons werden zwischen Titel und Spaltenheader eingefügt. Sollen diese mittig ausgerichtet werden, dürfen die Buttons nicht in `<left>` - oder `<right>` -Elemente gesetzt werden.|
 |cols|Enthält die Elemente mit den Spaltenüberschriften.|
 |items|Enthält den eigentlichen Inhalt der Listview.|
@@ -35,12 +27,10 @@ Das Element <listview> enthält unmittelbar die folgenden Elemente:
 |status|Optionale Statuszeile, die unter die Listview eingeblendet werden kann.|
 
 Das Element <buttons>
----------------------
 
 Das Element `<buttons>` enthält Buttons für Paging oder sonstige Funktionen. Sollen die Buttons mittig ausgerichtet werden, dürfen sie nicht in `<left>` - oder `<right>` -Elemente gesetzt werden. Das Element `<buttons>` enthält folgende Elemente:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |left|Dieses Element enthält Buttons, die links ausgerichtet werden.|
 |right|Dieses Element enthält Buttons, die rechts ausgerichtet werden.|
 |button|Dieses Element stellt einen Button dar.|
@@ -48,7 +38,6 @@ Das Element `<buttons>` enthält Buttons für Paging oder sonstige Funktionen. S
 Die Elemente `<left>` und `<right>` besitzen keine Attribute. Beide Elemente enthalten mindestens ein `<button>` -Element. Die Attribute des `<button>` -Elements werden in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |accesskey|Accesskey für diesen Button|
 |down|Der Button wird gedrückt dargestellt.|
 |glyph|Das Icon für den Button (vgl. Attribute für das glyph-Element - src TODO: add link)|
@@ -64,7 +53,6 @@ Die Elemente `<left>` und `<right>` besitzen keine Attribute. Beide Elemente ent
 -Elemente== Das Element `<cols>` enthält `<col>` -Elemente mit den Spaltenüberschriften. Die jeweiligen `<col>` -Elemente werden den einzelnen Spalten zugeordnet. Die folgende Tabelle schlüsselt alle Attribute des `<col>` -Elements auf:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |align|Ausrichtung der Spaltenüberschrift (right, left, center)|
 |hint|Hinweis, der bei Mouseover über den Titel angezeigt wird.|
 |href|Link, der bei Klick auf die Spaltenüberschrift aufgerufen wird. Der Link sollte die Sortierfunktion für die Spalte aufrufen.|
@@ -78,12 +66,10 @@ Die Elemente `<left>` und `<right>` besitzen keine Attribute. Beide Elemente ent
 |span|Falls eine Spaltenüberschriften über mehrere Inhaltsspalten geht, wird die Spaltenanzahl in diesem Attribut angegeben. Dieses Attribut entspricht dem `colspan` -Attribut in HTML-Tabellen (td).|
 
 Das Element <items> und die Unterelemente <listitem>
-----------------------------------------------------
 
 Das Element `<items>` enthält Zeilen der Liste der Listview in Form von `<listitem>` -Elementen. Das `<listitem>` -Element enthält den eigentlichen Inhalt in `<subitem>` -Elemente. Ein `<subitem>` entspricht einer Zelle in der Zeile. Die Attribute des <listitem>-Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |emphased|Die Zeile ist hervorgehoben, die Formatierung ist dann fettgedruckt.|
 |hint|Hinweis, der bei mouseover über den Zeilentitel eingeblendet wird.|
 |href|Link, der bei Klick auf den Zeilentitel aufgerufen wird.|
@@ -103,12 +89,10 @@ Das Element `<items>` enthält Zeilen der Liste der Listview in Form von `<listi
 |title|Der Titel der Zeile.|
 
 Das Element <subitem>
----------------------
 
 Das Element `<subitem>` enthält den eigentlichen Inhalt der Liste. Ein `<subitem>` -Element steht für eine Zelle in der Listenzeile. Für jede Zelle nach dem Titelfeld muss ein subitem vorhanden sein. Die folgende Tabelle listet alle Attribute des `<subitem>` -Elements auf:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |align|Ausrichtung der Zelle:
 
 1.  `left`: Zelleninhalt wird links ausgerichtet.
@@ -119,7 +103,6 @@ Das Element `<subitem>` enthält den eigentlichen Inhalt der Liste. Ein `<subite
 |wrap|Falls `wrap="nowrap"` angegeben wird, soll der Browser die Zeile nicht umbrechen.|
 
 „Tiled“-Ausgabe
----------------
 
 In der Anwendungen-Übersicht und der Iconliste wird die so genannte „Tiled“-Ausgabe verwendet. Alle Elemente werden nacheinander angeordnet. Wenn man das Browserfenster verkleinert, rutschen die Elemente nach, die gesamte Breite wird also genutzt und horizontales Scrolling ausgeschlossen. Auch braucht man sich über eine Verteilung der Elemente in Zeilen und Spalten keine Gedanken zu machen.
 

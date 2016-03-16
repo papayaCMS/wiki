@@ -1,7 +1,3 @@
----
-title: Kategorie:Phrasen übersetzen
-permalink: Kategorie:Phrasen_übersetzen/
----
 
 Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnitte, Tabellenspalten und Buttons. Während bestimmte Texte automatisch übersetzt werden, müssen Sie in anderen Fällen explizit Übersetzungsmethoden aus der Klasse `base_object` ausführen. Die Klasse `base_object` stellt zu diesem Zweck folgende Methoden zur Verfügung:
 
@@ -10,7 +6,6 @@ Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnit
 3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [\$this-_gtfile() benutzen](/$this-_gtfile()_benutzen.md).
 
 Sprachkonventionen bei der Eingabe von Phrasen beachten
--------------------------------------------------------
 
 Wenn Sie Phrasen eingeben, sollten Sie einige wesentliche Regeln beachten:
 

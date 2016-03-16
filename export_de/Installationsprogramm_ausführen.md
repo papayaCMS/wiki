@@ -1,7 +1,3 @@
----
-title: Installationsprogramm ausführen
-permalink: /Installationsprogramm_ausführen/
----
 
 papaya CMS wird mit einem Installationsprogramm ausgeliefert, das Sie mit dem Browser steuern können. Das Installationsprogramm befindet sich im Unterverzeichnis /papaya und hat den Namen `install.php`. In die Adresszeile Ihres Browsers geben Sie also <http://www.Ihre-Domain.tld/papaya/install.php> ein. Geben Sie für „Ihre-Domain“ den Namen Ihrer Domain ein und ersetzen Sie „tld“ durch die entsprechende Top-Level-Domain.
 

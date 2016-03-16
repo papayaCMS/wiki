@@ -1,7 +1,3 @@
----
-title: Ausgaben in der XML-Ausgabe
-permalink: /Ausgaben_in_der_XML-Ausgabe/
----
 
 Wenn Sie für Ihre Seiten Templates für verschiedene Ausgabeformate erstellt haben, können Nutzer diese Ausgaben über eine entsprechende Dateiendung abrufen. Anstelle einer URL wie bspw. <http://www.domain.tld/index.11.de.html> können Sie <http://www.domain.tld/index.11.de.pdf> in die Adresszeile Ihres Browsers eingeben. Auf diese Weise rufen Sie die PDF-Ausgabe der Seite auf.
 

@@ -1,7 +1,3 @@
----
-title: HTML-Rohling erstellen
-permalink: /HTML-Rohling_erstellen/
----
 
 Wenn Sie vorher noch nie Templates für papaya CMS erstellt haben, sollten Sie zuerst einen HTML-Rohling erstellen und anschließend in das Template umbauen. Schreiben Sie also das HTML nicht sofort in ein XSLT-Template, wenn Sie zuerst ein passendes Design mit Layoutgrafiken und ansprechender CSS-Formatierung entwickeln möchten. Diese Herangehensweise bringt einige Vorteile mit sich:
 

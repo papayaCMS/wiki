@@ -1,7 +1,3 @@
----
-title: Kategorie:RSS-Feeds erstellen
-permalink: Kategorie:RSS-Feeds_erstellen/
----
 
 In diesem Kapitel erfahren Sie, wie Sie RSS-Feeds erstellen können.
 

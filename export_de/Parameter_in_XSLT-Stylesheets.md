@@ -1,12 +1,7 @@
----
-title: Parameter in XSLT-Stylesheets
-permalink: /Parameter_in_XSLT-Stylesheets/
----
 
 Der Ausgabefilter startet die XSLT-Stylesheetdatei standardmäßig mit einer Reihe von Parametern. Diese Parameter können Sie in Ihren XSLT-Templates benutzen, um bspw. den Hostnamen benutzen zu können. Die Parameter und ihre Bedeutung sind in der folgenden Tabelle aufgelistet:
 
 |Parameter|Bedeutung|
-|---------|---------|
 |PAGE_BASE_URL|Die Basis-URL der papaya-Installation, beispielsweise <http://www.domain.tld> .|
 |PAGE_LANGUAGE|Die aktuelle Content-Sprache der Seite.|
 |PAGE_MODE_PUBLIC|1 (TRUE), wenn die Seite veröffentlicht ist, 0 (FALSE), wenn die Seite in der Seitenvorschau angesehen wird.|

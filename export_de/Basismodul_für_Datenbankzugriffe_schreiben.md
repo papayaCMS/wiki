@@ -1,7 +1,3 @@
----
-title: Basismodul für Datenbankzugriffe schreiben
-permalink: /Basismodul_für_Datenbankzugriffe_schreiben/
----
 
 Bei komplexeren Anwendungen gibt es häufig mehrere Ausgabemodule (Seite/Box), die auf Daten in einer Datenbanktabelle zugreifen müssen. Das Administrationsmodul benötigt lesenden und schreibenden Zugriff auf die Datenbank. Es ist daher günstig, zumindest den Datenbankzugriff in einer separaten Klasse zu abstrahieren, die von den einzelnen Modulen gemeinsam genutzt werden kann. Schreibzugriffe können gegebenenfalls auch im Administrationsmodul implementiert werden. Bei papaya CMS wird die Klasse für den Datenbankzugriff zumeist als Basisklasse bezeichnet. Der Konvention nach beginnen Datei- und Klassenname mit `base_`.
 
@@ -22,12 +18,10 @@ Für die Basisklasse ergeben sich also folgende Anwendungsfälle:
 11. Zufälligen Sticker (einer Sammlung) laden
 
 Struktur der Datenbanktabellen
-------------------------------
 
 Die Daten für die Anwendung werden auf zwei Tabellen verteilt. Die erste Datenbanktabelle mit dem Namen `papaya_sticker` enthält alle Sticker-Daten:
 
 |Feld|Datentyp|Beschreibung|
-|----|--------|------------|
 |sticker_id|integer|ID, Primärschlüssel|
 |collection_id|integer|ID, externer Schlüssel der Sammlung|
 |sticker_text|string|Text des Stickers|
@@ -37,7 +31,6 @@ Die Daten für die Anwendung werden auf zwei Tabellen verteilt. Die erste Datenb
 Die zweite Datenbanktabelle enthält alle Daten, die zu einer Sammlung gehören:
 
 |Feld|Datentyp|Beschreibung|
-|----|--------|------------|
 |collection_id|integer|ID, Primärschlüssel|
 |collection_title|string|Titel der Sammlung|
 |collection_description|string|Beschreibungstext der Sammlung|
@@ -69,7 +62,6 @@ class base_stickers extends base_db {
 Im folgenden wird nun die Implementation des Konstruktors sowie der einzelnen Methoden vorgestellt.
 
 Konstruktor implementieren
---------------------------
 
 Damit der möglicherweise gesetzte Tabellen-Präfix genutzt wird, müssen Sie Tabellennamen abhängig von der Konstanten PAPAYA_DB_TABLEPREFIX definieren. Eine passende Stelle dafür ist der Konstruktor. Rufen Sie zunächst den Elternkonstruktor auf, damit dort vorgenommene Initialisierungen trotz Überladen durchgeführt werden:
 
@@ -96,7 +88,6 @@ function base_stickers() {
 Der PHP4-Konstruktor delegiert also die Aufgabe an den PHP5-Konstruktor.
 
 Daten zur Datenbank hinzufügen
-------------------------------
 
 Verwenden Sie `base_db::databaseInsertRecord()` um einen Datensatz der Datenbanktabelle hinzuzufügen. Der erste Parameter ist der Tabellenname, den Sie im Attribut `$tableSticker` abgelegt haben. Der zweite Parameter ist der Name des Autoincrement-Feldes, dessen Wert Sie zurückbekommen wollen um die Datensatz-Id zu erhalten. Benötigen Sie den Wert nicht, so geben Sie `NULL` an: Sie unterdrücken damit die Abfrage nach der soeben eingefügten ID. Der dritte Parameter enthält die einzufügenden Daten.
 
@@ -149,7 +140,6 @@ function addCollection($title, $description) {
 ~~~~
 
 Daten in der Datenbank ändern
------------------------------
 
 Verwenden Sie die Methode `base_db::databaseUpdateRecord()`, um einen bestehenden Datensatz zu aktualisieren. Übergeben Sie Tabellennamen, Updatedaten sowie eine SQL-Bedingung als Parameter. Nach einer Plausibilitätsprüfung bauen Sie das Daten-Array wie bei der Methode `addSticker()` auf. Übergeben Sie als Bedingung ein assoziatives Array mit dem Feldnamen `sticker_id` als Schlüssel und der Sticker-ID als Wert. Daraus wird die SQL-Bedingung konstruiert, die bestimmt, welche Datensätze zu ändern sind.
 
@@ -194,7 +184,6 @@ function updateCollection($collectionId, $title, $description) {
 ~~~~
 
 Daten aus der Datenbank entfernen
----------------------------------
 
 Um einen Datensatz zu löschen, können Sie die Methode `base_db::databaseDeleteRecord()` benutzen. Diese benötigt als ersten Parameter den Namen der Tabelle, auf die sich die Löschaktion bezieht, als zweiten Parameter die Löschbedingung in Form eines assoziativen Arrays. Der Array-Schlüssel bezeichnet den Feldnamen, im Normalfall der Primärschlüssel, der Array-Wert den Wert dieses Feldes beim zu löschenden Datensatz. Im folgenden Beispiel wird die Methode zum Löschen von Sticker-Einträgen vorgestellt. Die Löschbedingung besteht aus dem Feldnamen `sticker_id` und der ID des zu löschenden Feldes:
 
@@ -228,7 +217,6 @@ function deleteCollection($collectionId) {
 ~~~~
 
 Daten aus der Datenbank auslesen
---------------------------------
 
 Im Folgenden geht es um die Implementation der Ausgabemethoden. Um bestehende Daten verwalten zu können, benötigen Sie in der Stickers-Anwendung eine Liste aller Sammlungen, alle Sticker einer Sammlung und schließlich einzelne Sammlungen oder Sticker zur Bearbeitung.
 

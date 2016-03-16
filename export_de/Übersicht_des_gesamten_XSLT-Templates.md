@@ -1,7 +1,3 @@
----
-title: Übersicht des gesamten XSLT-Templates
-permalink: /Übersicht_des_gesamten_XSLT-Templates/
----
 
 Das komplette XSLT-Template ist im folgenden Listing komplett abgebildet:
 

@@ -1,7 +1,3 @@
----
-title: Strings für Datenbankabfrage maskieren
-permalink: /Strings_für_Datenbankabfrage_maskieren/
----
 
 Strings werden automatisch durch Methoden der Datenbankabstraktion maskiert, bevor eine SQL-Abfrage stattfindet. In manchen Fällen sind Sie jedoch selber dafür verantwortlich, Nutzereingaben zu maskieren.
 
@@ -51,7 +47,6 @@ SELECT my_id, my_title, my_description
 ~~~~
 
 Datensätze in die Datenbank einfügen
-------------------------------------
 
 Wenn Sie Datensätze mit `base_db::databaseInsertRecords()` einfügen oder mit `base_db::databaseUpdateRecord()` ändern, brauchen Sie sich um das Maskieren ebenfalls keine Gedanken zu machen.
 

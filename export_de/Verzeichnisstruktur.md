@@ -1,10 +1,5 @@
----
-title: Verzeichnisstruktur
-permalink: /Verzeichnisstruktur/
----
 
 Verzeichnisstruktur der Templates
----------------------------------
 
 Die Templates für papaya CMS liegen im Verzeichnis `/papaya-data/templates/`. Jedes Template erhält dabei in diesem Verzeichnis ein eigenes Unterverzeichnis. In der Standarddistribution von papaya CMS befindet sich zurzeit ein Unterverzeichnis darin:
 
@@ -59,7 +54,6 @@ Wenn Sie ein eigenes Template anlegen, müssen Sie folgende Dinge beachten:
 Der Grund für die Trennung von Template und Theme ist technisch bedingt. CSS-Dateien und Layoutgrafiken werden immer durch den Webserver ausgeliefert. Zu diesem Zweck müssen die Dateien jedoch immer im DocumentRoot liegen. Da man jedoch das Verzeichnis `/papaya-data/` optional auch außerhalb des DocumentRoot ablegen kann, könnte man die Themes nicht mehr erreichen. Aus diesem Grund wurde die Trennung eingeführt.
 
 Verzeichnisstruktur der Themes
-------------------------------
 
 Die Themes für papaya CMS liegen im Verzeichnis `papaya-themes/`. Jedes Theme wird dabei in einem eigenen Unterverzeichnis angelegt. So finden Sie in diesem Verzeichnis das Demo-Theme im Ordner `demo-theme/`. Das Demo-Theme hat folgende Verzeichnisstruktur:
 
@@ -86,7 +80,6 @@ Wenn Sie ein eigenes Theme erstellen möchten, erstellen Sie im Verzeichnis `pap
 Falls Sie Flash oder Java-Applets verwenden, die Layout-Funktionen erfüllen, können Sie natürlich zusätzliche Verzeichnisse anlegen und bspw. mit `flash/` oder `java/` benennen. In allen anderen Fällen sollten Sie solche multimedialen Inhalte mit der Mediendatenbank verwalten.
 
 Verzeichnis für clientseitige Scripte
--------------------------------------
 
 Clientseitige Scripte für papaya CMS werden im Verzeichnis `papaya-script/` gespeichert. Das Verzeichnis enthält dabei lediglich generische Scripte, die von verschiedenen Themes genutzt werden können. Sie ermöglichen unter anderem, die Vollbildansicht von Bildern in Popup-Fenstern zu öffnen. Spezielle Scripte, die auf bestimmte Template-Theme-Sets angepasst sind, sollten Sie daher im jeweiligen Theme-Verzeichnis unterbringen.
 

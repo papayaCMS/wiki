@@ -1,7 +1,3 @@
----
-title: Kategorie:Übersetzungstemplate benutzen
-permalink: Kategorie:Übersetzungstemplate_benutzen/
----
 
 Wenn Sie das Übersetzungstemplate `language-text` einsetzen möchten, sollten Sie folgende zwei Punkte beachten:
 

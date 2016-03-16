@@ -1,7 +1,3 @@
----
-title: Seitenmodule programmieren
-permalink: /Seitenmodule_programmieren/
----
 
 Ein Seitenmodul zu entwickeln ist fast so einfach wie das Entwickeln eines Boxmoduls. Da die Standardfunktionen bereits in den Basisklassen implementiert sind, müssen Sie lediglich die Methoden `getParsedTeaser()` und `getParsedData()` sowie das Attribut `$editFields` überladen. Folgende Schritte sind notwendig, um ein Seitenmodul zu erstellen:
 
@@ -14,7 +10,6 @@ Ein Seitenmodul zu entwickeln ist fast so einfach wie das Entwickeln eines Boxmo
 In den folgenden Abschnitten werden die einzelnen Schritte im Detail erläutert.
 
 Einbinden der Klasse base_content in das eigene Seitenmodul
-------------------------------------------------------------
 
 Laden Sie die Datei der notwendigen Elternklasse `base_content` über die PHP-Funktion `require_once()`. Den Pfad zum Basissystem `papaya-lib/` können Sie aus der Konstanten PAPAYA_INCLUDE_PATH auslesen, die in der `conf.inc.php` definiert ist:
 
@@ -55,7 +50,6 @@ Die Felder im inneren Array bestimmen die Art des jeweiligen Eingabefeldes. Näh
 Die Schlüssel `title` und `text` werden intern dazu benutzt, auf die entsprechenden Felder zuzugreifen. Wenn der Nutzer über die Eingabemaske Daten eingibt, stehen diese Daten im Array `$this->data` zur Verfügung. In diesem Fall können die Schlüssel der jeweiligen Felder dazu verwendet werden, die eingegebenen Daten aus dem Array `$this->data` auszulesen.
 
 Die Methode getParsedData() überladen
--------------------------------------
 
 Die Methode `getParsedData()` wird aufgerufen, um den Inhalt des Moduls auszugeben. Durch Überladen der Methode bestimmen Sie den auszugebenden Inhalt:
 

@@ -1,7 +1,3 @@
----
-title: Kategorie:Template für RSS-Feed erstellen
-permalink: Kategorie:Template_für_RSS-Feed_erstellen/
----
 
 Templates für RSS-Feeds schreiben Sie ebenso wie die Templates der Webseitenvorlage in XSLT. Ein wesentlicher Unterschied zur Webseitenvorlage ist, dass Sie in der `output` -Anweisung die Ausgabe auf XML umstellen müssen. Wenn Sie einen Ausgabefilter für RSS anlegen, müssen Sie daran denken, den Content-Type auf „text/xml“ zu setzen.
 

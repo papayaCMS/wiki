@@ -1,7 +1,3 @@
----
-title: Pfade überprüfen
-permalink: /Pfade_überprüfen/
----
 
 Nach erfolgreicher Installation müssen Sie im Backend von papaya CMS überpüfen, ob die Verzeichnisse der Mediendatenbank existieren und schreibbar sind. Dazu gehen Sie wie folgt vor:
 

@@ -1,7 +1,3 @@
----
-title: Inhalte der Titelseite
-permalink: /Inhalte_der_Titelseite/
----
 
 Die Inhalte für die Titelseite werden durch das XSLT-Template mit dem Namen `cover` eingebunden. Das folgende Codebeispiel stellt dieses Template vor:
 

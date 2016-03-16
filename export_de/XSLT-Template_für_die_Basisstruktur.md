@@ -1,7 +1,3 @@
----
-title: XSLT-Template für die Basisstruktur
-permalink: /XSLT-Template_für_die_Basisstruktur/
----
 
 Das Basistemplate `basetemplate` erzeugt das Wurzelelement des RSS-Dokuments und ruft weitere Templates auf, um die `<item>` -Elemente hinzuzufügen. Im Basistemplate werden auch allgemeine Informationen über die Website in das `<channel>` -Element eingefügt, die im Feedreader als Metainformation angezeigt werden. Das `<channel>` -Element enthält auch eine Liste der Links zu den Artikeln, die in den jeweiligen `<item>` -Elementen angeteasert werden.
 

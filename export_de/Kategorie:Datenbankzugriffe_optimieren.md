@@ -1,7 +1,3 @@
----
-title: Kategorie:Datenbankzugriffe optimieren
-permalink: Kategorie:Datenbankzugriffe_optimieren/
----
 
 Optimierte Datenbankabfragen können die Performance spürbar verbessern. Mit papaya CMS können Sie eine SQL-Abfrage anzeigen und durch ein Explain analysieren lassen. Explain ist eine Funktion des SQL-Datenbankservers, der die Zugriffsstrategie des Servers für eine mit Explain gekennzeichnete SQL-Abfrage ausgibt. Die Implementation ist dabei von Server zu Server unterschiedlich, weshalb diese Funktion in papaya CMS durch die Datenbankabstraktion ausgeführt wird. Ferner können Sie sich die Anzahl der SQL-Abfragen bei einem Seitenaufruf anzeigen lassen und langsame Abfragen für die spätere Analyse protokollieren.
 

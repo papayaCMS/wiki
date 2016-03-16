@@ -1,7 +1,3 @@
----
-title: Namensschema für Übersetzungsdateien
-permalink: /Namensschema_für_Übersetzungsdateien/
----
 
 Der Dateiname setzt sich aus einem Sprachkürzel sowie der Endung `.xml` zusammen. Das Sprachkürzel folgt dem Schema, das in ISO 639-1 festgelegt worden ist. ISO 639-1 geben dabei zwei Zeichen vor, die für die Sprache stehen.
 

@@ -1,7 +1,3 @@
----
-title: Phrasen übersetzen
-permalink: /Phrasen_übersetzen/
----
 
 Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt vor:
 

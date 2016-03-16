@@ -1,7 +1,3 @@
----
-title: Separate Klasse als Session-Speicher verwenden
-permalink: /Separate_Klasse_als_Session-Speicher_verwenden/
----
 
 Für sehr umfangreiche Anwendungen bietet es sich an, Sessiondaten in einem separaten Objekt zu verwalten. Sie können mit Hilfe eines Singletons und statischen Methoden eine schlanke, leicht zu nutzende Klasse schreiben:
 

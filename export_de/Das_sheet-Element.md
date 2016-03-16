@@ -1,19 +1,12 @@
----
-title: Das sheet-Element
-permalink: /Das_sheet-Element/
----
 
 XML-Ausgabe
------------
 
 Verfügbare Elemente
--------------------
 
 Es gibt drei Bereiche der Ausgabe: Header-Zeilen, Info-Zeile und Text. Headerzeilen können CSS-Klassen zugewiesen bekommen, headertitle führt zu einer Überschrift in der Ausgabe. Die Info-Zeile ist grau abgesetzt. Der Text kann entweder reinen Text enthalten, dann wird er mit einer dickengleichen Schrift ausgegeben (teletype) oder, sobald ein HTML-Paragraph (p) enthalten ist, wird eine HTML-Ausgabe erzeugt. Beide Varianten können Links und Bilder enthalten.
 
 Für längere Texte sollte nicht die Phrasen-Übersetzung von papaya verwendet werden, sondern `_gtfile()`.
 
-|---|
 |!|
 |sheet/@width|Breite der Ausgabe. Wenn leer, wird die Standardspaltenbreite des Layouts verwendet.|
 |sheet/header/lines/line|Headerzeilen|

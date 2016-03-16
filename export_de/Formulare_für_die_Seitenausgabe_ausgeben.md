@@ -1,12 +1,7 @@
----
-title: Formulare für die Seitenausgabe ausgeben
-permalink: /Formulare_für_die_Seitenausgabe_ausgeben/
----
 
 Wenn Sie Formulare für die Seitenausgabe erzeugen wollen, können Sie das dazu erforderliche XML natürlich selbst im Content-Modul schreiben. Sie können sich jedoch viel Arbeit ersparen, wenn Sie das Formular-Toolkit verwenden, das in papaya CMS integriert ist. Dadurch erhalten alle erzeugten Formulare eine standardisierte Struktur, die dann später im Template einfacher in das Zielformat transformiert werden kann. Das Formular-Toolkit ist in der Klasse `base_dialog` implementiert.
 
 base_dialog benutzen
----------------------
 
 Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` anlegen können:
 

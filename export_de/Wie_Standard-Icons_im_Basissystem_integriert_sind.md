@@ -1,7 +1,3 @@
----
-title: Wie Standard-Icons im Basissystem integriert sind
-permalink: /Wie_Standard-Icons_im_Basissystem_integriert_sind/
----
 
 Die Icons des papaya-Basissystems sind in der Datei `./papaya/inc.glyphs.php` registriert. Die globale Variable `$PAPAYA_IMAGES` ist ein Array, dessen Schlüssel die Bezeichner der Icons bilden. Die Bezeichner setzen sich dabei aus dem Namen der Gruppe und des Icons zusammen, die durch einen Bindestrich miteinander verbunden sind. Das Array `$PAPAYA_IMAGES` enthält dabei den physischen Dateinamen als Wert.
 

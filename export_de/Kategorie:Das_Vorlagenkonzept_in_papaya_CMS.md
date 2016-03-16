@@ -1,7 +1,3 @@
----
-title: Kategorie:Das Vorlagenkonzept in papaya CMS
-permalink: Kategorie:Das_Vorlagenkonzept_in_papaya_CMS/
----
 
 Eine Webseitenvorlage in papaya CMS setzt sich aus Theme und Template zusammen. Ein Theme besteht aus CSS-Dateien und Layout-Grafiken, während ein Template aus mehreren XSLT-Dateien besteht. Das Template dient dazu, das von den Modulen generierte XML in das HTML-Format zu transformieren. Mit dem Theme erhält dieses HTML eine ansprechende grafische Gestaltung.
 

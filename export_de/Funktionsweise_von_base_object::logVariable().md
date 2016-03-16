@@ -1,7 +1,3 @@
----
-title: Funktionsweise von base object::logVariable()
-permalink: /Funktionsweise_von_base_object::logVariable()/
----
 
 Das folgende Listing stellt die Signatur der `base_object::logVariable()` -Methode vor:
 
@@ -16,7 +12,6 @@ function logVariable($level, $type, $title, $variable, $addBacktrace = FALSE, $b
 Die Funktion `base_object::logVariable()` verfügt über folgende Parameter:
 
 |Log-Level|Bedeutung|
-|---------|---------|
 |`$level`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
 |`$type`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
 |`$title`|Titel der Variablenausgabe. Dieser Text erscheint in der Übersichtsliste im Protokoll.|

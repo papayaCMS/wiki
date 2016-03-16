@@ -1,7 +1,3 @@
----
-title: Parameterwerte persistent machen und automatisch zurücksetzen
-permalink: /Parameterwerte_persistent_machen_und_automatisch_zurücksetzen/
----
 
 Sie können papaya CMS anweisen, Parameter automatisch in der Session vorzuhalten. Damit werden die Parameter solange beibehalten, bis ein bestimmter anderer Parameter übermittelt wurde oder sie von Ihnen zurückgesetzt werden.
 

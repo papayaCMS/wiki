@@ -1,7 +1,3 @@
----
-title: Druckfreundliches CSS schreiben
-permalink: /Druckfreundliches_CSS_schreiben/
----
 
 Für die Print-Templates müssen Sie ein anderes CSS einbinden, das die Inhalte druckfreundlich formatiert. Für druckfreundliche CSS-Formatangaben sollten Sie folgende Punkte beachten:
 
@@ -70,7 +66,6 @@ Ferner können Sie für die zentralen Elemente der Seitenstruktur Hintergrundbil
 ~~~~ {.css}
 ...
 /* =Seitenstruktur
------------------------------------------------ */
 #container, #page, #wrapper, #main-boxes .box, #main {
   background: none;
   border: none;
@@ -94,7 +89,6 @@ Block-Level-Elemente im Content-Bereich erhalten entsprechende Formatierungen f�
 ~~~~ {.css}
 ...
 /* =Elements
------------------------------------------------ */
 h1,h2,h3,h4,h5,h6, #logo h2, #logo h4{
   color:#000;
   margin:0;
@@ -132,7 +126,6 @@ Zuletzt erhält noch der Footer eine entsprechende Formatierung:
 ~~~~ {.css}
 ...
 /* =Footer
------------------------------------------------ */
 #footer{
   color: #999;
   font-size: 95%;

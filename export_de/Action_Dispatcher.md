@@ -1,12 +1,7 @@
----
-title: Action Dispatcher
-permalink: /Action_Dispatcher/
----
 
 Der **Action Dispatcher** ist ein freies papaya-Modulpaket. Es handelt sich um die papaya-spezifische Implementierung eines Observers oder Event-Handlers. Eine Aktion ist eine Methode, die automatisch in jedem Connector-Modul aufgerufen werden kann, das in der Administrationsoberfläche des Dispatchers registriert wird. Das ist praktisch für Aufräumarbeiten und andere Aufgaben, die mehr als ein Modul betreffen und beim Auftreten bestimmter Ereignisse automatisch in Gang gesetzt werden sollten.
 
 Verwendung
-----------
 
 Der Action Dispatcher definiert *Gruppen*, *Aktionen* und *Observer*. Eine Aktion wird durch einen Gruppennamen (üblicherweise ein papaya-Modulpaket) und den Eigennamen der Aktion spezifiziert. Die Observer können aus den verfügbaren Connector-Modulen der vorliegenden papaya-Installation einschließlich sämtlichen projektspezifischen Erweiterungen ausgewählt werden. Um eine Aktion anzustoßen, müssen Sie eine Instanz der Dispatcher-eigenen Connector-Klasse erzeugen und ihre Methode call() mit einem Gruppennamen, einem Aktionsnamen und einem optionalen Parameter aufrufen. Der Dispatcher erzeugt dann Instanzen aller Observer (Connector-Klassen), die für die jeweilige Aktion registriert sind, ruft deren gleichnamige Methoden auf (falls verfügbar) und übergibt ihnen den Parameter (oder NULL, falls dieser nicht gesetzt ist).
 
@@ -24,7 +19,6 @@ Falls ein oder mehrere Observer für die Aktion 'onDeleteSurfer' in der Gruppe '
 Sowohl direkte als auch zyklische Rekursion im Aufrufprozess werden durch Untersuchung des Backtrace verhindert; sobald die aktuelle Klasse und Methode bereits zuvor aufgetreten sind, wird die Ausführung unverzüglich beendet. Das Ereignis wird als Fehler im papaya-Protokoll verzeichnet. Wenn eine registrierte Observer-Klasse nicht mehr existiert, wird auch dies im Protokoll vermerkt.
 
 Administration
---------------
 
 Die Administrationsoberfläche des Action Dispatchers ist recht einfach gehalten (siehe Screenshot).
 

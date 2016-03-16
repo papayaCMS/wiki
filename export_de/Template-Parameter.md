@@ -1,12 +1,7 @@
----
-title: Template-Parameter
-permalink: /Template-Parameter/
----
 
 Die Parameter werden an unterschiedlichen Stellen konfiguriert. Teilweise kommen die Informationen aus der `conf.inc.php`, teilweise aus den papaya-Einstellungen.
 
 |Parameter|Bedeutung|
-|---------|---------|
 |COLUMNWIDTH_CENTER|Bestimmt die Breite der mittleren Inhaltsspalte|
 |COLUMNWIDTH_LEFT|Bestimmt die Breite der linken Inhaltsspalte|
 |COLUMNWIDTH_RIGHT|Bestimmt die Breite der rechten Inhaltsspalte|
@@ -38,7 +33,6 @@ Die Parameter werden an unterschiedlichen Stellen konfiguriert. Teilweise kommen
 Die folgenden Parameter sind nur für die Frontend-Ausgabe von Interesse, hier stehen sie nur der Vollständigkeit halber und sollten ggf. in Themes/Templates übernommen werden, falls nicht schon vorhanden.
 
 |Parameter|Bedeutung|
-|---------|---------|
 |PAGE_MODE_PUBLIC|FRONTEND: Ob die Seite öffentlich ist oder nicht.|
 |PAGE_OUTPUTMODE_CURRENT|FRONTEND: Der aktuelle Ausgabemodus der Seite (html, pdf, ...)|
 |PAGE_OUTPUTMODE_DEFAULT|FRONTEND: Der Standardausgabemodus der Seite|

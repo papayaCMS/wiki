@@ -1,7 +1,3 @@
----
-title: Kategorie:Papaya-Formatierungsobjekt
-permalink: Kategorie:Papaya-Formatierungsobjekt/
----
 
 Mit dem PDF-Template erzeugen Sie ein papaya-Formatierungsobjekt, dass durch den PDF-Prozessor von papaya CMS in ein PDF-Dokument übersetzt wird. Wenn Sie ein eigenes PDF-Template schreiben, müssen Sie also die XML-Struktur der Modulausgabe kennen:
 

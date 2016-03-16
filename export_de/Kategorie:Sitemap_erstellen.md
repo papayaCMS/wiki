@@ -1,7 +1,3 @@
----
-title: Kategorie:Sitemap erstellen
-permalink: Kategorie:Sitemap_erstellen/
----
 
 In diesem Kapitel erfahren Sie, wie Sie eine Sitemap-Datei für Suchmaschinen erstellen.
 

@@ -1,7 +1,3 @@
----
-title: Base object::logMsg() benutzen
-permalink: /Base_object::logMsg()_benutzen/
----
 
 Sie können `logMsg()` benutzen, um alle möglichen Arten von Informationen zu protokollieren. Beispielsweise könnten Sie in der Anwendung eines Warenwirtschaftssystems eine Warnmeldung in das Systemprotokoll schreiben, wenn die Anzahl der Waren unter einen bestimmten Wert fallen oder wenn alle Waren eines bestimmten Typs ausverkauft sind:
 

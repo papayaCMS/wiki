@@ -1,7 +1,3 @@
----
-title: PDF-Vorlage installieren
-permalink: /PDF-Vorlage_installieren/
----
 
 Um die Vorlage zu installieren, gehen Sie wie folgt vor:
 

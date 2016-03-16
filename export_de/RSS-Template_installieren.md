@@ -1,7 +1,3 @@
----
-title: RSS-Template installieren
-permalink: /RSS-Template_installieren/
----
 
 Um das RSS-Template zu installieren, gehen Sie wie folgt vor:
 

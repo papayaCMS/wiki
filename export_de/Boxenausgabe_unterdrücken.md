@@ -1,7 +1,3 @@
----
-title: Boxenausgabe unterdrücken
-permalink: /Boxenausgabe_unterdrücken/
----
 
 Zu einer druckfreundlichen Ausgabe gehört auch, dass Sie alle Boxen aus der Seitenausgabe entfernen. Boxen stellen in der Regel Funktionen wie die Navigation, die Seitensuche oder weiterführende Links dar, die in einem Ausdruck keine Funktion mehr haben. Eine druckfreundliche Ausgabe sollte also lediglich den Artikeltext inklusive Titel, Untertitel und ggf. Seitenlogo enthalten.
 

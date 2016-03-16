@@ -1,14 +1,9 @@
----
-title: Administrationsmodul schreiben
-permalink: /Administrationsmodul_schreiben/
----
 
 Das Administrationsmodul besteht in papaya CMS aus zwei Klassen. Die erste Klasse ist das eigentliche Administrationsmodul und leitet von `base_module` ab. Sie erhält das Klassenpräfix `edmodule_`. Die eigentliche Darstellungs- und Anwendungslogik ist dabei in eine weitere Klasse ausgelagert. Diese Klasse leitet direkt von der Basisklasse der Anwendung ab und erhält das Klassenpräfix `admin_`.
 
 Die `edmodule` -Klasse Instanziiert ein Objekt der `admin` -Klasse und definiert darüber hinaus noch Zugriffsrechte für die Klasse.
 
 Die Klasse edmodule_stickers
------------------------------
 
 Die Klasse `edmodule_stickers` ist sehr klein, da sie lediglich ein Attribut und eine Methode enthält. Das folgende Listing stellt das Grundgerüst der Klasse dar:
 
@@ -61,7 +56,6 @@ function execModule() {
 Wenn Sie das Modul im Backend von papaya CMS starten, ruft die Modulverwaltung von papaya CMS als erstes die Methode `execModule()` der Klasse `edmodule_stickers` auf. Zunächst wird mit der Methode `base_module::hasPerm()` geprüft, ob der aktuelle Nutzer das Recht hat, das Modul zu verwenden. Wenn ja, wird das eigentliche Administrationsmodul eingebunden, instanziiert und initialisiert. Dazu werden einige Attribute als Referenz weitergegeben, die in der folgenden Tabelle näher aufgeschlüsselt werden:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |`$module`|Die Instanz von `edmodule`, also eine Subklasse von `base_module`. Diese wird benötigt, um beispielsweise die Modul-GUID zu ermitteln. Im Admin-Modul kann über das Attribut `$this->module->guid` auf die GUID zugegriffen werden.|
 |`$images`|Enthält die papaya-internen Icons.|
 |`$msgs`|Enthält das globale Messages-Array, an das mit `$this->addMsg()` Meldungen angehängt werden.|
@@ -73,7 +67,6 @@ Anschließend werden die Methoden `initialize()`, `execute()` und `getXML()` des
 Registrieren Sie das Modul in der `modules.xml` als ein Modul vom Typ *admin*. Dort können Sie auch ein Icon angeben, das in der Anwendungsliste erscheint. Nähere Informationen zur Registrierung von Modulen finden Sie im Kapitel [modules.xml erstellen](/modules.xml_erstellen.md).
 
 Die Klasse admin_stickers
---------------------------
 
 Die Klasse `admin_stickers` beinhaltet die Darstellungs- und Anwendungslogik des Administrationsmoduls. Vom Benutzer angestoßene Aktionen werden durchgeführt, die Ausgabedaten zusammengestellt und in das Ausgabe-XML überführt. Das folgende Listing stellt das Grundgerüst des Administrationsmoduls vor. Die einzelnen Funktionen sind als Methodenrümpfe aufgelistet:
 
@@ -107,7 +100,6 @@ papaya CMS verwendet Parameternamen in POST und GET um Kollisionen zwischen Anwe
 Das Attribut `$paramName` wird von Link-Methoden wie `getWebLink()` in `base_object` genutzt. Nähere Informationen zu Links finden Sie in [Links ausgeben](/Links_ausgeben.md).
 
 Die Methode initialize()
-------------------------
 
 Als erstes wird von `edmodule_sticker` die Methode `initialize()` aufgerufen. Diese Methode initialisiert zunächst die Sessions und macht den Parameter `col_id` persistent:
 
@@ -149,7 +141,6 @@ Im folgenden Schritt wird das Attribut `$this->menubar` mit der Instanz der Klas
 Im letzten Schritt der Initialisierungsmethode werden noch alle bestehenden Sammlungen in das Attribut `$this->collections` geladen. Damit stehen sie für den Rest des Programmablaufes zur Verfügung.
 
 Die Methode getXML()
---------------------
 
 Sie können die Programmlogik implementieren, ohne die Ausgabe implementiert zu haben. Für den Zweck dieses Tutorials ist es nützlicher, zunächst die Ausgabe zu betrachten und dann die Logik, da diese Vorgehensweise anschaulicher ist.
 
@@ -176,7 +167,6 @@ Sofern ein Dialogobjekt im Klassenattribut `$this->dialog` vorhanden ist, wird d
 In den folgenden Abschnitten werden die Methoden `getMenubarXML()`, `getCollectionsList()` sowie `getStickersList()` im Detail vorgestellt.
 
 Die Methode getMenubarXML()
----------------------------
 
 Mit der Methode `getMenubarXML()` wird das XML für das Bearbeitungsmenü erzeugt:
 
@@ -235,7 +225,6 @@ Bei der Ausgabe in XML wird jeder Button als `<button>` -Element ausgegeben. Dam
 ~~~~
 
 Die Methode getCollectionsList()
---------------------------------
 
 Die Methode `getCollectionsList()` erzeugt eine Listview der vorhandenen Sammlungen und gibt diese als XML-Präsentation zurück. Eine Listview ist eine tabellarische Darstellung der Daten. Das folgende Listing stellt die Struktur der XML-Ausgabe vor:
 
@@ -345,7 +334,6 @@ function getStickersList() {
 ~~~~
 
 Die Methode getStickersList()
------------------------------
 
 Die Listview für die Stickerliste wird wie bei der Sammlung ausgegeben. Bei der `<items>` -Ausgabe unterscheidet sich das Vorgehen, weil drei Spalten benötigt werden:
 
@@ -405,7 +393,6 @@ Für das Icon in der ersten Spalte wird das Icon aus dem Stickers-Paket benutzt 
 ~~~~
 
 Die Methode execute()
----------------------
 
 Im Programmablauf wird als zweites die Methode `execute()` aufgerufen. In dieser Methode wird zunächst überprüft, ob ein Befehl übermittelt wurde. Anschließend entscheidet die Methode anhand des Befehlsparameters `$this->params['cmd']`, welche Funktion ausgeführt wird:
 
@@ -480,7 +467,6 @@ Wenn `checkDialogInput()` wahr ist, sind die Daten gültig und können in die Da
 Alle notwendigen Daten wie der submit-Parameter oder die Formulardaten kommen aus dem Eingabeformular, das in der Methode `initializeCollectionDialog()` erzeugt wird. Im folgenden soll die Implementation dieser Methode vorgestellt werden.
 
 Die Methode initializeCollectionDialog()
-----------------------------------------
 
 Mit der Klasse `base_dialog` können Sie mit wenig Aufwand ein umfangreiches Formular gestalten. Weitere Informationen zur Verwendung finden Sie in der Dokumentation zur Klasse `base_dialog`. Der Konstruktor von `base_dialog ` erwartet ein Elternobjekt, den Parameternamen, eine Felddefinition (siehe [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).md), Standarddaten für das Formular und versteckte Parameter.
 
@@ -537,7 +523,6 @@ Laden Sie die bereits übermittelten Formulardaten in das Formular, wenn der Par
 Analog zu `add_collection` wird die Funktion für den Befehl `add_sticker` implementiert.
 
 Daten bearbeiten
-----------------
 
 Um Daten zu bearbeiten, wird ebenso wie beim Hinzufügen von Daten das Eingabeformular initialisiert. Anschließend wird überprüft, ob das Formular abgesendet worden ist. Dies ist der Fall, wenn das Array `$params` den Parameter „ `submit` “ enthält. Der Wert des Parameters ist zudem „1“ oder `TRUE`. Wenn dies der Fall ist, werden die übermittelten Daten mit der `checkDialogInput()` -Methode überprüft. War die Überprüfung erfolgreich, wird der Datensatz mit der Datenbankmethode `updateCollection()` aus der Elternklasse `base_stickers` aktualisiert. Wenn die Daten erfolgreich geändert werden konnten, wird ein Infodialog mit einer entsprechenden Erfolgsmeldung ausgegeben:
 
@@ -561,7 +546,6 @@ case 'edit_collection':
 ~~~~
 
 Daten löschen
--------------
 
 Natürlich sollten Sie eine Funktion implementieren, um bestehende Einträge zu löschen. In papaya CMS werden Vorgänge, bei denen Datensätze umfassend geändert oder gelöscht werden, grundsätzlich mit einer Bestätigungsmeldung versehen. Der Benutzer muss den Vorgang also explizit bestätigen, damit Daten nicht bereits durch einen Buttonklick gelöscht werden. Auf diese Weise wird der versehentliche Datenverlust verhindert.
 
@@ -587,7 +571,6 @@ Zunächst wird überprüft, ob der Parameter `confirm` gesetzt und wahr ist. Die
 Der Löschvorgang bei Stickern wird analog implementiert. Datensätze werden also nur gelöscht, wenn der Nutzer dies explizit bestätigt hat.
 
 Die Methode getDeleteCollectionConfirmDialog()
-----------------------------------------------
 
 Verwenden Sie für Bestätigungsdialoge die Klasse `base_msgdialog`. Sie funktioniert ähnlich wie `base_dialog`, nur noch einfacher:
 
@@ -631,7 +614,6 @@ Um einen Dialog zu erzeugen, gehen Sie wie folgt vor:
 Die folgende Tabelle schlüsselt alle Dialogtypen auf, die Sie für die Klasse `base_msgdialog` benutzen können:
 
 |Dialogtyp|Bedeutung|
-|---------|---------|
 |question|Einfache Bestätigungsabfrage|
 |warning|Bestätigungsabfrage erhöhter Wichtigkeit|
 |info|Bestätigung, dass der Benutzer die Information gelesen hat.|

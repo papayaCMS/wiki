@@ -1,7 +1,3 @@
----
-title: Wie Module in das System integriert werden
-permalink: /Wie_Module_in_das_System_integriert_werden/
----
 
 Die Integration der Module in papaya CMS hängt maßgeblich vom Modultyp ab. Zunächst einmal werden alle Module in der Datenbanktabelle `papaya_modules` sowie `papaya_modulegroups` registriert. Dazu wird die `modules.xml` des Pakets beim Modulscan eingelesen.
 

@@ -1,7 +1,3 @@
----
-title: Verzeichnisstruktur für Paket erstellen
-permalink: /Verzeichnisstruktur_für_Paket_erstellen/
----
 
 Um eigene Module zu entwickeln, müssen Sie zunächst die Paketstruktur erstellen. Diese Paketstruktur besteht aus einem Basisverzeichnis und Metadaten, in denen wesentliche Merkmale wie Typ oder Dateiname der einzelnen Module festgehalten werden. Ein Paket besteht dabei aus mindestens einem Modul, kann aber beliebig viele Module beliebigen Typs enthalten.
 
@@ -14,7 +10,6 @@ Pakete für papaya CMS müssen in ein Verzeichnis unterhalb von `./papaya-lib/mo
     <nowiki>./papaya-lib/modules/external/my_module</nowiki>
 
 Paketverzeichnis anlegen
-------------------------
 
 Um ein Paketverzeichnis anzulegen, gehen Sie wie folgt vor:
 
@@ -37,7 +32,6 @@ Nachdem Sie die Verzeichnisse angelegt haben, sollte Ihr Paketverzeichnis folgen
 Die Unterverzeichnisse und Metadateien des Pakets werden in folgender Tabelle ausführlich beschrieben.
 
 |Paketinhalt|Funktion|
-|-----------|--------|
 |./modules.xml|Diese XML-Datei enthält alle wesentlichen Informationen zu jedem Modul des Pakets. Dazu gehört der Name der Quellcodedatei, der Name der PHP-Klasse, die GUID des Moduls sowie der Modultyp.|
 |./DATA/|Dieses optionale Verzeichnis enthält für jede Datenbanktabelle, die das Modul benutzt, eine separate XML-Datei. In dieser XML-Datei wird die Struktur der jeweiligen Datenbanktabelle beschrieben.|
 |./pics/|Dieses optionale Unterverzeichnis enthält Icons für Backend-Anwendungen von papaya CMS. Dazu gehört beispielsweise das Icon für das Admin-Modul sowie Icons, die für spezielle Funktionen im Bearbeitungsmenü der Anwendung benutzt werden können. Das `pics` -Unterverzeichnis enthält für die drei Standard-Icongrößen in papaya CMS jeweils Unterverzeichnisse ( `16x16`, `22x22`, `48x48`.md).|

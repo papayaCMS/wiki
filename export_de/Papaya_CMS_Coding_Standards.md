@@ -1,10 +1,5 @@
----
-title: Papaya CMS Coding Standards
-permalink: /Papaya_CMS_Coding_Standards/
----
 
 Commit Messages
----------------
 
 All messages should wrap at 79 characters per line. This means, if you are writing multiple lines after a message starting with a "- " each following line should be indented by exactly two spaces. Including descriptive text in your commit messages is generally important to offer a good overview on the commit when the issue tracker is not available (commit mails, history).
 
@@ -198,7 +193,6 @@ If your commit does not match any of the above rules you should only include a c
     TextLine      ::= [\x20-\x7E]+ "\n"
 
 Encoding
---------
 
 Use only ASCII chars in your PHP source documents. If you need to write chars in other encodings use escaping (in PHP strings/constants) or translitaration (in comments or names).
 
@@ -212,14 +206,12 @@ define(
 The language of the PHP source documents is English, do not use other languages for names or comments.
 
 Indent / Line Length
---------------------
 
 Use an indent of 2 spaces, with no tabs. It is recommended that you break lines at approximately 100 characters. There is no standard rule for the best way to break a line, use your judgment and, when in doubt, ASK.
 
 If your editor can be configured to remove spaces from the end of a line when you save a file, please do so. This prevents unnecessary differences in file versions.
 
 Control Structures
-------------------
 
 These include `if`, `for`, `while`, `switch`, etc. Here is an example `if` statement, since it is the most complicated of them:
 
@@ -266,7 +258,6 @@ default:
 ~~~~
 
 Function Calls
---------------
 
 Functions should be called with no spaces between the function name, the opening parenthesis, and the first parameter; spaces between commas and each parameter, and no space between the last parameter, the closing parenthesis, and the semicolon. Here's an example:
 
@@ -311,7 +302,6 @@ $nestedFunctionsBreak = fooBar(
 ~~~~
 
 Function Definitions
---------------------
 
 Function definitions are formatted like control stuctures:
 
@@ -329,7 +319,6 @@ function fooFunction($arg1, $arg2 = '') {
 Arguments with default values go at the end of the argument list. Always attempt to return a meaningful value from a function if one is appropriate.
 
 Comments
---------
 
 Complete inline documentation (in English) comment blocks (docblocks, see [phpdocumentor](http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html)) must be provided.
 
@@ -342,7 +331,6 @@ Non-documentation comments are strongly encouraged. A general rule of thumb is t
 C style comments (/\* \*/) and standard C++ comments (//) are both fine. Use of Perl/shell style comments (\#) is discouraged.
 
 Including Code
---------------
 
 Anywhere you are unconditionally including a class file, use require_once. Anywhere you are conditionally including a class file (for example, factory methods), use include_once. Either of these will ensure that class files are included only once. They share the same file list, so you don't need to worry about mixing them - a file included with require_once will not be included again by include_once.
 
@@ -358,12 +346,10 @@ include(dirname(__FILE__).'/foobar.php');
 ~~~~
 
 PHP Code Tags
--------------
 
 **Always** use <?php ?> to delimit PHP code, not the <? ?> shorthand and not the \<% %\> ASP style.
 
 Naming Conventions
-------------------
 
 Only use English and ASCII letters (no digits or special chars please). Avoid using abbreviations where possible.
 
@@ -458,7 +444,6 @@ Separate words of elements (tag names and attribute names) by a dash '-'. Except
 If you have a variable returned at the end of a function/method, name this variable `$result`.
 
 Default Class Template
-----------------------
 
 Please use the following default class template. A constructor is only necessary if the class is not derived or something has to be initialized at construction of the object.
 
@@ -525,7 +510,6 @@ class {%CLASSNAME%} [extends {%PARENTCLASS%}] {
 ~~~~
 
 Strings
--------
 
 Enclose strings using ' except the string contains many ' - as in SQL - or char codes (\\n , \\t, ...)
 
@@ -534,7 +518,6 @@ Enclose strings using ' except the string contains many ' - as in SQL - or char 
 Enclose regular expressions with brackets: '(EXPR)'.
 
 SQL
----
 
 Enclose SQL-Strings in double quotes ("). The single quote (') is used for strings inside SQL. Write reserved words and SQL functions uppercase. Insert spaces to align the first word of each line. Never use an asterisk (\*) to fetch all fields, state each field explicitely.
 
@@ -574,7 +557,6 @@ If you have to build your own UPDATE or INSERT queries and cannot use databaseIn
 If a query uses more than one table or database, use aliases. All field and table names must be prefixed by the correct alias.
 
 CSS
----
 
 CSS class names should be named using the "studly caps" style (also referred to as "bumpy case" or "camel caps"). The initial letter of the name (after the prefix) is lowercase, and each letter that starts a new "word" is capitalized. The class names should be semantic and without any "layout information".
 
@@ -597,7 +579,6 @@ contentSubTitle {
 Sizes should be in em and px. Do not use pt, except in print stylesheets.
 
 XSLT
-----
 
 Named templates are preferred, avoid match templates if possible.
 

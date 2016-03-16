@@ -1,7 +1,3 @@
----
-title: Tabellen in modules.xml referenzieren
-permalink: /Tabellen_in_modules.xml_referenzieren/
----
 
 Wenn Ihr Paket eigene Datenbanktabellen benutzt, müssen Sie für jede Tabelle eine XML-Datei mit einer Strukturbeschreibung anlegen und im Unterverzeichnis DATA in Ihrem Paket speichern. Diese XML-Strukturdateien müssen Sie in die `modules.xml` eintragen, damit die Modulverwaltung die Tabellendaten nutzen kann. Wenn das Paket auf eine andere papaya-Installation installiert wird, kann papaya CMS anhand der Tabellenstrukturbeschreibungen die notwendigen Tabellen für das Paket erzeugen.
 

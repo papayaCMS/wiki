@@ -1,7 +1,3 @@
----
-title: Theme erstellen
-permalink: /Theme_erstellen/
----
 
 Die in papaya CMS enthaltene Webseitenvorlage kann sehr weitgehend über die CSS-Angaben angepasst werden. Sowohl die Position der einzelnen div-Elemente als auch die Größe wird durch die entsprechenden CSS-Formate bestimmt.
 
@@ -16,7 +12,6 @@ Um ein eigenes Theme zu erstellen, gehen Sie wie folgt vor:
 5.  Erzeugen Sie für jedes Seitenmodul eine separate CSS-Datei, die durch das passende XSLT-Seitentemplate eingebunden wird. Näheres zum Einbinden der CSS-Dateien erfahren Sie in [XSLT-Haupttemplate erstellen](/XSLT-Haupttemplate_erstellen.md).
 
 Organisation des Demo-Themes
-----------------------------
 
 Das Temo-Theme besteht aus mehreren CSS-Dateien und Layoutgrafiken, die im Template referenziert werden. Die wichtigsten CSS-Dateien sind in der folgenden Auflistung beschrieben:
 
@@ -46,7 +41,6 @@ Darüber hinaus enthält das Theme noch viele CSS-Dateien, die das Namenspräfix
 Layoutgrafiken, die durch die CSS-Dateien eingebunden werden, sind im Unterverzeichnis `pics/` enthalten.
 
 Zentrale Formate
-----------------
 
 Anhand der zentralen CSS-Datei aus dem Demo-Theme, `main.css`, soll aufgezeigt werden, wie die einzelnen `<div>` -Elemente des HTML-Baumes im Demotemplate formatiert werden. Es werden nur die Formatangaben für die Elemente dargestellt, welche die zentralen Bereiche wie Titelleiste, Navigationsleiste, Content-Bereich, rechte Spalte und Fußleiste formatieren:
 
@@ -54,7 +48,6 @@ Anhand der zentralen CSS-Datei aus dem Demo-Theme, `main.css`, soll aufgezeigt w
 
 ~~~~ {.xml}
 /* Page basics
------------------------------------------------ */
 html {
   text-align: center;
   font: .625em/1.5 Verdana, Arial, Helvetica, sans-serif;
@@ -76,14 +69,12 @@ Grundlegende Eigenschaften wie die Standard-Absatzausrichtung sowie die Schriftf
 Über den Selektor `body` werden dem `<body>` -Element sowohl Formatangaben als auch eine Hintergrundgrafik zugewiesen. Formate wie die Angabe der Hintergrundfarbe werden an alle in `<body>` enthaltenen Elemente vererbt. Über CSS wird diesem Element auch eine Hintergrundgrafik zugewiesen.
 
 Titelleiste (\#header) und Fußleiste (\#footer)
------------------------------------------------
 
 **CSS-Definition der Titelleiste**
 
 ~~~~ {.xml}
 ...
 /* Header
------------------------------------------------ */
 #header .headerBackground {
   background: #FFF url(pics/header_bg.gif) repeat-y top right;
   margin: 0 8px;
@@ -121,7 +112,6 @@ Der Header enthält zudem Links, mit denen die vorhandenen Content-Sprachen umge
 ~~~~ {.xml}
 ...
 /* Footer
------------------------------------------------ */
 #footer {
   clear: both;
   font-size: 90%;
@@ -141,7 +131,6 @@ Auf ähnliche Weise wird das `<div>` -Element formatiert, dass die CSS-Klasse `#
       .footerContent` erhält der Content-Bereich lediglich eine margin-Definition. Das im Footer enthaltene copyright-Element wird über den ID-Selektor `#footer #copyright` noch gesondert formatiert, indem der Rahmen ( `border`.md) sowie der Innenabstand ( `padding`.md) auf "0" gesetzt werden.
 
 Footer-Navigation für die Umschaltung des Ausgabeformats
---------------------------------------------------------
 
 Der Footer enhält zudem noch einige Links, über die Nutzer die aktuelle Seite in einem anderen Ausgabeformat wie PDF, RSS oder Print öffnen können. Dabei werden diese Links nur dann ausgegeben, wenn die aktuelle Seite auch tatsächlich über diese alternativen Ausgaben verfügt. Die Formatangaben für diese Links sind ebenfalls in der `main.css` enthalten:
 
@@ -150,7 +139,6 @@ Der Footer enhält zudem noch einige Links, über die Nutzer die aktuelle Seite 
 ~~~~ {.css}
 ...
 /* Footer Navigation
------------------------------------------------- */
 #footerNavigation {
   float: right;
 }
@@ -185,7 +173,6 @@ Der Footer enhält zudem noch einige Links, über die Nutzer die aktuelle Seite 
 Da die Footer-Links im Default-Template als Listenelemente ausgegeben werden, enthalten die CSS-Definitionen entsprechende Formatangaben für `<ul>` - und `<li>` -Elemente. Diese Elemente, die standardmäßig als Blockelemente formatiert werden, erhalten das `display` -Attribut `inline`. Damit werden diese Elemente inzeilig dargestellt.
 
 CSS-Definitionen für den Content-Bereich
-----------------------------------------
 
 Das Standard-Template in papaya CMS kann dynamisch auf ein einspaltiges, zweispaltiges oder dreispaltiges Layout umgeschaltet werden. Die Linke Spalte wird dabei für die Navigation genutzt, die mittlere Spalte für den Seiteninhalt und die rechte Spalte für Kontextinformationen.
 
@@ -196,7 +183,6 @@ Der Inhalt für die linke und die rechte Spalte wird durch Boxen geliefert. Wenn
 ~~~~ {.css}
 ...
 /* Page
------------------------------------------------ */
 #page .threeColumnLayout, #page .twoColumnLayoutLeft {
   background: url(pics/bg_content.gif) repeat-y 20.95% 0;
   padding-right: 10px;
@@ -246,7 +232,6 @@ Für den Content-Bereich der Seite werden entsprechende Hintergrundbilder eingeb
 Die HTML-Elemente innerhalb der einzelnen Spalten werden durch zusätzliche CSS-Definitionen weiter spezifiziert.
 
 CSS-Definitionen für die linke Spalte
--------------------------------------
 
 Die linke Spalte mit der ID `#pageNavigation` enthält zusätzliche CSS-Definitionen für zentrale `<div>` -Elemente, die die Boxen sowie die Boxentitel umfassen:
 
@@ -255,7 +240,6 @@ Die linke Spalte mit der ID `#pageNavigation` enthält zusätzliche CSS-Definiti
 ~~~~ {.css}
 ...
 /* Page Navigation Column
------------------------------------------------ */
 #page #pageNavigation {
   float: left;
   width: 21.456%;
@@ -272,7 +256,6 @@ Die linke Spalte mit der ID `#pageNavigation` enthält zusätzliche CSS-Definiti
 ~~~~
 
 CSS-Definitionen für die rechte Spalte
---------------------------------------
 
 Die rechte Spalte mit der ID `#pageAdditional` enthält ebenso zusätzliche CSS-Definitionen für zentrale `<div>` -Elemente, die die Boxen sowie die jeweiligen Boxentitel umfassen:
 
@@ -281,7 +264,6 @@ Die rechte Spalte mit der ID `#pageAdditional` enthält ebenso zusätzliche CSS-
 ~~~~ {.css}
 ...
 /* Page Additional Content Column
------------------------------------------------ */
 #page #pageAdditional {
   float: right;
   width: 21.456%;
@@ -300,7 +282,6 @@ Die rechte Spalte mit der ID `#pageAdditional` enthält ebenso zusätzliche CSS-
 ~~~~
 
 CSS-Definitionen für den zentralen Seiteninhalt (mittlere Spalte)
------------------------------------------------------------------
 
 Für die zentrale Spalte im Content-Bereich werden einige wenige CSS-Angaben gemacht:
 
@@ -309,7 +290,6 @@ Für die zentrale Spalte im Content-Bereich werden einige wenige CSS-Angaben gem
 ~~~~ {.xml}
 ...
 /* Page Content
------------------------------------------------ */
 #content {
   margin-bottom: 1em;
 }
@@ -336,7 +316,6 @@ Zudem werden noch zusätzliche Abstände für geordnete und ungeordnete Listen g
 Die restlichen CSS-Definitionen in der `main.css` dienen dazu, Abstände sowie `float` -Eigenschaften von Elementen innerhalb von `#content` zu bestimmen.
 
 Theme des Demotemplates an eigene Wünsche anpassen
---------------------------------------------------
 
 Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe wie folgt vorgehen:
 

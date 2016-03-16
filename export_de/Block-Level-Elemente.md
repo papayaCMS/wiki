@@ -1,7 +1,3 @@
----
-title: Block-Level-Elemente
-permalink: /Block-Level-Elemente/
----
 
 Zu den Block-Level-Elementen gehören alle Tags, die einen eigenen Absatz bilden. Dazu zählen Tabellen, Bilder, Absätze und Überschriften. Folgende Block-Level-Elemente werden unterstützt:
 
@@ -19,7 +15,6 @@ Alle oben aufgeführten Elemente können das `align` -Attribut enthalten, um die
 -Element== Für das Element `<ul>` können Sie auswählen, welches Zeichen als Bullet-Point benutzt werden soll. Eine entsprechende Auswahl erfolgt über das Attribut `bullet-chars`. Als Wert geben Sie eine Unicode-Entity im Hexadezimalformat an. Sie können auch ein Zeichen aus einer Symbolschrift benutzen.
 
 <img>-Element
--------------
 
 Das `<img>` -Element muss das `src` -Attribut enthalten, um das Bild einzubinden. `<img>` -Elemente bilden zudem eigene Absätze.
 

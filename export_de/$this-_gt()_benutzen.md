@@ -1,7 +1,3 @@
----
-title: $this- gt() benutzen
-permalink: /$this-_gt()_benutzen/
----
 
 Wenn Sie eine einfache Phrase für die Benutzeroberfläche im Backend übersetzen möchten, können Sie die Methode `$this->_gt()` benutzen. „gt“ steht für „get text“ und ist ein einfacher Phrasenübersetzer. Das folgende Listing stellt die Signatur der `_gt()` -Methode vor:
 

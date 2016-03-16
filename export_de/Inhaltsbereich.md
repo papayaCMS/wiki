@@ -1,7 +1,3 @@
----
-title: Inhaltsbereich
-permalink: /Inhaltsbereich/
----
 
 Der Inhaltsbereich besteht aus den Elementen `<cover>`, `<content>`, `<footer>` und `<final>`. Diese Elemente haben folgende Funktion:
 

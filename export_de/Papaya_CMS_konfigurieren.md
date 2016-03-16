@@ -1,14 +1,9 @@
----
-title: Papaya CMS konfigurieren
-permalink: /Papaya_CMS_konfigurieren/
----
 
 Nachdem Sie die Programmdateien auf den Server kopiert haben, müssen Sie grundlegende Einstellungen in der Datei `conf.inc.php` konfigurieren. Zur Grundkonfiguration gehört bspw. die Datenbankverbindung. Sie finden die `conf.inc.php` im Basisverzeichnis von DocumentRoot. Falls Sie papaya CMS in ein Unterverzeichnis von DocumentRoot installiert haben, finden Sie die `conf.inc.php` im entsprechenden Unterverzeichnis.
 
 In der folgenden Tabelle sind die Konfigurationsoptionen dargestellt, die Sie in der `conf.inc.php` einstellen können:
 
 |Konstante|Bedeutung|
-|---------|---------|
 |PAPAYA_INCLUDE_PATH|Pfad zum Verzeichnis `papaya-lib/`.|
 |PAPAYA_DB_URI|Benutzername, Passwort, Host, Datenbankname.|
 |PAPAYA_DB_URI_WRITE|Bei MySQL-Multiclustering: Benutzername, Passwort, Host und Datenbankname des Masterservers. Im Standardfall: NULL.|

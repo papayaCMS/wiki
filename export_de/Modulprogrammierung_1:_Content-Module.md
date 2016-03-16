@@ -1,14 +1,9 @@
----
-title: Modulprogrammierung 1: Content-Module
-permalink: /Modulprogrammierung_1:_Content-Module/
----
 
 -   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS.md) schreibt.
 -   **Zielgruppe**: PHP-Entwickler
 -   **Schwierigkeitsgrad**: Fortgeschrittene
 
 Loslegen
---------
 
 Bevor Sie mit dem Schreiben von Modulen anfangen können, müssen Sie papaya CMS korrekt installieren und vorkonfigurieren, was detailliert in der [Dokumentation](http://www.papaya-cms.com/doku) beschrieben wird.
 
@@ -133,7 +128,6 @@ echo md5(rand());
 Fügen Sie nun Ihren neuen Hashwert zwischen den Anführungszeichen des Attributs *guid* ein und speichern Sie die Datei.
 
 Das Modul schreiben
--------------------
 
 Beii den empfohlenen Verzeichnis- und Dateinamensstrukturen für papaya-Module besteht ein Unterschied zwischen älteren, PHP-4-kompatiblen Entwicklungen und neuen Nur-PHP-5-Paketen. Das liegt daran, dass für neue Module *Unit Tests* verwendet werden sollten. Wenn Sie noch nie etwas von Unit Tests im Allgemeinen und PHPUnit (dem Standard-Test-Framework für PHP) gehört haben: keine Sorge; alles Nötige wird im Lauf des Tutorials erläutert. Eine der besten Ressourcen, um mit Unit Tests anzufangen, ist der Artikel [Test Infected: Programmers Love Writing Tests](http://junit.sourceforge.net/doc/testinfected/testing.htm) von *Erich Gamma* und *Kent Beck*. Detaillierte Informationen über PHPUnit erhalten Sie dagegen auf der offiziellen [PHPUnit-Site](http://www.phpunit.de/).
 
@@ -279,7 +273,6 @@ Da der Test scheitert, sieht die Ausgabe so aus:
 `There was 1 failure:`
 `1) HelloPageTest::testGetParsedData`
 `Failed asserting that two strings are equal.`
-`--- Expected`
 `+++ Actual`
 `@@ @@`
 `-`

@@ -1,7 +1,3 @@
----
-title: Modulunterstützung des XSLT-Templates festlegen
-permalink: /Modulunterstützung_des_XSLT-Templates_festlegen/
----
 
 Wenn Sie ein XSLT-Template für ein Box- oder ein Seitenmodul schreiben, ist das Template in der Regel für ein bestimmtes Modul oder mehrere bestimmte Module ausgelegt. Sie können die jeweiligen Modulabhängigkeiten in ihrem Template festhalten, indem Sie am Anfang des Stylesheets einen Kommentar einfügen, der eine Liste aller unterstützten Module enthält. papaya CMS liest diese Liste ein und zeigt dem Nutzer im Backend an, wenn eine Ansicht mit einem inkompatiblen XSLT-Template verknüpft worden ist.
 

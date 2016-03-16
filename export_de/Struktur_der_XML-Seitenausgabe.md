@@ -1,7 +1,3 @@
----
-title: Struktur der XML-Seitenausgabe
-permalink: /Struktur_der_XML-Seitenausgabe/
----
 
 Die folgende Illustration stellt den grundlegenden Aufbau der XML-Seitenstruktur dar. Abgebildet sind die ersten zwei Ebenen des XML-Baumes:
 
@@ -16,12 +12,10 @@ Das Root-Element der Seite ist `<page>`. Dieses Wurzelelement enthält genau fü
 5.  `<boxes>`: Dieses Tag enthält eine Liste der Boxen, die mit dieser Seite verknüpft sind.
 
 <content>-Tag mit <topic>-Element
----------------------------------
 
 Das `<content>` -Tag enthält genau ein unmittelbares Kindelement: `<topic>`. In diesem Tag sind die seitenmodulspezifischen Inhalte in Form einer XML-Struktur enthalten. Das `<topic>` -Tag besitzt ferner eine Reihe von wichtigen Informationen in Form von Attributen:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |`no`|Die Seiten-ID|
 |`href`|Der Dokumentenname der Seite in der aktuellen Sprachversion|
 |`author`|Der Name des Benutzers, der die Seite erstellt hat.|
@@ -32,47 +26,39 @@ Das `<content>` -Tag enthält genau ein unmittelbares Kindelement: `<topic>`. In
 |`guid`|Der eindeutige Schlüssel, der dieses Modul identifiziert.|
 
 <meta>-Tag mit <metatag>-Elementen
-----------------------------------
 
 <meta> enthält einige spezielle <metatag>-Tags, die Metainformationen über die Seite enthalten. Diese Metaangaben sollten bei der HTML-Ausgabe in entsprechende Metatags im `<head>` -Bereich ausgegeben werden.
 
 <views>-Tag mit <viewmode>-Elementen
-------------------------------------
 
 Der `<views>` -Tag enthält beliebig viele `<viewmode>` -Tags, die Angaben zu den jeweiligen definierten Ausgabeformaten enthalten. So ist neben dem Standardausgabeformat HTML auch PDF denkbar. Folgende Attribute sind im `<viewmode>` -Tag enthalten:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |ext|Die Dateiendung, die mit dem Ausgabemodus korrespondiert. Für HTML lautet die Dateiendung standardmäßig „html“.|
 |href|Der Dokumentenname mit der Endung, die zum Ausgabemodus passt.|
 
 <translations>-Tag mit <translation>-Elementen
-----------------------------------------------
 
 Der `<translations>` -Tag enthält für jede vorhanden Sprachversion der Seite einen `<translation>` -Tag. Dieses Tag enthält folgende Attribute:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |lng_short|Das Sprachkürzel im Format de_DE oder en_EN.|
 |lng_title|Der Name der Sprache in der entsprechenden Landessprache, z.B. „Deutsch“, „English“, „Italiano“, „Français“.|
 |href|Der Dateiname des HTML-Dokuments, das den Inhalt in der entsprechenden Übersetzung enthält. Die deutsche Version der Seite mit der ID „2“ hat bspw. folgende Bezeichnung: `index.2.de.html`.|
 |selected|Der `<translation>` -Tag mit den Angaben zur aktuell angezeigten Sprachversion der Seite enthält dieses Attribut mit dem gleichnamigen Wert „selected“. Bei nicht angezeigten Sprachen enthält das jeweilige Tag kein `selected` -Attribut.|
 
 <boxes>-Tag mit <box>-Elementen
--------------------------------
 
 Der `<boxes>` -Tag enthält für jede mit der Seite verbundene Box ein entsprechendes `<box>` -Element. Die Position der Box im HTML-Baum der Ausgabe wird dabei durch den Wert im group-Attribut bestimmt. Das Haupttemplate filtert dabei die Boxen mit den passenden `group` -Attribut an den jeweiligen Stellen im Template aus. Falls also im Template ein bestimmter `group` -Wert nicht vorhanden ist, wird die Box mit diesem `group` -Attribut nicht in die HTML-Ausgabe eingebunden.
 
 Das `<box>` -Element enthält folgende Attribute:
 
 |Attribut|Bedeutung|
-|--------|---------|
 |group|Die Boxgruppe, zu der diese Box gehört. Der Name der Boxgruppe regelt die Position der Box im HTML-Ausgabebaum.|
 |guid|Der eindeutige Schlüssel, der dieses Modul identifiziert.|
 |module|Name des Boxmoduls, das die XML-Ausgabe liefert.|
 
 XML-Modus der Template-Engine
------------------------------
 
 Boxen werden immer separat geparst. Das von der Template-Engine intern verwendete XML-Dokument enthält anstelle der `<box>` -Elemente CDATA-Abschnitte mit der vorgeparsten HTML-Ausgabe des jeweiligen Boxmoduls.
 

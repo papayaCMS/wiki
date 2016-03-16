@@ -1,7 +1,3 @@
----
-title: Eingabemasken für Inhaltsmodule definieren
-permalink: /Eingabemasken_für_Inhaltsmodule_definieren/
----
 
 Eingabemasken für Box- und Seitenmodule werden über ein assoziatives Array definiert. Die notwendige Funktionalität dazu erben die beiden Basisklassen `base_actionbox` und `base_content` von der gemeinsamen Elternklasse `base_plugin`. Um eigene Eingabefelder zu definieren, müssen Sie das Klassenattribut `$editFields` überladen. Die Ausgabe der Eingabemaske erledigt das System anschließend von selbst.
 
@@ -25,7 +21,6 @@ Im folgenden Listing wird die Struktur des Arrays `$editFields` aufgeführt:
 Die folgende Tabelle beschreibt die einzelnen Felder:
 
 |Feld|Bedeutung|
-|----|---------|
 |Feldtitel|Beschriftung des Feldes. Die Beschriftung wird in englischer Sprache eingegeben und durch das Phrasensystem von papaya CMS übersetzt.|
 |Testfunktion|Der Plausibilitätscheck, mit dem die Nutzereingabe überprüft wird.|
 |Pflichtfeld|"TRUE", wenn dieses Feld ausgefüllt werden muss, andernfalls "FALSE".|
@@ -62,12 +57,10 @@ Jedes einzelne Feld im `$editFields` -Array besteht aus einem Schlüssel, das au
 >>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
 Feldtypen
----------
 
 In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 
 |Feldtyp|Beschreibung|Parameter|
-|-------|------------|---------|
 |captcha|Dynamisches Bild für Captcha auswählen.|ID des dynamischen Bildes.|
 |checkbox|Checkbox ausgeben|Beschriftung der Checkbox.|
 |checkgroup|Eine Gruppe von Checkboxen für die Mehrfachauswahl.|Assoziatives Array, das den Titel sowie den Parameternamen der Checkboxen enthält, die als Gruppe zusammengefasst werden.|

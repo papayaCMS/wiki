@@ -1,7 +1,3 @@
----
-title: XSLT-Templates für Boxen erstellen
-permalink: /XSLT-Templates_für_Boxen_erstellen/
----
 
 XSLT-Templates für Boxmodule unterscheiden sich von den Templates für Seitenmodule in einigen Punkten:
 

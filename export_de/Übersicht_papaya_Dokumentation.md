@@ -1,7 +1,3 @@
----
-title: Übersicht papaya Dokumentation
-permalink: /Übersicht_papaya_Dokumentation/
----
 
 **Hier eine Übersicht über die verfügbaren Dokumentationen:**
 

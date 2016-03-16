@@ -1,7 +1,3 @@
----
-title: Output-Klasse für Seiten und Boxen schreiben
-permalink: /Output-Klasse_für_Seiten_und_Boxen_schreiben/
----
 
 Wenn Seiten- und Boxmodule umfangreicher werden, kann es sein, dass Sie eigene Methoden zur Inhaltskonfiguration verwenden. Auch die Ausgabemöglichkeiten können sich vervielfältigen, so dass die Klasse sehr groß wird. Das ist aus mehreren Gründen ungünstig:
 
@@ -12,7 +8,6 @@ Wenn Seiten- und Boxmodule umfangreicher werden, kann es sein, dass Sie eigene M
 Der weitaus häufigere Fall ist der, dass die Ausgabelogik umfangreicher wird. Wenn die Ausgabelogik in eine separate Klasse ausgelagert wird, muss dieser Code beim Konfigurieren der Seite im Backend nicht mehr geladen werden. Zudem kann es sein, dass Sie mehrere Ausgabemodule erstellen wollen, die teilweise das selbe XML ausgeben. Eine zentrale Output-Klasse kann in diesem Fall Redundanzen vermeiden und die Performance verbessern.
 
 Grundaufbau der Output-Klasse
------------------------------
 
 Die Output-Klasse kann beispielsweise von der Klasse `base_stickers` abgeleitet werden. Damit erbt sie alle Lademethoden der Elternklasse und kann weitere spezielle Ladefunktionen implementieren und die Ausgabe für die Seitendarstellung aufbereiten.
 
@@ -47,7 +42,6 @@ Die Methode `output_stickers::getOutput()` liefert eine Liste aller Sticker-Eint
 Je nachdem, welche verschiedenen Ausgaben geplant sind, lassen sich verschiedene Anwendungsfälle in unterschiedliche Ausgabemethoden implementieren. Beispielsweise ließe sich eine `getRandomOutput()` -Methode implementieren, um einen Zufallssticker für die Boxenausgabe auszugeben.
 
 Einbindung der Output-Klasse in Seiten- oder Boxmodule
-------------------------------------------------------
 
 Um die Klasse eines Content-Moduls zu implementieren, instanziieren Sie die Output-Klasse und führen die `getOutputMethode()` aus:
 

@@ -1,7 +1,3 @@
----
-title: XML-Ausgabe der Module
-permalink: /XML-Ausgabe_der_Module/
----
 
 Seiten- und Boxmodule sind Schnittstellen für die Ein- und Ausgabe von Inhalten. Für die Ausgabe werden die Inhalte als XML-Dokument an den Ausgabefilter geliefert. Dieser transformiert das XML der Boxen und Seiten in das gewünschte Ausgabeformat wie HTML oder RSS.
 

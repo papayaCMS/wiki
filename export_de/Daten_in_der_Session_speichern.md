@@ -1,7 +1,3 @@
----
-title: Daten in der Session speichern
-permalink: /Daten_in_der_Session_speichern/
----
 
 papaya CMS enthält eine umfangreiche Logik, um die Session zu verwenden. Verschiedene mögliche PHP-Konfigurationen werden dabei berücksichtigt und unterschiedliche Session-Modi unterstützt.
 

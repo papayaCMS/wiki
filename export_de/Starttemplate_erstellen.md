@@ -1,7 +1,3 @@
----
-title: Starttemplate erstellen
-permalink: /Starttemplate_erstellen/
----
 
 Das Starttemplate ist das einzige Template mit dem `match` -Attribut. Das Muster im `match` -Attribut liefert dabei als Kontextknoten für das Template das Element `/page`, das die XML-Ausgabe des Seitenmoduls enthält. Nur dann, wenn das Seitenmodul vom Typ `content_sitemap` ist, wird das Basistemplate aufgerufen, in dem das Sitemap-Dokument erzeugt wird. Im folgenden Listing wird das Starttemplate dargestellt:
 

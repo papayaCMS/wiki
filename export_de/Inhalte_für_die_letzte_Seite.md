@@ -1,7 +1,3 @@
----
-title: Inhalte für die letzte Seite
-permalink: /Inhalte_für_die_letzte_Seite/
----
 
 Für die Schluss-Seite können Sie optional ein XSLT-Template schreiben, das mit der Anweisung `call-template` aufgerufen werden kann. Im unten vorgestellten Beispiel heißt dieses Template `final`:
 

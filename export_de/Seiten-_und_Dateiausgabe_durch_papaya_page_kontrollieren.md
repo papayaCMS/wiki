@@ -1,7 +1,3 @@
----
-title: Seiten- und Dateiausgabe durch papaya page kontrollieren
-permalink: /Seiten-_und_Dateiausgabe_durch_papaya_page_kontrollieren/
----
 
 Die Klasse `papaya_page` ist maßgeblich verantwortlich für die Seiten- und Dateienausgabe im Frontend. Außerdem werden in der Klasse `papaya_page` Fehlerkonstanten definiert. Anhand der Fehlernummern der entsprechenden Konstanten lässt sich leichter herausfinden, wodurch ein Problem verursacht wurde. Der Fehlercode erscheint hinter dem HTTP-Fehlercode . Im folgenden Screenshot wird die Ausgabe einer Fehlermeldung (hier die 303) dargestellt:
 
@@ -10,7 +6,6 @@ Die Klasse `papaya_page` ist maßgeblich verantwortlich für die Seiten- und Dat
 Im oben dargestellten Fall ist für den Ausgabemodus *html* kein Verzeichnis relativ zum eingestellten PAPAYA_LAYOUT_TEMPLATES angegeben. Dies wird mit dem Fehlercode 303 quittiert.
 
 Funktion execute() ausführen
-----------------------------
 
 Nachdem in der `index.php` eine Instanz der Klasse `papaya_page` erzeugt worden ist, wird die Funktion `execute()` der Instanz aufgerufen. Die Funktion `execute()` ruft als erstes `papaya_page::startTimer()` auf. Dadurch wird der Zeitpunkt festgehalten, zu dem die Seitenausgabe gestartet wird.
 
@@ -73,7 +68,6 @@ $this->requestData = base_object::parseRequestURI();
 Diese extrahierten Informationen werden in der Methode `papaya_page::initializeParams()` verarbeitet.
 
 papaya_page::initializeParams()
---------------------------------
 
 Die Instanzmethode `initializeParams()` wird aufgerufen:
 
@@ -118,7 +112,6 @@ Mit `papaya_page::checkAlias()` wird überprüft, ob es sich bei der URL um eine
 Um diesen Block besser zu verstehen, wird im folgenden Abschnitt die Funktion checkAlias() erläutert.
 
 Die Methode papaya_page::checkAlias()
---------------------------------------
 
 Die Methode `papaya_page::checkAlias()` überprüft, ob für die angegebene URL ein Alias definiert ist. Die Aliasüberprüfung findet nur statt, wenn der Redirect-Status 404 (File not found) lautet, andernfalls ist die Datei oder der Ordner physisch vorhanden und soll auch verwendet werden. Eine 404-Statusmeldung kann in diesem Zusammenhang in folgenden Fällen auftreten:
 
@@ -223,7 +216,6 @@ break;
 ~~~~
 
 Zurück zur Methode papaya_page::initializeParams()
----------------------------------------------------
 
 Im letzten Schritt wird `$_REQUEST['p_id']` mit der ermittelten ID überschrieben, die im Attribut `$this->topicId` gespeichert worden ist:
 
@@ -256,7 +248,6 @@ Im Attribut `$this->boxId` wird die ID der Box gespeichert, für die eine Seiten
 Damit ist die Methode `initializeParams()` zu Ende. Im folgenden Abschnitt wird die Methode `initPageMode()` besprochen. Diese Methode bestimmt unter anderem den Ausgabemodus der Seite.
 
 papaya_page::initPageMode()
-----------------------------
 
 In papaya_page::execute() wird im folgenden Schritt die Instanzmethode `$this->initPageMode()` aufgerufen:
 
@@ -385,7 +376,6 @@ Wurde kein passender Modus für die Ansicht gefunden, wird eine änderbare Sessi
 Damit endet die Methode `papaya_page::initPageMode()`.
 
 papaya_page::startSession()
-----------------------------
 
 Im folgenden Schritt wird in `papaya_page::execute()` die Instanzmethode `startSession()` ausgeführt:
 
@@ -467,7 +457,6 @@ Zuletzt wird noch das Surferobjekt instanziiert. Damit werden später u.a. Zugri
 Damit wird die Methode `papaya_page::startSession()` beendet.
 
 Exit-Seiten bearbeiten
-----------------------
 
 Wenn eine Exitseite per `$_GET['exit']` angegeben wurde, wird die Weiterleitung angestoßen:
 
@@ -505,7 +494,6 @@ Wenn keine Session mehr in der URL zu finden ist, wird die Ziel-URL als Exit-Sei
 Dazu wird die Session geschlossen und überprüft, ob überhaupt Statistikdaten geschrieben werden sollen. Wenn ja, wird das Statistikobjekt `base_statistic_logging` initialisiert, der Request und die Exitpage geloggt. Da anschließend das Script beendet wird, kann das normale Loggen der Statistik bei Seitenaufrufen nicht erfolgen.
 
 papaya_page::protectedRedirect(): Geschützte Weiterleitung auf externe URLs
-----------------------------------------------------------------------------
 
 Anschließend wird zur Zielseite weitergeleitet, wieder mit dem HTTP-Status 301 (Moved Permanently):
 
@@ -594,7 +582,6 @@ Die Methode `papaya_page::protectedRedirect()` beendet das Script.
 Zurück in die Methode `papaya_page::execute()`. Das Exit-Handling wird durch ein `exit` abgeschlossen. Das Script wird damit beendet, es gibt nichts mehr zu tun. Der Browser leitet den Benutzer auf die Zielseite weiter.
 
 papaya_page::execute(): Redirect-Request verarbeiten
------------------------------------------------------
 
 Wenn der Parameter `$_REQUEST['redirect']` gesetzt ist, wird die absolute Ziel-URL ermittelt und erneut ein abgesicherter Redirect durchgeführt (Details s.o.):
 
@@ -668,7 +655,6 @@ Diese Funktion überprüft folgende Eigenschaften:
 Die Methode `papaya_page::execute()` ist damit beendet. Der nächste und letzte Aufruf in der `index.php` ist die Methode `papaya_page::get()`.
 
 Die Methode papaya_page::get()
--------------------------------
 
 Anhand des in `papaya_page::initPageMode()` ermittelten Modus wird in der Methode `papaya_page::get()` entschieden, was für eine Art Ausgabe erfolgt. Im Switch-Case-Block werden anschließend entsprechede Methoden aufgerufen:
 
@@ -714,7 +700,6 @@ function get() {
 Die folgende Tabelle schlüsselt die Bedeutung der jeweiligen Modi im Switch-Case-Block auf:
 
 |Modus|Erklärung|
-|-----|---------|
 |urls|Ausgabe aller veröffentlichten Seiten als simple Linkliste für Suchmaschinen|
 |status|Verbindungsstatus der Datenbank, die die Information enthält, ob die Verbindung verfügbar ist oder nicht.|
 |image|Ausgabe eines dynamisch generierten Bildes, z.B. für Captchas.|
@@ -731,7 +716,6 @@ Damit ist auch das Script `index.php` beendet.
 Im folgenden Abschnitt wird die Methode `papaya_page::sendHeader()` ausführlich beschrieben. Diese Methode wird in der Klasse `papaya_page` sehr oft benutzt, um HTTP-Header auszugeben. Sie ist also von sehr zentraler Bedeutung.
 
 Die Methode papaya_page::sendHeader()
---------------------------------------
 
 Die Methode `papaya_page::sendHeader()` ist ein Wrapper für die PHP-Funktion `header()`. Wurden bereits Header ausgegeben (passiert, wenn das erste Mal Text ausgegeben wird), wird beim ersten folgenden Aufruf von `sendHeader()` ein Eintrag in das Protokoll geschrieben. Auf einem Produktivsystem sollte niemals der Fall eintreten, dass Header gesendet werden, nachdem die Ausgabe erfolgt ist. Meistens passiert dies auf dem Entwicklungssystem, wenn eine Fehlermeldung ausgegeben wird. Zum Thema Konfiguration der Fehlerausgabe und der Debugeinstellungen bitte im Handbuch für Administratoren nachschlagen.
 

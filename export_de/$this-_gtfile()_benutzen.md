@@ -1,7 +1,3 @@
----
-title: $this- gtfile() benutzen
-permalink: /$this-_gtfile()_benutzen/
----
 
 Wenn Sie einen längeren Text im Backend sprachabhängig ausgeben möchten, können Sie die Methode `$this->_gtfile()` benutzen. Diese Methode liest Textdateien ein, die im sprachspezifischen Verzeichnis innerhalb des papaya-Verzeichnisses gespeichert sind.
 

@@ -1,7 +1,3 @@
----
-title: Kategorie:Papaya CMS installieren
-permalink: Kategorie:Papaya_CMS_installieren/
----
 
 In dieser Kurzanleitung erfahren Sie, wie Sie papaya CMS auf einem Server mit Apache und MySQL installieren:
 

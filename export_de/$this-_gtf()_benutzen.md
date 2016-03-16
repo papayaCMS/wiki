@@ -1,7 +1,3 @@
----
-title: $this- gtf() benutzen
-permalink: /$this-_gtf()_benutzen/
----
 
 Wenn Sie einen Text mit Platzhaltern im Backend sprachabhängig ausgeben möchten, können Sie die Methode `$this->_gtf()` benutzen. „gtf“ steht für „get text formatted“ und funktioniert im Prinzip wie `_gt()`. Der Unterschied besteht darin, dass die Methode so ähnlich wie `sprintf()` funktioniert. Das folgende Listing stellt die Signatur der Methode `base_object::_gtf()` vor:
 
