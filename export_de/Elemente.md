@@ -69,8 +69,6 @@ Dieses Template generiert einen größeren Informationsblock.
 
 ![File:Sheet-full-example.png](images/Sheet-full-example.png)
 
-[miniatur|zentriert|1000px|Teletype-Beispiel für (/images/sheet-teletype-example.pgn
-
 thumbnails.xsl
 
 Dieses Template generiert eine Thumbnail-Liste. Das wird für den Datei-Browser verwendet.

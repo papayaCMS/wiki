@@ -1,7 +1,7 @@
 
 Die Klasse `papaya_page` ist maßgeblich verantwortlich für die Seiten- und Dateienausgabe im Frontend. Außerdem werden in der Klasse `papaya_page` Fehlerkonstanten definiert. Anhand der Fehlernummern der entsprechenden Konstanten lässt sich leichter herausfinden, wodurch ein Problem verursacht wurde. Der Fehlercode erscheint hinter dem HTTP-Fehlercode . Im folgenden Screenshot wird die Ausgabe einer Fehlermeldung (hier die 303) dargestellt:
 
-[miniatur|zentriert|1000px|Beispiel für eine Fehlerausgabe mit papaya-spezifischem Fehlercode](/images/File:Fehlermeldungen-500-303.png)
+![File:Beispiel für eine Fehlerausgabe mit papaya-spezifischem Fehlercode](images/Fehlermeldungen-500-303.png)
 
 Im oben dargestellten Fall ist für den Ausgabemodus *html* kein Verzeichnis relativ zum eingestellten PAPAYA_LAYOUT_TEMPLATES angegeben. Dies wird mit dem Fehlercode 303 quittiert.
 

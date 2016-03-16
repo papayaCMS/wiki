@@ -11,11 +11,7 @@ Neues Template-Theme-Set aktivieren
 
 Um die neue Webseitenvorlage zu verwenden oder auch nur, um sie zu testen, müssen Sie die Layouteinstellungen in der Systemkonfiguration Ihrer papaya-Installation anpassen. Dazu wählen Sie die entsprechenden Verzeichnisse in der Optionengruppe „Layout“ aus:
 
-[miniatur|zentriert|1000px|Layouteinstellungen ändern](/images/File:XMLpapayaLayoutAnpassen.png)
-=======
-[
-![File:XMLpapayaLayoutAnpassen.png](images/XMLpapayaLayoutAnpassen.png)
->>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
+![File: Layouteinstellungen ändern](images/XMLpapayaLayoutAnpassen.png)
 
 Näheres zur Optionengruppe „Layout“ aus der Systemkonfiguration erfahren Sie in "papaya CMS: Handbuch für Administratoren", Kapitel 12.2.5.
 

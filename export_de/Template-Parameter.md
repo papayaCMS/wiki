@@ -40,9 +40,6 @@ Die folgenden Parameter sind nur für die Frontend-Ausgabe von Interesse, hier s
 |PAGE_THEME_PATH|FRONTEND: relativer Pfad zum aktuellen Theme, z.B. /my-cms/papaya-themes/my-theme/ oder CDN (Content Delivery Network) Theme-URL|
 |PAGE_THEME_PATH_LOCAL|FRONTEND: relativer Pfad zum aktuellen Theme, z.B. /papaya-themes/default-theme/|
 
-[miniatur|zentriert|1000px|PAGE_ICON und PAGE_TITLE](/images/File:admin-template-titel-icon.png)
-=======
 ![File:Admin-template-titel-icon.png](images/Admin-template-titel-icon.png)
->>>>>>> a2efb5b3261d70ebc0ed214a6131387e209c4f80
 
 [Kategorie:Übersicht über die verfügbaren Komponenten](export_de/Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)
