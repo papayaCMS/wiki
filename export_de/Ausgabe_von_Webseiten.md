@@ -5,7 +5,6 @@ Im zentralen Content-Bereich der Seite wird der eigentliche Seiteninhalt ausgege
 
 Für jedes Seitenmodul kann also ein eigenes XSLT-Template in einer separaten XSLT-Datei erstellt werden. Diese XSLT-Datei importiert das zentrale XSLT-Dokument mit dem Template für das HTML-Grundgerüst und überlagert das XSLT-Template für den Content-Bereich der Seite ( `content_area`.md). Auf diese Weise muss man nicht für jedes Seitenmodul das komplette HTML-Grundgerüst nachbauen, da man sich lediglich auf den Content-Bereich konzentrieren kann.
 
-<<<<<<< HEAD
 Die folgende Illustration stellt den Ausgabeprozess von Seiten in papaya CMS dar:
 
 [miniatur|zentriert|1000px|Seitenausgabe in papaya CMS](/images/File:Ausgabekonzept.png)
@@ -26,7 +25,6 @@ Die Auswahl des Ausgabefilters erfolgt dabei nach der Dateiendung, mit der die S
 
 Die folgende Illustration stellt Ihnen die Frontend- und Backendschnittstelle für Module in papaya CMS vor:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Frontend- und Backend-Schnittstelle in papaya CMS](/images/File:papayaSystem.png)
 
 =======

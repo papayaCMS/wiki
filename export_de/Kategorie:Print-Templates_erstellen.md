@@ -3,7 +3,6 @@ In diesem Kapitel erfahren Sie, wie Sie Print-Templates erstellen können. Diese
 
 Die folgende Abbildung stellt eine beispielhafte Druckansicht vor:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Druckfreundliche Ansicht einer papaya-Seite](/images/File:DruckfreundlicheAusgabe.png)
 =======
 ![File:DruckfreundlichAusgabe.png](images/DruckfreundlicheAusgabe.png)

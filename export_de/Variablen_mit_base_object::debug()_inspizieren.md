@@ -14,7 +14,6 @@ $this->debug($this, $var, 'blah');
 
 Der folgende Screenshot stellt die Ausgabe der Debugaufrufe aus dem obigen Listing dar:
 
-<<<<<<< HEAD
 [!Beispiel einer Ausgabe mit base_object::debug()](images/Base_object_debug_beispielausgabe.png)
 =======
 ![File:Base_object_debug_beispielausgabe.png](images/Base_object_debug_beispielausgabe.png)

@@ -1,7 +1,6 @@
 
 Die Daten für die Seitenausgabe werden in papaya CMS durch Module aus der Datenbank ausgelesen und als XML ausgegeben. Ein Seitenmodul fungiert in diesem Fall als Schnittstelle für die Ausgabe. Die folgende Illustration stellt diesen sehr vereinfachten Vorgang vor:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Ein papaya-Modul gibt XML aus](/images/File:php-modul-zu-xml-ausgabe.png)
 =======
 ![File:Php-modul-zu-xml-ausgabe.png](images/Php-modul-zu-xml-ausgabe.png)

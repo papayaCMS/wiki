@@ -3,7 +3,6 @@ Nahezu alle Abfragen sind dynamisch und verwenden Platzhalter um kontextabhängi
 
 Im folgenden Screenshot wird die Ausgabe einer Debugmeldung mit databaseDebugNextQuery() dargestellt:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Beispiel einer Ausgabe mit base_db::databaseDebugNextQuery()](/images/File:base_db_databasedebugnextquery.png)
 =======
 ![File:Base_db_databasedebugnextquery.png](images/Base_db_databasedebugnextquery.png)

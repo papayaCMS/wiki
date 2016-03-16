@@ -3,7 +3,6 @@ In der Methode `papaya_page::createTopic()` wird die Instanz einer Topic-Klasse 
 
 Die Hierarchie der Topic-Klassen ist im folgenden UML-Diagramm dargestellt:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Vererbungshierarchie von papaya_topic und papaya_topic_public](/images/File:KlassenBeimAufrufUMLDiagramm.png)
 =======
 ![File:KlassenBeimAufrufUMLDiagramm.png](images/KlassenBeimAufrufUMLDiagramm.png)
@@ -27,7 +26,6 @@ Ausgabe des Seiteninhalts im Detail
 
 Das folgende Sequenzdiagramm stellt vor, wie das Topic-Objekt instanziiert wird. Ferner beschreibt das Diagramm im Detail, welche Objekte bei der Ausgabe des Seiteninhalts beteiligt sind und wie sie miteinander interagieren:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Sequenzdiagramm](/images/File:UMLDiagramPapayaTopic.png)
 =======
 ![File:UMLDiagramPapayaTopic.png](/images/UMLDiagramPapayaTopic.png)

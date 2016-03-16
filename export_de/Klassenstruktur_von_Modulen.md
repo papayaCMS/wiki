@@ -1,7 +1,6 @@
 
 Die Klassenhierarchie von Modulen sieht wie folgt aus:
 
-<<<<<<< HEAD
 [miniatur|zentriert|1000px|Klassenhierarchie von Modulen](/images/File:PapayaPluginsBaseSystem.png)
 =======
 ![File:PapayaPluginsBaseSystem.png](images/PapayaPluginsBaseSystem.png)
