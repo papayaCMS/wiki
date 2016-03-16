@@ -1,4 +1,4 @@
-#	PAPAYA-CMS
+#	PAPAYA-CMS Wiki
 
 ##	Wiki Struktur
 
