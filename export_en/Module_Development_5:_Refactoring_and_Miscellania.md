@@ -1,4 +1,3 @@
-
 In this final part of the tutorial series, we will do some refactoring to get rid of double implementations. After everything is in its place, we will add test suite files to control execution of all unit tests and to measure code coverage.
 
 Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
@@ -8,7 +7,7 @@ This tutorial makes use of unit tests which is a highly recommended way to build
 Overview of files and directories
 
 After finishing this tutorial, you will have created the following files and subdirectories in *papaya-lib/modules/special/myproject/tutorial* (new files from the current part are bold):
-
+```
 `+ [DATA]`
 `|  |`
 `|  + table_tutorial_planets.xml`
@@ -50,9 +49,10 @@ After finishing this tutorial, you will have created the following files and sub
 `+ modules.xml`
 `papaya-data/templates/default-xhtml/html/box_planet_rating.xsl`
 ` `***`Note`**`:` `Names` `in` `square` `brackets` `indicate` `directories`*
-
+```
 In the *testing/tests-unittests/papaya-lib/modules/special/myproject/tutorial* directory, you will have created the following structure (new files from the current part are bold):
 
+```
 `+ `**`AllTests.php`**
 `|`
 `+ [Hello]`
@@ -99,3 +99,4 @@ In the *testing/tests-unittests/papaya-lib/modules/special/myproject/tutorial* d
 `   |`
 `   + BaseTest.php`
 ` `***`Note`**`:` `Names` `in` `square` `brackets` `indicate` `directories`*
+```
