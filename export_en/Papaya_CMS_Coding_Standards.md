@@ -1,5 +1,4 @@
 
-<div id="navigation">
 1.  <a href="#commitmessages">Commit Messages</a>
 2.  <a href="#encoding">Encoding</a>
 3.  <a href="#indent">Indent / Line Length</a>
@@ -16,13 +15,10 @@
 14. <a href="#css">CSS</a>
 15. <a href="#xslt">XSLT</a>
 
-`       This document inherits from the `<a href="http://pear.php.net/manual/en/standards.php">`Pear Coding Standard`</a>`. Parts are copied and modified.`
-`     `
+This document inherits from the [Pear Coding Standard](http://pear.php.net/manual/en/standards.php)
+copied and modified.
 
-</div>
-<div id="content">
-<h2>
-Commit Messages<a name="commitmessages"></a>
+Commit Messages
 
 </h2>
 `       All messages should wrap at 79 characters per line. This means, if you are`
