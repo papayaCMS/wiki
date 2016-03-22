@@ -1,8 +1,3 @@
-
-You can report errors in papaya CMS with our mantis bugtracker. You can find the bugtracker here:
-
-[<https://bugs.papaya-cms.com/>](https://bugs.papaya-cms.com/login_page.php)
-
 Report an error
 ===============
 

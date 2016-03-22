@@ -1,2 +1,1 @@
-
-Here are some hints on using interesting parts of the papaya CMS API. If you have never done any papaya development, you should read the [basic module development tutorial](/papaya_Module_Development_1:_Content_Modules.md) first.
+Here are some hints on using interesting parts of the papaya CMS API. If you have never done any papaya development, you should read the [basic module development tutorial](Module_Development_1:_Content_Modules.md) first.
