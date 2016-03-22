@@ -10,7 +10,7 @@ Alternativ - was auch der empfohlene Weg ist - können Sie den "**[papaya .htacc
 
 Das Tool ist unter <http://www.papaya-cms.com/htaccess-generator> verfügbar.
 
-[Category:papaya CMS installieren und konfigurieren](export_de/Category:papaya_CMS_installieren_und_konfigurieren.md) [en:Installation in a subfolder: Changing the .htaccess file](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
+[Kategorie:Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md) [en:Installation in a subfolder: Changing the .htaccess file](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
 
 papaya CMS contains an installation program that you can use via your browser. The installation program is located in the /papaya subdirectory and is called `install.php`. Enter *<http://www.your-domain.tld/papaya/install.php>* in your browser's address bar. Replace "your-domain" with your domain name and "tld" with the correct top level domain.
 
