@@ -64,7 +64,7 @@ Wenn Sie das Modul im Backend von papaya CMS starten, ruft die Modulverwaltung v
 
 Anschließend werden die Methoden `initialize()`, `execute()` und `getXML()` des Adminobjekts aufgerufen. Mit `initialize()` wird das Objekt für die Ausführung vorbereitet. Dazu werden nötige Hilfsobjekte instanziiert und Default-Parameter gesetzt. In `execute()` werden vom Anwender ausgelöste Aktionen durchgeführt. Dazu gehört beispielsweise das Auswählen, Hinzufügen, Ändern oder Löschen eines Datensatzes. Der Name der Methode `getXML()` ist missverständlich, da nicht XML an die aufrufende Instanz zurückgegeben wird. Stattdessen wird das Objekt angewiesen, Ausgabe-XML an das Layoutobjekt weiterzugeben.
 
-Registrieren Sie das Modul in der `modules.xml` als ein Modul vom Typ *admin*. Dort können Sie auch ein Icon angeben, das in der Anwendungsliste erscheint. Nähere Informationen zur Registrierung von Modulen finden Sie im Kapitel [modules.xml erstellen](/modules.xml_erstellen.md).
+Registrieren Sie das Modul in der `modules.xml` als ein Modul vom Typ *admin*. Dort können Sie auch ein Icon angeben, das in der Anwendungsliste erscheint. Nähere Informationen zur Registrierung von Modulen finden Sie im Kapitel [modules.xml erstellen](Modules.xml_erstellen.md).
 
 Die Klasse admin_stickers
 
