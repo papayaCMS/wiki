@@ -1,4 +1,3 @@
-
 Location
 
 The mail module is a system module, and is found in the system/sys_email.php file. It can be included with the following line :
@@ -39,6 +38,6 @@ will result in the output
 
 Good Morning Dr. Chandra. I am ready for my first lesson.
 
-This feature allows fairly complex templates to be built up. Simple IF conditions are also allowed, due to the [base_simpletemplate](/base_simpletemplate.md) class.
+This feature allows fairly complex templates to be built up. Simple IF conditions are also allowed, due to the [base_simpletemplate](Base_simpletemplate.md) class.
 
 [Category:papaya Core System](export_en/Category:Papaya_Core_System.md)
