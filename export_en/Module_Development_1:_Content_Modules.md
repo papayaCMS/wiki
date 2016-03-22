@@ -2,7 +2,6 @@ This tutorial describes how to write a simple module or plugin for [papaya CMS](
 
 Getting started
 
-Before you can start writing modules, you need to install papaya CMS properly, which is described [here](/papaya_CMS_installation.md).
 
 The first module we want to write is a simple page module that outputs the famous "Hello World" message. It does not need database access and only consists of a single file.
 
