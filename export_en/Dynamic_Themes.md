@@ -11,23 +11,23 @@ Value Definition
 The value definition is done inside the themes.xml inside a theme directory. Here is a new section "dynamic-values" with page, group and value definitions.
 
 Example:
-
-` `<papaya-theme>
-`   `<name>`Default Papaya Theme`</name>
-`   ...`
-`   `<dynamic-values>
-`     `<page name="boxes" title="Boxes">
-`       `<group name="borders" title="Borders">
-`         `<value name="color" title="Color" type="color" default="#FFFFFF"/>` `
-`         `<value name="size" title="Size" type="select_checkboxes">
-`           `<type-parameter>`1px`</type-parameter>
-`           `<type-parameter>`2px`</type-parameter>
-`         `</value>` `
-`       `</group>
-`     `</page>
-`   `</dynamic-values>
-` `</papaya-theme>
-` `
+```
+ <papaya-theme>
+   <name>Default Papaya Theme</name>
+   ...
+   <dynamic-values>
+     <page name="boxes" title="Boxes">
+       <group name="borders" title="Borders">
+         <value name="color" title="Color" type="color" default="#FFFFFF"/> 
+         <value name="size" title="Size" type="select_checkboxes">
+           <type-parameter>1px</type-parameter>
+           <type-parameter>2px</type-parameter>
+         </value> 
+       </group>
+     </page>
+   </dynamic-values>
+ </papaya-theme>
+```
 
 Pages can contain several groups with multiple values. Each page will be one edit dialog in the administration interface. The "name"-Attributes need to contain valid xml element names.
 
@@ -45,7 +45,7 @@ The placeholder is an comment like "/\*\$pagename.groupname.valuename\*/". The \
 
 Example:
 
-` div.box {`
-`   border-color: /*$boxes.borders.color*/ #FFFFFF;`
-`   border-size: /*$boxes.borders.size*/ 1px;`
-` }`
+ div.box {
+   border-color: /*$boxes.borders.color*/ #FFFFFF;
+   border-size: /*$boxes.borders.size*/ 1px;
+ }
