@@ -1,4 +1,3 @@
-
 The upload module has been extended to allow the use of a dynamically-generated progress bar for uploads.
 
 This feature requires the "Upload Progress" PECL extension to PHP which is available from <http://pecl.php.net/package/uploadprogress>.
@@ -7,8 +6,6 @@ Installation and Requirements
 
 The PECL extension should be downloaded and compiled as per the standard PECL package instructions. The resultant shared object should be installed into the PHP shared libraries directories. The PECL extension requires that either PHP 5.2 or a patched version of PHP 4/5 is installed. The module requires browser support for javascript xmlhttp fetch to work.
  You can try a custom version for windows (a compiled dll file is included).
-
--   <http://www.emforge.org/attach/AjaxBasedFileUploadForPHP/uploadprogress-0.3.0-emdev.zip>
 
 Testing : Success, failure and Untested
 
