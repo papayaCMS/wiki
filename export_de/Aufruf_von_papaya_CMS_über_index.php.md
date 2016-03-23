@@ -68,6 +68,3 @@ Wenn das Basissystem gefunden werden konnte und der Wartungsmodus nicht aktivier
 
 Die Revisionsdatei gibt Auskunft über den Versionsstand einer papaya-Installation. Im letzten Block wird eine Instanz von `papaya_page` erstellt. Zunächst wird die Methode `papaya_page::execute()` aufgerufen, anschließend die Methode `papaya_page::get()`. Die letzte Methode erzeugt die Ausgabe für die aufgerufene URL.
 
-Im folgenden Abschnitt wird die Konfigurationsdatei `conf.inc.php` besprochen.
-
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

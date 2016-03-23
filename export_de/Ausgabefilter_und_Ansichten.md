@@ -10,6 +10,7 @@ Eigenschaften des Ausgabefilters
 Während XSLT-Templates Transformationsregeln definieren, bestimmt der Ausgabefilter folgende Eigenschaften der Ausgabe:
 
 |Eigenschaft|Bedeutung|
+|-----------|---------|
 |Content-Type|Eigenschaft im HTTP-Header, in der der Inhaltstyp festgelegt wird. Für HTML-Webseiten sollte er auf „text/html“ eingestellt sein, bei RSS-Feeds auf „text/xml“. Für die PDF-Ausgabe lautet der Content-Type „application/x-pdf“.|
 |Encoding|Zeichensatz der Ausgabe. Sie können festlegen, welcher Zeichensatz bei der Ausgabe einer Webseite benutzt werden soll.|
 |Dateiendung|Wenn Sie einen Ausgabefilter anlegen, können Sie auch bestimmen, mit welcher Endung der Ausgabefilter assoziiert werden soll. Für HTML sollten Sie beispielsweise die Endung `.html` wählen, während für RSS-Feeds die Endung `.rss` ausgewählt werden sollte. Wenn Sie einen Ausgabefilter für PDF anlegen, geben Sie als Endung entsprechend `.pdf` an.|
