@@ -42,7 +42,7 @@ Sie brauchen für jedes Seitenmodul lediglich die zentrale Stylesheet-Datei `pag
     ...
     ~~~~
 
-    Für dieses Beispiel soll der Parameter DISABLE_ADDITIONAL_COLUMN eingefügt und auf `true()` (Standard: `false()`.md) gesetzt werden. Dadurch wird die rechte Spalte im Seitenlayout ausgeblendet, damit mehr Platz für die grafische Sitemap bleibt. Näheres zu den Parametern aus dem Stylesheet in `page_main.xsl` erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).
+    Für dieses Beispiel soll der Parameter DISABLE_ADDITIONAL_COLUMN eingefügt und auf `true()` (Standard: `false()`.md) gesetzt werden. Dadurch wird die rechte Spalte im Seitenlayout ausgeblendet, damit mehr Platz für die grafische Sitemap bleibt. Näheres zu den Parametern aus dem Stylesheet in `page_main.xsl` erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](Templates_und_Parameter_in_./html/page_main.xsl.md).
 
 5.  Schreiben Sie nun das Template `page-styles` aus: **Zusätzliche CSS-Datei als externe Ressource verlinken**
     ~~~~ {.xml}

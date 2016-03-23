@@ -12,7 +12,7 @@ Grundlegende Schritte beim Erstellen eines Templates
 
 Um ein XSLT-Template für papaya CMS zu erstellen, sind folgende Schritte notwendig:
 
-1.  Legen Sie einen Ordner mit der notwendigen Verzeichnisstruktur an. Näheres zur Verzeichnisstruktur erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur.md). Dazu können Sie wie folgt vorgehen:
+1.  Legen Sie einen Ordner mit der notwendigen Verzeichnisstruktur an. Näheres zur Verzeichnisstruktur erfahren Sie in [Verzeichnisstruktur](Verzeichnisstruktur.md). Dazu können Sie wie folgt vorgehen:
     1.  Sie legen die notwendigen Verzeichnisse selbst an. Dieser Schritt ist notwendig, wenn Sie alle notwendigen Templates selbst erstellen möchten.
     2.  Sie kopieren das Verzeichnis `default-xhtml/` des papaya-Demo-Templates und benennen es um. Dieser Schritt ist empfohlen, wenn Sie die XSLT-Templates aus dem Demo-Template anpassen wollen.
 
@@ -27,7 +27,7 @@ Verzeichnisstruktur anlegen
 
 Legen Sie im Ordner `papaya-data/templates/` einen Unterordner für Ihr Template an. In dieses Verzeichnis können Sie alle Unterverzeichnisse des Demo-Templates, die innerhalb von default-xhtml/ kopieren
 
-Dieser Ordner, beispielsweise `mein-Templateset/`, muss unbedingt ein Verzeichnis enthalten, in das alle von Ihnen erstellten Website-Templates eingefügt werden. Im Default-Template hat dieses Verzeichnis den Namen `html/` (Näheres zur Verzeichnisstruktur des Default-Templates erfahren Sie in [Verzeichnisstruktur](/Verzeichnisstruktur.md).). Aus Gründen der Übersichtlichkeit sollten Sie sich an die vorgegebene Namenskonvention halten und das Verzeichnis für die Webseiten ebenso `html/` nennen. Die Verzeichnisstruktur innerhalb von `papaya-data/template/mein-Templateset/` hat dann folgende Verzeichnisstruktur:
+Dieser Ordner, beispielsweise `mein-Templateset/`, muss unbedingt ein Verzeichnis enthalten, in das alle von Ihnen erstellten Website-Templates eingefügt werden. Im Default-Template hat dieses Verzeichnis den Namen `html/` (Näheres zur Verzeichnisstruktur des Default-Templates erfahren Sie in [Verzeichnisstruktur](Verzeichnisstruktur.md).). Aus Gründen der Übersichtlichkeit sollten Sie sich an die vorgegebene Namenskonvention halten und das Verzeichnis für die Webseiten ebenso `html/` nennen. Die Verzeichnisstruktur innerhalb von `papaya-data/template/mein-Templateset/` hat dann folgende Verzeichnisstruktur:
 
 _functions
 Standard-Templates zum Formatieren und Verarbeiten von Strings.
@@ -93,7 +93,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
 
     Die einzige zu importierende Stylesheet-Datei ist `base/defaults.xsl`.
 
-4.  Fügen Sie nun die XSLT-Parameter ein, über die die Template-Engine von papaya CMS vielfältige Informationen wie Pfadangaben für Theme und JavaScript einfügt (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (papaya CMS) einfügen**
+4.  Fügen Sie nun die XSLT-Parameter ein, über die die Template-Engine von papaya CMS vielfältige Informationen wie Pfadangaben für Theme und JavaScript einfügt (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (papaya CMS) einfügen**
     ~~~~ {.xml}
     ...
     <!--
@@ -135,7 +135,7 @@ Die folgende Beschreibung stellt eine Schritt-für-Schritt-Anleitung dar, in der
     ...
     ~~~~
 
-5.  Fügen Sie nun die XSLT-Parameter ein, die in den Templates des Default-Templates benutzt werden (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (Template) einfügen**
+5.  Fügen Sie nun die XSLT-Parameter ein, die in den Templates des Default-Templates benutzt werden (Näheres zu den hier verwendeten Parametern erfahren Sie in [Templates und Parameter in ./html/page_main.xsl](Templates_und_Parameter_in_./html/page_main.xsl.md).md): **XSLT-Parameter (Template) einfügen**
     ~~~~ {.xml}
     ...
     <!--

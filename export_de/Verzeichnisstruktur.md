@@ -11,10 +11,10 @@ _functions/
 Enthält zahlreiche Standard-Templates zum Formatieren und Verarbeiten von Strings.
 
 _lang/
-Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [:Kategorie:Das Übersetzungsframework benutzen](/:export_de/Kategorie:Das_Übersetzungsframework_benutzen.md).
+Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [:Kategorie:Das Übersetzungsframework benutzen](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md).
 
 feeds/
-Enthält die Seitentemplates für die Ausgabe von Feeds wie Atom oder RSS, siehe [:Kategorie:RSS-Feeds erstellen](/:export_de/Kategorie:RSS-Feeds_erstellen.md).
+Enthält die Seitentemplates für die Ausgabe von Feeds wie Atom oder RSS, siehe [Kategorie:RSS-Feeds erstellen](export_de/Kategorie:RSS-Feeds_erstellen.md).
 
 html/
 Enthält die Seiten- und Boxentemplates für die HTML-Ausgabe, die mit den Ansichten verknüpft werden.
@@ -44,7 +44,7 @@ pdf/files/
 Enthält die PDF-Datei, die als Vorlage für die PDF-Ausgabe genutzt wird.
 
 print/
-Enthält die Seitentemplates für die Print-Templates. Die mit diesen Templates erzeugten Seitenausgaben sind für den Ausdruck optimiert. Näheres dazu erfahren Sie in [:Kategorie:Print-Templates erstellen](/:export_de/Kategorie:Print-Templates_erstellen.md).
+Enthält die Seitentemplates für die Print-Templates. Die mit diesen Templates erzeugten Seitenausgaben sind für den Ausdruck optimiert. Näheres dazu erfahren Sie in [Kategorie:Print-Templates erstellen](export_de/Kategorie:Print-Templates_erstellen.md).
 
 Wenn Sie ein eigenes Template anlegen, müssen Sie folgende Dinge beachten:
 

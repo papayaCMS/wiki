@@ -14,8 +14,7 @@ XML-Ausgabe der Seite erzeugen
 Sie können eine Seite auf folgende Weisen in XML ausgeben lassen:
 
 1.  Klicken Sie in der Seitenansicht im Backend auf den Menüpunkt XML Vorschau , während Sie sich in der Seitenvorschau befinden: XML-Vorschau in der Seitenansicht aktivieren
-2.  Verändern Sie in der URL-Zeile des Browsers die Dateiendung der HTML-Seite von `.html` auf `.xml`: Endung des HTML-Dokumentes für die XML-Ausgabe
-    `             verändern`
+2.  Verändern Sie in der URL-Zeile des Browsers die Dateiendung der HTML-Seite von `.html` auf `.xml`: Endung des HTML-Dokumentes für die XML-Ausgabe verändern.
 
 Im folgenden Abschnitt erfahren Sie Näheres über den Aufbau der XML-Ausgabe.
 

@@ -22,5 +22,3 @@ Auf diesem Wege wird nicht nur die Webseitenvorlage von der Programmlogik getren
 Trennung der Inhalte von Vorlagenlogik und Layoutdefinition
 
 Inhalte werden medienneutral vorgehalten und im ASCII- oder im XML-Format in der Datenbank gespeichert. Multimediadateien wie Flash, MPEG-Filme, MP3-Dateien oder einfache Bilder liegen zwar im Verzeichnissystem, werden jedoch in der Mediendatenbank registriert und durch Metadaten ergänzt. Wenn Sie die Inhalte in papaya CMS eingeben, müssen Sie jedoch keine layoutspezifischen Informationen speichern. Es sind also keine HTML-Kenntnisse erforderlich.
-
-[Kategorie:Einleitung](export_de/Kategorie:Einleitung.md)
