@@ -6,4 +6,4 @@ Um papaya CMS zu installieren, gehen Sie wie folgt vor:
 3.  Konfigurieren Sie papaya CMS, indem Sie die Datenbankverbindung sowie den Pfad zum Verzeichnis `papaya-lib/` in die `conf.inc.php` eintragen, siehe [Papaya CMS konfigurieren](Papaya_CMS_konfigurieren.md).
 4.  Starten Sie das webbasierte Installationsprogramm, siehe [Installationsprogramm ausführen](Installationsprogramm_ausführen.md).
 
-[Kategorie:papaya CMS installieren](export_de/Kategorie:Papaya_CMS_installieren.md)
+[Kategorie:Papaya CMS installieren](export_de/Kategorie:Papaya_CMS_installieren.md)
