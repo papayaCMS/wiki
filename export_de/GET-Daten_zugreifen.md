@@ -45,6 +45,6 @@ Wenn POST- und GET-Parameter eingelesen werden, sind folgende Punkte zu beachten
 2.  Die Methode `initializeParams()` kümmert sich auch um Magic Quotes, also das Maskieren der Daten.
 3.  Strings werden automatisch nach UTF-8 umgewandelt.
 
-Wenn Sie die `getLink()` -ähnlichen Methoden verwenden um Links zu generieren, müssen Sie nicht manuell die GET-Parameter abhängig von `$paramName` zusammensetzen. Es genügt, wenn Sie den Methoden den Parameternamen sowie die Liste der Parameter und Werte in Form eines assoziativen Arrays übergeben. Näheres zu den Link-Methoden erfahren Sie in [Links ausgeben](/Links_ausgeben "wikilink"). Auch `base_dialog` sowie `base_frontend_form` kümmert sich automatisch um die korrekte Ausgabe der Parameter, siehe [Formulare für die Seitenausgabe ausgeben](/Formulare_für_die_Seitenausgabe_ausgeben "wikilink").
+Wenn Sie die `getLink()` -ähnlichen Methoden verwenden um Links zu generieren, müssen Sie nicht manuell die GET-Parameter abhängig von `$paramName` zusammensetzen. Es genügt, wenn Sie den Methoden den Parameternamen sowie die Liste der Parameter und Werte in Form eines assoziativen Arrays übergeben. Näheres zu den Link-Methoden erfahren Sie in [Links ausgeben](Links_ausgeben.md). Auch `base_dialog` sowie `base_frontend_form` kümmert sich automatisch um die korrekte Ausgabe der Parameter, siehe [Formulare für die Seitenausgabe ausgeben](Formulare_für_die_Seitenausgabe_ausgeben.md).
 
-[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten "wikilink")
+[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md)

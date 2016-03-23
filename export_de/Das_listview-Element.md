@@ -10,6 +10,7 @@ Content-Modell des <listitem>-Elements
 Die folgende Tabelle listet alle Attribute des `<listview>` -Elements auf:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |hint|Wenn vorhanden, wird ein Info-Icon oben rechts ausgegeben. Mouseover darüber blendet diesen Hinweis ein.|
 |icon|Icon, das vorne in der Titelzeile angezeigt wird|
 |maximize|Link, der aufgerufen wird, wenn auf maximize (+) geklickt wird (das Icon wird automatisch erzeugt)|
@@ -20,6 +21,7 @@ Die folgende Tabelle listet alle Attribute des `<listview>` -Elements auf:
 Das Element <listview> enthält unmittelbar die folgenden Elemente:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |buttons|Dieses Element enthält Buttons für Paging oder weitere Funktionen. Die Buttons werden zwischen Titel und Spaltenheader eingefügt. Sollen diese mittig ausgerichtet werden, dürfen die Buttons nicht in `<left>` - oder `<right>` -Elemente gesetzt werden.|
 |cols|Enthält die Elemente mit den Spaltenüberschriften.|
 |items|Enthält den eigentlichen Inhalt der Listview.|
@@ -31,6 +33,7 @@ Das Element <buttons>
 Das Element `<buttons>` enthält Buttons für Paging oder sonstige Funktionen. Sollen die Buttons mittig ausgerichtet werden, dürfen sie nicht in `<left>` - oder `<right>` -Elemente gesetzt werden. Das Element `<buttons>` enthält folgende Elemente:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |left|Dieses Element enthält Buttons, die links ausgerichtet werden.|
 |right|Dieses Element enthält Buttons, die rechts ausgerichtet werden.|
 |button|Dieses Element stellt einen Button dar.|
@@ -38,6 +41,7 @@ Das Element `<buttons>` enthält Buttons für Paging oder sonstige Funktionen. S
 Die Elemente `<left>` und `<right>` besitzen keine Attribute. Beide Elemente enthalten mindestens ein `<button>` -Element. Die Attribute des `<button>` -Elements werden in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |accesskey|Accesskey für diesen Button|
 |down|Der Button wird gedrückt dargestellt.|
 |glyph|Das Icon für den Button (vgl. Attribute für das glyph-Element - src TODO: add link)|
@@ -53,6 +57,7 @@ Die Elemente `<left>` und `<right>` besitzen keine Attribute. Beide Elemente ent
 -Elemente== Das Element `<cols>` enthält `<col>` -Elemente mit den Spaltenüberschriften. Die jeweiligen `<col>` -Elemente werden den einzelnen Spalten zugeordnet. Die folgende Tabelle schlüsselt alle Attribute des `<col>` -Elements auf:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |align|Ausrichtung der Spaltenüberschrift (right, left, center)|
 |hint|Hinweis, der bei Mouseover über den Titel angezeigt wird.|
 |href|Link, der bei Klick auf die Spaltenüberschrift aufgerufen wird. Der Link sollte die Sortierfunktion für die Spalte aufrufen.|
@@ -70,6 +75,7 @@ Das Element <items> und die Unterelemente <listitem>
 Das Element `<items>` enthält Zeilen der Liste der Listview in Form von `<listitem>` -Elementen. Das `<listitem>` -Element enthält den eigentlichen Inhalt in `<subitem>` -Elemente. Ein `<subitem>` entspricht einer Zelle in der Zeile. Die Attribute des <listitem>-Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |emphased|Die Zeile ist hervorgehoben, die Formatierung ist dann fettgedruckt.|
 |hint|Hinweis, der bei mouseover über den Zeilentitel eingeblendet wird.|
 |href|Link, der bei Klick auf den Zeilentitel aufgerufen wird.|
@@ -109,5 +115,3 @@ In der Anwendungen-Übersicht und der Iconliste wird die so genannte „Tiled“
 Der Aufbau ist dementsprechend etwas anders:
 
 Der einzige Unterschied besteht darin, dass Listview das Attribut mode="tile" hat. Je nachdem, was man anzeigen möchte, kann man gut links mit Icons kombinieren, oder anderes HTML einfügen. Einige Angaben wie Menü, Status und Columns machen bei dieser Listenausgabe natürlich wenig Sinn.
-
-[Kategorie:Die einzelnen Komponenten im Detail](export_de/Kategorie:Die_einzelnen_Komponenten_im_Detail.md)

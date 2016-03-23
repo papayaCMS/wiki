@@ -21,4 +21,4 @@ Optional kann das `<section>` -Element auch ein `<title>` -Element enthalten, da
 
 Das `<data>` -Element ist das unmittelbare Kindelement eines `<section>` -Elements. Es kann eine Reihe von Block-Level-Elementen enthalten, die einzelne Absätze bilden können. Diese Block-Level-Elemente enthalten wiederum Inline-Elemente, mit deren Hilfe einzelne Wörter physisch formatiert werden können. Das `<data>` -Element enthält keine Attribute.
 
-[Kategorie:papaya-Formatierungsobjekt](export_de/Kategorie:papaya-Formatierungsobjekt.md)
+[Kategorie:Papaya-Formatierungsobjekt](export_de/Kategorie:Papaya-Formatierungsobjekt.md)

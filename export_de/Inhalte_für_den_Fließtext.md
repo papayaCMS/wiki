@@ -92,7 +92,7 @@ Aus dem XSLT-Template topic_default werden weitere Hilfstemplates aufgerufen, di
 ...
 ~~~~
 
-Elemente wie `<text>` und `<teaser>` können jedoch selbst weitere Elemente enthalten, die nicht so ohne weiteres in das Zieldokument übernommen werden können. Sie können sowohl Block-Level-Elemente wie `<h1>`, `<table>`, `<ul>` oder `<img>` enthalten oder Inline-Elemente wie `<strong>`. Damit diese Elemente durch die XSLT-Templates mit entsprechenden `match` -Muster bearbeitet werden können, wird die `apply-templates` -Anweisung eingefügt. Näheres zu den XSLT-Templates für Block-Level- und Inline-Elemente erfahren Sie in [Templates für Block-Level- und Inline-Elemente](/Templates_für_Block-Level-_und_Inline-Elemente.md). Im folgenden Listing werden die Hilfstemplates für Text, Teaser und Bild dargestellt:
+Elemente wie `<text>` und `<teaser>` können jedoch selbst weitere Elemente enthalten, die nicht so ohne weiteres in das Zieldokument übernommen werden können. Sie können sowohl Block-Level-Elemente wie `<h1>`, `<table>`, `<ul>` oder `<img>` enthalten oder Inline-Elemente wie `<strong>`. Damit diese Elemente durch die XSLT-Templates mit entsprechenden `match` -Muster bearbeitet werden können, wird die `apply-templates` -Anweisung eingefügt. Näheres zu den XSLT-Templates für Block-Level- und Inline-Elemente erfahren Sie in [Templates für Block-Level- und Inline-Elemente](Templates_für_Block-Level-_und_Inline-Elemente.md). Im folgenden Listing werden die Hilfstemplates für Text, Teaser und Bild dargestellt:
 
 **Hilfstemplates für Text, Teaser und Bild**
 

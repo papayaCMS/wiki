@@ -3,4 +3,3 @@ In diesem Kapitel erfahren Sie, wie Sie die verschiedenen Ausgaben wie PDF, RSS 
 
 ![File: Ansichten auswählen](images/Toolbar.png)
 
-[Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln.md)

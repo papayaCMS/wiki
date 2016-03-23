@@ -23,7 +23,10 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
 
     Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).
 
-2.  Definieren Sie ein Array mit Standarddaten. Achten Sie darauf, dass die Schlüssel der jeweiligen Datenfelder mit den entsprechenden Schlüsseln im Dialogfeld-Array identisch sind: **Array mit Standarddaten definieren**
+2.  Definieren Sie ein Array mit Standarddaten. Achten Sie darauf, dass die Schlüssel der jeweiligen Datenfelder mit den entsprechenden Schlüsseln im Dialogfeld-Array identisch sind: 
+
+**Array mit Standarddaten definieren**
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array
@@ -40,7 +43,11 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-3.  Optional können Sie ein Array für versteckte Parameterfelder definieren: **Array mit versteckten Parameterfeldern definieren**
+3.  Optional können Sie ein Array für versteckte Parameterfelder definieren: 
+
+**Array mit versteckten Parameterfeldern definieren**
+
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array
@@ -52,7 +59,10 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-4.  Legen Sie eine Instanz der Klasse `base_dialog` an: **Klasse base_dialog instantiieren**
+4.  Legen Sie eine Instanz der Klasse `base_dialog` an: 
+
+**Klasse base_dialog instantiieren**
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array
@@ -66,7 +76,10 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-5.  Laden Sie die Formularfelder mit den Daten, die der Nutzer zuvor eingegeben hat. Diese liegen immer dann vor, wenn der Nutzer das Formular abgesendet hat, einige Eingaben jedoch fehlerhaft waren: **Daten von Nutezrn in Formularfelder laden**
+5.  Laden Sie die Formularfelder mit den Daten, die der Nutzer zuvor eingegeben hat. Diese liegen immer dann vor, wenn der Nutzer das Formular abgesendet hat, einige Eingaben jedoch fehlerhaft waren: 
+
+**Daten von Nutezrn in Formularfelder laden**
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array
@@ -81,7 +94,11 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-6.  Geben Sie den Titel für den Dialog und den Absende-Button an: **Titel für Button und Dialog eingeben**
+6.  Geben Sie den Titel für den Dialog und den Absende-Button an: 
+
+**Titel für Button und Dialog eingeben**
+
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array
@@ -98,7 +115,10 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-7.  Geben Sie das XML des Dialogs aus: **XML des Dialogs ausgeben**
+7.  Geben Sie das XML des Dialogs aus: 
+
+**XML des Dialogs ausgeben**
+
     ~~~~ {.php}
     function getDialogXML() {
       //Ausgeschnitten: $fields-Array

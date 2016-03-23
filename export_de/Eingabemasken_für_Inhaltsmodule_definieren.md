@@ -24,8 +24,8 @@ Die folgende Tabelle beschreibt die einzelnen Felder:
 |Feldtitel|Beschriftung des Feldes. Die Beschriftung wird in englischer Sprache eingegeben und durch das Phrasensystem von papaya CMS übersetzt.|
 |Testfunktion|Der Plausibilitätscheck, mit dem die Nutzereingabe überprüft wird.|
 |Pflichtfeld|"TRUE", wenn dieses Feld ausgefüllt werden muss, andernfalls "FALSE".|
-|Feldtyp|Typ des Eingabefeldes, beispielsweise einzeilige oder mehrzeilige Textfelder, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).|
-|Feldparameter|Je nach ausgewähltem Feldtyp können entsprechende Parameter eingefügt werden, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).|
+|Feldtyp|Typ des Eingabefeldes, beispielsweise einzeilige oder mehrzeilige Textfelder, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](Eingabemasken_für_Inhaltsmodule_definieren.md).|
+|Feldparameter|Je nach ausgewähltem Feldtyp können entsprechende Parameter eingefügt werden, siehe Tabelle "Feldtypen und ihre möglichen Parameter" in [Eingabemasken für Inhaltsmodule definieren](Eingabemasken_für_Inhaltsmodule_definieren.md).|
 |Hilfstext|Dieser Hilfstext wird als title-Attribut im Glühbirnen-Icon dargestellt, das hinter die Feldbeschriftung gesetzt wird.|
 |Standardwert|Standardwert für dieses Feld. Die Standardwerte werden über die Methode `$this->setDefaultData()` in das Array `$this->data` geladen und stehen im Content-Modul zur Verfügung.|
 
