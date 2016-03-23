@@ -2,10 +2,11 @@
 papaya CMS stellt einige Methoden zur Verfügung, mit denen Sie Links ausgeben können. Die Links berücksichtigen dabei den Kontext der Anwendung und die Konfiguration von papaya CMS. Diese Methoden sind alle in der Klasse `base_object` definiert und können somit in allen von `base_object` abgeleiteten Klassen über `$this` aufgerufen werden:
 
 |Methode|Verwendung|
-|`getLink()`|Mit dieser Methode erstellen Sie Links im Backend von papaya CMS, siehe [Links ausgeben](/Links_ausgeben.md).|
-|`getWebLink()`|Mit dieser Methode erstellen Sie Links für die Frontend-Ausgabe von papaya CMS, siehe [Links ausgeben](/Links_ausgeben.md).|
-|`getAbsoluteURL()`|Mit dieser Methode erhalten Sie eine absolute URL inklusive Protokoll und Domainnamen, siehe [Links ausgeben](/Links_ausgeben.md).|
-|`getWebMediaLink()`|Mit dieser Methode erzeugen Sie eine absolute URL auf eine Datei aus der MediaDB, siehe [Links ausgeben](/Links_ausgeben.md).|
+|-------|----------|
+|`getLink()`|Mit dieser Methode erstellen Sie Links im Backend von papaya CMS, siehe [Links ausgeben](Links_ausgeben.md).|
+|`getWebLink()`|Mit dieser Methode erstellen Sie Links für die Frontend-Ausgabe von papaya CMS, siehe [Links ausgeben](Links_ausgeben.md).|
+|`getAbsoluteURL()`|Mit dieser Methode erhalten Sie eine absolute URL inklusive Protokoll und Domainnamen, siehe [Links ausgeben](Links_ausgeben.md).|
+|`getWebMediaLink()`|Mit dieser Methode erzeugen Sie eine absolute URL auf eine Datei aus der MediaDB, siehe [Links ausgeben](Links_ausgeben.md).|
 
 In den folgenden Abschnitten werden die Methoden kurz vorgestellt.
 

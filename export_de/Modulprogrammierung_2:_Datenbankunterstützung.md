@@ -1,7 +1,7 @@
 
-In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](/Module_Development_1:_Content_Modules.md).
+In this second part of the basic module development tutorial, we want to take a look at how to add database support to our module package. If you are new to papaya module programming, read the first part [here](Module_Development_1:_Content_Modules.md).
 
-Please note that you should adhere to the [Papaya CMS Coding Standards](/Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
+Please note that you should adhere to the [Papaya CMS Coding Standards](Papaya_CMS_Coding_Standards.md), especially if you plan to contribute your modules for the papaya Community.
 
 Preparing and writing the database access class
 
@@ -1462,4 +1462,4 @@ We're not interested in implementation details of the base class on this level, 
   }
 ~~~~
 
-And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Kategorie:papaya CMS Entwicklung](export_de/Kategorie:papaya_CMS_Entwicklung.md) [export_de/Kategorie:Entwickler](export_de/Kategorie:Entwickler.md)
+And that's it. Before you try out the content module practically, don't forget to search for new modules in the papaya backend (because otherwise, the new connector module won't be found), and add some planets to the database table using your database administration tool. In the next tutorial, however, we're going to implement an administration class for this package in which we can add, delete, and modify planets. [Kategorie:Papaya CMS Entwicklung](export_de/Kategorie:Papaya_CMS_Entwicklung.md) [export_de/Kategorie:Entwickler](export_de/Kategorie:Entwickler.md)

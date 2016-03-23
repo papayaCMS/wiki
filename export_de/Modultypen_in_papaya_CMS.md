@@ -2,6 +2,7 @@
 Die folgende Tabelle enthält eine Übersicht aller Modultypen von papaya CMS:
 
 |Modultyp|Identifier|Dateinamenspräfix|Beschreibung|
+|-------------------|-----------------|------------|
 |Seiten|page|content_|Seiten sind das Fundament, auf denen alle Ausgaben basieren.|
 |Boxen|box|actbox_|Häufig wiederkehrende Inhalte, die auf unterschiedlichen Seiten auftreten, werden als Boxen umgesetzt.|
 |Cronjobs|cronjob|cronjob_|Mit Cronjobs lassen sich regelmäßige Aufgaben durchführen, die nicht an Seitenaufrufe gekoppelt sein sollen oder dürfen.|

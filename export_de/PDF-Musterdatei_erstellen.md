@@ -13,7 +13,7 @@ Standardseite definieren
 
 Die Standardseite ist für die Inhalte des Artikels gedacht und dient als laufende Seite. Der Bereich für die Inhalte sollte groß genug gewählt sein, Damit die Texte inklusive Bilder ausreichend Platz haben. Gegebenenfalls können Sie am unteren Seitenrand ausreichend Platz für die Fußzeile lassen. Die folgende Abbildung zeigt die Standardseite aus der PDF-Musterdatei:
 
-![File: Standardseite aus der PDF-Musterdatei](/images/File:PDFMusterdateiStandardseite.png)
+![File: Standardseite aus der PDF-Musterdatei](images/PDFMusterdateiStandardseite.png)
 
 Zu beachten ist, dass Sie nur eine Standardseite anlegen müssen. Wenn der Inhalt sehr umfangreich ist, wird einfach ein Seitenumbruch eingefügt, sodass in der PDF-Datei eine neue Seite eingefügt wird, die das selbe Layout verwendet.
 

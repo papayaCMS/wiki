@@ -1,5 +1,5 @@
 
--   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](/papaya_CMS.md) schreibt.
+-   **Zusammenfassung**: Dieses Tutorial beschreibt, wie man ein einfaches Modul oder Plugin für [papaya CMS](Papaya_CMS.md) schreibt.
 -   **Zielgruppe**: PHP-Entwickler
 -   **Schwierigkeitsgrad**: Fortgeschrittene
 
@@ -615,4 +615,4 @@ One last thing that needs to be explained here is the *setDefaultData(.md)* meth
 
 Run the test to see it pass. Aftwards, you can use the page's *Content* tab to enter an arbitrary message. Test the output using the *Preview* section, and your custom content will be displayed. Congratulations -- you have written your first papaya CMS module including dynamic data, and along the way you should have learned two or three things about test-driven development if you're not already familiar with it.
 
-[Kategorie:papaya CMS](export_de/Kategorie:papaya_CMS.md) [export_de/Kategorie:papaya CMS Development](export_de/Kategorie:papaya_CMS_Development.md) [en:papaya Module Development](/en:papaya_Module_Development.md)
+[Kategorie:Papaya CMS](export_de/Kategorie:Papaya_CMS.md) [export_de/Kategorie:Papaya CMS Development](export_de/Kategorie:Papaya_CMS_Development.md) [en:papaya Module Development](/export_en/Papaya_Module_Development.md)
