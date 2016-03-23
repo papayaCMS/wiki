@@ -21,7 +21,7 @@ Das folgende Listing zeigt, wie Sie ein Formular mit der Klasse `base_dialog` an
     }
     ~~~~
 
-    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).
+    Näheres zur Definition von Dialogformularen erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](Eingabemasken_für_Inhaltsmodule_definieren.md).
 
 2.  Definieren Sie ein Array mit Standarddaten. Achten Sie darauf, dass die Schlüssel der jeweiligen Datenfelder mit den entsprechenden Schlüsseln im Dialogfeld-Array identisch sind: 
 

@@ -3,7 +3,7 @@ Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnit
 
 1.  `$this->_gt($phrase, $module)`, um eine Phrasen zu übersetzen, siehe [$this-_gt\(\) benutzen]($this-_gt\(\)_benutzen.md).
 2.  `$this->_gtf($phrase, $vals, $module)`, um eine Phrase mit Platzhaltern zu übersetzen, siehe [$this-_gtf\(\) benutzen]($this-_gtf\(\)_benutzen.md).
-3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [$this-_gtfile/(/) benutzen]($this-_gtfile\(\)_benutzen.md).
+3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [$this-_gtfile/() benutzen]($this-_gtfile\(\)_benutzen.md).
 
 Sprachkonventionen bei der Eingabe von Phrasen beachten
 

@@ -12,8 +12,8 @@ function logVariable($level, $type, $title, $variable, $addBacktrace = FALSE, $b
 Die Funktion `base_object::logVariable()` verfügt über folgende Parameter:
 
 |Log-Level|Bedeutung|
-|`$level`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
-|`$type`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
+|`$level`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
+|`$type`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
 |`$title`|Titel der Variablenausgabe. Dieser Text erscheint in der Übersichtsliste im Protokoll.|
 |`$variable`|Referenz zur Variablen, deren Inhalt in das Protokoll geschrieben werden soll.|
 |`$addBacktrace`|„TRUE“, wenn die Log-Nachricht ein Backtrace der Funktionsaufrufe erhalten soll, andernfalls „FALSE“ (Standardeinstellung).|

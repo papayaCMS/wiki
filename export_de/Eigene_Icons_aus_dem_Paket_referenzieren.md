@@ -1,5 +1,5 @@
 
-Für eigene Anwendungen ist es manchmal wünschenswert, spezielle Icons zu verwenden, die nicht im Basissystem enthalten sind. Um solche Icons zu verwenden muss lediglich die Quellenangabe des Icons etwas anders aussehen als für Icons im Basissystem (siehe [Vorhandene Icons aus dem Basissystem referenzieren](/Vorhandene_Icons_aus_dem_Basissystem_referenzieren.md).md).
+Für eigene Anwendungen ist es manchmal wünschenswert, spezielle Icons zu verwenden, die nicht im Basissystem enthalten sind. Um solche Icons zu verwenden muss lediglich die Quellenangabe des Icons etwas anders aussehen als für Icons im Basissystem (siehe [Vorhandene Icons aus dem Basissystem referenzieren](Vorhandene_Icons_aus_dem_Basissystem_referenzieren.md).md).
 
 Die Angabe für das Bild setzt sich aus dem Schlüsselwort `module:`, der GUID des Moduls sowie der relativen Pfadangabe zur Icon-Datei ( `./pics/icon.png`.md) zusammen:
 

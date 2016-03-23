@@ -783,7 +783,7 @@ class Planet {
 ?>
 ~~~~
 
-All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject(.md)* and lazy initialization as in *Planet::getDatabaseAccessObject(.md)*, have already been explained in the [the first tutorial](/Module_Development_1:_Content_Modules.md).
+All necessary concepts, especially dependency injection as in *Planet::setDatabaseAccessObject(.md)* and lazy initialization as in *Planet::getDatabaseAccessObject(.md)*, have already been explained in the [the first tutorial](Module_Development_1:_Content_Modules.md).
 
 Creating a connector module
 
@@ -791,7 +791,7 @@ To make the methods of the *Planet* class available to the content module, we ar
 
 ### Registering the connector
 
-As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](/Module_Programming_1:_Content_Modules.md). Add the following XML block to the *<modules>* section of *modules.xml*:
+As the connector class is a module, it has to be registered in the package's *modules.xml* file. This has been explained in detail in the [first tutorial](Module_Programming_1:_Content_Modules.md). Add the following XML block to the *<modules>* section of *modules.xml*:
 
 ~~~~ {.xml}
     <module type="connector"

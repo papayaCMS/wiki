@@ -291,7 +291,7 @@ if (isset($this->requestData['preview']) && $this->requestData['preview']) {
 
 **Hinweis:** In `base_object::parseRequestURI()` wird durch den regulären Ausdruck sichergestellt, dass es keine Versionszeit im öffentlichen Modus gibt.
 
-Anschließend muss der Ausgabemodus bestimmt werden. Wenn die in der URL enthaltene Erweiterung `xml` ist, wird `$_GET['XML']` auf 1 gesetzt. Dieser Eintrag wird später durch das Layoutobjekt (eine Instanz der Klasse `papaya_xsl`.md) ausgewertet, siehe [Seiten-Content für Preview-Modus und Frontend ausgeben](/Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben.md). Der Modus wird schließlich auf `xml` gesetzt. Ist `php` die Erweiterung, wird der konfigurierte Standardmodus verwendet, als Fallback `html`. Andernfalls wird der Modus anhand der Dateiendung gesetzt:
+Anschließend muss der Ausgabemodus bestimmt werden. Wenn die in der URL enthaltene Erweiterung `xml` ist, wird `$_GET['XML']` auf 1 gesetzt. Dieser Eintrag wird später durch das Layoutobjekt (eine Instanz der Klasse `papaya_xsl`.md) ausgewertet, siehe [Seiten-Content für Preview-Modus und Frontend ausgeben](Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben.md). Der Modus wird schließlich auf `xml` gesetzt. Ist `php` die Erweiterung, wird der konfigurierte Standardmodus verwendet, als Fallback `html`. Andernfalls wird der Modus anhand der Dateiendung gesetzt:
 
 **Ausgabemodus bestimmen**
 

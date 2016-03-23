@@ -18,8 +18,8 @@ $this->logMsg(
 Die Methode `logMsg()` verfügt über folgende Parameter:
 
 |Log-Level|Bedeutung|
-|`$msgLevel`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
-|`$msgType`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](/Funktionsweise_von_base_object::logMsg().md).|
+|`$msgLevel`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
+|`$msgType`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
 |`$overviewMsg`|Kurzversion der Nachricht. Dieser Text erscheint in der Übersichtsliste im Protokoll.|
 |`$detailMsg`|Ausführliche Nachricht. Dieser Text enthält alle Informationen, um den Fehler zu identifizieren oder die Nachricht möglichst informativ zu gestalten.|
 |`$addBacktrace`|„TRUE“, wenn die Log-Nachricht ein Backtrace der Funktionsaufrufe erhalten soll, andernfalls „FALSE“.|

@@ -83,7 +83,7 @@ Um ein Paging-Control zu erstellen, gehen Sie wie folgt vor:
     }
     ~~~~
 
-    Speichern Sie die verwendeten Parameter in der Session, damit sie nicht bei jedem Methodenaufruf mit übergeben werden müssen. Nähere Information zur Verwendung der Session finden Sie in [:Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](/:export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md).
+    Speichern Sie die verwendeten Parameter in der Session, damit sie nicht bei jedem Methodenaufruf mit übergeben werden müssen. Nähere Information zur Verwendung der Session finden Sie in [:Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md).
 
 5.  Speichern Sie die Änderungen in den Dateien ab.
 

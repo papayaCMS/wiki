@@ -8,7 +8,7 @@ Als Ausgangsprojekt für eigene PDF-Templates können Sie das Standard-PDF-Templ
 1.  Template für das Basisdokument erzeugen, siehe [Basisdokument erzeugen](Basisdokument_erzeugen.md).
 2.  Zentrale Templates für den Inhaltsbereich definieren, siehe [Zentrales Template für den Inhaltsbereich](Zentrales_Template_für_den_Inhaltsbereich.md).
 3.  Template für die Inhalte der Titelseite erzeugen, siehe [Inhalte der Titelseite](Inhalte_der_Titelseite.md).
-4.  Template für die Inhalte der Standardseiten (Fließtext mit Bildern und Tabellen), siehe [Inhalte für den Fließtext](/Inhalte_für_den_Fließtext.md).
+4.  Template für die Inhalte der Standardseiten (Fließtext mit Bildern und Tabellen), siehe [Inhalte für den Fließtext](Inhalte_für_den_Fließtext.md).
 5.  Template für die Fußzeile anlegen, siehe [Inhalt der Fußzeile](Inhalt_der_Fußzeile.md).
 6.  Optional: Template für die Inhalte der Schluss-Seite anlegen, siehe [Inhalte für die letzte Seite](Inhalte_für_die_letzte_Seite.md).
 

@@ -17,7 +17,7 @@ Für eine erste Übersicht ist die vollständige `.htaccess` -Datei im folgenden
 RewriteEngine On
 
 #remove session id
-RewriteRule ^/?sid[a-z]*([a-zA-Z0-9,-]{20,40})(/.*) $2 [QSA]
+RewriteRule ^/?sid[a-z]*([a-zA-Z0-9,-]{20,40})(.*) $2 [QSA]
 
 #admin pages
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -72,7 +72,7 @@ Wird die Session über die URL weitergegeben, entfernt die folgende Rewrite-Rege
 
 ~~~~ {.apache}
 #remove session id
-RewriteRule ^/?sid[a-z]*([a-zA-Z0-9,-]{20,40})(/.*) $2 [QSA]
+RewriteRule ^/?sid[a-z]*([a-zA-Z0-9,-]{20,40})(.*) $2 [QSA]
 ~~~~
 
 Die folgenden Rewrite-Bedingungen gelten für Requests aus dem Admin-Bereich:

@@ -1,5 +1,5 @@
 
-Das zentrale Template für den Inhaltsbereich hat den Namen `content_area` und wird im Template für das Basisdokument aufgerufen, siehe [Basisdokument erzeugen](/Basisdokument_erzeugen.md). Es enthält die Elemente `<cover>`, `<content>` und `<footer>`. Für alle diese Elemente werden weitere Templates aufgerufen, in denen die Inhalte eingefügt werden. Das folgende XSLT-Fragment zeigt das zentrale Template:
+Das zentrale Template für den Inhaltsbereich hat den Namen `content_area` und wird im Template für das Basisdokument aufgerufen, siehe [Basisdokument erzeugen](Basisdokument_erzeugen.md). Es enthält die Elemente `<cover>`, `<content>` und `<footer>`. Für alle diese Elemente werden weitere Templates aufgerufen, in denen die Inhalte eingefügt werden. Das folgende XSLT-Fragment zeigt das zentrale Template:
 
 **XSLT-Template für den Inhaltsbereich**
 

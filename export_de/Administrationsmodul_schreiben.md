@@ -97,7 +97,7 @@ papaya CMS verwendet Parameternamen in POST und GET um Kollisionen zwischen Anwe
   var $paramName = 'st';
 ~~~~
 
-Das Attribut `$paramName` wird von Link-Methoden wie `getWebLink()` in `base_object` genutzt. Nähere Informationen zu Links finden Sie in [Links ausgeben](/Links_ausgeben.md).
+Das Attribut `$paramName` wird von Link-Methoden wie `getWebLink()` in `base_object` genutzt. Nähere Informationen zu Links finden Sie in [Links ausgeben](Links_ausgeben.md).
 
 Die Methode initialize()
 
@@ -130,9 +130,9 @@ Als erstes wird von `edmodule_sticker` die Methode `initialize()` aufgerufen. Di
   }
 ~~~~
 
-`Mehr Informationen zur Verwendung der Session finden Sie in `[`:Kategorie:POST/GET-Parameter` `lesen` `und` `Sessiondaten` `verwalten`](/:export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md)`. `
+`Mehr Informationen zur Verwendung der Session finden Sie in `[`:Kategorie:POST/GET-Parameter` `lesen` `und` `Sessiondaten` `verwalten`](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md)`. `
 
-Um eine zentrale Stelle für modulspezifische Icons zu haben, werden die anwendungsspezifischen Icons im Attribut `$moduleImages` abgelegt. Mehr Informationen zur Verwendung von modulspezifischen Icons finden Sie in [Eigene Icons aus dem Paket referenzieren](/Eigene_Icons_aus_dem_Paket_referenzieren.md).
+Um eine zentrale Stelle für modulspezifische Icons zu haben, werden die anwendungsspezifischen Icons im Attribut `$moduleImages` abgelegt. Mehr Informationen zur Verwendung von modulspezifischen Icons finden Sie in [Eigene Icons aus dem Paket referenzieren](Eigene_Icons_aus_dem_Paket_referenzieren.md).
 
 Das Layout der Administrationsoberfläche wird in zwei gleichgroße Spalten unterteilt. Dies wird dadurch erreicht, dass entsprechende Parameter im Layoutobjekt gesetzt werden, indem die Methode `$this->layout->setParam()` aufgerufen wird. Dabei werden die linke und die rechte Spalte des Layoutobjekts jeweils auf eine Breite von 50 % gesetzt, während die Breite der mittleren Spalte auf „0“ gesetzt wird.
 
@@ -239,7 +239,7 @@ Die Methode `getCollectionsList()` erzeugt eine Listview der vorhandenen Sammlun
 </listview>
 ~~~~
 
-Näheres zum Aufbau von Listviews erfahren Sie in [:Kategorie:Backend-Komponenten](/:export_de/Kategorie:Backend-Komponenten.md).
+Näheres zum Aufbau von Listviews erfahren Sie in [:Kategorie:Backend-Komponenten](export_de/Kategorie:Backend-Komponenten.md).
 
 Grundsätzlich gehen Sie wie folgt vor, wenn Sie eine Listviewausgabe erstellen:
 
@@ -462,13 +462,13 @@ case 'add_collection':
 
 Zunächst wird die Methode `initializeCollectionDialog()` ausgeführt, um das Eingabeformular für die Sammlung auszugeben. Anschließend wird überprüft, ob das Formular abgesendet worden ist. Dies ist der Fall, wenn im Parameter-Array der Wert „submit“ enthalten ist und dieser Parameter den Wert TRUE besitzt. Wenn dies der Fall ist, können Sie die versendeten Formulardaten auf Validität prüfen. Dazu wird die Methode `checkDialogInput()` der `base_dialog` -Instanz `$this->dialog` ausgeführt. Da das aktuelle Eingabeformular immer über `$this->dialog` erreichbar ist, können Sie die `checkDialogInput()` -Methode einfach über diese Objektinstanz aufrufen.
 
-Wenn `checkDialogInput()` wahr ist, sind die Daten gültig und können in die Datenbank geschrieben werden. Dazu wird im obigen Listing die Methode `addCollection()` benutzt, die in der Basisklasse `base_stickers` implementiert worden ist. Dieser Methode wird der Titel sowie der Beschreibungstext der Sammlung übergeben. Wenn die Daten geschrieben werden konnten, gibt die Methode die ID der neu angelegten Sammlung zurück. Im letzten Schritt wird ein Infodialog dargestellt, der den Titel der Sammlung inklusive der ID in einem Infotext ausgibt. Der Infodialog wird mit der Methode `addMsg()` ausgegeben. Nähere Informationen zur Verwendung von `addMsg()` finden Sie in [:Kategorie:Meldungen mit base_object::logMsg() protokollieren](/:export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md).
+Wenn `checkDialogInput()` wahr ist, sind die Daten gültig und können in die Datenbank geschrieben werden. Dazu wird im obigen Listing die Methode `addCollection()` benutzt, die in der Basisklasse `base_stickers` implementiert worden ist. Dieser Methode wird der Titel sowie der Beschreibungstext der Sammlung übergeben. Wenn die Daten geschrieben werden konnten, gibt die Methode die ID der neu angelegten Sammlung zurück. Im letzten Schritt wird ein Infodialog dargestellt, der den Titel der Sammlung inklusive der ID in einem Infotext ausgibt. Der Infodialog wird mit der Methode `addMsg()` ausgegeben. Nähere Informationen zur Verwendung von `addMsg()` finden Sie in [:Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md).
 
 Alle notwendigen Daten wie der submit-Parameter oder die Formulardaten kommen aus dem Eingabeformular, das in der Methode `initializeCollectionDialog()` erzeugt wird. Im folgenden soll die Implementation dieser Methode vorgestellt werden.
 
 Die Methode initializeCollectionDialog()
 
-Mit der Klasse `base_dialog` können Sie mit wenig Aufwand ein umfangreiches Formular gestalten. Weitere Informationen zur Verwendung finden Sie in der Dokumentation zur Klasse `base_dialog`. Der Konstruktor von `base_dialog ` erwartet ein Elternobjekt, den Parameternamen, eine Felddefinition (siehe [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).md), Standarddaten für das Formular und versteckte Parameter.
+Mit der Klasse `base_dialog` können Sie mit wenig Aufwand ein umfangreiches Formular gestalten. Weitere Informationen zur Verwendung finden Sie in der Dokumentation zur Klasse `base_dialog`. Der Konstruktor von `base_dialog ` erwartet ein Elternobjekt, den Parameternamen, eine Felddefinition (siehe [Eingabemasken für Inhaltsmodule definieren](Eingabemasken_für_Inhaltsmodule_definieren.md).md), Standarddaten für das Formular und versteckte Parameter.
 
 Der Vorgang einen bestehenden Datensatz zu ändern unterscheidet sich im Prinzip nicht von dem einen neuen Datensatz hinzuzufügen. Es müssen lediglich andere Methoden verwendet werden und die ID des zu ändernden Datensatzes mit übergeben werden.
 
@@ -514,7 +514,7 @@ Im nächsten Schritt wird in der If-Abfrage getestet, ob ein bestehender Datensa
 Wenn ein neuer Datensatz erstellt werden soll, lassen Sie das `$data` -Array zunächst leer. Der Grund hierfür ist, dass das Formular in diesem Fall nicht mit bestehenden Daten vorbelegt werden soll. Der Konstruktor von base_dialog erwartet für den Parameter `$data
   ` eine Referenz. Daher ist es nicht möglich, einfach ein leeres Array oder NULL zu übergeben. Das Array `$data` muss also stets initialisiert werden.
 
-Die Dialogfelder selbst werden im Array `$fields` angegeben. Für den Titel wird dabei ein einzeiliges Textfeld, für die Beschreibung ein mehrzeiliges Textfeld definiert. Die Dialogfelder werden nach dem selben Schema angelegt wie die Edit-Fields bei Content-Modulen. Näheres zu den Dialogfeldern erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](/Eingabemasken_für_Inhaltsmodule_definieren.md).
+Die Dialogfelder selbst werden im Array `$fields` angegeben. Für den Titel wird dabei ein einzeiliges Textfeld, für die Beschreibung ein mehrzeiliges Textfeld definiert. Die Dialogfelder werden nach dem selben Schema angelegt wie die Edit-Fields bei Content-Modulen. Näheres zu den Dialogfeldern erfahren Sie in [Eingabemasken für Inhaltsmodule definieren](Eingabemasken_für_Inhaltsmodule_definieren.md).
 
 Im letzten Schritt wird eine Instanz der Klasse `base_dialog` im Klassenattribut `$this->dialog` angelegt. Übergeben Sie dem Konstruktor von `base_dialog` die Instanz der Klasse `admin_stickers` ( `$this`.md), den Parameternamen sowie die Arrays mit den Formularfeldern, den Formulardaten und den versteckten Parametern. Dadurch kann auch aus der `execute()` -Methode auf die Instanz zugegriffen werden.
 
@@ -607,7 +607,7 @@ Um einen Dialog zu erzeugen, gehen Sie wie folgt vor:
 1.  Binden Sie die Klasse `base_msgdialog` ein.
 2.  Erstellen Sie ein `$hidden` -Array, das die versteckt zu übermittelnden Parameter enthält. Üblicherweise sind das die durchzuführende Aktion (Parameter `cmd`.md), der Datensatz, auf den sich die Aktion bezieht (in diesem Fall der Parameter `col_id`.md), sowie die Bestätigung, dass der Benachrichtigungsdialog übermittelt wurde ( `confirm`.md).
 3.  Erstellen Sie den Text der Bestätigungsfrage. Der Text muss den Nutzer darauf hinweisen, dass er durch einen Klick auf den Button einen Datensatz löscht.
-4.  Im letzten Schritt instanziieren Sie den Dialog. Der Konstruktor erhält als fünften Parameter den Dialogtyp, siehe Tabelle "Mögliche Typen für den Messagedialog" in [Administrationsmodul schreiben](/Administrationsmodul_schreiben.md).
+4.  Im letzten Schritt instanziieren Sie den Dialog. Der Konstruktor erhält als fünften Parameter den Dialogtyp, siehe Tabelle "Mögliche Typen für den Messagedialog" in [Administrationsmodul schreiben](Administrationsmodul_schreiben.md).
 5.  Setzen Sie als Button-Titel (Klassenattribut `$this->dialog->buttonTitle`.md) den Namen der Funktion ein, die der Nutzer bestätigen muss. Beim Löschen von Datensätzen wäre dies beispielsweise die Beschriftung Löschen .
 6.  Die XML-Ausgabe des Dialogs wird schließlich mit `$this->dialog->getMsgDialog()` ausgegeben.
 

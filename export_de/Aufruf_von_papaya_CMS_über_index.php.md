@@ -1,7 +1,7 @@
 
 Wenn Apache keine lokale Datei ausliefert, werden alle Anfragen an die `index.php` von papaya CMS weitergegeben. Die `index.php` ist das Hauptscript, das vom Webserver angesprochen wird, sobald eine Seite oder Datei ausgegeben werden soll. Das Script befindet sich im Installationsverzeichnis von papaya CMS, beispielsweise im `DocumentRoot`.
 
-Die `index.php` bindet zunächst die Datei `conf.inc.php` ein. Diese Datei enthält die Basiskonfiguration der Webseite. Zur Basiskonfiguration gehören die Zugangsdaten zur Datenbank und grundlegende Konfigurationsoptionen (siehe [Konfigurationsdatei conf.inc.php laden](/Konfigurationsdatei_conf.inc.php_laden.md).md).
+Die `index.php` bindet zunächst die Datei `conf.inc.php` ein. Diese Datei enthält die Basiskonfiguration der Webseite. Zur Basiskonfiguration gehören die Zugangsdaten zur Datenbank und grundlegende Konfigurationsoptionen (siehe [Konfigurationsdatei conf.inc.php laden](Konfigurationsdatei_conf.inc.php_laden.md).md).
 
 Zu Beginn der `index.php` wird bestimmt, wie Fehlermeldungen ausgegeben werden:
 
@@ -15,7 +15,7 @@ if (defined('PAPAYA_DBG_DEVMODE') && PAPAYA_DBG_DEVMODE) {
 }
 ~~~~
 
-Wenn der Entwicklermodus ( PAPAYA_DBG_DEVMODE.md) aktiv ist, wird keine Fehlerunterdrückung beim Einbinden der `papaya_page.php` verwendet. Die Klasse `papaya_page` ist für die Seiten- und Dateiauslieferung zuständig. Bei aktivierter Fehlerausgabe werden bei nicht vorhandenen Dateien oder Seiten umfangreiche Fehlerbehandlungen und Weiterleitungen durchgeführt. Mehr dazu erfahren Sie in [Seiten- und Dateiausgabe durch papaya_page kontrollieren](/Seiten-_und_Dateiausgabe_durch_papaya_page_kontrollieren.md).
+Wenn der Entwicklermodus ( PAPAYA_DBG_DEVMODE.md) aktiv ist, wird keine Fehlerunterdrückung beim Einbinden der `papaya_page.php` verwendet. Die Klasse `papaya_page` ist für die Seiten- und Dateiauslieferung zuständig. Bei aktivierter Fehlerausgabe werden bei nicht vorhandenen Dateien oder Seiten umfangreiche Fehlerbehandlungen und Weiterleitungen durchgeführt. Mehr dazu erfahren Sie in [Seiten- und Dateiausgabe durch papaya_page kontrollieren](Seiten-_und_Dateiausgabe_durch_papaya_page_kontrollieren.md).
 
 Falls das Basissystem von papaya CMS nicht gefunden wurde oder der Wartungsmodus (maintenance) aktiviert ist, wird ein entsprechender Status-Code (503) ausgegeben. Dafür wird zunächst getestet, ob PHP im CGI-Modus betrieben wird. Ist dies der Fall, sendet die `index.php` einen Status-Header, ansonsten einen HTTP-Header. Der HTTP-Fehlercode ist 503 und besagt, dass der Dienst zurzeit nicht verfügbar ist:
 

@@ -1,2 +1,2 @@
 
-1.  WEITERLEITUNG [Hauptseite](/Hauptseite.md)
+1.  WEITERLEITUNG [Hauptseite](Hauptseite.md)

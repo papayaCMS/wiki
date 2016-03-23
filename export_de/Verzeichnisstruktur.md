@@ -35,7 +35,7 @@ html/modules/free/
 Enthält Boxen- und Seitentemplates für Module aus freien Paketen wie Forum, FAQ oder Quiz.
 
 pdf/
-Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [:Kategorie:Vorlage für die PDF-Ausgabe erstellen](/:export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md).
+Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [:Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md).
 
 pdf/base/
 Enthält das Standard-Stylesheet `tags.xsl`, das Inzeilige Elemente wie `<strong>` oder `<th>` in Elemente übersetzt, die durch den PDF-Ausgabefilter unterstützt werden.

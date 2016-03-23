@@ -73,6 +73,6 @@ thumbnails.xsl
 
 Dieses Template generiert eine Thumbnail-Liste. Das wird für den Datei-Browser verwendet.
 
-![File:Thumbnail-browser-example.png](/images/Thumbnail-browser-example.png)
+![File:Thumbnail-browser-example.png](images/Thumbnail-browser-example.png)
 
 [Kategorie:Übersicht über die verfügbaren Komponenten](export_de/Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)

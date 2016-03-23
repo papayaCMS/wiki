@@ -28,6 +28,6 @@ Um das Icon für die Anwendung zu benutzen, gehen Sie wie folgt vor:
 
 Icons für das Bearbeitungsmenü benutzen
 
-Näheres dazu, wie Sie Icons für das Bearbeitungsmenü benutzen können, erfahren Sie in [Eigene Icons aus dem Paket referenzieren](/Eigene_Icons_aus_dem_Paket_referenzieren.md).
+Näheres dazu, wie Sie Icons für das Bearbeitungsmenü benutzen können, erfahren Sie in [Eigene Icons aus dem Paket referenzieren](Eigene_Icons_aus_dem_Paket_referenzieren.md).
 
 [Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)
