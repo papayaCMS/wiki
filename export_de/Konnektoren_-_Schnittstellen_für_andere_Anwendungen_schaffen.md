@@ -37,7 +37,7 @@ Um eine Konnektorklasse zu erstellen, gehen Sie wie folgt vor:
     ~~~~
 
 4.  Speichern Sie die Datei ab. Denken Sie daran, dass sich die Namenskonvention auch auf den Dateinamen auswirkt, sodass der Dateiname ebenso wie die Klasse mit dem Präfix `connector_` beginnen sollte.
-5.  Registrieren Sie die Klasse als Konnektor in der `modules.xml`. Näheres dazu erfahren Sie in [modules.xml erstellen](/modules.xml_erstellen.md).
+5.  Registrieren Sie die Klasse als Konnektor in der `modules.xml`. Näheres dazu erfahren Sie in [modules.xml erstellen](Modules.xml_erstellen.md).
 
 Basisklasse anpassen
 

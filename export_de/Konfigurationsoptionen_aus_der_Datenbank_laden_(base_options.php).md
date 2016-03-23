@@ -69,6 +69,7 @@ Als Schlüssel wird wieder der Konstantenname verwendet. Der Wert ist der Tabell
 Die folgende Tabelle listet alle Datenbanktabellen auf, die in der Klasse base_options definiert werden:
 
 |Feldbeschriftung|Bedeutung|
+|----------------|---------|
 |PAPAYA_DB_TBL_AUTHGROUPS|auth_groups|
 |PAPAYA_DB_TBL_AUTHIP|auth_ip|
 |PAPAYA_DB_TBL_AUTHLINK|auth_link|
@@ -198,6 +199,7 @@ Die Pfadkonstanten ersparen es Ihnen als Entwickler, alle Pfade manuell zusammen
 Hinweise zu den Pfadkonstanten in papaya CMS
 
 |Konstantenname|Erläuterung|
+|--------------|-----------|
 |PAPAYA_MODULES_PATH|Absoluter Pfad zum Modul-Verzeichnis.|
 |PAPAYA_PATH_CACHE|Absoluter Pfad zum Cache-Verzeichnis.|
 |PAPAYA_PATH_MEDIAFILES_OLD|Alter Pfad zur MediaDB, wird bei der Konvertierung benötigt.|
@@ -206,5 +208,3 @@ Hinweise zu den Pfadkonstanten in papaya CMS
 |PAPAYA_PATH_THUMBFILES|Absoluter Pfad zu den Thumbnails.|
 |PAPAYA_PATH_TEMPLATES|Absoluter Pfad zu den Templates.|
 |PAPAYA_PATHWEB_ADMIN|Relativer Pfad zum Backend dieser papaya-Installation.|
-
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)
