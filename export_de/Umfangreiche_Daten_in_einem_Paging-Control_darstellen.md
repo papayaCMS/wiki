@@ -1,7 +1,7 @@
 
 Wenn Sie immer alle Datensätze in einer Listview anzeigen, kann es schnell dazu führen, dass die Listview und damit die Lade- und Renderzeiten sehr lang werden. Sie können mit papaya CMS verhältnismäßig einfach ein Blättern in Listen realisieren.
 
-Das folgende Beispiel stellt vor, wie Sie eine Liste mit einem Paging-Control erweitern können. Dazu wird für die in [:Kategorie:Eigene Anwendungen schreiben](/:export_de/Kategorie:Eigene_Anwendungen_schreiben.md) erstellte Liste von Stickern ein Paging-Control implementiert. Dadurch werden immer nur eine bestimmte Anzahl Sticker je Seite angezeigt.
+Das folgende Beispiel stellt vor, wie Sie eine Liste mit einem Paging-Control erweitern können. Dazu wird für die in [Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md) erstellte Liste von Stickern ein Paging-Control implementiert. Dadurch werden immer nur eine bestimmte Anzahl Sticker je Seite angezeigt.
 
 Um ein Paging-Control zu erstellen, gehen Sie wie folgt vor:
 
