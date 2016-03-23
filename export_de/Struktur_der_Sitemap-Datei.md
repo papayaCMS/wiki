@@ -2,6 +2,7 @@
 Die Sitemap-Datei ist sehr einfach aufgebaut. Das Wurzelelement ist `<urlset>`. Dieses Element kann beliebig viele `<url>` -Elemente enthalten, die alle die URL einer Webseite beschreiben. Ein `<url>` -Element wiederum besteht aus folgenden Elementen:
 
 |Element|Bedeutung|
+|-------|---------|
 |`<loc>`|Enthält die absolute URL der Seite, beispielsweise <http://www.domain.tld/startseite.html> . Diese Angabe ist obligatorisch.|
 |`<lastmod>`|Datum der letzten Änderung im ISO-8601-Format (YYYY-mm-dd, also Jahr, Monat, Tag). Diese Angabe ist optional.|
 |`<changefreq>`|Rhythmus, in dem die Seite aktualisiert wird. Diese Angabe ist Optional. Folgende Werte sind erlaubt:

@@ -771,5 +771,3 @@ Wurden noch keine Header ausgegeben, wird geprüft, ob die Konfigurationsoption 
 Damit wird verhindert, dass z.B. der X-Generator-Header Aufschluss über das verwendete Content-Management-System gibt. Andere von papaya CMS generierte X-Header dienen der Fehleranalyse. Damit lassen sich z.B. Weiterleitungen nachvollziehen und in geringem Umfang debuggen.
 
 Im folgenden Abschnitt wird beschrieben, wie die Systemoptionen für papaya CMS aus der Datenbank gelesen werden.
-
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

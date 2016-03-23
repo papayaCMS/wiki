@@ -2,8 +2,8 @@
 Damit die Sitemap-Datei durch den Crawler der Suchmaschine gefunden werden kann, müssen Sie die Suchmaschine informieren. Es existieren drei verschiedene Wege, die Sitemap-Datei zu registrieren:
 
 1.  Sie registrieren die Sitemap-Datei direkt beim Betreiber einer Suchmaschine. Die Vorgehensweise hängt dabei von den Regeln des jeweiligen Suchmaschinenbetreibers ab.
-2.  Sie tragen die URI der Sitemap-Datei in die robots.txt ein, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren.md).
-3.  Sie senden die URL der Sitemap-Datei über einen HTTP-Request an die Suchmaschine, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](/Sitemap-Datei_bei_einer_Suchmaschine_registrieren.md).
+2.  Sie tragen die URI der Sitemap-Datei in die robots.txt ein, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](Sitemap-Datei_bei_einer_Suchmaschine_registrieren.md).
+3.  Sie senden die URL der Sitemap-Datei über einen HTTP-Request an die Suchmaschine, siehe [Sitemap-Datei bei einer Suchmaschine registrieren](Sitemap-Datei_bei_einer_Suchmaschine_registrieren.md).
 
 URI der Sitemap-Datei in die robots.txt eintragen
 

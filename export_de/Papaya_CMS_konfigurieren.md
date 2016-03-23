@@ -4,6 +4,7 @@ Nachdem Sie die Programmdateien auf den Server kopiert haben, müssen Sie grundl
 In der folgenden Tabelle sind die Konfigurationsoptionen dargestellt, die Sie in der `conf.inc.php` einstellen können:
 
 |Konstante|Bedeutung|
+|---------|---------|
 |PAPAYA_INCLUDE_PATH|Pfad zum Verzeichnis `papaya-lib/`.|
 |PAPAYA_DB_URI|Benutzername, Passwort, Host, Datenbankname.|
 |PAPAYA_DB_URI_WRITE|Bei MySQL-Multiclustering: Benutzername, Passwort, Host und Datenbankname des Masterservers. Im Standardfall: NULL.|
@@ -22,4 +23,4 @@ In der folgenden Tabelle sind die Konfigurationsoptionen dargestellt, die Sie in
 |PAPAYA_DBG_DEVMODE|„TRUE“, wenn Debuginformationen ausgegeben werden sollen, andernfalls „FALSE“.|
 |PAPAYA_PATH_DATA|Absoluter Pfad zum Verzeichnis `papaya-data/`.|
 
-[Kategorie:papaya CMS installieren und konfigurieren](export_de/Kategorie:papaya_CMS_installieren_und_konfigurieren.md)
+[Kategorie:Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)

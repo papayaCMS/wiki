@@ -1,14 +1,20 @@
 
 Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt vor:
 
-1.  Importieren Sie die Templates für die Phrasenübersetzung. Diesen Schritt müssen Sie nicht durchführen, wenn Sie die `page_main.xsl` in Ihr Stylesheet importieren: **Templates für Phrasen importieren**
+1.  Importieren Sie die Templates für die Phrasenübersetzung. Diesen Schritt müssen Sie nicht durchführen, wenn Sie die `page_main.xsl` in Ihr Stylesheet importieren: 
+
+**Templates für Phrasen importieren**
+
     ~~~~ {.xml}
     ..
     <xsl:import href="../_lang/language.xsl" />
     ...
     ~~~~
 
-2.  Laden Sie die gewünschte Übersetzungsdatei in den Standard-Parameter (siehe [Templates und Parameter in ./html/page_main.xsl](/Templates_und_Parameter_in_./html/page_main.xsl.md).): **Übersetzungsdatei in Standardparameter laden**
+2.  Laden Sie die gewünschte Übersetzungsdatei in den Standard-Parameter (siehe [Templates und Parameter in ./html/page_main.xsl](Templates_und_Parameter_in_./html/page_main.xsl.md).):
+
+`**Übersetzungsdatei in Standardparameter laden**
+
     ~~~~ {.xml}
     ...
     <!-- Datei mit den Übersetzungen in der aktuellen Content-Sprache -->
@@ -22,7 +28,10 @@ Wenn Sie in Ihrem Stylesheet Phrasen übersetzen möchten, gehen Sie wie folgt v
     ...
     ~~~~
 
-3.  Übersetzen Sie die Phrase mit dem Template `language-text`. Sie übergeben diesem Template die Phrase über den Parameter `text`: **Phrase mit getText-Template übersetzen.**
+3.  Übersetzen Sie die Phrase mit dem Template `language-text`. Sie übergeben diesem Template die Phrase über den Parameter `text`: 
+
+**Phrase mit getText-Template übersetzen.**
+
     ~~~~ {.xml}
     ...
     <xsl:if test="$item/@href and $item/@href != ''">
