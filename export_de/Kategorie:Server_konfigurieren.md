@@ -10,6 +10,7 @@ Notwendige Systemvoraussetzungen
 Ihr System muss grundsätzlich folgende Bedingungen erfüllen, damit Sie papaya CMS betreiben können:
 
 |Komponente|Version|
+|----------|-------|
 |Betriebssystem|Linux, Unix-kompatible (BSD, Solaris), Windows (NT-kompatibel)|
 |Webserver|Apache ab Version 1.3.x, empfohlen ab Version 2.x, Lighttpd|
 |Datenbank|MySQL ab Version 4.1.x, empfohlen ab Version 5, PostgreSQL ab Version 8.x, SQLite.|
