@@ -142,7 +142,7 @@
 
  * [Modulprogrammierung_2:_Datenbankunterstuetzung.md](Modulprogrammierung_2:_Datenbankunterstuetzung.md)
 
- * [Modulprogrammierung_3:_Administrationsoberfläche.md](Modulprogrammierung_3:_Administrationsoberfläche.md)
+ * [Modulprogrammierung_3:_Administrationsoberfläche.md](Modulprogrammierung_3:_Administrationsoberflaeche.md)
 
  * [Modultypen_in_papaya_CMS.md](Modultypen_in_papaya_CMS.md)
 
@@ -188,7 +188,7 @@
 
  * [RSS-Template_installieren.md](RSS-Template_installieren.md)
 
- * [Schriftfamilien_und_-schnitte_auswählen.md](Schriftfamilien_und_-schnitte_auswählen.md)
+ * [Schriftfamilien_und_-schnitte_auswählen.md](Schriftfamilien_und_-schnitte_auswaehlen.md)
 
  * [Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben.md](Seiten-Content_fuer_Preview-Modus_und_Frontend_ausgeben.md)
 
@@ -396,6 +396,6 @@
 
  * [Kategorie: Webseitenvorlage_erstellen.md](export_de/Kategorie:Webseitenvorlage_erstellen.md)
 
- * [Kategorie: Widgets_für_die_Benutzeroberfläche_einsetzen.md](export_de/Kategorie:Widgets_fuer_die_Benutzeroberfläche_einsetzen.md)
+ * [Kategorie: Widgets_für_die_Benutzeroberfläche_einsetzen.md](export_de/Kategorie:Widgets_fuer_die_Benutzeroberflaeche_einsetzen.md)
 
  * [Kategorie: Wie_funktioniert_eigentlich_papaya_CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
