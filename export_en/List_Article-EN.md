@@ -74,22 +74,22 @@
 
 #	Categories
 
- * [Cateogry: Administrators.md](export_en/Category:Administrators.md)
+ * [Category: Administrators.md](export_en/Category:Administrators.md)
 
- * [Cateogry: Developers.md](export_en/Category:Developers.md)
+ * [Category: Developers.md](export_en/Category:Developers.md)
 
- * [Cateogry: Developing_Templates_and_Themes_for_papaya_CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
+ * [Category: Developing_Templates_and_Themes_for_papaya_CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
 
- * [Cateogry: Installing_and_configuring_papaya_CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
+ * [Category: Installing_and_configuring_papaya_CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
 
- * [Cateogry: Papaya_CMS_Development.md](export_en/Category:Papaya_CMS_Development.md)
+ * [Category: Papaya_CMS_Development.md](export_en/Category:Papaya_CMS_Development.md)
 
- * [Cateogry: Papaya_CMS.md](export_en/Category:Papaya_CMS.md)
+ * [Category: Papaya_CMS.md](export_en/Category:Papaya_CMS.md)
 
- * [Cateogry: Papaya_Core_System.md](export_en/Category:Papaya_Core_System.md)
+ * [Category: Papaya_Core_System.md](export_en/Category:Papaya_Core_System.md)
 
- * [Cateogry: Papaya_Modules.md](export_en/Category:Papaya_Modules.md)
+ * [Category: Papaya_Modules.md](export_en/Category:Papaya_Modules.md)
 
- * [Cateogry: Tutorials.md](export_en/Category:Tutorials.md)
+ * [Category: Tutorials.md](export_en/Category:Tutorials.md)
 
- * [Cateogry: Web_designers.md](export_en/Category:Web_designers.md)
+ * [Category: Web_designers.md](export_en/Category:Web_designers.md)
