@@ -74,11 +74,11 @@
 
 #	Categories
 
- * [Cateogry: Administrators.md](Category:Administrators.md)
+ * [Cateogry: Administrators.md](export_en/Category:Administrators.md)
 
- * [Cateogry: Developers.md](Category:Developers.md)
+ * [Cateogry: Developers.md](export_en/Category:Developers.md)
 
- * [Cateogry: Developing_Templates_and_Themes_for_papaya_CMS.md](Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
+ * [Cateogry: Developing_Templates_and_Themes_for_papaya_CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
 
  * [Cateogry: Installing_and_configuring_papaya_CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
 
