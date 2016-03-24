@@ -302,110 +302,110 @@
 #	Kategorien
 
 
- * [Kategorie:Administratoren.md](Kategorie:Administratoren.md)
+ * [Kategorie: Administratoren.md](export_de/Kategorie:Administratoren.md)
 
- * [Kategorie:Ausgaben_verlinken.md](Kategorie:Ausgaben_verlinken.md)
+ * [Kategorie: Ausgaben_verlinken.md](export_de/Kategorie:Ausgaben_verlinken.md)
 
- * [Kategorie:Backend-Komponenten.md](Kategorie:Backend-Komponenten.md)
+ * [Kategorie: Backend-Komponenten.md](export_de/Kategorie:Backend-Komponenten.md)
 
- * [Kategorie:Basismodule_für_papaya_CMS_programmieren.md](Kategorie:Basismodule_für_papaya_CMS_programmieren.md)
+ * [Kategorie: Basismodule_für_papaya_CMS_programmieren.md](export_de/Kategorie:Basismodule_für_papaya_CMS_programmieren.md)
 
- * [Kategorie:Box-_und_Seitenmodule_programmieren.md](Kategorie:Box-_und_Seitenmodule_programmieren.md)
+ * [Kategorie: Box-_und_Seitenmodule_programmieren.md](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
 
- * [Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md](Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
+ * [Kategorie: Content_ausgeben_und_Nutzereingaben_maskieren.md](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
 
- * [Kategorie:Das_papaya-Demotemplate.md](Kategorie:Das_papaya-Demotemplate.md)
+ * [Kategorie: Das_papaya-Demotemplate.md](export_de/Kategorie:Das_papaya-Demotemplate.md)
 
- * [Kategorie:Das_Übersetzungsframework_benutzen.md](Kategorie:Das_Übersetzungsframework_benutzen.md)
+ * [Kategorie: Das_Übersetzungsframework_benutzen.md](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md)
 
- * [Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md](Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md)
+ * [Kategorie: Das_Vorlagenkonzept_in_papaya_CMS.md](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md)
 
- * [Kategorie:Datenbankzugriffe_optimieren.md](Kategorie:Datenbankzugriffe_optimieren.md)
+ * [Kategorie: Datenbankzugriffe_optimieren.md](export_de/Kategorie:Datenbankzugriffe_optimieren.md)
 
- * [Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md](Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md)
+ * [Kategorie: Der_modulare_Aufbau_von_papaya_CMS.md](export_de/Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md)
 
- * [Kategorie:Die_einzelnen_Komponenten_im_Detail.md](Kategorie:Die_einzelnen_Komponenten_im_Detail.md)
+ * [Kategorie: Die_einzelnen_Komponenten_im_Detail.md](export_de/Kategorie:Die_einzelnen_Komponenten_im_Detail.md)
 
- * [Kategorie:Eigene_Anwendungen_schreiben.md](Kategorie:Eigene_Anwendungen_schreiben.md)
+ * [Kategorie: Eigene_Anwendungen_schreiben.md](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
 
- * [Kategorie:Entwickeln_mit_papaya_CMS.md](Kategorie:Entwickeln_mit_papaya_CMS.md)
+ * [Kategorie: Entwickeln_mit_papaya_CMS.md](export_de/Kategorie:Entwickeln_mit_papaya_CMS.md)
 
- * [Kategorie:Entwickler.md](Kategorie:Entwickler.md)
+ * [Kategorie: Entwickler.md](export_de/Kategorie:Entwickler.md)
 
- * [Kategorie:Fehlersuche_in_papaya_CMS.md](Kategorie:Fehlersuche_in_papaya_CMS.md)
+ * [Kategorie: Fehlersuche_in_papaya_CMS.md](export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)
 
- * [Kategorie:Fehlersuche_mit_base_object::logVariable().md](Kategorie:Fehlersuche_mit_base_object::logVariable().md)
+ * [Kategorie: Fehlersuche_mit_base_object::logVariable().md](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)
 
- * [Kategorie:Formatvorlagen_in_papaya_CMS.md](Kategorie:Formatvorlagen_in_papaya_CMS.md)
+ * [Kategorie: Formatvorlagen_in_papaya_CMS.md](export_de/Kategorie:Formatvorlagen_in_papaya_CMS.md)
 
- * [Kategorie:Handbuch_für_Entwickler.md](Kategorie:Handbuch_für_Entwickler.md)
+ * [Kategorie: Handbuch_für_Entwickler.md](export_de/Kategorie:Handbuch_für_Entwickler.md)
 
- * [Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md](Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md)
+ * [Kategorie: Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md](export_de/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md)
 
- * [Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md](Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)
+ * [Kategorie: Implementierungsphase:_Webseitenvorlage_erstellen.md](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)
 
- * [Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md](Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
+ * [Kategorie: Meldungen_mit_base_object::logMsg()_protokollieren.md](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
 
- * [Kategorie:Mit_Übersetzungsdateien_arbeiten.md](Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
+ * [Kategorie: Mit_Übersetzungsdateien_arbeiten.md](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
 
- * [Kategorie:Module_für_das_Backend_programmieren.md](Kategorie:Module_für_das_Backend_programmieren.md)
+ * [Kategorie: Module_für_das_Backend_programmieren.md](export_de/Kategorie:Module_für_das_Backend_programmieren.md)
 
- * [Kategorie:Papaya_CMS_Entwicklung.md](Kategorie:Papaya_CMS_Entwicklung.md)
+ * [Kategorie: Papaya_CMS_Entwicklung.md](export_de/Kategorie:Papaya_CMS_Entwicklung.md)
 
- * [Kategorie:Papaya_CMS_installieren.md](Kategorie:Papaya_CMS_installieren.md)
+ * [Kategorie: Papaya_CMS_installieren.md](export_de/Kategorie:Papaya_CMS_installieren.md)
 
- * [Kategorie:Papaya_CMS_installieren_und_konfigurieren.md](Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
+ * [Kategorie: Papaya_CMS_installieren_und_konfigurieren.md](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
 
- * [Kategorie:Papaya_CMS.md](Kategorie:Papaya_CMS.md)
+ * [Kategorie: Papaya_CMS.md](export_de/Kategorie:Papaya_CMS.md)
 
- * [Kategorie:Papaya-Formatierungsobjekt.md](Kategorie:Papaya-Formatierungsobjekt.md)
+ * [Kategorie: Papaya-Formatierungsobjekt.md](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
 
- * [Kategorie:Papaya-Module.md](Kategorie:Papaya-Module.md)
+ * [Kategorie: Papaya-Module.md](export_de/Kategorie:Papaya-Module.md)
 
- * [Kategorie:PDF-Template_schreiben.md](Kategorie:PDF-Template_schreiben.md)
+ * [Kategorie: PDF-Template_schreiben.md](export_de/Kategorie:PDF-Template_schreiben.md)
 
- * [Kategorie:Phrasen_übersetzen.md](Kategorie:Phrasen_übersetzen.md)
+ * [Kategorie: Phrasen_übersetzen.md](export_de/Kategorie:Phrasen_übersetzen.md)
 
- * [Kategorie:Print-Templates_erstellen.md](Kategorie:Print-Templates_erstellen.md)
+ * [Kategorie: Print-Templates_erstellen.md](export_de/Kategorie:Print-Templates_erstellen.md)
 
- * [Kategorie:Print-Templates_schreiben.md](Kategorie:Print-Templates_schreiben.md)
+ * [Kategorie: Print-Templates_schreiben.md](export_de/Kategorie:Print-Templates_schreiben.md)
 
- * [Kategorie:Redakteure.md](Kategorie:Redakteure.md)
+ * [Kategorie: Redakteure.md](export_de/Kategorie:Redakteure.md)
 
- * [Kategorie:Referenz.md](Kategorie:Referenz.md)
+ * [Kategorie: Referenz.md](export_de/Kategorie:Referenz.md)
 
- * [Kategorie:RSS-Feeds_erstellen.md](Kategorie:RSS-Feeds_erstellen.md)
+ * [Kategorie: RSS-Feeds_erstellen.md](export_de/Kategorie:RSS-Feeds_erstellen.md)
 
- * [Kategorie:Server_konfigurieren.md](Kategorie:Server_konfigurieren.md)
+ * [Kategorie: Server_konfigurieren.md](export_de/Kategorie:Server_konfigurieren.md)
 
- * [Kategorie:Sitemap-Datei_für_Suchmaschinen.md](Kategorie:Sitemap-Datei_für_Suchmaschinen.md)
+ * [Kategorie: Sitemap-Datei_für_Suchmaschinen.md](export_de/Kategorie:Sitemap-Datei_für_Suchmaschinen.md)
 
- * [Kategorie:Sitemap_erstellen.md](Kategorie:Sitemap_erstellen.md)
+ * [Kategorie: Sitemap_erstellen.md](export_de/Kategorie:Sitemap_erstellen.md)
 
- * [Kategorie:Sitemap-Template_erstellen.md](Kategorie:Sitemap-Template_erstellen.md)
+ * [Kategorie: Sitemap-Template_erstellen.md](export_de/Kategorie:Sitemap-Template_erstellen.md)
 
- * [Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md](Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md)
+ * [Kategorie: Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md](export_de/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md)
 
- * [Kategorie:Template_für_RSS-Feed_erstellen.md](Kategorie:Template_für_RSS-Feed_erstellen.md)
+ * [Kategorie: Template_für_RSS-Feed_erstellen.md](export_de/Kategorie:Template_für_RSS-Feed_erstellen.md)
 
- * [Kategorie:Templates_und_Themes_entwickeln.md](Kategorie:Templates_und_Themes_entwickeln.md)
+ * [Kategorie: Templates_und_Themes_entwickeln.md](export_de/Kategorie:Templates_und_Themes_entwickeln.md)
 
- * [Kategorie:Templates_und_Themes_für_papaya_CMS_entwickeln.md](Kategorie:Templates_und_Themes_für_papaya_CMS_entwickeln.md)
+ * [Kategorie: Templates_und_Themes_für_papaya_CMS_entwickeln.md](export_de/Kategorie:Templates_und_Themes_für_papaya_CMS_entwickeln.md)
 
- * [Kategorie:Übersetzungstemplate_benutzen.md](Kategorie:Übersetzungstemplate_benutzen.md)
+ * [Kategorie: Übersetzungstemplate_benutzen.md](export_de/Kategorie:Übersetzungstemplate_benutzen.md)
 
- * [Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md](Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)
+ * [Kategorie: Übersicht_über_die_verfügbaren_Komponenten.md](export_de/Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)
 
- * [Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md](Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)
+ * [Kategorie: Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)
 
- * [Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md](Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md)
+ * [Kategorie: Vorlage_für_die_PDF-Ausgabe_erstellen.md](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md)
 
- * [Kategorie:Web_Designer.md](Kategorie:Web_Designer.md)
+ * [Kategorie: Web_Designer.md](export_de/Kategorie:Web_Designer.md)
 
- * [Kategorie:Webseitenvorlage_erstellen.md](Kategorie:Webseitenvorlage_erstellen.md)
+ * [Kategorie: Webseitenvorlage_erstellen.md](export_de/Kategorie:Webseitenvorlage_erstellen.md)
 
- * [Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen.md](Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen.md)
+ * [Kategorie: Widgets_für_die_Benutzeroberfläche_einsetzen.md](export_de/Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen.md)
 
- * [Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md](Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
+ * [Kategorie: Wie_funktioniert_eigentlich_papaya_CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
 
- * [Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md](Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)
+ * [Kategorie: Wie_sieht_es_unter_der_Haube_aus?.md](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)
