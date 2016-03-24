@@ -236,7 +236,7 @@
 
  * [Theme erstellen.md](Theme_erstellen.md)
 
- * [$this- gt()_benutzen.md]($this- gt()_benutzen.md)
+ * [$this- gt()_benutzen.md]($this-_gt()_benutzen.md)
 
  * [$this- gtf() benutzen.md]($this-_gtf()_benutzen.md)
 
