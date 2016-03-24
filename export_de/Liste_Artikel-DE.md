@@ -56,8 +56,6 @@
 
  * [Die_Seitenausgabe_in_papaya_CMS.md](Die_Seitenausgabe_in_papaya_CMS.md)
 
- * [Dokumentation.md](Dokumentation.md)
-
  * [Druckfreundliches_CSS_einbinden.md](Druckfreundliches_CSS_einbinden.md)
 
  * [Druckfreundliches_CSS_schreiben.md](Druckfreundliches_CSS_schreiben.md)
@@ -76,8 +74,6 @@
 
  * [Element_footer.md](Element_footer.md)
 
- * [Entwicklerhandbuch.md](Entwicklerhandbuch.md)
-
  * [Formulare_für_die_Seitenausgabe_ausgeben.md](Formulare_fuer_die_Seitenausgabe_ausgeben.md)
 
  * [Funktionsweise_von_base_object::logMsg().md](Funktionsweise_von_base_object::logMsg().md)
@@ -88,15 +84,11 @@
 
  * [GET-Parameter_lesen_und_Sessiondaten_verwalten.md](GET-Parameter_lesen_und_Sessiondaten_verwalten.md)
 
- * [Hauptseite.md](Hauptseite.md)
-
  * [HTML-Rohling_erstellen.md](HTML-Rohling_erstellen.md)
 
  * [Icons_für_das_Admin-Modul_definieren.md](Icons_fuer_das_Admin-Modul_definieren.md)
 
  * [Indexdateien.md](Indexdateien.md)
-
- * [Inhalt_der_Fußzeile.md](Inhalt_der_Fußzeile.md)
 
  * [Inhalte_der_Titelseite.md](Inhalte_der_Titelseite.md)
 
