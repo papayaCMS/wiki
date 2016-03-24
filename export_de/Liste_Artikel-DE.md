@@ -407,5 +407,3 @@
  * [Kategorie: Widgets_für_die_Benutzeroberfläche_einsetzen.md](export_de/Kategorie:Widgets_für_die_Benutzeroberfläche_einsetzen.md)
 
  * [Kategorie: Wie_funktioniert_eigentlich_papaya_CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
-
- * [Kategorie: Wie_sieht_es_unter_der_Haube_aus?.md](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)
