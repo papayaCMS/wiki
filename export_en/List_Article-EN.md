@@ -78,7 +78,7 @@
 
  * [Category: Developers.md](export_en/Category:Developers.md)
 
- * [Category: Developing_Templates and Themes for papaya CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
+ * [Category: Developing Templates and Themes for papaya CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
 
  * [Category: Installing and configuring papaya CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
 
