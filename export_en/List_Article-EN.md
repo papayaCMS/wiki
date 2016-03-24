@@ -36,13 +36,9 @@
 
  * [License.md](License.md)
 
- * [List_Article-EN.md](List_Article-EN.md)
-
  * [Mail_Module.md](Mail_Module.md)
 
  * [Main_Page.md](Main_Page.md)
-
- * [MediaWiki:Requestaccount-text.md](MediaWiki:Requestaccount-text.md)
 
  * [Module_Development_1:_Content_Modules.md](Module_Development_1:_Content_Modules.md)
 
@@ -58,7 +54,7 @@
 
  * [Papaya_CMS_Coding_Standards.md](Papaya_CMS_Coding_Standards.md)
 
- * [PapayaCMS:Community_Portal.md](PapayaCMS:Community_Portal.md)
+ * [Papaya_CMS:Community_Portal.md](PapayaCMS:Community_Portal.md)
 
  * [Papaya_CMS.md](Papaya_CMS.md)
 
@@ -84,16 +80,16 @@
 
  * [Category:Developing_Templates_and_Themes_for_papaya_CMS.md](Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
 
- * [Category:Installing_and_configuring_papaya_CMS.md](Category:Installing_and_configuring_papaya_CMS.md)
+ * [Category:Installing_and_configuring_papaya_CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
 
- * [Category:Papaya_CMS_Development.md](Category:Papaya_CMS_Development.md)
+ * [Category:Papaya_CMS_Development.md](export_en/Category:Papaya_CMS_Development.md)
 
- * [Category:Papaya_CMS.md](Category:Papaya_CMS.md)
+ * [Category:Papaya_CMS.md](export_en/Category:Papaya_CMS.md)
 
- * [Category:Papaya_Core_System.md](Category:Papaya_Core_System.md)
+ * [Category:Papaya_Core_System.md](export_en/Category:Papaya_Core_System.md)
 
- * [Category:Papaya_Modules.md](Category:Papaya_Modules.md)
+ * [Category:Papaya_Modules.md](export_en/Category:Papaya_Modules.md)
 
- * [Category:Tutorials.md](Category:Tutorials.md)
+ * [Category:Tutorials.md](export_en/Category:Tutorials.md)
 
- * [Category:Web_designers.md](Category:Web_designers.md)
+ * [Category:Web_designers.md](export_en/Category:Web_designers.md)
