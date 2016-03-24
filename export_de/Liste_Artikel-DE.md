@@ -12,7 +12,7 @@
 
  * [Article-Element.md](Article-Element.md)
 
- * [Aufruf_von_papaya_CMS_über_index.php.md](Aufruf_von_papaya_CMS_über_index.php.md)
+ * [Aufruf_von_papaya_CMS_über_index.php.md](Aufruf_von_papaya_CMS_ueber_index.php.md)
 
  * [Ausgabefilter_anlegen_und_mit_Ansicht_verknüpfen.md](Ausgabefilter_anlegen_und_mit_Ansicht_verknüpfen.md)
 
