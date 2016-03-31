@@ -17,4 +17,4 @@ Die Struktur des papaya-Formatierungsobjektes ist in der folgenden Illustration 
 
 Das Wurzelelement `<article>` enthält den Layoutbereich im Element `<layout>`, während der Inhaltsbereich auf die Elemente `<cover>`, `<content>`, `<footer>` und `<final>` aufgeteilt ist. In den folgenden Unterabschnitten werden diese Elemente näher beschrieben.
 
-[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md)
+[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)

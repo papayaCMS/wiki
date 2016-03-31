@@ -236,11 +236,11 @@
 
  * [Theme erstellen.md](Theme_erstellen.md)
 
- * [$this- gt()_benutzen.md]($this-_gt()_benutzen.md)
+ * [$this- gt()_benutzen.md](this_gt_benutzen.md)
 
- * [$this- gtf() benutzen.md]($this-_gtf()_benutzen.md)
+ * [$this- gtf() benutzen.md](this_gtf_benutzen.md)
 
- * [$this- gtfile() benutzen.md]($this-_gtfile()_benutzen.md)
+ * [$this- gtfile() benutzen.md](this_gtfile_benutzen.md)
 
  * [Übersetzungsdatei anlegen.md](Übersetzungsdatei_anlegen.md)
 
@@ -298,15 +298,11 @@
 
  * [Kategorie: Ausgaben verlinken.md](export_de/Kategorie:Ausgaben_verlinken.md)
 
- * [Kategorie: Backend-Komponenten.md](export_de/Kategorie:Backend-Komponenten.md)
-
  * [Kategorie: Basismodule für papaya CMS programmieren.md](export_de/Kategorie:Basismodule_fuer_papaya_CMS_programmieren.md)
 
  * [Kategorie: Box- und Seitenmodule programmieren.md](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
 
  * [Kategorie: Content ausgeben und Nutzereingaben maskieren.md](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
-
- * [Kategorie: Das papaya-Demotemplate.md](export_de/Kategorie:Das_papaya-Demotemplate.md)
 
  * [Kategorie: Das Übersetzungsframework benutzen.md](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md)
 
@@ -316,13 +312,7 @@
 
  * [Kategorie: Der modulare Aufbau von papaya CMS.md](export_de/Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md)
 
- * [Kategorie: Die einzelnen Komponenten im Detail.md](export_de/Kategorie:Die_einzelnen_Komponenten_im_Detail.md)
-
  * [Kategorie: Eigene Anwendungen schreiben.md](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
-
- * [Kategorie: Entwickeln mit papaya CMS.md](export_de/Kategorie:Entwickeln_mit_papaya_CMS.md)
-
- * [Kategorie: Entwickler.md](export_de/Kategorie:Entwickler.md)
 
  * [Kategorie: Fehlersuche in papaya CMS.md](export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)
 
@@ -330,25 +320,17 @@
 
  * [Kategorie: Formatvorlagen in papaya CMS.md](export_de/Kategorie:Formatvorlagen_in_papaya_CMS.md)
 
- * [Kategorie: Handbuch für Entwickler.md](export_de/Kategorie:Handbuch_fuer_Entwickler.md)
-
  * [Kategorie: Icons für Bearbeitungsmenü oder Adminanwendung benutzen.md](export_de/Kategorie:Icons_fuer_Bearbeitungsmenue_oder_Adminanwendung_benutzen.md)
-
- * [Kategorie: Implementierungsphase: Webseitenvorlage erstellen.md](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)
 
  * [Kategorie: Meldungen mit base object::logMsg() protokollieren.md](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
 
  * [Kategorie: Mit Übersetzungsdateien arbeiten.md](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
-
- * [Kategorie: Module für das Backend programmieren.md](export_de/Kategorie:Module_fuer_das_Backend_programmieren.md)
 
  * [Kategorie: Papaya CMS Entwicklung.md](export_de/Kategorie:Papaya_CMS_Entwicklung.md)
 
  * [Kategorie: Papaya CMS installieren.md](export_de/Kategorie:Papaya_CMS_installieren.md)
 
  * [Kategorie: Papaya CMS installieren und konfigurieren.md](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
-
- * [Kategorie: Papaya CMS.md](export_de/Kategorie:Papaya_CMS.md)
 
  * [Kategorie: Papaya-Formatierungsobjekt.md](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
 
@@ -364,8 +346,6 @@
 
  * [Kategorie: Redakteure.md](export_de/Kategorie:Redakteure.md)
 
- * [Kategorie: Referenz.md](export_de/Kategorie:Referenz.md)
-
  * [Kategorie: RSS-Feeds erstellen.md](export_de/Kategorie:RSS-Feeds_erstellen.md)
 
  * [Kategorie: Server konfigurieren.md](export_de/Kategorie:Server_konfigurieren.md)
@@ -376,26 +356,14 @@
 
  * [Kategorie: Sitemap-Template erstellen.md](export_de/Kategorie:Sitemap-Template_erstellen.md)
 
- * [Kategorie: Sitemap-Template installieren_und der Suchmaschine bekannt machen.md](export_de/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md)
-
- * [Kategorie: Template für RSS-Feed erstellen.md](export_de/Kategorie:Template_fuer_RSS-Feed_erstellen.md)
-
- * [Kategorie: Templates und Themes entwickeln.md](export_de/Kategorie:Templates_und_Themes_entwickeln.md)
-
- * [Kategorie: Templates und Themes für papaya CMS entwickeln.md](export_de/Kategorie:Templates_und_Themes_fuer_papaya_CMS_entwickeln.md)
-
  * [Kategorie: Übersetzungstemplate benutzen.md](export_de/Kategorie:Übersetzungstemplate_benutzen.md)
 
- * [Kategorie: Übersicht über die verfügbaren Komponenten.md](export_de/Kategorie:Übersicht_ueber_die_verfuegbaren_Komponenten.md)
+ * [Kategorie: Übersicht über die verfügbaren Komponenten.md](export_de/Kategorie:Übersicht_ueber_die_verfügbaren_Komponenten.md)
 
  * [Kategorie: Verzeichnisse und Metadaten für Pakete erstellen.md](export_de/Kategorie:Verzeichnisse_und_Metadaten_fuer_Pakete_erstellen.md)
 
  * [Kategorie: Vorlage_für die PDF-Ausgabe erstellen.md](export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)
 
- * [Kategorie: Web Designer.md](export_de/Kategorie:Web_Designer.md)
-
  * [Kategorie: Webseitenvorlage erstellen.md](export_de/Kategorie:Webseitenvorlage_erstellen.md)
-
- * [Kategorie: Widgets für die Benutzeroberfläche einsetzen.md](export_de/Kategorie:Widgets_fuer_die_Benutzeroberflaeche_einsetzen.md)
 
  * [Kategorie: Wie funktioniert eigentlich papaya CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)

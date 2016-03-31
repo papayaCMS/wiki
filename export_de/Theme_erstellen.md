@@ -330,4 +330,3 @@ Wenn Sie das Theme an Ihre eigenen Bedürfnisse anpassen möchten, können SIe w
 
 Im folgenden Abschnitt können Sie erfahren, wie Sie ein HTML-Template erstellen..
 
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](export_de/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)

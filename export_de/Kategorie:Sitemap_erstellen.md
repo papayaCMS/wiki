@@ -10,4 +10,3 @@ Damit papaya CMS eine solche Sitemap-Datei ausgeben kann und sie auch von der Su
 3.  Verknüpfen Sie die vorhandene Ansicht des Sitemap-Moduls mit dem XSLT-Template.
 4.  Registrieren Sie die Sitemap-Ausgabe beim Betreiber der Suchmaschine (yahoo!, google).
 
-[Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln.md)

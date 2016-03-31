@@ -6,4 +6,3 @@
 -   [Kategorie "papaya CMS" hier im Wiki](export_de/Kategorie:Papaya_CMS.md)
 -   [Quellcodedokumentation für den jeweils aktuellen Nightly Build](http://www.papaya-cms.com/doc/papaya-cms/en/source/nightly/)
 -   [Kategorie "papaya CMS Entwicklung" hier im Wiki](export_de/Kategorie:Papaya_CMS_Entwicklung.md)
--   [Kategorie "Entwickeln mit papaya CMS" hier im Wiki](export_de/Kategorie:Entwickeln_mit_papaya_CMS.md)

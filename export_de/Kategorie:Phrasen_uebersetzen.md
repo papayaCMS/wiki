@@ -1,9 +1,9 @@
 
 Phrasen sind Texte für Feldbeschriftungen, Dialogmeldungen, Titel für Abschnitte, Tabellenspalten und Buttons. Während bestimmte Texte automatisch übersetzt werden, müssen Sie in anderen Fällen explizit Übersetzungsmethoden aus der Klasse `base_object` ausführen. Die Klasse `base_object` stellt zu diesem Zweck folgende Methoden zur Verfügung:
 
-1.  `$this->_gt($phrase, $module)`, um eine Phrasen zu übersetzen, siehe [$this-_gt\(\) benutzen]($this-_gt\(\)_benutzen.md).
-2.  `$this->_gtf($phrase, $vals, $module)`, um eine Phrase mit Platzhaltern zu übersetzen, siehe [$this-_gtf\(\) benutzen]($this-_gtf\(\)_benutzen.md).
-3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [$this-_gtfile/() benutzen]($this-_gtfile\(\)_benutzen.md).
+1.  `$this->_gt($phrase, $module)`, um eine Phrasen zu übersetzen, siehe [$this-_gt\(\) benutzen](this_gt_benutzen.md).
+2.  `$this->_gtf($phrase, $vals, $module)`, um eine Phrase mit Platzhaltern zu übersetzen, siehe [$this-_gtf\(\) benutzen](this_gtf_benutzen.md).
+3.  `$this->_gtfile($fileName)`, um einen längeren Textabschnitt im Backend sprachabhängig auszugeben, siehe [$this-_gtfile/() benutzen](this_gtfile_benutzen.md).
 
 Sprachkonventionen bei der Eingabe von Phrasen beachten
 
