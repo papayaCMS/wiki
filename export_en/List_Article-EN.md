@@ -71,21 +71,3 @@
  * [Web designers.md](Web_designers.md)
 
  * [Wiki (papaya Module Package).md](Wiki_(papaya_Module_Package).md)
-
-#	Categories
-
- * [Category: Administrators.md](export_en/Category:Administrators.md)
-
- * [Category: Developers.md](export_en/Category:Developers.md)
-
- * [Category: Developing Templates and Themes for papaya CMS.md](export_en/Category:Developing_Templates_and_Themes_for_papaya_CMS.md)
-
- * [Category: Installing and configuring papaya CMS.md](export_en/Category:Installing_and_configuring_papaya_CMS.md)
-
- * [Category: Papaya Core System.md](export_en/Category:Papaya_Core_System.md)
-
- * [Category: Papaya Modules.md](export_en/Category:Papaya_Modules.md)
-
- * [Category: Tutorials.md](export_en/Category:Tutorials.md)
-
- * [Category: Web designers.md](export_en/Category:Web_designers.md)

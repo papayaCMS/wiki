@@ -76,4 +76,3 @@ Anweisungen (Englisch), um eine bestehende papaya-Installation zu aktualisieren.
 
 Im [nächsten Schritt](/Programmdateien_nach_DocumentRoot_kopieren.md) kopieren Sie die Programmdateien aus dem Verzeichnis `files/` in das DocumentRoot-Verzeichnis.
 
-[Category:Installing and configuring papaya CMS](export_en/Category:Installing_and_configuring_papaya_CMS.md)

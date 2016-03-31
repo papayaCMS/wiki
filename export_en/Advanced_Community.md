@@ -38,4 +38,3 @@ Download
 -   [Readme](https://github.com/MKelm/pcms-advanced-community/blob/master/readme.txt)
 -   [Installation manual](https://github.com/MKelm/pcms-advanced-community/blob/master/installation-en.txt)
 
-[Category:papaya-Module](export_en/Category:Papaya-Module.md) [en:Advanced Community](/en:Advanced_Community.md)

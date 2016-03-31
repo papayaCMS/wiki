@@ -139,4 +139,3 @@ The first part to be implemented is the page module itself. Create an empty PHP 
 
 Following the test-first approach, you should prepare the unit test class file and write the first test before writing any implementation code. A PHPUnit test case class extends the *PHPUnit_Framework_TestCase* base class. For the specific needs of papaya CMS unit tests, there's already a *PapayaTestCase* class you can extend, it's located in the *Framework* subdirectory of the *testing/tests-unittests* path.
 
-[Category:papaya CMS](export_en/Category:Papaya_CMS.md) [Category:papaya CMS Development](export_en/Category:papaya_CMS_Development.md)

@@ -48,4 +48,3 @@ papaya-lib/Papaya/Object
 
 ![600px](images/PapayaInterfaceDialog.png)
 
-[en:Architecture](/en:Architecture.md) [Category:Papaya CMS](export_en/Category:Papaya_CMS.md)

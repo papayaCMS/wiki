@@ -48,4 +48,3 @@ Caveats
 
 The simple template class is not for use on main output by Papaya. XML - XSL template translation should be used in preference.
 
-[Category:papaya Core System](export_en/Category:Papaya_Core_System.md)

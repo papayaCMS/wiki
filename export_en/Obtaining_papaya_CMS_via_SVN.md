@@ -19,4 +19,3 @@ You can browse through the repository with your webbrowser using our WebSVN inst
 
 WebSVN allows you to read log messages of single commits, to see the differences between various file versions or to take a look at the source code.
 
-[Category:Developers] [Category:Papaya CMS Development]

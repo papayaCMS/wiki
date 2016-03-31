@@ -239,4 +239,3 @@ Convert the table to the varchar, then convert existing records to a 32-digit nu
 
 Solution : removed javascript to new function, submission(), and then commented out the submit, as submission is implicit in the action of the form.
 
-[Category:papaya Modules](export_en/Category:Papaya_Modules.md)
