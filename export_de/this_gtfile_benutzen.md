@@ -32,5 +32,3 @@ $this->layout->addRight(
 ~~~~
 
 Sie müssen lediglich den Namen der Textdatei angeben. Der Pfad bis zur Datei wird durch die Implementation der Methode automatisch ergänzt.
-
-[Kategorie:Phrasen übersetzen](export_de/Kategorie:Phrasen_übersetzen.md)

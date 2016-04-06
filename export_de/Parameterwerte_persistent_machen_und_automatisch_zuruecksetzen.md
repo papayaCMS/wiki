@@ -48,5 +48,3 @@ Im Folgenden soll Schrittweise erklärt werden, wie Sie den Status eines Formula
 In diesem Beispiel enthält der zweite Aufruf von `initializeSessionParams()` als zweiten Parameter ein Array mit dem Wert `sticker_id`. Dieser zweite Parameter enthält die IDs aller Sessiondaten, die entfernt werden sollen, wenn der erste Parameter in POST oder GET enthalten ist. Im obigen Beispiel wird also der Wert des Sessioneintrags `sticker_id` entfernt, wenn sich der Wert des Eintrags für `col_id` (die ID der Collection/Sammlung) geändert hat.
 
 Die ID des Stickers wird entfernt, um die Datenkonsistenz zu gewährleisten. Wenn der Nutzer eine andere Collection auswählt, soll die ID des zuvor ausgewählten Stickers nicht gespeichert bleiben, da der Sticker zu einer anderen Collection gehört.
-
-[Kategorie:POST/GET-Parameter lesen und Sessiondaten verwalten](export_de/Kategorie:POST/GET-Parameter_lesen_und_Sessiondaten_verwalten.md)

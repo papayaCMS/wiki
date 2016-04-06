@@ -9,5 +9,3 @@ Struktur der HTML-Ausgabe
 |id|eindeutige ID, sofern benötigt|
 |onclick|`onClick` -Handler für Javascript Aktionen|
 |size|Größe des Icons, 16, 22 oder 48 sind die Standardgrößen, default ist 16|
-
-[Kategorie:Die einzelnen Komponenten im Detail](export_de/Kategorie:Die_einzelnen_Komponenten_im_Detail.md)

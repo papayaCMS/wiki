@@ -40,5 +40,3 @@ XML der Seitenausgabe an Ausgabefilter übergeben
 Das XML wird in der Methode `generatePage()` der Klasse `papaya_page` direkt an das Layoutobjekt übergeben. Zudem werden weitere Inhalte wie Metadaten, Ansichtenlisten für die aktuelle Seite sowie die unterschiedlichen Sprachversionen im Layoutobjekt gesetzt. Ebenso werden entsprechende Parameter für die XSLT-Transformation gesetzt.
 
 papaya_output::getFilter erzeugt eine Instanz des Ausgabefilters. Der Ausgabefilter liest den Pfad zum XSLT-Stylesheet aus, die in der Ansicht gespeichert ist. Anschließend wird der Transformationsprozess gestartet. Dazu wird die Methode `parsePage()` ausgeführt. Diese Methode wird in `base_outputfilter` definiert und von den implementierenden Klassen überladen. Die Seite wird im entsprechenden Zielformat ausgegeben. Unabhängig davon wurden die Header bereits in der Methode `getPageOutput()` sowie in `getPage()` in der Klasse `papaya_page` gesetzt.
-
-[Kategorie:Wie sieht es unter der Haube aus?](export_de/Kategorie:Wie_sieht_es_unter_der_Haube_aus?.md)

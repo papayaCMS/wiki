@@ -31,4 +31,4 @@ Das folgende Listing stellt dar, wie Sie das Paket mit dem Packprogramm `zip` er
 
     <nowiki>$ zip -r example-module-0.1.zip example-module-0.1</nowiki>
 
-[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_für_Pakete_erstellen.md)
+[Kategorie:Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie\:Verzeichnisse_und_Metadaten_fuer_Pakete_erstellen.md)

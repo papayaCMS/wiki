@@ -36,5 +36,3 @@ Sie müssen jedoch die URL-Angabe mit URL-Encoding maskieren, damit die Sitemap-
 **Vollständiges und korrektes Beispiel eines HTTP-Requests**
 
     <nowiki>http://www.google.de/ping?sitemap=http%3A%2F%2Fwww.meine-domain.tld%2Fsitemapdatei.11.sitemap</nowiki>
-
-[Kategorie:Sitemap-Template installieren und der Suchmaschine bekannt machen](export_de/Kategorie:Sitemap-Template_installieren_und_der_Suchmaschine_bekannt_machen.md)
