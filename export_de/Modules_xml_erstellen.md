@@ -1,4 +1,3 @@
-
 Damit die Module aus Ihrem Paket in papaya CMS verwendet werden können, müssen Sie diese in die Datei `modules.xml` eintragen. Anschließend können Sie die Module Ihres Pakets papaya CMS registrieren, Benutzen Sie dazu die Modulscan-Funktion in der Modulverwaltung.
 
 Um eine `modules.xml` zu schreiben, gehen Sie bitte wie folgt vor:
@@ -97,7 +96,8 @@ Das Element <modulegroup>
 
 Das Element `<modulegroup>` umfasst die gesamte Paketdefinition und besteht aus folgenden Elementen:
 
-|Element|Funktion|
+| Element | Funktion|
+| ------- | --------|
 |`name`|Obligatorisch: Dieses Element enthält den Namen des Pakets. Der Name wird in der Modulverwaltung von papaya CMS dargestellt.|
 |`description`|Obligatorisch. Dieses Element enthält eine kurze Beschreibung des Pakets.|
 |`modules`|Obligatorisch: Enthält für jedes Modul des Pakets ein `<module>` -Element.|
@@ -108,6 +108,7 @@ Das Element <modules>
 Das Element `<modules>` enthält `<module>` -Elemente. Jedes `<module>` -Element beschreibt ein Modul, wobei die Eigenschaften des Moduls über Attribute erfasst werden. `<module>` -Elemente sollten den optionalen Beschreibungstext enthalten, der die Funktion des Moduls beschreibt. Der Nutzer erfährt darüber hinaus, wie man das Modul einsetzen kann. Der Beschreibungstext wird in der Modulverwaltung angezeigt, wenn Sie das Modul in der Modulverwaltung von papaya CMS anklicken. Die Attribute des `<module>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
 Attribut|Bedeutung|Notwendig
+--------|---------|---------
 `type`|Modultyp, siehe Tabelle "Modultypen" in [Modultypen in papaya CMS](Modultypen_in_papaya_CMS.md).|ja
 `guid`|Eindeutiger 32-stelliger hexadezimaler Schlüssel.|ja
 `name`|Der kurze und aussagekräftige Name des Moduls.|ja
