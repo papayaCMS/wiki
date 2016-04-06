@@ -2,10 +2,6 @@
  
  * [Action Dispatcher.md](Action_Dispatcher.md)
 
- * [Adding Database Support and Administration Interface.md](Adding_Database_Support_and_Administration_Interface.md)
-
- * [Adding Database Support.md](Adding_Database_Support.md)
-
  * [Advanced Community.md](Advanced_Community.md)
 
  * [Architecture (Forum).md](Architecture_(Forum).md)
@@ -30,8 +26,6 @@
 
  * [Including papaya CMS via SVN externals.md](Including_papaya_CMS_via_SVN_externals.md)
 
- * [Informing Search Engines.md](Informing_Search_Engines.md)
-
  * [Installation in a subfolder: Changing the .htaccess file.md](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
 
  * [License.md](License.md)
@@ -54,11 +48,9 @@
 
  * [Papaya CMS Coding Standards.md](Papaya_CMS_Coding_Standards.md)
 
- * [Papaya CMS:Community Portal.md](PapayaCMS:Community_Portal.md)
+ * [Papaya CMS:Community Portal.md](PapayaCMS_Community_Portal.md)
 
  * [Papaya CMS.md](Papaya_CMS.md)
-
- * [Papaya Module Development.md](Papaya_Module_Development.md)
 
  * [Papaya Wiki Users' Manual.md](Papaya_Wiki_Users'_Manual.md)
 
@@ -67,7 +59,5 @@
  * [Upload Module.md](Upload_Module.md)
 
  * [Using the papaya CMS API.md](Using_the_papaya_CMS_API.md)
-
- * [Web designers.md](Web_designers.md)
 
  * [Wiki (papaya Module Package).md](Wiki_(papaya_Module_Package).md)

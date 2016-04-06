@@ -25,5 +25,3 @@ Sie können uns einen Verbesserungsvorschlag machen, wenn Sie Ideen zu neuen Fun
     Bestehende Funktionen können beispielsweise dadurch verbessert werden, indem Sie Vorschläge für eine geänderte Benutzeroberfläche machen. Auch Verbesserungen der Terminologie können helfen, die Benutzerfreundlichkeit zu erhöhen.
 -   **Eine neue Funktion einführen**
     Wenn Sie bestimmte Funktionen aus einem anderen CMS kennen und auch im papaya CMS benutzen möchten, können Sie uns ebenfalls einen Verbesserungsvorschlag machen.
-
-[de:Bugtracker](export_de/Bugtracker.md)

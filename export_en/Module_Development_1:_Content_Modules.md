@@ -1,4 +1,4 @@
-This tutorial describes how to write a simple module or plugin for [papaya CMS](/papaya_CMS.md).
+This tutorial describes how to write a simple module or plugin for papaya CMS.
 
 Getting started
 

@@ -26,5 +26,3 @@ Die folgende Datei stellt einen Beispiel der `info.xml` dar:
   </boxes>
 </info>
 ~~~~
-
-[Kategorie:Implementierungsphase: Webseitenvorlage erstellen](/Kategorie:Implementierungsphase:_Webseitenvorlage_erstellen.md)

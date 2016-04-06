@@ -74,5 +74,5 @@ Anweisungen (Deutsch), um eine bestehende papaya-Installation zu aktualisieren.
 update_en.txt
 Anweisungen (Englisch), um eine bestehende papaya-Installation zu aktualisieren.
 
-Im [nächsten Schritt](/Programmdateien_nach_DocumentRoot_kopieren.md) kopieren Sie die Programmdateien aus dem Verzeichnis `files/` in das DocumentRoot-Verzeichnis.
+Im [nächsten Schritt](Programmdateien_nach_DocumentRoot_kopieren.md) kopieren Sie die Programmdateien aus dem Verzeichnis `files/` in das DocumentRoot-Verzeichnis.
 
