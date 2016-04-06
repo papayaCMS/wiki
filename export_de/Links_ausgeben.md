@@ -1,4 +1,3 @@
-
 papaya CMS stellt einige Methoden zur Verfügung, mit denen Sie Links ausgeben können. Die Links berücksichtigen dabei den Kontext der Anwendung und die Konfiguration von papaya CMS. Diese Methoden sind alle in der Klasse `base_object` definiert und können somit in allen von `base_object` abgeleiteten Klassen über `$this` aufgerufen werden:
 
 |Methode|Verwendung|
@@ -15,6 +14,7 @@ Die Methode base_object::getLink()
 Verwenden Sie `base_object::getLink()` um Links für Anwendungen im Backend zu erstellen. Alle Parameter sind optional.
 
 |Parameter|Beschreibung|
+|---------|------------|
 |\$params|Die zu übergebenden Parameter, z.B. array('key' =\> 'value, 'key2' =\> 'othervalue'). Erstellt abhängig vom \$paramName (der Klasse oder der explizit übergebene) die GET-Parameter.|
 |\$paramName|Der zu verwendende Parametername. Nur anzugeben, wenn er vom Standard-Parameternamen im Klassenattribut \$paramName abweicht, das im aktuellen Objekt gesetzt ist.|
 |\$fileName|Name des auszuführenden PHP-Scriptes unterhalb von `/papaya`. Für Anwendungen ist das automatisch `modules.php`|
@@ -39,6 +39,7 @@ Die Methode base_object::getAbsoluteURL()
 Verwenden Sie `base_object::getAbsoluteURL()` um eine absolute URL zu erhalten. Die URL enthält das Protokoll und den Domainnamen. Die Methode sorgt dafür, dass die Session bei Bedarf nicht berücksichtigt wird. Bestandteile wie `/../` werden aufgelöst und Parameter sowie Targets ( `#top`.md) berücksichtigt.
 
 |Parameter|Beschreibung|
+|---------|------------|
 |\$url|Relative oder absolute URL oder Seiten-ID.|
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Seitentitel oder „index“.|
 |\$includeSession|„TRUE“, wenn die Session-ID in die URL übernommen werden soll, andernfalls „FALSE“.|
@@ -47,15 +48,15 @@ Die Methode base_object::getWebMediaLink()
 
 Verwenden Sie `base_object::getWebMediaLink()` um anhand einer Media-ID einen vollständigen Link auf eine Datei zu erhalten. Die Methode gibt einen Dateinamen zurück, z.B. `dateiname.media.0123456789abcdef0123456789abcdef.png`
 
-|Parameter|Beschreibung|
 
+|Parameter|Beschreibung|
+|---------|------------|
 |\$mediaID|32-stellige hexadezimale ID der Datei|
 |\$mode|Ausgabemodus: `media`, `download`, `popup` oder `thumb`:
-|
-|		1.  `media`: Für die MediaDB-ID wird ein einfacher Link zur Datei zurückgegeben.
-|		2.  `download`: Dieser Modus wird so umgesetzt,dass entsprechende HTTP-Header gesetzt werden, damit der Browser den Datei-Speichern-Dialog darstellt.
-|		3.  `popup`: Die Datei wird in einem JavaScript-Popup-Fenster geöffnet. Bilder können damit in der Vollbildansicht dargestellt werden.
-|		4.  `thumb`: Die MediaDB-ID wird als Thumbnail-Link inklusive Größenangaben und Parametern interpretiert.|
+| |		1.  `media`: Für die MediaDB-ID wird ein einfacher Link zur Datei zurückgegeben.
+| |		2.  `download`: Dieser Modus wird so umgesetzt,dass entsprechende HTTP-Header gesetzt werden, damit der Browser den Datei-Speichern-Dialog darstellt.
+| |		3.  `popup`: Die Datei wird in einem JavaScript-Popup-Fenster geöffnet. Bilder können damit in der Vollbildansicht dargestellt werden.
+| |		4.  `thumb`: Die MediaDB-ID wird als Thumbnail-Link inklusive Größenangaben und Parametern interpretiert.|
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Dateiname oder „index“.|
 |\$ext|Endung der Datei, z.B. „png“|
 
