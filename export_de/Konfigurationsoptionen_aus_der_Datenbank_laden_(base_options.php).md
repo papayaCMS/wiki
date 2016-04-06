@@ -25,6 +25,7 @@ var $optFields = array(
 Der Array-Schlüssel ist der spätere Konstantenname. Der Wert des Arrays ist wieder ein Array. Es funktioniert ähnlich wie das `$editFields` -Array für Module, enthält statt des Titels jedoch eine Gruppen-ID, über die die Option einer Optionsgruppe zugeordnet wird.
 
 |Attributschlüssel|Standardwert|
+|-----------------|------------|
 |0|Gruppen-ID|
 |1|Funktion für Validitätsprüfungen (checkIt)|
 |2|Eingabetyp|
@@ -34,6 +35,7 @@ Der Array-Schlüssel ist der spätere Konstantenname. Der Wert des Arrays ist wi
 Die Gruppen sind in der Methode `base_statictables::getTableOptGroups()` festgelegt. In der folgenden Tabelle sind alle Optionsgruppen definiert, die Sie auch in der Systemkonfiguration im papaya-Backend finden können:
 
 |Gruppen-ID|Gruppenname|
+|----------|-----------|
 |0|Unbekannt|
 |1|Tabellen (ungenutzt)|
 |2|Dateien und Verzeichnisse|

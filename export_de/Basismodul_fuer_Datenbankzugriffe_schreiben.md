@@ -22,6 +22,7 @@ Struktur der Datenbanktabellen
 Die Daten für die Anwendung werden auf zwei Tabellen verteilt. Die erste Datenbanktabelle mit dem Namen `papaya_sticker` enthält alle Sticker-Daten:
 
 |Feld|Datentyp|Beschreibung|
+|-------------|------------|
 |sticker_id|integer|ID, Primärschlüssel|
 |collection_id|integer|ID, externer Schlüssel der Sammlung|
 |sticker_text|string|Text des Stickers|
@@ -31,6 +32,7 @@ Die Daten für die Anwendung werden auf zwei Tabellen verteilt. Die erste Datenb
 Die zweite Datenbanktabelle enthält alle Daten, die zu einer Sammlung gehören:
 
 |Feld|Datentyp|Beschreibung|
+|----|--------|------------|
 |collection_id|integer|ID, Primärschlüssel|
 |collection_title|string|Titel der Sammlung|
 |collection_description|string|Beschreibungstext der Sammlung|

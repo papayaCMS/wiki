@@ -11,6 +11,7 @@ Most web applications use a database to load content from or to store data in. p
 
 The first step towards database support in a module package is to define the database table or tables you want to use. The table of planets we are using for our module only consists of two columns:
 
+-------------|---------------|---------
 `Column      | SQL data type | Remarks`
 `planet_id   | int           | Primary key to identify a planet`
 `planet_name | varchar(30)   | Name of the planet`

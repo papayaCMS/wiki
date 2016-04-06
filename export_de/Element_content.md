@@ -9,6 +9,7 @@ Optional kann das `<section>` -Element auch ein `<title>` -Element enthalten, da
 -Element== Das `<section>` -Element stellt einen Abschnitt mit mehreren Absätzen dar. Jedes `<section>` -Element ist einer bestimmten `<page>` -Definition aus dem `<layout>` -Element zugeordnet. In der folgenden Tabelle sind die Attribute des `<section>` -Elements aufgeschlüsselt:
 
 |Attribut|Bedeutung|
+|--------|---------|`
 |page|Zuordnung zum `<page>` -Tag aus dem `<layout>` -Element, das die Layoutdefinition enthält.|
 |page-break-before|„yes“, wenn der Seitenumbruch vor diesem `<section>` -Element erfolgen soll, andernfalls „no“.|
 

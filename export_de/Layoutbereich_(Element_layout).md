@@ -69,6 +69,7 @@ Das `<pages>` -Element dient dazu, die Grundschrift sowie die Seitenränder zu b
 Das <pages>-Element enthält beliebig viele `<page>` -Elemente. Mit einem `<page>` -Element bestimmen Sie die Position von Inhalten auf der Seite. Sie können dabei bestimmte Seitentypen wie Titelseite, Standardseite oder Schluss-Seite unterscheiden. In der folgenden Tabelle sind die Attribute des `<page>` -Elements aufgeschlüsselt:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |name|Name dieser Seitenvorlage.|
 |mode|„elements“, um in den Element-Modus umzuschalten, „default“, wenn die Seite Fließtext in `<column>` -Elementen enthalten soll.|
 |template|Template-Definition auswählen. Der Wert muss dem *name* -Attribut eines `<template>` -Elements entsprechen.|
@@ -84,6 +85,7 @@ Für die Titelseite können Sie den Titel sowie den Untertitel des Artikels in f
       "elements"`.md) umschalten. Die folgende Tabelle schlüsselt die Bedeutung der einzelnen Attribute auf:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |for|Name des aktuellen Elements.|
 |margin|Position des Elements. Die Positionierung erfolgt über die Angabe des Seitenabstandes. Die vier Werte stehen für:
 

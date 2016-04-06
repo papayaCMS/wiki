@@ -4,6 +4,7 @@ XML-Ausgabe
 Struktur der HTML-Ausgabe
 
 |Attribut|Bedeutung|
+|--------|---------|
 |src|Pfad zum Icon. Entweder 1. per `./pfad/zu/icon.png` relativ zum Adminverzeichnis oder 2. als `module:GUID/pics/my_icon.png` im `<Modulverzeichnis>/pics/<size>/`, oder 3. als `actions-edit.png` relativ zu `<Adminverzeichnis>/pics/icons/<size>/`|
 |hint|Alternativtext und title-Attribut des img-Tags|
 |id|eindeutige ID, sofern benötigt|

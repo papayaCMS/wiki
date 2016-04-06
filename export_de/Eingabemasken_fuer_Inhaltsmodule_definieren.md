@@ -21,6 +21,7 @@ Im folgenden Listing wird die Struktur des Arrays `$editFields` aufgeführt:
 Die folgende Tabelle beschreibt die einzelnen Felder:
 
 |Feld|Bedeutung|
+|----|---------|
 |Feldtitel|Beschriftung des Feldes. Die Beschriftung wird in englischer Sprache eingegeben und durch das Phrasensystem von papaya CMS übersetzt.|
 |Testfunktion|Der Plausibilitätscheck, mit dem die Nutzereingabe überprüft wird.|
 |Pflichtfeld|"TRUE", wenn dieses Feld ausgefüllt werden muss, andernfalls "FALSE".|
@@ -55,6 +56,7 @@ Jedes einzelne Feld im `$editFields` -Array besteht aus einem Schlüssel, das au
 In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 
 |Feldtyp|Beschreibung|Parameter|
+|-------|------------|---------|
 |captcha|Dynamisches Bild für Captcha auswählen.|ID des dynamischen Bildes.|
 |checkbox|Checkbox ausgeben|Beschriftung der Checkbox.|
 |checkgroup|Eine Gruppe von Checkboxen für die Mehrfachauswahl.|Assoziatives Array, das den Titel sowie den Parameternamen der Checkboxen enthält, die als Gruppe zusammengefasst werden.|
@@ -74,6 +76,7 @@ In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 3.  TRUE, wenn in der Drop-Down-Liste auch ein leerer Eintrag für die Nullauswahl vorhanden sein soll, andernfalls FALSE (Standard)
 4.  Basisverzeichnis (optional): Eines von folgenden Kürzeln `theme` (absoluter Pfad zum papaya-Theme), `page` (absoluter Pfad zum Installationsverzeichnis innerhalb von DocumentRoot von papaya CMS), `admin` (wie `page`, nur innerhalb des Admin-Verzeichnisses von papaya CMS), `upload` (absoluter Pfad zum Uploadverzeichnis der MediaDB); standardmäßig wird eine Callback-Methode erwartet.|
 |function|Das Feld wird durch eine Callback-Funktion bestimmt.|Name einer Callback-Funktion, die beispielsweise die Auswahloptionen für Drop-Down-Listen zurückgibt.|
+|------|-------|
 |geopos|Eingabefeld mit optionalem Dialog zur Auswahl von Geo-Positionsdaten über den Google Maps Api-Server.|Wert für das `size` -Attribut des Eingabefeldes.|
 |image|Eingabefeld mit optionalem Dialog zur Formatierung und Auswahl von Bilddateien aus der MediaDB.|Wert für das `size` -Attribut des Eingabefeldes.|
 |imagefile|Dateiupload-Feld, identisch mit `file`.|Maximale Zeichenlänge der Eingabe. Der Parameterwert wird sowohl für das Attribut `maxlength` als auch für das Attribut `size` benutzt.|

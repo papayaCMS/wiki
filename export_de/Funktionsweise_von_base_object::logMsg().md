@@ -18,6 +18,7 @@ $this->logMsg(
 Die Methode `logMsg()` verfügt über folgende Parameter:
 
 |Log-Level|Bedeutung|
+|---------|---------|
 |`$msgLevel`|Grad der Fehlermeldung, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
 |`$msgType`|Dieser Parameter beschreibt den Nachrichtentyp, siehe Tabelle "Nachrichtentypen aus base_object" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
 |`$overviewMsg`|Kurzversion der Nachricht. Dieser Text erscheint in der Übersichtsliste im Protokoll.|
@@ -30,6 +31,7 @@ Fehler-Level
 Die Fehler-Level sind in `sys_error.php` definiert und im Prinzip selbsterklärend. In der folgenden Tabelle werden sie aufgeschlüsselt:
 
 |Log-Level|Bedeutung|
+|---------|---------|
 |`MSG_INFO`|Einfache Infomeldungen werden in diesem Level protokolliert.|
 |`MSG_WARNING`|In diesem Level werden Warnmeldungen protokolliert, die auf potentielle Probleme wie eine falsche Konfiguration oder fehlende Daten hinweisen.|
 |`MSG_ERROR`|Eindeutige Fehler wie Query-Fehler in der Datenbank oder sonstige Inkonsistenzen werden in diesem Level protokolliert.|
@@ -39,6 +41,7 @@ Nachrichtentypen
 Die Nachrichtentypen sind in der Datei `sys_base_object.php` definiert. Die folgende Tabelle schlüsselt alle Nachrichtentypen auf:
 
 |Log-Level|Bedeutung|
+|---------|---------|
 |`PAPAYA_LOGTYPE_USER`|Logging von Benutzer-Ereignissen, beispielsweise Login oder Logout.|
 |`PAPAYA_LOGTYPE_PAGES`|Logging von Seiten-Ereignissen, beispielsweise Veröffentlichen oder Privatstellen von Seiten.|
 |`PAPAYA_LOGTYPE_DATABASE`|Logging von Datenbankfehlern, beispielsweise Query-Fehler durch fehlerhaftes SQL.|

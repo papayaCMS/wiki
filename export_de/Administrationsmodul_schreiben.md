@@ -56,6 +56,7 @@ function execModule() {
 Wenn Sie das Modul im Backend von papaya CMS starten, ruft die Modulverwaltung von papaya CMS als erstes die Methode `execModule()` der Klasse `edmodule_stickers` auf. Zunächst wird mit der Methode `base_module::hasPerm()` geprüft, ob der aktuelle Nutzer das Recht hat, das Modul zu verwenden. Wenn ja, wird das eigentliche Administrationsmodul eingebunden, instanziiert und initialisiert. Dazu werden einige Attribute als Referenz weitergegeben, die in der folgenden Tabelle näher aufgeschlüsselt werden:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |`$module`|Die Instanz von `edmodule`, also eine Subklasse von `base_module`. Diese wird benötigt, um beispielsweise die Modul-GUID zu ermitteln. Im Admin-Modul kann über das Attribut `$this->module->guid` auf die GUID zugegriffen werden.|
 |`$images`|Enthält die papaya-internen Icons.|
 |`$msgs`|Enthält das globale Messages-Array, an das mit `$this->addMsg()` Meldungen angehängt werden.|
@@ -614,6 +615,7 @@ Um einen Dialog zu erzeugen, gehen Sie wie folgt vor:
 Die folgende Tabelle schlüsselt alle Dialogtypen auf, die Sie für die Klasse `base_msgdialog` benutzen können:
 
 |Dialogtyp|Bedeutung|
+|---------|---------|
 |question|Einfache Bestätigungsabfrage|
 |warning|Bestätigungsabfrage erhöhter Wichtigkeit|
 |info|Bestätigung, dass der Benutzer die Information gelesen hat.|

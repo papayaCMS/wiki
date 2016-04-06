@@ -7,7 +7,7 @@ Dieser Abschnitt erklärt, wie Sie mit `base_object::addMsg()` Benachrichtigunge
 $this->addMsg(
   MSG_INFO,
   sprintf($this->_gt('Added new product "%s".'), $this->params['product_name'])
-);
+
 ~~~~
 
 Der erste Parameter ist einer der bekannten Nachrichtenlevel, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md). Der zweite Parameter erhält den Nachrichtentext, der mit `$this->_gt()` in die aktuelle Content-Sprache des Backends übersetzt wird.
@@ -42,6 +42,7 @@ function addMsg($level, $text, $log = FALSE, $type = PAPAYA_LOGTYPE_SYSTEM) {
 ~~~~
 
 |Parameter|Bedeutung|
+|---------|---------|
 |`$level`|Fehlerebene, siehe Tabelle "Fehlerebenen für Nachrichten im Systemprotokoll" in [Funktionsweise von base_object::logMsg()](Funktionsweise_von_base_object::logMsg().md).|
 |`$text`|Text der Meldung. Gegen Sie nicht direkt den Text der Meldung ein, sondern übersetzen Sie diesen mit `$this->_gt()`.|
 |`$log`|"TRUE", wenn die Nachricht auch in das Systemprotokoll geschrieben werden soll, andernfalls "FALSE" (Standardeinstellung).|
