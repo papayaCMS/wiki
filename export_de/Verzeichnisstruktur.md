@@ -11,7 +11,7 @@ _functions/
 Enthält zahlreiche Standard-Templates zum Formatieren und Verarbeiten von Strings.
 
 _lang/
-Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [:Kategorie:Das Übersetzungsframework benutzen](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md).
+Enthält XSLT-Templates, die für die Übersetzung von Phrasen in die aktuelle Content-Sprache benutzt werden. Weitere Templates dienen der sprachspezifischen Formatierung von Zahlen, Datumsangaben und Uhrzeiten. Das Verzeichnis enthält darüber hinaus noch einige XML-Dateien mit Standard-Übersetzungen für einige gängige Phrasen. Näheres zum Übersetzen von Phrasen erfahren Sie in [Kategorie:Das Übersetzungsframework benutzen](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md).
 
 feeds/
 Enthält die Seitentemplates für die Ausgabe von Feeds wie Atom oder RSS, siehe [Kategorie:RSS-Feeds erstellen](export_de/Kategorie:RSS-Feeds_erstellen.md).
@@ -35,7 +35,7 @@ html/modules/free/
 Enthält Boxen- und Seitentemplates für Module aus freien Paketen wie Forum, FAQ oder Quiz.
 
 pdf/
-Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [:Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md).
+Enthält die Seitentemplates für die PDF-Ausgabe, die mit den Ansichten verknüpft werden. Näheres zu PDF-Templates erfahren Sie in [Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_für_die_PDF-Ausgabe_erstellen.md).
 
 pdf/base/
 Enthält das Standard-Stylesheet `tags.xsl`, das Inzeilige Elemente wie `<strong>` oder `<th>` in Elemente übersetzt, die durch den PDF-Ausgabefilter unterstützt werden.

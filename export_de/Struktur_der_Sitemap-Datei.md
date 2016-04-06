@@ -6,14 +6,13 @@ Die Sitemap-Datei ist sehr einfach aufgebaut. Das Wurzelelement ist `<urlset>`. 
 |`<loc>`|Enthält die absolute URL der Seite, beispielsweise <http://www.domain.tld/startseite.html> . Diese Angabe ist obligatorisch.|
 |`<lastmod>`|Datum der letzten Änderung im ISO-8601-Format (YYYY-mm-dd, also Jahr, Monat, Tag). Diese Angabe ist optional.|
 |`<changefreq>`|Rhythmus, in dem die Seite aktualisiert wird. Diese Angabe ist Optional. Folgende Werte sind erlaubt:
-
-1.  `always`
-2.  `hourly`
-3.  `daily`
-4.  `weekly`
-5.  `monthly`
-6.  `yearly`
-7.  `never`|
+| |1.  `always`
+| |2.  `hourly`
+| |3.  `daily`
+| |4.  `weekly`
+| |5.  `monthly`
+| |6.  `yearly`
+| |7.  `never`|
 |`<priority>`|Gibt an, wie wichtig diese Seite im Verhältnis zu den anderen Seiten der Webpräsenz ist. Diese Angabe ist optional. Die Angabe erfolgt als Dezimalwert, wobei `0.1` der Minimalwert ist und `1.0` der Maximalwert.|
 
 Im folgenden Listing ist eine Beispiel-Sitemapdatei dargestellt:
