@@ -13,11 +13,7 @@ In der folgenden Tabelle sind die Konfigurationsoptionen dargestellt, die Sie in
 |PAPAYA_MAINTENANCE_MODE|„TRUE“, um den Wartungsmodus zu aktivieren, andernfalls „FALSE“. Im Wartungsmodus werden keine Seiten ausgeliefert. papaya liefert stattdessen eine HTML-Seite aus, die Sie in der PAPAYA_ERRORDOCUMENT_MAINTENANCE angeben müssen.|
 |PAPAYA_ERRORDOCUMENT_MAINTENANCE|Vollständigen Pfad zur HTML-Datei angeben, die im Wartungsmodus angezeigt wird. Diese Datei sollte entsprechende Infos für die Nutzer der Site enthalten.|
 |PAPAYA_ERRORDOCUMENT_503|Vollständiger Pfad zur HTML-Datei, die bei einer 503-Fehlermeldung ausgegeben werden soll.|
-|PAPAYA_PASSWORD_METHOD|Auswahl des Hashing-Algorithmus. Zur Verfügung stehen:
-
-1.  md5
-2.  sha1
-3.  sha256 (nur bei installierter Suhosin-Erweiterung)|
+|PAPAYA_PASSWORD_METHOD|Auswahl des Hashing-Algorithmus. Zur Verfügung stehen: 1.  md5  2.  sha1  3.  sha256 (nur bei installierter Suhosin-Erweiterung)|
 |PAPAYA_PASSWORD_PREFIX|Präfix, das dem Passwort vor dem Hashing hinzugefügt wird.|
 |PAPAYA_PASSWORD_SUFFFIX|Suffix, das dem Passwort vor dem Hashing angehängt wird.|
 |PAPAYA_DBG_DEVMODE|„TRUE“, wenn Debuginformationen ausgegeben werden sollen, andernfalls „FALSE“.|

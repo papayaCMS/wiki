@@ -32,6 +32,7 @@ Nachdem Sie die Verzeichnisse angelegt haben, sollte Ihr Paketverzeichnis folgen
 Die Unterverzeichnisse und Metadateien des Pakets werden in folgender Tabelle ausführlich beschrieben.
 
 |Paketinhalt|Funktion|
+|-----------|--------|
 |./modules.xml|Diese XML-Datei enthält alle wesentlichen Informationen zu jedem Modul des Pakets. Dazu gehört der Name der Quellcodedatei, der Name der PHP-Klasse, die GUID des Moduls sowie der Modultyp.|
 |./DATA/|Dieses optionale Verzeichnis enthält für jede Datenbanktabelle, die das Modul benutzt, eine separate XML-Datei. In dieser XML-Datei wird die Struktur der jeweiligen Datenbanktabelle beschrieben.|
 |./pics/|Dieses optionale Unterverzeichnis enthält Icons für Backend-Anwendungen von papaya CMS. Dazu gehört beispielsweise das Icon für das Admin-Modul sowie Icons, die für spezielle Funktionen im Bearbeitungsmenü der Anwendung benutzt werden können. Das `pics` -Unterverzeichnis enthält für die drei Standard-Icongrößen in papaya CMS jeweils Unterverzeichnisse ( `16x16`, `22x22`, `48x48`.md).|

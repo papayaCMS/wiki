@@ -48,13 +48,14 @@ Die Methode base_object::getWebMediaLink()
 Verwenden Sie `base_object::getWebMediaLink()` um anhand einer Media-ID einen vollständigen Link auf eine Datei zu erhalten. Die Methode gibt einen Dateinamen zurück, z.B. `dateiname.media.0123456789abcdef0123456789abcdef.png`
 
 |Parameter|Beschreibung|
+
 |\$mediaID|32-stellige hexadezimale ID der Datei|
 |\$mode|Ausgabemodus: `media`, `download`, `popup` oder `thumb`:
-
-1.  `media`: Für die MediaDB-ID wird ein einfacher Link zur Datei zurückgegeben.
-2.  `download`: Dieser Modus wird so umgesetzt,dass entsprechende HTTP-Header gesetzt werden, damit der Browser den Datei-Speichern-Dialog darstellt.
-3.  `popup`: Die Datei wird in einem JavaScript-Popup-Fenster geöffnet. Bilder können damit in der Vollbildansicht dargestellt werden.
-4.  `thumb`: Die MediaDB-ID wird als Thumbnail-Link inklusive Größenangaben und Parametern interpretiert.|
+|
+|		1.  `media`: Für die MediaDB-ID wird ein einfacher Link zur Datei zurückgegeben.
+|		2.  `download`: Dieser Modus wird so umgesetzt,dass entsprechende HTTP-Header gesetzt werden, damit der Browser den Datei-Speichern-Dialog darstellt.
+|		3.  `popup`: Die Datei wird in einem JavaScript-Popup-Fenster geöffnet. Bilder können damit in der Vollbildansicht dargestellt werden.
+|		4.  `thumb`: Die MediaDB-ID wird als Thumbnail-Link inklusive Größenangaben und Parametern interpretiert.|
 |\$text|Der sprechende Name der URL, standardmäßig der normalisierte Dateiname oder „index“.|
 |\$ext|Endung der Datei, z.B. „png“|
 

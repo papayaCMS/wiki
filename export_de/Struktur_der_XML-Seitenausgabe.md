@@ -16,6 +16,7 @@ Das Root-Element der Seite ist `<page>`. Dieses Wurzelelement enthält genau fü
 Das `<content>` -Tag enthält genau ein unmittelbares Kindelement: `<topic>`. In diesem Tag sind die seitenmodulspezifischen Inhalte in Form einer XML-Struktur enthalten. Das `<topic>` -Tag besitzt ferner eine Reihe von wichtigen Informationen in Form von Attributen:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |`no`|Die Seiten-ID|
 |`href`|Der Dokumentenname der Seite in der aktuellen Sprachversion|
 |`author`|Der Name des Benutzers, der die Seite erstellt hat.|
@@ -42,6 +43,7 @@ Der `<views>` -Tag enthält beliebig viele `<viewmode>` -Tags, die Angaben zu de
 Der `<translations>` -Tag enthält für jede vorhanden Sprachversion der Seite einen `<translation>` -Tag. Dieses Tag enthält folgende Attribute:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |lng_short|Das Sprachkürzel im Format de_DE oder en_EN.|
 |lng_title|Der Name der Sprache in der entsprechenden Landessprache, z.B. „Deutsch“, „English“, „Italiano“, „Français“.|
 |href|Der Dateiname des HTML-Dokuments, das den Inhalt in der entsprechenden Übersetzung enthält. Die deutsche Version der Seite mit der ID „2“ hat bspw. folgende Bezeichnung: `index.2.de.html`.|
@@ -54,6 +56,7 @@ Der `<boxes>` -Tag enthält für jede mit der Seite verbundene Box ein entsprech
 Das `<box>` -Element enthält folgende Attribute:
 
 |Attribut|Bedeutung|
+|--------|---------|
 |group|Die Boxgruppe, zu der diese Box gehört. Der Name der Boxgruppe regelt die Position der Box im HTML-Ausgabebaum.|
 |guid|Der eindeutige Schlüssel, der dieses Modul identifiziert.|
 |module|Name des Boxmoduls, das die XML-Ausgabe liefert.|

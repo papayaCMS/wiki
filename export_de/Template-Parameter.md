@@ -1,7 +1,7 @@
 
 Die Parameter werden an unterschiedlichen Stellen konfiguriert. Teilweise kommen die Informationen aus der `conf.inc.php`, teilweise aus den papaya-Einstellungen.
 
-      Parameter   |   Bedeutung   |   
+      Parameter   |   Bedeutung   
       ---------   |   ---------   
       COLUMNWIDTH_CENTER   |   Bestimmt die Breite der mittleren Inhaltsspalte      
       COLUMNWIDTH_LEFT   |   Bestimmt die Breite der linken Inhaltsspalte      

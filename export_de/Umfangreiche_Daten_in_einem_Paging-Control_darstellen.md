@@ -108,6 +108,7 @@ function getPagingButtons(
 In der folgenden Tabelle sind alle Parameter der Methode `getPagingButtons()` aus der Klasse `papaya_paging_buttons` aufgeschlüsselt:
 
 |Parameter|Bedeutung|
+|---------|---------|
 |`&$aOwner`|Basisobjekt|
 |`$baseParams`|Linkparameter|
 |`$offset`|Aktueller Offset für die Paginierung|

@@ -700,6 +700,7 @@ function get() {
 Die folgende Tabelle schlüsselt die Bedeutung der jeweiligen Modi im Switch-Case-Block auf:
 
 |Modus|Erklärung|
+|-----|---------|
 |urls|Ausgabe aller veröffentlichten Seiten als simple Linkliste für Suchmaschinen|
 |status|Verbindungsstatus der Datenbank, die die Information enthält, ob die Verbindung verfügbar ist oder nicht.|
 |image|Ausgabe eines dynamisch generierten Bildes, z.B. für Captchas.|
