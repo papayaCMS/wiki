@@ -54,8 +54,6 @@
 
  * [Papaya Wiki Users' Manual.md](Papaya_Wiki_Users'_Manual.md)
 
- * [Template:Tutorial Infobox.md](Template:Tutorial_Infobox.md)
-
  * [Upload Module.md](Upload_Module.md)
 
  * [Using the papaya CMS API.md](Using_the_papaya_CMS_API.md)
