@@ -107,14 +107,14 @@ Das Element <modules>
 
 Das Element `<modules>` enthält `<module>` -Elemente. Jedes `<module>` -Element beschreibt ein Modul, wobei die Eigenschaften des Moduls über Attribute erfasst werden. `<module>` -Elemente sollten den optionalen Beschreibungstext enthalten, der die Funktion des Moduls beschreibt. Der Nutzer erfährt darüber hinaus, wie man das Modul einsetzen kann. Der Beschreibungstext wird in der Modulverwaltung angezeigt, wenn Sie das Modul in der Modulverwaltung von papaya CMS anklicken. Die Attribute des `<module>` -Elements sind in der folgenden Tabelle aufgeschlüsselt:
 
-|Attribut|Bedeutung|Notwendig|
-|`type`|Modultyp, siehe Tabelle "Modultypen" in [Modultypen in papaya CMS](Modultypen_in_papaya_CMS.md).|ja|
-|`guid`|Eindeutiger 32-stelliger hexadezimaler Schlüssel.|ja|
-|`name`|Der kurze und aussagekräftige Name des Moduls.|ja|
-|`class`|Name der PHP-Klasse des Moduls.|ja|
-|`file`|Name der PHP-Datei, die die Modulklasse enthält. Der Dateiname ist grundsätzlich gleich dem Klassennamen plus der Endung `.php`.|ja|
-|`outputfilter`|„yes“, wenn ein Ausgabefilter notwendig ist, andernfalls „no“. Das Attribut kann auch ganz wegfallen, wobei es so interpretiert wird, als hätte es den Wert „yes“. Dieses Attribut ist nur für Content-Module vom Typ *page* und *box* relevant.|nein|
-|`glyph`|Icon für Adminmodule|nein|
+Attribut|Bedeutung|Notwendig
+`type`|Modultyp, siehe Tabelle "Modultypen" in [Modultypen in papaya CMS](Modultypen_in_papaya_CMS.md).|ja
+`guid`|Eindeutiger 32-stelliger hexadezimaler Schlüssel.|ja
+`name`|Der kurze und aussagekräftige Name des Moduls.|ja
+`class`|Name der PHP-Klasse des Moduls.|ja
+`file`|Name der PHP-Datei, die die Modulklasse enthält. Der Dateiname ist grundsätzlich gleich dem Klassennamen plus der Endung `.php`.|ja
+`outputfilter`|„yes“, wenn ein Ausgabefilter notwendig ist, andernfalls „no“. Das Attribut kann auch ganz wegfallen, wobei es so interpretiert wird, als hätte es den Wert „yes“. Dieses Attribut ist nur für Content-Module vom Typ *page* und *box* relevant.|nein
+`glyph`|Icon für Adminmodule|nein
 
 Die GUID identifiziert das Modul eindeutig. Dadurch ist es möglich, Dateinamen und Klassennamen von Modulen zu ändern und sogar Module in andere Pakete zu verschieben, ohne etwas in der Installation ändern zu müssen. Lediglich der Modulscan muss erneut durchgeführt werden. Sie finden einen md5-Zufallsgenerator z.B. unter <http://md5.my-addr.com/> .
 

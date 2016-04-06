@@ -318,8 +318,6 @@
 
  * [Kategorie: Mit Übersetzungsdateien arbeiten.md](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
 
- * [Kategorie: Papaya CMS Entwicklung.md](export_de/Kategorie:Papaya_CMS_Entwicklung.md)
-
  * [Kategorie: Papaya CMS installieren.md](export_de/Kategorie:Papaya_CMS_installieren.md)
 
  * [Kategorie: Papaya CMS installieren und konfigurieren.md](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
@@ -358,4 +356,4 @@
 
  * [Kategorie: Webseitenvorlage erstellen.md](export_de/Kategorie:Webseitenvorlage_erstellen.md)
 
- * [Kategorie: Wie funktioniert eigentlich papaya CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
+ * [Kategorie: Wie funktioniert eigentlich papaya CMS?.md](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS.md)

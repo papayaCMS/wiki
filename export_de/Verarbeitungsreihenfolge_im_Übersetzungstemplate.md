@@ -8,6 +8,4 @@ Phrasen werden mit dem Template `language-text` übersetzt, das im Stylesheet `.
 5.  LANGUAGE_MODULE_FALLBACK
 6.  LANGUAGE_DEFAULTS_FALLBACK
 
-Näheres zu den Parametern erfahren Sie in [Templates und Parameter in ./_lang/language.xsl](Templates_und_Parameter_in_./_lang/language.xsl.md).
-
 [Kategorie:Übersetzungstemplate benutzen](export_de/Kategorie:Übersetzungstemplate_benutzen.md)
