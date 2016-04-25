@@ -1,61 +1,61 @@
 #	Articles 
  
- * [Action Dispatcher.md](Action_Dispatcher.md)
+ * [Action Dispatcher](Action_Dispatcher.md)
 
- * [Advanced Community.md](Advanced_Community.md)
+ * [Advanced Community](Advanced_Community.md)
 
- * [Architecture (Forum).md](Architecture_(Forum).md)
+ * [Architecture (Forum)](Architecture_(Forum).md)
 
- * [Architecture.md](Architecture.md)
+ * [Architecture](Architecture.md)
 
- * [Base simpletemplate.md](Base_simpletemplate.md)
+ * [Base simpletemplate](Base_simpletemplate.md)
 
- * [Bootstrap Theme.md](Bootstrap_Theme.md)
+ * [Bootstrap Theme](Bootstrap_Theme.md)
 
- * [Bugtracker.md](Bugtracker.md)
+ * [Bugtracker](Bugtracker.md)
 
- * [Datei info.xml erstellen.md](Datei_info.xml_erstellen.md)
+ * [Datei info.xml erstellen](Datei_info.xml_erstellen.md)
 
- * [Developer's manual.md](Developer's_manual.md)
+ * [Developer's manual](Developer's_manual.md)
 
- * [Downloading papaya CMS.md](Downloading_papaya_CMS.md)
+ * [Downloading papaya CMS](Downloading_papaya_CMS.md)
 
- * [Dynamic Themes.md](Dynamic_Themes.md)
+ * [Dynamic Themes](Dynamic_Themes.md)
 
- * [Executing the installation program.md](Executing_the_installation_program.md)
+ * [Executing the installation program](Executing_the_installation_program.md)
 
- * [Including papaya CMS via SVN externals.md](Including_papaya_CMS_via_SVN_externals.md)
+ * [Including papaya CMS via SVN externals](Including_papaya_CMS_via_SVN_externals.md)
 
- * [Installation in a subfolder: Changing the .htaccess file.md](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
+ * [Installation in a subfolder: Changing the .htaccess file](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
 
- * [License.md](License.md)
+ * [License](License.md)
 
- * [Mail Module.md](Mail_Module.md)
+ * [Mail Module](Mail_Module.md)
 
- * [Main Page.md](Main_Page.md)
+ * [Main Page](Main_Page.md)
 
- * [Module Development 1: Content Modules.md](Module_Development_1:_Content_Modules.md)
+ * [Module Development 1: Content Modules](Module_Development_1:_Content_Modules.md)
 
- * [Module Development 2: Adding Database Support.md](Module_Development_2:_Adding_Database_Support.md)
+ * [Module Development 2: Adding Database Support](Module_Development_2:_Adding_Database_Support.md)
 
- * [Module Development 3: Creating an Admin Interface.md](Module_Development_3:_Creating_an_Admin_Interface.md)
+ * [Module Development 3: Creating an Admin Interface](Module_Development_3:_Creating_an_Admin_Interface.md)
 
- * [Module Development 4: Adding Frontend Interactivity.md](Module_Development_4:_Adding_Frontend_Interactivity.md)
+ * [Module Development 4: Adding Frontend Interactivity](Module_Development_4:_Adding_Frontend_Interactivity.md)
 
- * [Module Development 5: Refactoring and Miscellania.md](Module_Development_5:_Refactoring_and_Miscellania.md)
+ * [Module Development 5: Refactoring and Miscellania](Module_Development_5:_Refactoring_and_Miscellania.md)
 
- * [Notifying Search Engines.md](Notifying_Search_Engines.md)
+ * [Notifying Search Engines](Notifying_Search_Engines.md)
 
- * [Papaya CMS Coding Standards.md](Papaya_CMS_Coding_Standards.md)
+ * [Papaya CMS Coding Standards](Papaya_CMS_Coding_Standards.md)
 
- * [Papaya CMS:Community Portal.md](PapayaCMS_Community_Portal.md)
+ * [Papaya CMS:Community Portal](PapayaCMS_Community_Portal.md)
 
- * [Papaya CMS.md](Papaya_CMS.md)
+ * [Papaya CMS](Papaya_CMS.md)
 
- * [Papaya Wiki Users' Manual.md](Papaya_Wiki_Users'_Manual.md)
+ * [Papaya Wiki Users' Manual](Papaya_Wiki_Users'_Manual.md)
 
- * [Upload Module.md](Upload_Module.md)
+ * [Upload Module](Upload_Module.md)
 
- * [Using the papaya CMS API.md](Using_the_papaya_CMS_API.md)
+ * [Using the papaya CMS API](Using_the_papaya_CMS_API.md)
 
- * [Wiki (papaya Module Package).md](Wiki_(papaya_Module_Package).md)
+ * [Wiki (papaya Module Package)](Wiki_(papaya_Module_Package).md)
