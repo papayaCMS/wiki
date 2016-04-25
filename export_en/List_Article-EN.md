@@ -26,7 +26,7 @@
 
  * [Including papaya CMS via SVN externals](Including_papaya_CMS_via_SVN_externals.md)
 
- * [Installation in a subfolder: Changing the .htaccess file](Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
+ * [Installation in a subfolder: Changing the .htaccess file](../export_en/Installation_in_a_subfolder:_Changing_the_.htaccess_file.md)
 
  * [License](License.md)
 
