@@ -18,7 +18,7 @@ Zweispaltiges Layout
 
 Das folgende Schema stellt ein zweispaltiges Grundgerüst mit Titelleiste dar:
 
-![Zweispaltiges Grundgerüst](images/DemoTemplateGrundgeruestEin.png)
+![Zweispaltiges Grundgerüst](../images/DemoTemplateGrundgeruestEin.png)
 
 Die linke Spalte stellt den Bereich für die Navigationsboxen dar, während der zentrale Content-Bereich den Rest der Bildschirmbreite ausfüllt - sofern die Gesamtbreite nicht durch CSS beschränkt wird. Die Titelleiste erstreckt sich wie auch im vorhergenannten Schema über die Gesamtbreite von Box- und Content-Bereich.
 

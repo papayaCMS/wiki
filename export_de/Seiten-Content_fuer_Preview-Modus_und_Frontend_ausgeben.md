@@ -3,7 +3,7 @@ In der Methode `papaya_page::createTopic()` wird die Instanz einer Topic-Klasse 
 
 Die Hierarchie der Topic-Klassen ist im folgenden UML-Diagramm dargestellt:
 
-![File: Vererbungshierarchie von papaya_topic und papaya_topic_public](images/KlassenBeimAufrufUMLDiagramm.png)
+![File: Vererbungshierarchie von papaya_topic und papaya_topic_public](../images/KlassenBeimAufrufUMLDiagramm.png)
 
 Das Topic-Objekt als Hüllenklasse für Content-Module
 
@@ -23,7 +23,7 @@ Ausgabe des Seiteninhalts im Detail
 
 Das folgende Sequenzdiagramm stellt vor, wie das Topic-Objekt instanziiert wird. Ferner beschreibt das Diagramm im Detail, welche Objekte bei der Ausgabe des Seiteninhalts beteiligt sind und wie sie miteinander interagieren:
 
-![File: Sequenzdiagramm](images/UMLDiagramPapayaTopic.png)
+![File: Sequenzdiagramm](../images/UMLDiagramPapayaTopic.png)
 
 Im ersten Schritt wird in der Methode `createTopic()` der Klasse `papaya_page` eine Instanz des Topic-Objekts erzeugt. Die Instanz wird im Attribut `papaya_page::topic` gespeichert. Anschließend wird überprüft, ob die Seite in der aktuellen Sprachversion konfiguriert ist. Dies wird mit der Methode `base_topic::topicExists()` überprüft. Im folgenden Schritt wird versucht, den Seiteninhalt aus dem Cache zu lesen. Wenn dies fehlschlägt, wird die Methode `papaya_page::getPage()` aufgerufen. Mit dieser Methode werden erst alle Metadaten des Topic-Objekts ausgelesen, indem `$topic->loadOutput()` ausgeführt wird.
 

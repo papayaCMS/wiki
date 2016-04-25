@@ -8,8 +8,8 @@ Overview of files and directories
 
 After finishing this tutorial, you will have created the following files and subdirectories in *papaya-lib/modules/special/myproject/tutorial*:
 
-![File:Tutorial_3_dir_structure.png](images/Tutorial_3_dir_structure.png)
+![File:Tutorial_3_dir_structure.png](../images/Tutorial_3_dir_structure.png)
 
 In the *testing/tests-unittests/papaya-lib/modules/special/myprojects/tutorial* directory, you will have created the following structure:
 
-![File:Tutorial_3_testdir_structure.png](images/Tutorial_3_testdir_structure.png)
+![File:Tutorial_3_testdir_structure.png](../images/Tutorial_3_testdir_structure.png)

@@ -1,7 +1,7 @@
 
 Die folgende Illustration stellt den grundlegenden Aufbau der XML-Seitenstruktur dar. Abgebildet sind die ersten zwei Ebenen des XML-Baumes:
 
-![File:XMLOutputXMLRoot.png](images/XMLOutputXMLRoot.png)
+![File:XMLOutputXMLRoot.png](../images/XMLOutputXMLRoot.png)
 
 Das Root-Element der Seite ist `<page>`. Dieses Wurzelelement enthält genau fünf unmittelbare Kindelemente:
 
@@ -108,7 +108,7 @@ Boxen werden immer separat geparst. Das von der Template-Engine intern verwendet
 
 Sie können sich die interne Version der XML-Ausgabe anzeigen lassen, indem Sie den Parameter „ `?XML=1` “ an die URL in der Navigationsleiste Ihres Browsers anhängen:
 
-![File:XMLOutputInternesFormatAktivieren.png](images/XMLOutputInternesFormatAktivieren.png)
+![File:XMLOutputInternesFormatAktivieren.png](../images/XMLOutputInternesFormatAktivieren.png)
 
 Beachten Sie jedoch, dass keine entsprechenden HTTP-Header mit Angaben zum MIME-Typ gesendet werden, weshalb das XML-Dokument von den Browsern nicht als XML formatiert wird. Der Grund hierfür ist, dass diese XML-Ausgabe durch entsprechende HTML-formatierte Fehlermeldungen ergänzt wird. Durch diese HTML-Elemente kann die Gültigkeit des ausgegebenen XML-Dokuments nicht immer garantiert werden. Damit es also nicht zu Fehlermeldungen des Browsers kommt, behandelt der Browser das Dokument nicht als XML-Dokument.
 

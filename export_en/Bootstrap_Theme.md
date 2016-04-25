@@ -1,4 +1,4 @@
-![File: Bootstraptheme](images/Bootstraptheme.png) 
+![File: Bootstraptheme](../images/Bootstraptheme.png) 
 
 The **bootstrap Theme** is an external papaya CMS theme which uses the design templates of the [bootstrap Framework](http://en.wikipedia.org/wiki/Twitter_Bootstrap) to realize papaya CMS pages.
 
