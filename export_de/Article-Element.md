@@ -16,4 +16,4 @@ Die Attribute des `<article>` -Elements sind in der folgenden Tabelle aufgeschl√
 
 In den folgenden Abschnitten werden die unmittelbaren Kindelemente des `<article>` -Tags erl√§utert.
 
-[Kategorie:Papaya-Formatierungsobjekt](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
+[Kategorie:Papaya-Formatierungsobjekt](../export_de/Kategorie:Papaya-Formatierungsobjekt.md)

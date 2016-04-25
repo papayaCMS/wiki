@@ -19,4 +19,4 @@ Ihr System muss grundsätzlich folgende Bedingungen erfüllen, damit Sie papaya 
 |Grafikprozessor|GDLIB ab Version 2.x, ImageMagick, GraphicsMagick oder Netpbm.|
 |Suchmodul|mnoGoSearch (optional, frei für Unix/Linux, kommerziell für Windows)|
 
-[Kategorie:Papaya CMS installieren](export_de/Kategorie:Papaya_CMS_installieren.md)
+[Kategorie:Papaya CMS installieren](../export_de/Kategorie:Papaya_CMS_installieren.md)

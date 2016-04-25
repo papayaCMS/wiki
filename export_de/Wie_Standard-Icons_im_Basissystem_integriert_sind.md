@@ -9,4 +9,4 @@ In `./papaya/module.php` wird der Instanz des eigenen Backend-Moduls eine Refere
 $myObj->images = &$this->images;
 ~~~~
 
-[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](export_de/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md)
+[Kategorie:Icons für Bearbeitungsmenü oder Adminanwendung benutzen](../export_de/Kategorie:Icons_für_Bearbeitungsmenü_oder_Adminanwendung_benutzen.md)

@@ -7,4 +7,4 @@ XSLT-Templates für RSS sind in der Regel sehr einfach aufgebaut. Das minimale R
 2.  Eine `template` -Regel, in der die Basisstruktur mit dem Wurzelelement des RSS-Feeds aufgebaut wird, siehe [XSLT-Template für die Basisstruktur](export_de/XSLT-Template_für_die_Basisstruktur.md).
 3.  Eine `template` -Regel, die alle `<item>` -Elemente inklusive Titel, Teaser und URL erzeugt, siehe [XSLT-Template für die item-Elemente](export_de/XSLT-Template_für_die_item-Elemente.md).
 
-[Kategorie:RSS-Feeds erstellen](export_de/Kategorie:RSS-Feeds_erstellen.md)
+[Kategorie:RSS-Feeds erstellen](../export_de/Kategorie:RSS-Feeds_erstellen.md)

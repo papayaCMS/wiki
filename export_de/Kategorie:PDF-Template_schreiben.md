@@ -18,4 +18,4 @@ Um das Basisdokument zu erzeugen, müssen Sie zudem folgende Schritte durchführ
 2.  Seitenlayout bestimmen, siehe [Seitenlayout bestimmen](Seitenlayout_bestimmen.md).
 3.  Schriften auswählen, siehe.
 
-[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)
+[Kategorie:Vorlage für die PDF-Ausgabe erstellen](../export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)

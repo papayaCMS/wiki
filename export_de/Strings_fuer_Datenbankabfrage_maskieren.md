@@ -62,4 +62,4 @@ $this->databaseInsertRecord($this->tableMyItems, NULL, $data);
 
 Wenn Sie komplexe SQL-Abfragen selbst zusammensetzen möchten und es mit den Bordmitteln nicht möglich ist die Abfrage zu erstellen, müssen Sie Zeichenketten gegebenenfalls selber maskieren. Verwenden Sie in solch einem Fall die Methode `base_db::escapeStr()` um DBMS-abhängig die korrekte Maskierung zu erhalten.
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](../export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)

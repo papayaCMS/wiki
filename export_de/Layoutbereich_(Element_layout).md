@@ -146,4 +146,4 @@ Damit das `<column>` -Element benutzt werden kann, müssen Sie das `<page>` -Ele
 2.  Schriftgröße in Punkt (pt).
 3.  Schriftgewicht oder -stil ( `bold`, `italic`, `bolditalic`.md).|
 
-[Kategorie:Papaya-Formatierungsobjekt](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
+[Kategorie:Papaya-Formatierungsobjekt](../export_de/Kategorie:Papaya-Formatierungsobjekt.md)

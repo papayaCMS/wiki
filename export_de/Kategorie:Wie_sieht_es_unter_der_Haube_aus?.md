@@ -10,4 +10,4 @@ Die einzelnen aufgerufenen Instanzen sind folgende:
 5.  Konfigurationsoptionen aus der Datenbank laden ( `base_options.php`.md), siehe [Konfigurationsoptionen aus der Datenbank laden (base_options.php)](Konfigurationsoptionen_aus_der_Datenbank_laden_(base_options.php\).md).
 6.  Seiten-Content für Preview-Modus ( `papaya_topic.php`.md) und Frontend ( `papaya_topic_public.php`.md) ausgeben, siehe [Seiten-Content für Preview-Modus und Frontend ausgeben](Seiten-Content_für_Preview-Modus_und_Frontend_ausgeben.md).
 
-[Kategorie:Wie funktioniert eigentlich papaya CMS?](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)
+[Kategorie:Wie funktioniert eigentlich papaya CMS?](../export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS?.md)

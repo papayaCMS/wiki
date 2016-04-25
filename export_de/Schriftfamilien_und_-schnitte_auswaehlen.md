@@ -66,4 +66,4 @@ Details zum Beispiel
 1.  Mit dem Attribut `name` wählen Sie das Element aus, das formatiert werden soll.
 2.  Mit dem Attribut `font` bestimmen Sie den Schriftschnitt für das Element. Das font-Attribut erwartet die drei Angaben für Schriftfamilie, Schriftgröße in Punkt und Schriftgewicht bzw. Schriftform.
 
-[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md)
+[Kategorie:PDF-Template schreiben](../export_de/Kategorie:PDF-Template_schreiben.md)

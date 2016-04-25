@@ -25,4 +25,4 @@ Der folgende Ausschnitt stellt die Definition der Seitentemplates vor:
 ...
 ~~~~
 
-[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md)
+[Kategorie:PDF-Template schreiben](../export_de/Kategorie:PDF-Template_schreiben.md)

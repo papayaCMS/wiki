@@ -61,4 +61,4 @@ Im Bereich `<content>` wird ähnlich wie in den Stylesheets für die HTML-Vorlag
 <footer>
 == Im Bereich `<footer>` wird das XSLT-Template aufgerufen, das die Inhalte für die Fußzeile setzt. Näheres zu diesem Template erfahren Sie in [Inhalt der Fußzeile](Inhalt_der_Fußzeile.md).
 
-[Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md)
+[Kategorie:PDF-Template schreiben](../export_de/Kategorie:PDF-Template_schreiben.md)

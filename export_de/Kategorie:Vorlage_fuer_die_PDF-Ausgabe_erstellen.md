@@ -6,4 +6,4 @@ In diesem Kapitel erfahren Sie, wie Sie eine PDF-Vorlage für papaya CMS erstell
 Die PDF-Vorlage besteht aus zwei Dateien: Der XSLT-Datei und der PDF-Musterdatei. Um eine PDF-Vorlage zu erstellen, sind also zwei Schritte notwendig:
 
 1.  Sie erzeugen eine PDF-Datei, die als Muster für die PDF-Vorlage dient, siehe [PDF-Musterdatei erstellen](PDF-Musterdatei_erstellen.md).
-2.  Sie schreiben das XSLT-Template, siehe [Kategorie:PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md).
+2.  Sie schreiben das XSLT-Template, siehe [Kategorie:PDF-Template schreiben](../export_de/Kategorie:PDF-Template_schreiben.md).

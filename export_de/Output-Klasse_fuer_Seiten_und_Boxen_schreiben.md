@@ -74,4 +74,4 @@ class content_stickers extends base_content {
 
 Die gesamte Logik für die Ausgabe sowie die Erzeugung der XML-Ausgaben wird nur noch eingebunden und ausgeführt, wenn die Klasse zur Ausgabe verwendet wird, nicht wenn der Seiteninhalt konfiguriert wird.
 
-[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
+[Kategorie:Eigene Anwendungen schreiben](../export_de/Kategorie:Eigene_Anwendungen_schreiben.md)

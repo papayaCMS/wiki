@@ -374,4 +374,4 @@ Der einzige Parameter `$collectionId` der Methode ist die ID der Sammlung, zu de
 
 Damit ist die Klasse `base_stickers` vollständig, sodass dem Einsatz im Administrationsmodul nichts mehr im Wege steht.
 
-[Kategorie:Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
+[Kategorie:Eigene Anwendungen schreiben](../export_de/Kategorie:Eigene_Anwendungen_schreiben.md)

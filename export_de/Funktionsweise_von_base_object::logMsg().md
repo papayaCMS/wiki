@@ -51,4 +51,4 @@ Die Nachrichtentypen sind in der Datei `sys_base_object.php` definiert. Die folg
 |`PAPAYA_LOGTYPE_SYSTEM`|Fehler in einer Klasse des Basissystems.|
 |`PAPAYA_LOGTYPE_MODULES`|Fehler in eigenen Modulen.|
 
-[Kategorie:Meldungen mit base_object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
+[Kategorie:Meldungen mit base_object::logMsg() protokollieren](../export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)

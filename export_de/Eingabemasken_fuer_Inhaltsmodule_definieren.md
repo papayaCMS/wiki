@@ -95,4 +95,4 @@ In der folgenden Tabelle sind alle Feldtypen und ihre Parameter aufgelistet:
 |translatedcombo|Drop-Down-Liste, dessen Einträge durch die Phrasenkomponente übersetzt werden.|Assoziatives Array mit Schlüssel-Wert-Paaren. Der Schlüssel wird als Wert für das `value` -Attribut des `<option>` -Elements benutzt, der Wert als Beschriftungstext. Der Beschriftungstext wird durch das Phrasensystem von papaya CMS übersetzt.|
 |yesno|Zwei Radiobuttons für Ja-Nein-Auswahl.|n/a|
 
-[Kategorie:Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
+[Kategorie:Box- und Seitenmodule programmieren](../export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)

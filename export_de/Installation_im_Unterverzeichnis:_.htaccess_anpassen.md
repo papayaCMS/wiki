@@ -20,4 +20,4 @@ Falls die Pfade nicht existieren sollten, wird papaya CMS sie anlegen. Eine Fehl
 
 Wenn Sie die Pfade erfolgreich überprüft haben, ist die Installation abgeschlossen.
 
-[Kategorie:Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
+[Kategorie:Papaya CMS installieren und konfigurieren](../export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)

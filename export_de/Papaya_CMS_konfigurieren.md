@@ -19,4 +19,4 @@ In der folgenden Tabelle sind die Konfigurationsoptionen dargestellt, die Sie in
 |PAPAYA_DBG_DEVMODE|„TRUE“, wenn Debuginformationen ausgegeben werden sollen, andernfalls „FALSE“.|
 |PAPAYA_PATH_DATA|Absoluter Pfad zum Verzeichnis `papaya-data/`.|
 
-[Kategorie:Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
+[Kategorie:Papaya CMS installieren und konfigurieren](../export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)

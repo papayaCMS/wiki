@@ -44,4 +44,4 @@ Die folgenden Parameter sind nur für die Frontend-Ausgabe von Interesse, hier s
 
 ![File:Admin-template-titel-icon.png](../images/Admin-template-titel-icon.png)
 
-[Kategorie:Übersicht über die verfügbaren Komponenten](export_de/Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)
+[Kategorie:Übersicht über die verfügbaren Komponenten](../export_de/Kategorie:Übersicht_über_die_verfügbaren_Komponenten.md)

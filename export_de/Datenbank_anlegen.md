@@ -12,4 +12,4 @@ GRANT ALL PRIVILEGES ON datenbankname.*
        IDENTIFIED BY 'passwort';
 ~~~~
 
-[Kategorie:Server konfigurieren](export_de/Kategorie:Server_konfigurieren.md)
+[Kategorie:Server konfigurieren](../export_de/Kategorie:Server_konfigurieren.md)

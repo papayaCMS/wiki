@@ -9,4 +9,4 @@ Um die Vorlage zu installieren, gehen Sie wie folgt vor:
 
 Sie können nun Ansichten mit dem Ausgabefilter für PDF verknüpfen. Das Standardtemplate enthält ein XSLT-Stylesheet für die Seitenmodule „Kategorie with image“ und „Topic with image“.
 
-[Kategorie:Vorlage für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)
+[Kategorie:Vorlage für die PDF-Ausgabe erstellen](../export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)

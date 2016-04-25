@@ -18,4 +18,4 @@ Alle oben aufgeführten Elemente können das `align` -Attribut enthalten, um die
 
 Das `<img>` -Element muss das `src` -Attribut enthalten, um das Bild einzubinden. `<img>` -Elemente bilden zudem eigene Absätze.
 
-[Kategorie:Papaya-Formatierungsobjekt](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
+[Kategorie:Papaya-Formatierungsobjekt](../export_de/Kategorie:Papaya-Formatierungsobjekt.md)

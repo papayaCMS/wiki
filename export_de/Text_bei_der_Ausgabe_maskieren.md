@@ -30,4 +30,4 @@ Ist für die Benutzereingabe HTML nicht vorgesehen, müssen Sie `papaya_strings:
 Welche Ausgabemethode für die Maskierung benutzen, hängt auch von den eingesetzten Plausibilitätschecks ab. Wenn Sie Eingabeformulare über `$editFields` oder mit `base_dialog` erzeugen, wählen Sie für jedes Feld auch einen Plausibilitätscheck aus. Diese Überprüfungsmethoden aus der Klasse `checkit ` bestimmen mehr oder weniger restriktiv, welche Werte in Felder eingegeben werden dürfen. Ist als Prüffunktion „isSomeText“ angegeben, `sollten Sie
     base_object::getXHTMLString()` für die Ausgabemaskierung benutzen. Ist als Prüffunktion „isNoHTML“ oder restriktiver (isNum, isAlpha und dergleichen) angegeben, reicht `papaya_strings::escapeHTMLChars()`. Letzteres ist performanter, da das XML nicht validiert werden muss.
 
-[Kategorie:Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
+[Kategorie:Content ausgeben und Nutzereingaben maskieren](../export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)

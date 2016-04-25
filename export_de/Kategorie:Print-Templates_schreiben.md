@@ -22,4 +22,4 @@ Um eine druckfreundliche Seitenausgabe zu erzeugen, müssen Sie folgende Punkte 
 1.  Sie binden in der druckfreundlichen Seitenausgabe ein anderes CSS ein, siehe [Druckfreundliches CSS einbinden](Druckfreundliches_CSS_einbinden.md).
 2.  Blenden Sie Boxen in der druckfreundlichen Seitenausgabe aus, siehe [Boxenausgabe unterdrücken](Boxenausgabe_unterdruecken.md).
 
-[Kategorie:Print-Templates erstellen](export_de/Kategorie:Print-Templates_erstellen.md)
+[Kategorie:Print-Templates erstellen](../export_de/Kategorie:Print-Templates_erstellen.md)

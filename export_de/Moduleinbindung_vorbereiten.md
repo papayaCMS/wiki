@@ -29,4 +29,4 @@ Damit Sie während der Entwicklung Ihr Modul testen können, müssen Sie es in p
 
 3.  Nachdem Sie die entsprechenden Quellcodedateien angelegt haben, können Sie im Backend von papaya CMS den Modulscan ausführen. Dabei wird die `modules.xml` in die Datenbank eingelesen und die Module werden registriert.
 
-[Kategorie:Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
+[Kategorie:Box- und Seitenmodule programmieren](../export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)

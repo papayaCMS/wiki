@@ -19,4 +19,4 @@ if (!$this->updateRecord($dataSet)) {
 ...
 ~~~~
 
-[Kategorie:Fehlersuche mit base_object::logVariable()](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)
+[Kategorie:Fehlersuche mit base_object::logVariable()](../export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)

@@ -286,74 +286,74 @@
 #	Kategorien
 
 
- * [Kategorie: Administratoren](export_de/Kategorie:Administratoren.md)
+ * [Kategorie: Administratoren](../export_de/Kategorie:Administratoren.md)
 
- * [Kategorie: Ausgaben verlinken](export_de/Kategorie:Ausgaben_verlinken.md)
+ * [Kategorie: Ausgaben verlinken](../export_de/Kategorie:Ausgaben_verlinken.md)
 
- * [Kategorie: Basismodule für papaya CMS programmieren](export_de/Kategorie:Basismodule_fuer_papaya_CMS_programmieren.md)
+ * [Kategorie: Basismodule für papaya CMS programmieren](../export_de/Kategorie:Basismodule_fuer_papaya_CMS_programmieren.md)
 
- * [Kategorie: Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
+ * [Kategorie: Box- und Seitenmodule programmieren](../export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
 
- * [Kategorie: Content ausgeben und Nutzereingaben maskieren](export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
+ * [Kategorie: Content ausgeben und Nutzereingaben maskieren](../export_de/Kategorie:Content_ausgeben_und_Nutzereingaben_maskieren.md)
 
- * [Kategorie: Das Übersetzungsframework benutzen](export_de/Kategorie:Das_Übersetzungsframework_benutzen.md)
+ * [Kategorie: Das Übersetzungsframework benutzen](../export_de/Kategorie:Das_Übersetzungsframework_benutzen.md)
 
- * [Kategorie: Das Vorlagenkonzept in papaya CMS](export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md)
+ * [Kategorie: Das Vorlagenkonzept in papaya CMS](../export_de/Kategorie:Das_Vorlagenkonzept_in_papaya_CMS.md)
 
- * [Kategorie: Datenbankzugriffe optimieren](export_de/Kategorie:Datenbankzugriffe_optimieren.md)
+ * [Kategorie: Datenbankzugriffe optimieren](../export_de/Kategorie:Datenbankzugriffe_optimieren.md)
 
- * [Kategorie: Der modulare Aufbau von papaya CMS](export_de/Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md)
+ * [Kategorie: Der modulare Aufbau von papaya CMS](../export_de/Kategorie:Der_modulare_Aufbau_von_papaya_CMS.md)
 
- * [Kategorie: Eigene Anwendungen schreiben](export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
+ * [Kategorie: Eigene Anwendungen schreiben](../export_de/Kategorie:Eigene_Anwendungen_schreiben.md)
 
- * [Kategorie: Fehlersuche in papaya CMS](export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)
+ * [Kategorie: Fehlersuche in papaya CMS](../export_de/Kategorie:Fehlersuche_in_papaya_CMS.md)
 
- * [Kategorie: Fehlersuche mit base object::logVariable()](export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)
+ * [Kategorie: Fehlersuche mit base object::logVariable()](../export_de/Kategorie:Fehlersuche_mit_base_object::logVariable().md)
 
- * [Kategorie: Formatvorlagen in papaya CMS](export_de/Kategorie:Formatvorlagen_in_papaya_CMS.md)
+ * [Kategorie: Formatvorlagen in papaya CMS](../export_de/Kategorie:Formatvorlagen_in_papaya_CMS.md)
 
- * [Kategorie: Icons für Bearbeitungsmenü oder Adminanwendung benutzen](export_de/Kategorie:Icons_fuer_Bearbeitungsmenue_oder_Adminanwendung_benutzen.md)
+ * [Kategorie: Icons für Bearbeitungsmenü oder Adminanwendung benutzen](../export_de/Kategorie:Icons_fuer_Bearbeitungsmenue_oder_Adminanwendung_benutzen.md)
 
- * [Kategorie: Meldungen mit base object::logMsg() protokollieren](export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
+ * [Kategorie: Meldungen mit base object::logMsg() protokollieren](../export_de/Kategorie:Meldungen_mit_base_object::logMsg()_protokollieren.md)
 
- * [Kategorie: Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
+ * [Kategorie: Mit Übersetzungsdateien arbeiten](../export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
 
- * [Kategorie: Papaya CMS installieren](export_de/Kategorie:Papaya_CMS_installieren.md)
+ * [Kategorie: Papaya CMS installieren](../export_de/Kategorie:Papaya_CMS_installieren.md)
 
- * [Kategorie: Papaya CMS installieren und konfigurieren](export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
+ * [Kategorie: Papaya CMS installieren und konfigurieren](../export_de/Kategorie:Papaya_CMS_installieren_und_konfigurieren.md)
 
- * [Kategorie: Papaya-Formatierungsobjekt](export_de/Kategorie:Papaya-Formatierungsobjekt.md)
+ * [Kategorie: Papaya-Formatierungsobjekt](../export_de/Kategorie:Papaya-Formatierungsobjekt.md)
 
- * [Kategorie: Papaya-Module](export_de/Kategorie:Papaya-Module.md)
+ * [Kategorie: Papaya-Module](../export_de/Kategorie:Papaya-Module.md)
 
- * [Kategorie: PDF-Template schreiben](export_de/Kategorie:PDF-Template_schreiben.md)
+ * [Kategorie: PDF-Template schreiben](../export_de/Kategorie:PDF-Template_schreiben.md)
 
- * [Kategorie: Phrasen übersetzen](export_de/Kategorie:Phrasen_uebersetzen.md)
+ * [Kategorie: Phrasen übersetzen](../export_de/Kategorie:Phrasen_uebersetzen.md)
 
- * [Kategorie: Print-Templates erstellen](export_de/Kategorie:Print-Templates_erstellen.md)
+ * [Kategorie: Print-Templates erstellen](../export_de/Kategorie:Print-Templates_erstellen.md)
 
- * [Kategorie: Print-Templates schreiben](export_de/Kategorie:Print-Templates_schreiben.md)
+ * [Kategorie: Print-Templates schreiben](../export_de/Kategorie:Print-Templates_schreiben.md)
 
- * [Kategorie: Redakteure](export_de/Kategorie:Redakteure.md)
+ * [Kategorie: Redakteure](../export_de/Kategorie:Redakteure.md)
 
- * [Kategorie: RSS-Feeds erstellen](export_de/Kategorie:RSS-Feeds_erstellen.md)
+ * [Kategorie: RSS-Feeds erstellen](../export_de/Kategorie:RSS-Feeds_erstellen.md)
 
- * [Kategorie: Server konfigurieren](export_de/Kategorie:Server_konfigurieren.md)
+ * [Kategorie: Server konfigurieren](../export_de/Kategorie:Server_konfigurieren.md)
 
- * [Kategorie: Sitemap-Datei für Suchmaschinen](export_de/Kategorie:Sitemap-Datei_fuer_Suchmaschinen.md)
+ * [Kategorie: Sitemap-Datei für Suchmaschinen](../export_de/Kategorie:Sitemap-Datei_fuer_Suchmaschinen.md)
 
- * [Kategorie: Sitemap erstellen](export_de/Kategorie:Sitemap_erstellen.md)
+ * [Kategorie: Sitemap erstellen](../export_de/Kategorie:Sitemap_erstellen.md)
 
- * [Kategorie: Sitemap-Template erstellen](export_de/Kategorie:Sitemap-Template_erstellen.md)
+ * [Kategorie: Sitemap-Template erstellen](../export_de/Kategorie:Sitemap-Template_erstellen.md)
 
- * [Kategorie: Übersetzungstemplate benutzen](export_de/Kategorie:Übersetzungstemplate_benutzen.md)
+ * [Kategorie: Übersetzungstemplate benutzen](../export_de/Kategorie:Übersetzungstemplate_benutzen.md)
 
- * [Kategorie: Übersicht über die verfügbaren Komponenten](export_de/Kategorie:Übersicht_ueber_die_verfügbaren_Komponenten.md)
+ * [Kategorie: Übersicht über die verfügbaren Komponenten](../export_de/Kategorie:Übersicht_ueber_die_verfügbaren_Komponenten.md)
 
- * [Kategorie: Verzeichnisse und Metadaten für Pakete erstellen](export_de/Kategorie:Verzeichnisse_und_Metadaten_fuer_Pakete_erstellen.md)
+ * [Kategorie: Verzeichnisse und Metadaten für Pakete erstellen](../export_de/Kategorie:Verzeichnisse_und_Metadaten_fuer_Pakete_erstellen.md)
 
- * [Kategorie: Vorlage_für die PDF-Ausgabe erstellen](export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)
+ * [Kategorie: Vorlage_für die PDF-Ausgabe erstellen](../export_de/Kategorie:Vorlage_fuer_die_PDF-Ausgabe_erstellen.md)
 
- * [Kategorie: Webseitenvorlage erstellen](export_de/Kategorie:Webseitenvorlage_erstellen.md)
+ * [Kategorie: Webseitenvorlage erstellen](../export_de/Kategorie:Webseitenvorlage_erstellen.md)
 
- * [Kategorie: Wie funktioniert eigentlich papaya CMS?](export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS.md)
+ * [Kategorie: Wie funktioniert eigentlich papaya CMS?](../export_de/Kategorie:Wie_funktioniert_eigentlich_papaya_CMS.md)

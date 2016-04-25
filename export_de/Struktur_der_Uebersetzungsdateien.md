@@ -44,4 +44,4 @@ Ein konkretes Beispiel für eine Übersetzungsdatei ist im folgenden Listing dar
 </texts>
 ~~~~
 
-[Kategorie:Mit Übersetzungsdateien arbeiten](export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)
+[Kategorie:Mit Übersetzungsdateien arbeiten](../export_de/Kategorie:Mit_Übersetzungsdateien_arbeiten.md)

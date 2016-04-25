@@ -5,4 +5,4 @@ Die folgende Abbildung stellt eine beispielhafte Druckansicht vor:
 
 ![File: Druckfreundliche Ansicht einer papaya-Seite](../images/DruckfreundlicheAusgabe.png)
 
-[Kategorie:Templates und Themes entwickeln](export_de/Kategorie:Templates_und_Themes_entwickeln.md)
+[Kategorie:Templates und Themes entwickeln](../export_de/Kategorie:Templates_und_Themes_entwickeln.md)

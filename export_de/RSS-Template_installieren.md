@@ -9,4 +9,4 @@ Sie können das RSS-Template freilich nur mit den Ansichten sinnvoll einsetzen, 
 
 Näheres zum Modul „Kategorie with image“ erfahren Sie im Benutzerhandbuch für papaya CMS in Kapitel 5.2.1. Näheres zum Modul „Tag export_de/Kategorie“ können Sie im genannten Handbuch in Kapitel 7.2.2 erfahren.
 
-[Kategorie:RSS-Feeds erstellen](export_de/Kategorie:RSS-Feeds_erstellen.md)
+[Kategorie:RSS-Feeds erstellen](../export_de/Kategorie:RSS-Feeds_erstellen.md)

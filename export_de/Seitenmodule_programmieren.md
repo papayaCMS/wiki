@@ -131,4 +131,4 @@ Beim Seitenaufruf gibt die Methode `getParsedTeaser()` selbst keine Daten aus. D
 
 Als letzten Schritt tragen Sie das Seitenmodul wie in [modules.xml erstellen](Modules.xml_erstellen.md) beschrieben in die `modules.xml` ein. Nachdem Sie in der Modulverwaltung den Modulscan durchgeführt haben, wird das neue Modul erkannt und kann verwendet werden.
 
-[Kategorie:Box- und Seitenmodule programmieren](export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
+[Kategorie:Box- und Seitenmodule programmieren](../export_de/Kategorie:Box-_und_Seitenmodule_programmieren.md)
