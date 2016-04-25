@@ -1,3 +1,6 @@
+* This is a raw dump from wiki.papaya-cms.com.
+
+
 # papaya CMS Wiki 
 
 [papaya CMS](https://github.com/papayaCMS/) Content Management System and web application framework<br/>
