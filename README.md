@@ -37,14 +37,6 @@ please have a look at the German links as well:
  * [Wiki](export_de/Liste_Artikel-DE.md)	
 
 
-## Licence
-
-papaya CMS is subject to the GNU General Public Licence, version 2
-(GPL V2). See gpl.txt for the complete text of the GPL.
-
-See credits.txt for a list of other open source software included in
-this release of papaya CMS.
-
 
 ## Troubleshooting
 
