@@ -34,15 +34,15 @@
 
  * [Main Page](Main_Page.md)
 
- * [Module Development 1: Content Modules](Module_Development_1:_Content_Modules.md)
+ * [Module Development 1: Content Modules](../export_en/Module_Development_1:_Content_Modules.md)
 
- * [Module Development 2: Adding Database Support](Module_Development_2:_Adding_Database_Support.md)
+ * [Module Development 2: Adding Database Support](../export_en/Module_Development_2:_Adding_Database_Support.md)
 
- * [Module Development 3: Creating an Admin Interface](Module_Development_3:_Creating_an_Admin_Interface.md)
+ * [Module Development 3: Creating an Admin Interface](../export_en/Module_Development_3:_Creating_an_Admin_Interface.md)
 
- * [Module Development 4: Adding Frontend Interactivity](Module_Development_4:_Adding_Frontend_Interactivity.md)
+ * [Module Development 4: Adding Frontend Interactivity](../export_en/Module_Development_4:_Adding_Frontend_Interactivity.md)
 
- * [Module Development 5: Refactoring and Miscellania](Module_Development_5:_Refactoring_and_Miscellania.md)
+ * [Module Development 5: Refactoring and Miscellania](../export_en/Module_Development_5:_Refactoring_and_Miscellania.md)
 
  * [Notifying Search Engines](Notifying_Search_Engines.md)
 

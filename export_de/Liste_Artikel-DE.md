@@ -1,6 +1,6 @@
 #   Artikel Übersicht
 
- * [Abfragen mit base db::databaseDebugNextQuery() analysieren](Abfragen_mit_base_db::databaseDebugNextQuery()_analysieren..md)
+ * [Abfragen mit base db::databaseDebugNextQuery() analysieren](../export_de/Abfragen_mit_base_db::databaseDebugNextQuery()_analysieren..md)
 
  * [Action Dispatcher](Action_Dispatcher.md)
 
@@ -22,9 +22,9 @@
 
  * [Backend auslagern und absichern](Backend_auslagern_und_absichern.md)
 
- * [Base object::logMsg() benutzen](Base_object::logMsg()_benutzen.md)
+ * [Base object::logMsg() benutzen](../export_de/Base_object::logMsg()_benutzen.md)
 
- * [Base object::logVariable() benutzen](Base_object::logVariable()_benutzen.md)
+ * [Base object::logVariable() benutzen](../export_de/Base_object::logVariable()_benutzen.md)
 
  * [Basisdokument erzeugen](Basisdokument_erzeugen.md)
 
@@ -72,9 +72,9 @@
 
  * [Formulare für die Seitenausgabe ausgeben](Formulare_fuer_die_Seitenausgabe_ausgeben.md)
 
- * [Funktionsweise von base object::logMsg()](Funktionsweise_von_base_object::logMsg().md)
+ * [Funktionsweise von base object::logMsg()](../export_de/Funktionsweise_von_base_object::logMsg().md)
 
- * [Funktionsweise von base object::logVariable()](Funktionsweise_von_base_object::logVariable().md)
+ * [Funktionsweise von base object::logVariable()](../export_de/Funktionsweise_von_base_object::logVariable().md)
 
  * [GET-Daten zugreifen](GET-Daten_zugreifen.md)
 
@@ -98,7 +98,7 @@
 
  * [Installation der Webseitenvorlage](Installation_der_Webseitenvorlage.md)
 
- * [Installation im Unterverzeichnis: .htaccess anpassen](Installation_im_Unterverzeichnis:_.htaccess_anpassen.md)
+ * [Installation im Unterverzeichnis: .htaccess anpassen](../export_de/Installation_im_Unterverzeichnis:_.htaccess_anpassen.md)
 
  * [Installationsprogramm ausführen](Installationsprogramm_ausfuehren.md)
 
@@ -124,7 +124,7 @@
 
  * [Mapitem-Template erstellen](Mapitem-Template_erstellen.md)
 
- * [Mit base object::addMsg() Nachrichten an Benutzer ausgeben](Mit_base_object::addMsg()_Nachrichten_an_Benutzer_ausgeben.md)
+ * [Mit base object::addMsg() Nachrichten an Benutzer ausgeben](../export_de/Mit_base_object::addMsg()_Nachrichten_an_Benutzer_ausgeben.md)
 
  * [Moduleinbindung vorbereiten](Moduleinbindung_vorbereiten.md)
 
@@ -132,11 +132,11 @@
 
  * [Moduloptionen hinzufügen](Moduloptionen_hinzufuegen.md)
 
- * [Modulprogrammierung 1: Content-Module](Modulprogrammierung_1:_Content-Module.md)
+ * [Modulprogrammierung 1: Content-Module](../export_de/Modulprogrammierung_1:_Content-Module.md)
 
- * [Modulprogrammierung 2: Datenbankunterstuetzung](Modulprogrammierung_2:_Datenbankunterstuetzung.md)
+ * [Modulprogrammierung 2: Datenbankunterstuetzung](../export_de/Modulprogrammierung_2:_Datenbankunterstuetzung.md)
 
- * [Modulprogrammierung 3: Administrationsoberfläche](Modulprogrammierung_3:_Administrationsoberflaeche.md)
+ * [Modulprogrammierung 3: Administrationsoberfläche](../export_de/Modulprogrammierung_3:_Administrationsoberflaeche.md)
 
  * [Modultypen in papaya CMS](Modultypen_in_papaya_CMS.md)
 
@@ -244,7 +244,7 @@
 
  * [Umfangreiche Daten in einem Paging-Control darstellen](Umfangreiche_Daten_in_einem_Paging-Control_darstellen.md)
 
- * [Variablen mit base object::debug() inspizieren](Variablen_mit_base_object::debug()_inspizieren.md)
+ * [Variablen mit base object::debug() inspizieren](../export_de/Variablen_mit_base_object::debug()_inspizieren.md)
 
  * [Verarbeitungsreihenfolge im Übersetzungstemplate](Verarbeitungsreihenfolge_im_Uebersetzungstemplate.md)
 
